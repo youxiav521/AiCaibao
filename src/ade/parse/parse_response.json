@@ -1,0 +1,155 @@
+{
+  "markdown": "# Sample Invoice\n\nInvoice No: INV-2025-0001\n\n| Item | Qty | Amount |\n| --- | ---: | ---: |\n| Service A | 1 | 100.00 |\n| Service B | 2 | 240.00 |",
+  "chunks": [
+    {
+      "markdown": "Invoice No: INV-2025-0001",
+      "type": "text",
+      "id": "c_text_1",
+      "grounding": {
+        "box": {
+          "left": 62.5,
+          "top": 118.0,
+          "right": 412.0,
+          "bottom": 146.0
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "| Item | Qty | Amount |\n| --- | ---: | ---: |\n| Service A | 1 | 100.00 |\n| Service B | 2 | 240.00 |",
+      "type": "table",
+      "id": "c_table_1",
+      "grounding": {
+        "box": {
+          "left": 55.0,
+          "top": 190.0,
+          "right": 545.0,
+          "bottom": 380.0
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "# Sample Invoice",
+      "type": "title",
+      "id": "c_title_1",
+      "grounding": {
+        "box": {
+          "left": 58.0,
+          "top": 58.0,
+          "right": 290.0,
+          "bottom": 96.0
+        },
+        "page": 0
+      }
+    }
+  ],
+  "splits": [
+    {
+      "class": "page",
+      "identifier": "page_0",
+      "pages": [
+        0
+      ],
+      "markdown": "# Sample Invoice\n\nInvoice No: INV-2025-0001\n\n| Item | Qty | Amount |\n| --- | ---: | ---: |\n| Service A | 1 | 100.00 |\n| Service B | 2 | 240.00 |",
+      "chunks": [
+        "c_title_1",
+        "c_text_1",
+        "c_table_1"
+      ]
+    }
+  ],
+  "grounding": {
+    "c_title_1": {
+      "box": {
+        "left": 58.0,
+        "top": 58.0,
+        "right": 290.0,
+        "bottom": 96.0
+      },
+      "page": 0,
+      "type": "chunkTitle",
+      "confidence": 0.99,
+      "low_confidence_spans": []
+    },
+    "c_text_1": {
+      "box": {
+        "left": 62.5,
+        "top": 118.0,
+        "right": 412.0,
+        "bottom": 146.0
+      },
+      "page": 0,
+      "type": "chunkText",
+      "confidence": 0.96,
+      "low_confidence_spans": [
+        {
+          "text": "INV-2025-0001",
+          "span": [
+            12,
+            25
+          ],
+          "confidence": 0.78
+        }
+      ]
+    },
+    "c_table_1": {
+      "box": {
+        "left": 55.0,
+        "top": 190.0,
+        "right": 545.0,
+        "bottom": 380.0
+      },
+      "page": 0,
+      "type": "chunkTable",
+      "confidence": 0.94,
+      "low_confidence_spans": []
+    },
+    "0-u": {
+      "box": {
+        "left": 304.0,
+        "top": 256.0,
+        "right": 420.0,
+        "bottom": 288.0
+      },
+      "page": 0,
+      "type": "tableCell",
+      "confidence": 0.92,
+      "position": {
+        "row": 1,
+        "col": 2,
+        "rowspan": 1,
+        "colspan": 1,
+        "chunk_id": "c_table_1"
+      }
+    },
+    "0-v": {
+      "box": {
+        "left": 304.0,
+        "top": 289.0,
+        "right": 420.0,
+        "bottom": 321.0
+      },
+      "page": 0,
+      "type": "tableCell",
+      "confidence": 0.95,
+      "position": {
+        "row": 2,
+        "col": 2,
+        "rowspan": 1,
+        "colspan": 1,
+        "chunk_id": "c_table_1"
+      }
+    }
+  },
+  "metadata": {
+    "filename": "sample_invoice.pdf",
+    "org_id": "org_demo_001",
+    "page_count": 1,
+    "duration_ms": 1384,
+    "credit_usage": 1.0,
+    "job_id": "job_parse_demo_0001",
+    "version": "dpt-2-latest",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 31.0,
+      "t": 6.0,
+      "r": 427.0,
+      "b": 227.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "Three-panel black-and-white street scene showing a residential building exterior, two people standing in front, and a multi-story apartment building in the background (no visible text or signage)",
+    "md": "Three-panel black-and-white street scene showing a residential building exterior, two people standing in front, and a multi-story apartment building in the background (no visible text or signage)",
+    "img_path": "images/c1d6a6fe69f998dd6c1a42d2a99089cf8c1e2fb1a4994512e70f5122b4c995f4.jpg",
+    "file_id": "kg_保证人_现场照",
+    "element_id": 1,
+    "folder_id": null
+  }
+]

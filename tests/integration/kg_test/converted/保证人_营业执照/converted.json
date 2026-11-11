@@ -1,0 +1,263 @@
+[
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 71.0,
+      "t": 15.0,
+      "r": 102.0,
+      "b": 49.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "Official emblem of the People's Republic of China, featuring national insignia and decorative elements (no readable text or symbols)",
+    "md": "Official emblem of the People's Republic of China, featuring national insignia and decorative elements (no readable text or symbols)",
+    "img_path": "images/a57ef22d24ab0945894ac6ccaabcc76e9bc3acb0a5c4e8639992422443e7cd68.jpg",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "headingLevel": 1,
+    "bBox": {
+      "l": 40.0,
+      "t": 52.0,
+      "r": 134.0,
+      "b": 73.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "营业执照",
+    "md": "营业执照",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 2,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 75.0,
+      "t": 75.0,
+      "r": 133.0,
+      "b": 84.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "(副本号:1-1) (副本)",
+    "md": "(副本号:1-1) (副本)",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 3,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 72.0,
+      "t": 85.0,
+      "r": 147.0,
+      "b": 91.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "统一社会信用代码91441300764931438P",
+    "md": "统一社会信用代码91441300764931438P",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 4,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 31.0,
+      "t": 95.0,
+      "r": 122.0,
+      "b": 100.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "名称 惠州市正泰运动器材有限公司，",
+    "md": "名称 惠州市正泰运动器材有限公司，",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 5,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 32.0,
+      "t": 102.0,
+      "r": 123.0,
+      "b": 107.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "类型 有限责任公司(台港澳与境内合资)",
+    "md": "类型 有限责任公司(台港澳与境内合资)",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 6,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 109.0,
+      "t": 103.0,
+      "r": 145.0,
+      "b": 139.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "内合資)\n惠州市礼光新能源开发\n有限公司\n年02月08日",
+    "md": "内合資)\n惠州市礼光新能源开发\n有限公司\n年02月08日",
+    "img_path": "images/972273e8dd2ad2097dc6a389727381fba69a65ebcf2679f732fe572a1290003b.jpg",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 7,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 32.0,
+      "t": 109.0,
+      "r": 111.0,
+      "b": 115.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "住所 惠州市惠阳区秋长镇边塘村",
+    "md": "住所 惠州市惠阳区秋长镇边塘村",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 8,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 31.0,
+      "t": 116.0,
+      "r": 73.0,
+      "b": 122.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "法定代表人 许善东",
+    "md": "法定代表人 许善东",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 9,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 31.0,
+      "t": 123.0,
+      "r": 98.0,
+      "b": 129.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "注册资本 叁仟零壹拾伍万港币",
+    "md": "注册资本 叁仟零壹拾伍万港币",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 10,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 31.0,
+      "t": 130.0,
+      "r": 90.0,
+      "b": 135.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "成立日期 2004年07月23日",
+    "md": "成立日期 2004年07月23日",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 11,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 31.0,
+      "t": 137.0,
+      "r": 130.0,
+      "b": 142.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "营业期限 2004年07月23日至2054年07月22日",
+    "md": "营业期限 2004年07月23日至2054年07月22日",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 12,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 31.0,
+      "t": 144.0,
+      "r": 162.0,
+      "b": 157.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "经营范围 生产经营木质滑藻板、滑冰鞋及相关配件；物业管理；自有厂房租赁。（以上项目不涉及外商投资准入特别管理措施。）（依法须经批准的项目，经相关部门批准后方可开展经营活动。）",
+    "md": "经营范围 生产经营木质滑藻板、滑冰鞋及相关配件；物业管理；自有厂房租赁。（以上项目不涉及外商投资准入特别管理措施。）（依法须经批准的项目，经相关部门批准后方可开展经营活动。）",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 13,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 28.0,
+      "t": 185.0,
+      "r": 55.0,
+      "b": 213.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "QR code image containing encoded data, no visible human-readable text",
+    "md": "QR code image containing encoded data, no visible human-readable text",
+    "img_path": "images/5d40513089583a6cf05249bce8fbb0601b4415f8316f0932c42dfdca87e51ac1.jpg",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 14,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 112.0,
+      "t": 188.0,
+      "r": 152.0,
+      "b": 225.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "惠阳区市场监督局\n2018年 8月日",
+    "md": "惠阳区市场监督局\n2018年 8月日",
+    "img_path": "images/06216f854c4018ea09a663d1b88fdeb017493890ac665af7bfb5c8c85edb45f2.jpg",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 15,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 81.0,
+      "t": 205.0,
+      "r": 108.0,
+      "b": 210.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "登记机关",
+    "md": "登记机关",
+    "file_id": "kg_保证人_营业执照",
+    "element_id": 16,
+    "folder_id": null
+  }
+]

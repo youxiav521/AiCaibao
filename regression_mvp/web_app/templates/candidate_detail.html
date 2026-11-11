@@ -1,0 +1,137 @@
+{% extends "layout.html" %}
+{% from "macros.html" import artifact_link %}
+
+{% block title %}候选用例详情{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <h2>{{ candidate.name }}</h2>
+    <span class="status warning">{{ candidate.review_status or "pending" }}</span>
+  </div>
+  <div class="summary-grid">
+    <div><span>接口</span><strong>{{ candidate.endpoint }}</strong></div>
+    <div><span>用例</span><strong>{{ candidate.case_name }}</strong></div>
+    <div><span>候选目录</span><strong>{{ candidate.path }}</strong></div>
+    <div><span>说明</span><strong>{{ candidate.description or "-" }}</strong></div>
+  </div>
+  <div class="actions">
+    <a href="/case-candidates">返回候选</a>
+    {% if candidate.has_expected_json %}
+    <a href="/case-candidates/{{ candidate.name }}/edit-json" target="_blank" rel="noopener">编辑标准答案 JSON</a>
+    {% endif %}
+    {% if candidate.has_visual_editor %}
+    <a href="/case-candidates/{{ candidate.name }}/edit-visual" target="_blank" rel="noopener">可视化编辑标准答案</a>
+    {% endif %}
+    {% if candidate.has_subject_editor %}
+    <a href="/case-candidates/{{ candidate.name }}/edit-subject-match">可视化编辑科目匹配</a>
+    {% endif %}
+    <form method="post" action="/case-candidates/{{ candidate.name }}/promote">
+      <label class="checkline"><input type="checkbox" name="force"> 覆盖同名用例</label>
+      <button type="submit">promote</button>
+    </form>
+  </div>
+</section>
+
+{% if candidate.has_merge_table_editor %}
+<section class="section">
+  <div class="section-head">
+    <div>
+      <h2>合并来源</h2>
+      <p class="muted">选择要传给 merge-tables 的原始表格块，保存后会重新生成候选标准答案和合并预览。</p>
+    </div>
+  </div>
+  {% if merge_error %}
+  <div class="diagnostic diagnostic-medium">
+    <h3>重新生成失败</h3>
+    <p>{{ merge_error }}</p>
+  </div>
+  {% endif %}
+  <form method="post" action="/case-candidates/{{ candidate.name }}/merge-tables">
+    <div class="summary-grid">
+      <label>
+        当前序号
+        <input name="source_indices_text" value="{{ candidate.merge_config.source_indices_text }}" placeholder="例如：0,1">
+      </label>
+      <label>
+        合并表名称
+        <input name="merge_text" value="{{ candidate.merge_config.merge_text }}" placeholder="可选">
+      </label>
+    </div>
+    {% if candidate.merge_table_options %}
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>选择</th>
+            <th>序号</th>
+            <th>页码</th>
+            <th>源表ID</th>
+            <th>行数</th>
+            <th>内容摘要</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for table in candidate.merge_table_options %}
+          <tr>
+            <td><input type="checkbox" name="source_indices" value="{{ table.index }}" {% if table.selected %}checked{% endif %}></td>
+            <td>{{ table.index }}</td>
+            <td>{{ table.page or "-" }}</td>
+            <td class="case-name-cell">{{ table.primary_element_id or table.id or "-" }}</td>
+            <td>{{ table.row_count }}</td>
+            <td>{{ table.text or "-" }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% else %}
+    <div class="notice warning">
+      <strong>这个候选没有保存原始表格列表。</strong>
+      <div>可以先在“当前序号”里手动输入，例如 0,1；保存后会重新解析文件并生成原始表格列表。</div>
+    </div>
+    {% endif %}
+    <div class="actions">
+      <button type="submit">重新生成合并结果</button>
+    </div>
+  </form>
+</section>
+{% endif %}
+
+<section class="section">
+  <div class="section-head">
+    <h2>候选信息</h2>
+    <span class="muted">保存后会更新 candidate.yaml</span>
+  </div>
+  {% if error %}
+  <div class="diagnostic diagnostic-medium">
+    <h3>保存失败</h3>
+    <p>{{ error }}</p>
+  </div>
+  {% endif %}
+  <form class="meta-form" method="post" action="/case-candidates/{{ candidate.name }}/edit-meta">
+    <label>
+      用例名
+      <input name="case_name" value="{{ candidate.case_name }}" required>
+    </label>
+    <label>
+      说明
+      <textarea name="description">{{ candidate.description }}</textarea>
+    </label>
+    <div class="actions">
+      <button type="submit">保存候选信息</button>
+    </div>
+  </form>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>文件预览</h2>
+  </div>
+  <div class="links">
+    {% for artifact in candidate.artifacts %}
+    {{ artifact_link(pdf_url(artifact.path) if artifact.path.endswith(".pdf") else file_url(artifact.path), artifact.label) }}
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

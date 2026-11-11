@@ -1,0 +1,2302 @@
+[
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 141.0,
+      "t": 19.0,
+      "r": 261.0,
+      "b": 140.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "光新能源开发\n限公司\n行次\t期末数\n1\t434,\n2\n3\n4\t791.",
+    "md": "光新能源开发\n限公司\n行次\t期末数\n1\t434,\n2\n3\n4\t791.",
+    "img_path": "images/4cff405ce5ba7d74c1cac740a25dfd5451076485204a05ddf89c202cb88a27bf.jpg",
+    "file_id": "kg_资产负债表",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 398.0,
+      "t": 59.0,
+      "r": 800.0,
+      "b": 69.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "2024-12-31 单位：元",
+    "md": "2024-12-31 单位：元",
+    "file_id": "kg_资产负债表",
+    "element_id": 2,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "table",
+    "bBox": {
+      "l": 36.0,
+      "t": 69.0,
+      "r": 803.0,
+      "b": 455.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "资产",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "行次",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "期末数",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "年初数",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "负债和所有者(或股东)权益",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "行次",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "期末数",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "年初数",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "流动资产:",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "流动负债:",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "货币资金",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "434,386.06",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "1,299,302.45",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "短期借款",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "31",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "短期投资",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "2",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "应付票据",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "32",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "应收票据",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "3",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "应付账款",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "33",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "1,239,440.06",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "4,639,673.36",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "应收账款",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "4",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "791,883.54",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "616,929.04",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "预收账款",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "34",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "预付账款",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "5",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "应付职工薪酬",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "35",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "25,100.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "8,300.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "应收股利",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "6",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "应交税费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "36",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "907.12",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "438.34",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "应收利息",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "7",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "应付利息",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "37",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "其他应收款",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "8",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "3,800.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "应付利润",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "38",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "存货",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "9",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "8,211,083.85",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "4,066,534.28",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "其他应付款",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "39",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "6,501.22",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "5,987.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "其中:原材料",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "其他流动负债",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "40",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "在产品",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "11",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "流动负债合计:",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "41",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "1,271,948.40",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "4,654,398.90",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "库存商品",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "12",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "8,211,083.85",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "7,066,534.28",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "非流动负债:",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "周转材料",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "13",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "长期借款",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "42",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "其他流动资产",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "14",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "长期应付款",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "43",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "流动资产合计",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "15",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "9,441,153.45",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "5,982,765.77",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "递延收益",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "44",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "非流动资产:",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "其他非流动负债",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "45",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "长期债券投资",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "16",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "非流动负债合计",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "46",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "长期股权投资",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "17",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "700,000.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "700,000.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "负债合计",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "47",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "1,271,948.40",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "4,654,398.90",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "固定资产原价",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "18",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "347,970.04",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "140,739.47",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "减:累计折旧",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "19",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "68,534.98",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "28,797.30",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "固定资产账面价值",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "279,435.06",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "111,942.17",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "在建工程",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "21",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "工程物资",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "22",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "固定资产清理",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "23",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "生产性生物资产",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "24",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "所有者权益(或股东权益):",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "无形资产",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "25",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "实收资本(或股本)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "48",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "1,837,500.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "1,837,500.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "开发支出",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "26",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "资本公积",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "49",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "长期待摊费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "27",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "盈余公积",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "50",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "其他非流动资产",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "28",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "未分配利润",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "51",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "7,311,140.11",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "302,809.04",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "非流动资产合计",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "29",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "979,435.06",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "811,942.17",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "所有者权益(或股东权益)合计",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "52",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "9,148,640.11",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "2,140,309.04",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "资产总计",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "30",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "10,420,588.51",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "6,794,707.94",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "负债和所有者权益(或股东权益)总计",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "53",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "10,420,588.51",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 6,
+          "source_page_no": 1
+        },
+        {
+          "text": "6,794,707.94",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 7,
+          "source_page_no": 1
+        }
+      ]
+    ],
+    "html": "<table><tr><td>资产</td><td>行次</td><td>期末数</td><td>年初数</td><td>负债和所有者(或股东)权益</td><td>行次</td><td>期末数</td><td>年初数</td></tr><tr><td>流动资产:</td><td></td><td></td><td></td><td>流动负债:</td><td></td><td></td><td></td></tr><tr><td>货币资金</td><td>1</td><td>434,386.06</td><td>1,299,302.45</td><td>短期借款</td><td>31</td><td></td><td></td></tr><tr><td>短期投资</td><td>2</td><td></td><td></td><td>应付票据</td><td>32</td><td></td><td></td></tr><tr><td>应收票据</td><td>3</td><td></td><td></td><td>应付账款</td><td>33</td><td>1,239,440.06</td><td>4,639,673.36</td></tr><tr><td>应收账款</td><td>4</td><td>791,883.54</td><td>616,929.04</td><td>预收账款</td><td>34</td><td></td><td></td></tr><tr><td>预付账款</td><td>5</td><td></td><td></td><td>应付职工薪酬</td><td>35</td><td>25,100.00</td><td>8,300.00</td></tr><tr><td>应收股利</td><td>6</td><td></td><td></td><td>应交税费</td><td>36</td><td>907.12</td><td>438.34</td></tr><tr><td>应收利息</td><td>7</td><td></td><td></td><td>应付利息</td><td>37</td><td></td><td></td></tr><tr><td>其他应收款</td><td>8</td><td>3,800.00</td><td></td><td>应付利润</td><td>38</td><td></td><td></td></tr><tr><td>存货</td><td>9</td><td>8,211,083.85</td><td>4,066,534.28</td><td>其他应付款</td><td>39</td><td>6,501.22</td><td>5,987.20</td></tr><tr><td>其中:原材料</td><td>10</td><td></td><td></td><td>其他流动负债</td><td>40</td><td></td><td></td></tr><tr><td>在产品</td><td>11</td><td></td><td></td><td>流动负债合计:</td><td>41</td><td>1,271,948.40</td><td>4,654,398.90</td></tr><tr><td>库存商品</td><td>12</td><td>8,211,083.85</td><td>7,066,534.28</td><td>非流动负债:</td><td></td><td></td><td></td></tr><tr><td>周转材料</td><td>13</td><td></td><td></td><td>长期借款</td><td>42</td><td></td><td></td></tr><tr><td>其他流动资产</td><td>14</td><td></td><td></td><td>长期应付款</td><td>43</td><td></td><td></td></tr><tr><td>流动资产合计</td><td>15</td><td>9,441,153.45</td><td>5,982,765.77</td><td>递延收益</td><td>44</td><td></td><td></td></tr><tr><td>非流动资产:</td><td></td><td></td><td></td><td>其他非流动负债</td><td>45</td><td></td><td></td></tr><tr><td>长期债券投资</td><td>16</td><td></td><td></td><td>非流动负债合计</td><td>46</td><td></td><td></td></tr><tr><td>长期股权投资</td><td>17</td><td>700,000.00</td><td>700,000.00</td><td>负债合计</td><td>47</td><td>1,271,948.40</td><td>4,654,398.90</td></tr><tr><td>固定资产原价</td><td>18</td><td>347,970.04</td><td>140,739.47</td><td></td><td></td><td></td><td></td></tr><tr><td>减:累计折旧</td><td>19</td><td>68,534.98</td><td>28,797.30</td><td></td><td></td><td></td><td></td></tr><tr><td>固定资产账面价值</td><td>20</td><td>279,435.06</td><td>111,942.17</td><td></td><td></td><td></td><td></td></tr><tr><td>在建工程</td><td>21</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>工程物资</td><td>22</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>固定资产清理</td><td>23</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>生产性生物资产</td><td>24</td><td></td><td></td><td>所有者权益(或股东权益):</td><td></td><td></td><td></td></tr><tr><td>无形资产</td><td>25</td><td></td><td></td><td>实收资本(或股本)</td><td>48</td><td>1,837,500.00</td><td>1,837,500.00</td></tr><tr><td>开发支出</td><td>26</td><td></td><td></td><td>资本公积</td><td>49</td><td></td><td></td></tr><tr><td>长期待摊费用</td><td>27</td><td></td><td></td><td>盈余公积</td><td>50</td><td></td><td></td></tr><tr><td>其他非流动资产</td><td>28</td><td></td><td></td><td>未分配利润</td><td>51</td><td>7,311,140.11</td><td>302,809.04</td></tr><tr><td>非流动资产合计</td><td>29</td><td>979,435.06</td><td>811,942.17</td><td>所有者权益(或股东权益)合计</td><td>52</td><td>9,148,640.11</td><td>2,140,309.04</td></tr><tr><td>资产总计</td><td>30</td><td>10,420,588.51</td><td>6,794,707.94</td><td>负债和所有者权益(或股东权益)总计</td><td>53</td><td>10,420,588.51</td><td>6,794,707.94</td></tr></table>",
+    "md": "| 资产 | 行次 | 期末数 | 年初数 | 负债和所有者(或股东)权益 | 行次 | 期末数 | 年初数 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 流动资产: |  |  |  | 流动负债: |  |  |  |\n| 货币资金 | 1 | 434,386.06 | 1,299,302.45 | 短期借款 | 31 |  |  |\n| 短期投资 | 2 |  |  | 应付票据 | 32 |  |  |\n| 应收票据 | 3 |  |  | 应付账款 | 33 | 1,239,440.06 | 4,639,673.36 |\n| 应收账款 | 4 | 791,883.54 | 616,929.04 | 预收账款 | 34 |  |  |\n| 预付账款 | 5 |  |  | 应付职工薪酬 | 35 | 25,100.00 | 8,300.00 |\n| 应收股利 | 6 |  |  | 应交税费 | 36 | 907.12 | 438.34 |\n| 应收利息 | 7 |  |  | 应付利息 | 37 |  |  |\n| 其他应收款 | 8 | 3,800.00 |  | 应付利润 | 38 |  |  |\n| 存货 | 9 | 8,211,083.85 | 4,066,534.28 | 其他应付款 | 39 | 6,501.22 | 5,987.20 |\n| 其中:原材料 | 10 |  |  | 其他流动负债 | 40 |  |  |\n| 在产品 | 11 |  |  | 流动负债合计: | 41 | 1,271,948.40 | 4,654,398.90 |\n| 库存商品 | 12 | 8,211,083.85 | 7,066,534.28 | 非流动负债: |  |  |  |\n| 周转材料 | 13 |  |  | 长期借款 | 42 |  |  |\n| 其他流动资产 | 14 |  |  | 长期应付款 | 43 |  |  |\n| 流动资产合计 | 15 | 9,441,153.45 | 5,982,765.77 | 递延收益 | 44 |  |  |\n| 非流动资产: |  |  |  | 其他非流动负债 | 45 |  |  |\n| 长期债券投资 | 16 |  |  | 非流动负债合计 | 46 |  |  |\n| 长期股权投资 | 17 | 700,000.00 | 700,000.00 | 负债合计 | 47 | 1,271,948.40 | 4,654,398.90 |\n| 固定资产原价 | 18 | 347,970.04 | 140,739.47 |  |  |  |  |\n| 减:累计折旧 | 19 | 68,534.98 | 28,797.30 |  |  |  |  |\n| 固定资产账面价值 | 20 | 279,435.06 | 111,942.17 |  |  |  |  |\n| 在建工程 | 21 |  |  |  |  |  |  |\n| 工程物资 | 22 |  |  |  |  |  |  |\n| 固定资产清理 | 23 |  |  |  |  |  |  |\n| 生产性生物资产 | 24 |  |  | 所有者权益(或股东权益): |  |  |  |\n| 无形资产 | 25 |  |  | 实收资本(或股本) | 48 | 1,837,500.00 | 1,837,500.00 |\n| 开发支出 | 26 |  |  | 资本公积 | 49 |  |  |\n| 长期待摊费用 | 27 |  |  | 盈余公积 | 50 |  |  |\n| 其他非流动资产 | 28 |  |  | 未分配利润 | 51 | 7,311,140.11 | 302,809.04 |\n| 非流动资产合计 | 29 | 979,435.06 | 811,942.17 | 所有者权益(或股东权益)合计 | 52 | 9,148,640.11 | 2,140,309.04 |\n| 资产总计 | 30 | 10,420,588.51 | 6,794,707.94 | 负债和所有者权益(或股东权益)总计 | 53 | 10,420,588.51 | 6,794,707.94 |",
+    "perfectTable": false,
+    "table_footnote": [
+      "单位负责人：余睿健",
+      "会计主管：余睿健",
+      "制表：李彩云"
+    ],
+    "img_path": "kg_资产负债表_3.jpg",
+    "file_id": "kg_资产负债表",
+    "element_id": 3,
+    "folder_id": null,
+    "standard2D": true,
+    "hasHeader": true,
+    "headerCells": [
+      [
+        {
+          "text": "资产",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0
+        },
+        {
+          "text": "行次",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1
+        },
+        {
+          "text": "期末数",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2
+        },
+        {
+          "text": "年初数",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 3
+        },
+        {
+          "text": "负债和所有者(或股东)权益",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 4
+        },
+        {
+          "text": "行次",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 5
+        },
+        {
+          "text": "期末数",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 6
+        },
+        {
+          "text": "年初数",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 7
+        }
+      ]
+    ],
+    "table_type": "资产负债表",
+    "table_type_is_full_statement": false
+  }
+]

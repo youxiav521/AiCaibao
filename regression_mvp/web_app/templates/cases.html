@@ -1,0 +1,146 @@
+{% extends "layout.html" %}
+{% from "macros.html" import artifact_link %}
+
+{% block title %}测试用例{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <h2>测试用例</h2>
+    <div class="head-actions">
+      <span class="muted">{{ cases|length }} 条 · MinIO {{ sync_info.bucket }}</span>
+      <form class="inline-form" method="post" action="/cases/sync-minio">
+        <button class="secondary" type="submit">从 MinIO 刷新</button>
+      </form>
+      <form class="inline-form" method="post" action="/cases/upload-minio">
+        <button class="secondary" type="submit">上传本地到 MinIO</button>
+      </form>
+    </div>
+  </div>
+  <form class="filters" method="get">
+    <label>
+      接口
+      <select name="endpoint">
+        <option value="">全部</option>
+        {% for endpoint in endpoints %}
+        <option value="{{ endpoint }}" {% if filters.endpoint == endpoint %}selected{% endif %}>{{ endpoint }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>
+      状态
+      <select name="enabled">
+        <option value="">全部</option>
+        <option value="true" {% if filters.enabled == "true" %}selected{% endif %}>启用</option>
+        <option value="false" {% if filters.enabled == "false" %}selected{% endif %}>停用</option>
+        <option value="deleted" {% if filters.enabled == "deleted" %}selected{% endif %}>deleted</option>
+      </select>
+    </label>
+    <label class="search">
+      关键词
+      <input type="search" name="keyword" value="{{ filters.keyword }}" placeholder="case / endpoint / description">
+    </label>
+    <button type="submit">筛选</button>
+  </form>
+  <div class="table-wrap">
+    <table class="cases-table">
+      <colgroup>
+        <col style="width: 120px;">
+        <col style="width: 150px;">
+        <col style="width: 100px;">
+        <col style="width: 100px;">
+        <col>
+        <col style="width: 280px;">
+        <col style="width: 300px;">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>用例</th>
+          <th>接口</th>
+          <th>状态</th>
+          <th>最近结果</th>
+          <th>文件预览</th>
+          <th>说明</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for case in cases %}
+        <tr>
+          <td class="case-name-cell">{{ case.case_name }}</td>
+          <td><a href="/cases?endpoint={{ case.endpoint }}">{{ case.endpoint }}</a></td>
+          <td>
+            {% if case.deleted %}
+            <span class="status failed">deleted</span>
+            {% elif case.enabled %}
+            <span class="status pass">enabled</span>
+            {% else %}
+            <span class="status muted-status">disabled</span>
+            {% endif %}
+          </td>
+          <td>
+            {% if case.latest_run %}
+            <a href="/reports/{{ case.endpoint }}/{{ case.latest_run.run_id }}">
+              <span class="status {{ case.latest_run.status }}">{{ case.latest_run.status }}</span>
+            </a>
+            {% else %}
+            <span class="muted">暂无</span>
+            {% endif %}
+          </td>
+          <td class="links case-artifacts">
+            {{ artifact_link(file_url(case.case_yaml), "case.yaml") }}
+            {% if case.input_file %}{{ artifact_link(pdf_url(case.input_file), "input") }}{% endif %}
+            {% if case.expected_file %}{{ artifact_link(file_url(case.expected_file), "expected") }}{% endif %}
+            <a href="/cases/{{ case.endpoint | urlencode }}/{{ case.case_name | urlencode }}/runs" target="_blank" rel="noopener">运行历史</a>
+            {% if case.preview_artifacts %}
+              {% for artifact in case.preview_artifacts %}
+              {{ artifact_link(file_url(artifact.path), artifact.label) }}
+              {% endfor %}
+            {% endif %}
+          </td>
+          <td class="desc">{{ case.description or "-" }}</td>
+          <td class="case-action-cell">
+            <div class="case-actions">
+              {% if case.deleted %}
+              <form class="inline-form" method="post" action="/cases/{{ case.endpoint | urlencode }}/{{ case.case_name | urlencode }}/restore">
+                <button type="submit">恢复</button>
+              </form>
+              <form class="inline-form" method="post" action="/cases/{{ case.endpoint | urlencode }}/{{ case.case_name | urlencode }}/hard-delete" onsubmit="return confirm('确认彻底删除这个用例？该操作会删除本地用例并清理 MinIO 远端对象，无法在页面中恢复。');">
+                <button class="danger" type="submit">彻底删除</button>
+              </form>
+              {% else %}
+              <form class="inline-form" method="post" action="/cases/{{ case.endpoint | urlencode }}/{{ case.case_name | urlencode }}/run">
+                <button type="submit" {% if run_status.is_running or not case.enabled %}disabled{% endif %}>运行测试</button>
+              </form>
+              <form class="inline-form" method="post" action="/cases/{{ case.endpoint | urlencode }}/{{ case.case_name | urlencode }}/set-enabled">
+                {% if case.enabled %}
+                <input type="hidden" name="enabled" value="false">
+                <button class="secondary" type="submit">停用</button>
+                {% else %}
+                <input type="hidden" name="enabled" value="true">
+                <button type="submit">启用</button>
+                {% endif %}
+              </form>
+              {% if supports_visual_editor(case.endpoint) and file_exists(case.expected_file) %}
+              <a class="button-link secondary" href="/cases/{{ case.endpoint | urlencode }}/{{ case.case_name | urlencode }}/edit-visual" target="_blank" rel="noopener">可视化编辑</a>
+              {% endif %}
+              <a class="button-link secondary" href="/cases/{{ case.endpoint | urlencode }}/{{ case.case_name | urlencode }}/edit-json" target="_blank" rel="noopener">JSON编辑</a>
+              <a class="button-link secondary" href="/cases/{{ case.endpoint | urlencode }}/{{ case.case_name | urlencode }}/edit-meta" target="_blank" rel="noopener">名称编辑</a>
+              <a class="button-link secondary" href="/cases/{{ case.endpoint | urlencode }}/{{ case.case_name | urlencode }}/update" target="_blank" rel="noopener">更新答案</a>
+              <form class="inline-form" method="post" action="/cases/{{ case.endpoint | urlencode }}/{{ case.case_name | urlencode }}/archive" onsubmit="return confirm('确认归档删除这个用例？该用例会变为 deleted 状态，默认不再展示，也不会参与测试。');">
+                <button class="danger" type="submit">归档删除</button>
+              </form>
+              {% endif %}
+            </div>
+          </td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="7" class="muted">暂无匹配用例</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

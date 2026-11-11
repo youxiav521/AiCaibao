@@ -1,0 +1,22 @@
+{
+    "providers": [
+        {
+            "name": "deepseek",
+            "api_base": "https://api.deepseek.com",
+            "api_key": "sk-1cc949677d0149299ee543b698a15c05",
+            "extra_body": {
+                "enable_thinking": false
+            }
+        }
+    ],
+    "default_provider": "deepseek",
+    "default_model": "deepseek-v4-pro",
+    "custom_models": {
+        "content_generation": {
+            "provider": "deepseek",
+            "model": "deepseek-v4-pro"
+        },
+        "data_analyst_agent": "deepseek-v4-flash",
+        "doc_extract":""
+    }
+}

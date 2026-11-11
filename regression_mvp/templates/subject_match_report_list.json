@@ -1,0 +1,32 @@
+[
+  {
+    "reportId": "balance_sheet_consolidated",
+    "reportName": "资产负债表",
+    "reportCaliber": 2,
+    "subjectList": [
+      {
+        "subjectId": "BS001",
+        "subjectName": "货币资金",
+        "synonymSubject": [
+          "现金",
+          "现金及现金等价物"
+        ],
+        "summaryRelation": []
+      },
+      {
+        "subjectId": "BS002",
+        "subjectName": "应收账款",
+        "synonymSubject": [
+          "应收款项"
+        ],
+        "summaryRelation": []
+      },
+      {
+        "subjectId": "BS003",
+        "subjectName": "存货",
+        "synonymSubject": [],
+        "summaryRelation": []
+      }
+    ]
+  }
+]

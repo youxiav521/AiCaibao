@@ -1,0 +1,137 @@
+{% extends "layout.html" %}
+{% from "macros.html" import artifact_link %}
+
+{% block title %}更新答案{% endblock %}
+
+{% block content %}
+{% if job.status == "running" %}
+<meta http-equiv="refresh" content="5">
+{% endif %}
+
+<section class="section">
+  <div class="section-head">
+    <h2>更新答案</h2>
+    <span class="status {{ job.status }}">{{ job.status }}</span>
+  </div>
+  <div class="summary-grid">
+    <div><span>接口</span><strong>{{ endpoint }}</strong></div>
+    <div><span>用例</span><strong>{{ case_name }}</strong></div>
+    <div><span>默认 input</span><strong>{{ job.case_input_file or "-" }}</strong></div>
+    <div><span>更新时间</span><strong>{{ job.finished_at | beijing_time }}</strong></div>
+  </div>
+
+  {% if error %}
+  <p class="error-text">{{ error }}</p>
+  {% endif %}
+  {% if error_diagnostic %}
+  <div class="diagnostic diagnostic-{{ error_diagnostic.severity }}">
+    <div class="section-head">
+      <h3>{{ error_diagnostic.title }}</h3>
+      <span class="status {{ error_diagnostic.severity }}">{{ error_diagnostic.category }}</span>
+    </div>
+    <p>{{ error_diagnostic.reason }}</p>
+    <ul>
+      {% for step in error_diagnostic.next_steps %}
+      <li>{{ step }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if job.message %}
+  <p class="muted">{{ job.message }}</p>
+  {% endif %}
+  {% if job.errors %}
+  <pre class="log">{{ job.errors | join("\n") }}</pre>
+  {% endif %}
+
+  <form class="case-update-form" method="post" action="/cases/{{ endpoint | urlencode }}/{{ case_name | urlencode }}/update/generate" enctype="multipart/form-data">
+    <label>
+      可选替换 input
+      <input type="file" name="upload_file" {% if job.status == "running" %}disabled{% endif %}>
+    </label>
+    <button type="submit" {% if job.status == "running" %}disabled{% endif %}>重新生成答案</button>
+  </form>
+</section>
+
+{% if job.candidate_artifacts %}
+<section class="section">
+  <div class="section-head">
+    <h2>更新候选</h2>
+    {% if job.candidate_dir %}
+    <span class="muted">{{ job.candidate_dir }}</span>
+    {% endif %}
+  </div>
+  <div class="links">
+    {% for artifact in job.candidate_artifacts %}
+    {{ artifact_link(file_url(artifact.path), artifact.label) }}
+    {% endfor %}
+  </div>
+  {% if job.update_diff %}
+  <section class="subsection">
+    <div class="section-head">
+      <h3>更新前后差异</h3>
+      <span class="status {{ 'success' if job.update_diff.passed else 'failed' }}">
+        {{ '无差异' if job.update_diff.passed else '有差异' }}
+      </span>
+    </div>
+    <p class="muted">{{ job.update_diff.summary }}</p>
+    {% if job.update_diff.detail_path %}
+    <div class="links">
+      {{ artifact_link(file_url(job.update_diff.detail_path), "完整差异JSON") }}
+    </div>
+    {% endif %}
+    {% if job.update_diff.metrics.by_severity %}
+    <div class="summary-grid">
+      <div><span>总差异</span><strong>{{ job.update_diff.metrics.total or 0 }}</strong></div>
+      <div><span>阻塞</span><strong>{{ job.update_diff.metrics.by_severity.blocker or 0 }}</strong></div>
+      <div><span>严重</span><strong>{{ job.update_diff.metrics.by_severity.critical or 0 }}</strong></div>
+      <div><span>主要</span><strong>{{ job.update_diff.metrics.by_severity.major or 0 }}</strong></div>
+      <div><span>轻微</span><strong>{{ job.update_diff.metrics.by_severity.minor or 0 }}</strong></div>
+    </div>
+    {% endif %}
+    {% if job.update_diff.samples %}
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>级别</th>
+            <th>类型</th>
+            <th>路径</th>
+            <th>旧答案</th>
+            <th>新答案</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for diff in job.update_diff.samples %}
+          <tr>
+            <td><span class="status {{ diff.severity }}">{{ diff.severity }}</span></td>
+            <td>{{ diff.type }}</td>
+            <td class="case-name-cell">{{ diff.path }}</td>
+            <td>{{ diff.expected }}</td>
+            <td>{{ diff.actual }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
+  {% if job.status == "success" %}
+  <div class="actions">
+    <form method="post" action="/cases/{{ endpoint | urlencode }}/{{ case_name | urlencode }}/update/apply" onsubmit="return confirm('确认用更新候选覆盖当前用例的 input 和 expected？旧文件会备份到 case_history。');">
+      <button type="submit">确认覆盖答案</button>
+    </form>
+    <a href="/cases?endpoint={{ endpoint }}">返回用例</a>
+  </div>
+  {% endif %}
+  {% if job.status == "applied" %}
+  <p class="muted">已覆盖答案，旧文件备份目录：{{ job.backup_dir }}</p>
+  <div class="actions">
+    <a href="/cases?endpoint={{ endpoint }}">返回用例</a>
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+{% endblock %}

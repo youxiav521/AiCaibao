@@ -1,0 +1,93 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "ADE Health API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/openapi/ade/health": {
+      "get": {
+        "tags": [
+          "ADE Health"
+        ],
+        "summary": "检查 ADE 服务健康状态",
+        "description": "返回 ADE 服务健康状态、版本号与当前 UTC 时间。不依赖 Redis / MinIO，避免外部依赖抖动导致健康检查失败。",
+        "operationId": "health_openapi_ade_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HealthData": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status",
+            "description": "服务状态",
+            "default": "healthy"
+          },
+          "version": {
+            "type": "string",
+            "title": "Version",
+            "description": "ADE 服务版本号"
+          },
+          "timestamp": {
+            "type": "string",
+            "title": "Timestamp",
+            "description": "当前时间（ISO8601, UTC）"
+          }
+        },
+        "type": "object",
+        "required": [
+          "version",
+          "timestamp"
+        ],
+        "title": "HealthData",
+        "description": "健康检查 data 载荷。"
+      },
+      "HealthResponse": {
+        "properties": {
+          "code": {
+            "type": "integer",
+            "title": "Code",
+            "description": "响应码，成功统一为 200",
+            "default": 200
+          },
+          "displayMessage": {
+            "type": "string",
+            "title": "Displaymessage",
+            "description": "响应描述；成功为 Operation successful",
+            "default": "Operation successful"
+          },
+          "data": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/HealthData"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Data",
+            "description": "健康状态信息"
+          }
+        },
+        "type": "object",
+        "title": "HealthResponse",
+        "description": "GET /openapi/ade/health 响应体。"
+      }
+    }
+  }
+}

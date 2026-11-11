@@ -1,0 +1,82 @@
+{% extends "layout.html" %}
+{% from "macros.html" import artifact_link %}
+
+{% block title %}用例运行历史{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <div>
+      <h2>用例运行历史</h2>
+      <p class="muted">{{ case.endpoint }} / {{ case.case_name }}</p>
+    </div>
+    <div class="head-actions">
+      <a class="button-link secondary" href="/cases?endpoint={{ case.endpoint | urlencode }}">返回用例列表</a>
+      <form class="inline-form" method="post" action="/cases/{{ case.endpoint | urlencode }}/{{ case.case_name | urlencode }}/run">
+        <button type="submit">运行测试</button>
+      </form>
+    </div>
+  </div>
+  <div class="summary-grid">
+    <div><span>接口</span><strong>{{ case.endpoint }}</strong></div>
+    <div><span>用例</span><strong>{{ case.case_name }}</strong></div>
+    <div><span>历史运行</span><strong>{{ runs|length }}</strong></div>
+    <div><span>说明</span><strong>{{ case.description or "-" }}</strong></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>历史结果</h2>
+    <span class="muted">{{ runs|length }} 次运行</span>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>运行时间</th>
+          <th>运行批次</th>
+          <th>状态</th>
+          <th>耗时</th>
+          <th>差异</th>
+          <th>报告</th>
+          <th>运行产物</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for run in runs %}
+        <tr>
+          <td>{{ run.generated_at | beijing_time if run.generated_at else "-" }}</td>
+          <td><a href="/reports/{{ run.endpoint | urlencode }}/{{ run.run_id | urlencode }}">{{ run.run_id }}</a></td>
+          <td><span class="status {{ run.status }}">{{ run.status }}</span></td>
+          <td>{{ "%.2f"|format(run.duration_seconds or 0) }}s</td>
+          <td>
+            {% if run.diff_total %}
+            <span class="status failed">{{ run.diff_total }}</span>
+            {% else %}
+            <span class="status pass">0</span>
+            {% endif %}
+          </td>
+          <td class="links">
+            {% if run.report_html_path %}{{ artifact_link(file_url(run.report_html_path), "HTML") }}{% endif %}
+          </td>
+          <td class="links case-artifacts">
+            {% if run.artifacts %}
+              {% for artifact in run.artifacts %}
+              {{ artifact_link(file_url(artifact.path), artifact.label) }}
+              {% endfor %}
+            {% else %}
+            <span class="muted">暂无产物</span>
+            {% endif %}
+          </td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="7" class="muted">暂无运行历史</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

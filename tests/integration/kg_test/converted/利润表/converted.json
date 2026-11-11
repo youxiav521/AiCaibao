@@ -1,0 +1,929 @@
+[
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 170.0,
+      "t": 43.0,
+      "r": 292.0,
+      "b": 165.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "礼光新能源开发有限公司\n源开发有限公司\n项 目",
+    "md": "礼光新能源开发有限公司\n源开发有限公司\n项 目",
+    "img_path": "images/2c525269d2c216d7bbcf5996135f92b5da16786978ac9f1a9755844ebf0a1fc0.jpg",
+    "file_id": "kg_利润表",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "table",
+    "bBox": {
+      "l": 50.0,
+      "t": 113.0,
+      "r": 699.0,
+      "b": 495.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "项目",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "行次",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "本年累计",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "上年累计",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "一、营业收入",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "28,589,657.19",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "21,335,085.18",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "减:营业成本",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "2",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "18,281,405.58",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "13,642,530.40",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "税金及附加",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "3",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "21,393.78",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "8,853.18",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "销售费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "4",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "653,028.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "408,801.15",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "管理费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "5",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "2,409,379.27",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "1,925,501.85",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "研发费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "6",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "财务费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "7",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "316,998.83",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "201,831.25",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "其中:利息费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "8",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "318,233.23",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "200,092.76",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "利息收入",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "9",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "1,313.92",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "852.38",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "加:其他收益",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "投资收益(损失以“-”号填列)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "11",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "其中:对联营企业和合营企业的投资收益",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "12",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "以摊余成本计量的金融资产终止确认收益(损失以“-”号填列)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "13",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "净敞口套期收益(损失以“-”号填列)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "14",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "公允价值变动收益(损失以“-”号填列)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "15",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "信用减值损失(损失以“-”号填列)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "16",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "资产减值损失(损失以“-”号填列)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "17",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "资产处置收益(损失以“-”号填列)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "18",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "三、营业利润",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "19",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "6,907,451.73",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "5,147,567.35",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "加:营业外收入",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "减:营业外支出",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "21",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "四、利润总额",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "22",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "6,907,451.73",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "5,147,567.35",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "减:所得税",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "23",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "39,415.54",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "30,118.18",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "五、净利润",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "24",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "6,868,036.19",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "5,117,449.17",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ]
+    ],
+    "html": "<table><tr><td>项目</td><td>行次</td><td>本年累计</td><td>上年累计</td></tr><tr><td>一、营业收入</td><td>1</td><td>28,589,657.19</td><td>21,335,085.18</td></tr><tr><td>减:营业成本</td><td>2</td><td>18,281,405.58</td><td>13,642,530.40</td></tr><tr><td>税金及附加</td><td>3</td><td>21,393.78</td><td>8,853.18</td></tr><tr><td>销售费用</td><td>4</td><td>653,028.00</td><td>408,801.15</td></tr><tr><td>管理费用</td><td>5</td><td>2,409,379.27</td><td>1,925,501.85</td></tr><tr><td>研发费用</td><td>6</td><td></td><td></td></tr><tr><td>财务费用</td><td>7</td><td>316,998.83</td><td>201,831.25</td></tr><tr><td>其中:利息费用</td><td>8</td><td>318,233.23</td><td>200,092.76</td></tr><tr><td>利息收入</td><td>9</td><td>1,313.92</td><td>852.38</td></tr><tr><td>加:其他收益</td><td>10</td><td></td><td></td></tr><tr><td>投资收益(损失以“-”号填列)</td><td>11</td><td></td><td></td></tr><tr><td>其中:对联营企业和合营企业的投资收益</td><td>12</td><td></td><td></td></tr><tr><td>以摊余成本计量的金融资产终止确认收益(损失以“-”号填列)</td><td>13</td><td></td><td></td></tr><tr><td>净敞口套期收益(损失以“-”号填列)</td><td>14</td><td></td><td></td></tr><tr><td>公允价值变动收益(损失以“-”号填列)</td><td>15</td><td></td><td></td></tr><tr><td>信用减值损失(损失以“-”号填列)</td><td>16</td><td></td><td></td></tr><tr><td>资产减值损失(损失以“-”号填列)</td><td>17</td><td></td><td></td></tr><tr><td>资产处置收益(损失以“-”号填列)</td><td>18</td><td></td><td></td></tr><tr><td>三、营业利润</td><td>19</td><td>6,907,451.73</td><td>5,147,567.35</td></tr><tr><td>加:营业外收入</td><td>20</td><td></td><td></td></tr><tr><td>减:营业外支出</td><td>21</td><td></td><td></td></tr><tr><td>四、利润总额</td><td>22</td><td>6,907,451.73</td><td>5,147,567.35</td></tr><tr><td>减:所得税</td><td>23</td><td>39,415.54</td><td>30,118.18</td></tr><tr><td>五、净利润</td><td>24</td><td>6,868,036.19</td><td>5,117,449.17</td></tr></table>",
+    "md": "| 项目 | 行次 | 本年累计 | 上年累计 |\n| --- | --- | --- | --- |\n| 一、营业收入 | 1 | 28,589,657.19 | 21,335,085.18 |\n| 减:营业成本 | 2 | 18,281,405.58 | 13,642,530.40 |\n| 税金及附加 | 3 | 21,393.78 | 8,853.18 |\n| 销售费用 | 4 | 653,028.00 | 408,801.15 |\n| 管理费用 | 5 | 2,409,379.27 | 1,925,501.85 |\n| 研发费用 | 6 |  |  |\n| 财务费用 | 7 | 316,998.83 | 201,831.25 |\n| 其中:利息费用 | 8 | 318,233.23 | 200,092.76 |\n| 利息收入 | 9 | 1,313.92 | 852.38 |\n| 加:其他收益 | 10 |  |  |\n| 投资收益(损失以“-”号填列) | 11 |  |  |\n| 其中:对联营企业和合营企业的投资收益 | 12 |  |  |\n| 以摊余成本计量的金融资产终止确认收益(损失以“-”号填列) | 13 |  |  |\n| 净敞口套期收益(损失以“-”号填列) | 14 |  |  |\n| 公允价值变动收益(损失以“-”号填列) | 15 |  |  |\n| 信用减值损失(损失以“-”号填列) | 16 |  |  |\n| 资产减值损失(损失以“-”号填列) | 17 |  |  |\n| 资产处置收益(损失以“-”号填列) | 18 |  |  |\n| 三、营业利润 | 19 | 6,907,451.73 | 5,147,567.35 |\n| 加:营业外收入 | 20 |  |  |\n| 减:营业外支出 | 21 |  |  |\n| 四、利润总额 | 22 | 6,907,451.73 | 5,147,567.35 |\n| 减:所得税 | 23 | 39,415.54 | 30,118.18 |\n| 五、净利润 | 24 | 6,868,036.19 | 5,117,449.17 |",
+    "perfectTable": false,
+    "table_caption": [
+      "2024年12月",
+      "单位：元"
+    ],
+    "img_path": "kg_利润表_2.jpg",
+    "file_id": "kg_利润表",
+    "element_id": 2,
+    "folder_id": null,
+    "standard2D": true,
+    "hasHeader": true,
+    "table_type": "利润表",
+    "table_type_is_full_statement": true,
+    "headerCells": [
+      [
+        {
+          "text": "项目",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0
+        },
+        {
+          "text": "行次",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1
+        },
+        {
+          "text": "本年累计",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2
+        },
+        {
+          "text": "上年累计",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 3
+        }
+      ]
+    ]
+  }
+]

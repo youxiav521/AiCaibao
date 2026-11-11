@@ -1,0 +1,349 @@
+{% extends "layout.html" %}
+{% from "macros.html" import artifact_link %}
+
+{% block title %}MinIO 管理{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <div>
+      <h2>MinIO 管理</h2>
+      <p class="muted">正式用例和候选用例的团队共享存储状态</p>
+    </div>
+    <div class="head-actions">
+      <form class="inline-form" method="post" action="/minio/scan">
+        <button class="secondary" type="submit">重新扫描</button>
+      </form>
+      <form class="inline-form" method="post" action="/minio/refresh">
+        <button class="secondary" type="submit">从 MinIO 刷新全部</button>
+      </form>
+      <form class="inline-form" method="post" action="/minio/upload">
+        <button type="submit">上传本地全部</button>
+      </form>
+    </div>
+  </div>
+
+  {% if message %}
+  <div class="notice success">{{ message }}</div>
+  {% endif %}
+  {% if error %}
+  <div class="notice error">{{ error }}</div>
+  {% endif %}
+  {% if overview.remote_error %}
+  <div class="notice warning">
+    <strong>{{ overview.remote_error_diagnostic.title or "远端统计获取失败" }}</strong>
+    <div>{{ overview.remote_error_diagnostic.suggestion or overview.remote_error }}</div>
+  </div>
+  {% endif %}
+
+  <div class="summary-grid">
+    <div><span>启用状态</span><strong>{{ "enabled" if overview.sync_info.enabled else "disabled" }}</strong></div>
+    <div><span>Endpoint</span><strong>{{ overview.sync_info.endpoint or "-" }}</strong></div>
+    <div><span>Bucket</span><strong>{{ overview.sync_info.bucket }}</strong></div>
+    <div><span>Prefix</span><strong>{{ overview.sync_info.prefix }}</strong></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>对象统计</h2>
+    <span class="muted">本地工作区与远端 current manifest 数量</span>
+  </div>
+  <div class="summary-grid">
+    <div><span>本地正式用例</span><strong>{{ overview.local_cases }}</strong></div>
+    <div><span>本地候选用例</span><strong>{{ overview.local_candidates }}</strong></div>
+    <div><span>远端正式用例</span><strong>{{ overview.remote_cases if not overview.remote_error else "-" }}</strong></div>
+    <div><span>远端候选用例</span><strong>{{ overview.remote_candidates if not overview.remote_error else "-" }}</strong></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>同步状态</h2>
+    <span class="status {{ 'success' if overview.sync_status.status == 'ok' else ('failed' if overview.sync_status.status in ['failed', 'conflict'] else 'warning') }}">
+      {{ overview.sync_status.status }}
+    </span>
+  </div>
+  <div class="summary-grid">
+    <div><span>扫描时间</span><strong>{{ overview.sync_status.scanned_at | beijing_time if overview.sync_status.scanned_at else "-" }}</strong></div>
+    <div><span>扫描来源</span><strong>{{ overview.sync_status.reason or "-" }}</strong></div>
+    <div><span>本地未发布</span><strong>{{ overview.sync_status.summary.local_unpublished or 0 }}</strong></div>
+    <div><span>远端未拉取</span><strong>{{ overview.sync_status.summary.remote_unpulled or 0 }}</strong></div>
+  </div>
+  <div class="notice {{ 'success' if overview.sync_status.status == 'ok' else ('error' if overview.sync_status.status in ['failed', 'conflict'] else 'warning') }}">
+    <strong>{{ overview.sync_status.message }}</strong>
+    <div>{{ overview.sync_status.suggestion }}</div>
+  </div>
+  {% if overview.sync_status.summary %}
+  <div class="summary-grid">
+    <div><span>冲突风险</span><strong>{{ overview.sync_status.summary.conflict_risk or 0 }}</strong></div>
+    <div><span>缺少基线</span><strong>{{ overview.sync_status.summary.missing_baseline or 0 }}</strong></div>
+    <div><span>可清理旧版本</span><strong>{{ overview.sync_status.summary.history_delete_versions or 0 }}</strong></div>
+    <div><span>可释放空间</span><strong>{{ overview.sync_status.summary.history_delete_bytes or 0 }} B</strong></div>
+  </div>
+  <div class="summary-grid">
+    <div><span>清理保留版本</span><strong>{{ overview.sync_status.summary.history_cleanup_keep_versions or overview.sync_info.cleanup_keep_versions }}</strong></div>
+    <div><span>版本提醒阈值</span><strong>{{ overview.sync_status.summary.history_warn_versions or overview.sync_info.warn_history_versions }}</strong></div>
+    <div><span>空间提醒阈值</span><strong>{{ overview.sync_info.warn_history_mb }} MB</strong></div>
+    <div><span>提醒方式</span><strong>只提示</strong></div>
+  </div>
+  {% endif %}
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>同步问题</h2>
+    <span class="muted">{{ overview.sync_status.issues|length }} 条</span>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>级别</th>
+          <th>类型</th>
+          <th>对象</th>
+          <th>问题</th>
+          <th>建议</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for issue in overview.sync_status.issues %}
+        <tr>
+          <td><span class="status {{ 'failed' if issue.level == 'error' else ('warning' if issue.level == 'warning' else 'low') }}">{{ issue.level }}</span></td>
+          <td>{{ issue.issue_type }}</td>
+          <td class="case-name-cell">{{ issue.object_type }}{% if issue.case_id %} / {{ issue.case_id }}{% endif %}</td>
+          <td>{{ issue.message }}</td>
+          <td class="muted">{{ issue.suggestion }}</td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="5" class="muted">暂无同步问题</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>远端历史版本清理</h2>
+    <span class="muted">保留 current 和最近 N 个版本</span>
+  </div>
+  <form class="filters" method="post" action="/minio/cleanup/remote-plan">
+    <label>
+      保留版本数
+      <input type="number" name="keep_versions" min="1" value="{{ cleanup_filters.keep_versions }}">
+    </label>
+    <button class="secondary" type="submit">预览清理</button>
+  </form>
+  {% if remote_cleanup_plan %}
+  <div class="summary-grid">
+    <div><span>涉及对象</span><strong>{{ remote_cleanup_plan.target_count }}</strong></div>
+    <div><span>待删版本</span><strong>{{ remote_cleanup_plan.delete_version_count }}</strong></div>
+    <div><span>待删对象</span><strong>{{ remote_cleanup_plan.delete_object_count }}</strong></div>
+    <div><span>预计释放</span><strong>{{ remote_cleanup_plan.delete_bytes }} B</strong></div>
+  </div>
+  <div class="notice warning">
+    <strong>清理只会删除未被保留版本引用的旧对象。</strong>
+    <div>由于新版本可能复用旧版本文件，系统会自动保留仍被 current 或最近版本引用的对象。</div>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>对象</th>
+          <th>当前版本</th>
+          <th>总版本</th>
+          <th>保留版本</th>
+          <th>待删版本</th>
+          <th>待删对象</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for target in remote_cleanup_plan.cleanup_targets %}
+        <tr>
+          <td class="case-name-cell">{{ target.object_type }} / {{ target.case_id }}</td>
+          <td>{{ target.current_version }}</td>
+          <td>{{ target.version_count }}</td>
+          <td>{{ target.retained_versions | join(", ") or "-" }}</td>
+          <td>{{ target.delete_versions | join(", ") or "-" }}</td>
+          <td>{{ target.delete_object_count }} / {{ target.delete_bytes }} B</td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="6" class="muted">没有需要清理的远端历史版本</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <form class="actions" method="post" action="/minio/cleanup/remote-apply" onsubmit="return confirm('确认清理这些 MinIO 历史版本对象？current 和最近保留版本不会删除。');">
+    <input type="hidden" name="keep_versions" value="{{ remote_cleanup_plan.keep_versions }}">
+    <button class="danger" type="submit" {% if remote_cleanup_plan.delete_object_count == 0 %}disabled{% endif %}>确认清理远端历史版本</button>
+  </form>
+  {% endif %}
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>本地归档清理规划</h2>
+    <span class="muted">只清理本机归档目录</span>
+  </div>
+  <form class="filters" method="post" action="/minio/cleanup/local-plan">
+    <label>
+      保留天数
+      <input type="number" name="local_keep_days" min="1" value="{{ cleanup_filters.local_keep_days }}">
+    </label>
+    <button class="secondary" type="submit">重新计算</button>
+  </form>
+  <div class="summary-grid">
+    <div><span>待清理条目</span><strong>{{ local_cleanup_plan.delete_count }}</strong></div>
+    <div><span>预计释放</span><strong>{{ local_cleanup_plan.delete_bytes }} B</strong></div>
+    <div><span>保留天数</span><strong>{{ local_cleanup_plan.keep_days }}</strong></div>
+    <div><span>处理范围</span><strong>本机归档</strong></div>
+  </div>
+  <div class="notice warning">
+    <strong>本地清理不会删除 MinIO，也不会删除活跃用例目录。</strong>
+    <div>仅清理 case_history、case_archive、reports/_archive 和已处理冲突目录中超过保留天数的条目。</div>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>分组</th>
+          <th>名称</th>
+          <th>修改时间</th>
+          <th>大小</th>
+          <th>路径</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in local_cleanup_plan.entries[:20] %}
+        <tr>
+          <td>{{ item.group }}</td>
+          <td class="case-name-cell">{{ item.name }}</td>
+          <td>{{ item.modified_at | beijing_time }}</td>
+          <td>{{ item.bytes }} B</td>
+          <td class="case-name-cell">{{ item.path }}</td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="5" class="muted">没有超过保留天数的本地归档文件</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <form class="actions" method="post" action="/minio/cleanup/local-apply" onsubmit="return confirm('确认清理本机归档文件？该操作只影响本机 case_history、case_archive、reports/_archive 和已处理冲突目录，不影响 MinIO 和活跃用例。该操作会直接删除文件，无法在回收站恢复。');">
+    <input type="hidden" name="local_keep_days" value="{{ local_cleanup_plan.keep_days }}">
+    <button class="danger" type="submit" {% if local_cleanup_plan.delete_count == 0 %}disabled{% endif %}>确认清理本地归档</button>
+  </form>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>最近同步记录</h2>
+    <span class="muted">{{ overview.recent_events|length }} 条</span>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>时间</th>
+          <th>操作</th>
+          <th>目标</th>
+          <th>状态</th>
+          <th>结果</th>
+          <th style="width: 72px; white-space: nowrap">详情</th>
+          <th style="width: 220px">提示</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for event in overview.recent_events %}
+        <tr>
+          <td>{{ event.created_at | beijing_time if event.created_at else "-" }}</td>
+          <td>{{ event.operation }}</td>
+          <td>{{ event.target or "-" }}</td>
+          <td><span class="status {{ 'failed' if event.status == 'failed' else 'success' }}">{{ event.status }}</span></td>
+          <td>
+            {% if event.result %}
+            上传 {{ event.result.uploaded or 0 }} /
+            下载 {{ event.result.downloaded or 0 }} /
+            删除 {{ event.result.deleted or 0 }} /
+            跳过 {{ event.result.skipped or 0 }} /
+            冲突 {{ event.result.conflicts or 0 }}
+            {% else %}
+            <span class="muted">-</span>
+            {% endif %}
+          </td>
+          <td style="width: 72px; white-space: nowrap">
+            {% if event.result and event.event_id %}
+            <a href="/minio/events/{{ event.event_id }}">详情</a>
+            {% if event.result.object_details %}
+            <div class="muted">{{ event.result.object_details|length }} 个对象</div>
+            {% endif %}
+            {% else %}
+            <span class="muted">-</span>
+            {% endif %}
+          </td>
+          <td>
+            {% if event.error %}
+            <strong>{{ event.error.title }}</strong>
+            <div class="muted">{{ event.error.suggestion }}</div>
+            {% else %}
+            <span class="muted">-</span>
+            {% endif %}
+          </td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="7" class="muted">暂无同步记录</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>冲突报告</h2>
+    <span class="muted">{{ overview.conflict_count }} 个</span>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>生成时间</th>
+          <th>类型</th>
+          <th>对象</th>
+          <th>版本</th>
+          <th>冲突文件</th>
+          <th>报告</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for conflict in overview.conflicts %}
+        <tr>
+          <td>{{ conflict.generated_at | beijing_time if conflict.generated_at else "-" }}</td>
+          <td>{{ conflict.object_type }}</td>
+          <td class="case-name-cell">{{ conflict.case_id or conflict.name }}</td>
+          <td>{{ conflict.base_version or "-" }} → {{ conflict.remote_version or "-" }}</td>
+          <td>{{ conflict.entry_count }}</td>
+          <td class="links">
+            <a href="/minio/conflicts/{{ conflict.name | urlencode }}">详情</a>
+            {{ artifact_link(file_url(conflict.path), "json") }}
+            {% if conflict.error %}<span class="status failed">读取失败</span>{% endif %}
+          </td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="6" class="muted">暂无冲突报告</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

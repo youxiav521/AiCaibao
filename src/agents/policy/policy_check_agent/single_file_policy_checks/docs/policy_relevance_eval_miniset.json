@@ -1,0 +1,34 @@
+[
+  {
+    "sample_id": "clearly_relevant_001",
+    "expected_label": "clearly relevant",
+    "predicted_decision": "review",
+    "final_result": "review",
+    "llm_used": false,
+    "llm_corrected": false
+  },
+  {
+    "sample_id": "weakly_relevant_001",
+    "expected_label": "weakly relevant",
+    "predicted_decision": "review",
+    "final_result": "review",
+    "llm_used": true,
+    "llm_corrected": true
+  },
+  {
+    "sample_id": "clearly_irrelevant_001",
+    "expected_label": "clearly irrelevant",
+    "predicted_decision": "soft_skip",
+    "final_result": "skipped",
+    "llm_used": false,
+    "llm_corrected": false
+  },
+  {
+    "sample_id": "ambiguous_001",
+    "expected_label": "ambiguous",
+    "predicted_decision": "review",
+    "final_result": "uncertain",
+    "llm_used": true,
+    "llm_corrected": false
+  }
+]

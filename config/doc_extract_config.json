@@ -1,0 +1,103 @@
+{
+    "身份证":{
+        "description": "个人身份信息提取",
+        "prompt":"",
+        "schema":{
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "姓名"
+                },
+                "sex": {
+                    "type": "string",
+                    "description": "性别"
+                },
+                "nationality": {
+                    "type": "string",
+                    "description": "民族"
+                },
+                "id": {
+                    "type": "string",
+                    "description": "证件号码"
+                },
+                "address": {
+                    "type": "string",
+                    "description": "住址"
+                },
+                "birth": {
+                    "type": "string",
+                    "format": "date",
+                    "description": "出生日期"
+                }
+            }
+        }
+    },
+    "土地证":{
+        "description": "土地证信息提取",
+        "prompt":"",
+        "schema":{
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "所属产权人"
+                },
+                "address": {
+                    "type": "string",
+                    "description": "所在地理位置"
+                },
+                "area": {
+                    "type": "string",
+                    "description": "土地或者房屋面积"
+                }
+            }
+        }
+    },
+    "简历":{
+        "description": "简历信息提取",
+        "prompt":"简历信息提取，school字段必须以大学或者学院结尾",
+        "schema":{
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "简历姓名"
+                },
+                "school": {
+                    "type": "string",
+                    "description": "毕业学校，必须xx大学，xx学院结尾"
+                },
+                "address": {
+                    "type": "string",
+                    "description": "家庭住址"
+                },
+                "studied": {
+                    "type": "string",
+                    "description": "所学专业"
+                },
+                "graduation": {
+                    "type": "string",
+                    "format": "date",
+                    "description": "毕业日期"
+                },
+                "age": {
+                    "type": "number",
+                    "description": "年龄"
+                },
+                "birth": {
+                    "type": "string",
+                    "format": "date",
+                    "description": "出生日期"
+                },
+                "experiences": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "个人工作经历，如哪年做了哪些事情"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block title %}可视化编辑科目匹配{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <h2>可视化编辑科目匹配</h2>
+    <span class="muted">{{ candidate.name }}</span>
+  </div>
+  {% if error %}
+  <p class="error-text">{{ error }}</p>
+  {% endif %}
+  <form method="post">
+    <div class="subject-editor-wrap">
+      <table class="subject-editor-table">
+        <tbody>
+          {% for row in rows %}
+          {% set row_index = loop.index0 %}
+          <tr>
+            {% for cell in row %}
+            {% set col_index = loop.index0 %}
+            <td>
+              {% if cell is mapping %}
+              <div class="subject-cell-text">{{ cell.text }}</div>
+              <select name="subject__{{ row_index }}__{{ col_index }}">
+                <option value="">未匹配</option>
+                {% for subject in subjects %}
+                <option value="{{ subject.id }}" {% if cell.subjectId == subject.id %}selected{% endif %}>{{ subject.label }}</option>
+                {% endfor %}
+              </select>
+              <div class="subject-cell-meta">
+                {{ cell.statementType or "-" }} / {{ cell.accountingYear or "-" }} / {{ cell.caliberLabel or "-" }}
+              </div>
+              {% endif %}
+            </td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div class="actions">
+      <button type="submit">保存</button>
+      <a href="/case-candidates/{{ candidate.name }}">取消</a>
+    </div>
+  </form>
+</section>
+{% endblock %}

@@ -1,0 +1,105 @@
+{
+    "providers": [
+        {
+            "name": "bailian",
+            "api_base": "http://172.16.40.16:20001/v1",
+            "api_key": "sk-KuOHVSC-RdV_inaWyoz_7g",
+            "extra_body": {
+                "enable_thinking": false
+            },
+            "rpm": 1000
+        },
+        {
+            "name": "11_server",
+            "api_base": "http://10.192.72.11:7701/v1",
+            "api_key": "1",
+            "extra_body": {
+                "enable_thinking": false
+            },
+            "concurrency": 10,
+            "models": [
+                {
+                    "name": "qwen3.6-35b-a3b",
+                    "image": true
+                }
+            ]
+        },
+        {
+            "name": "11_server_sft",
+            "api_base": "http://10.192.72.11:7702/v1",
+            "api_key": "1",
+            "extra_body": {
+                "enable_thinking": false
+            },
+            "concurrency": 40,
+            "models": [
+                {
+                    "name": "Qwen-4B-sft-0513",
+                    "image": false
+                },
+                {
+                    "name": "Qwen-4B-sft-0610",
+                    "image": false
+                }
+            ]
+        }
+    ],
+    "default_provider": "bailian",
+    "default_model": "qwen3.6-35b-a3b",
+    "default_vl_provider": "bailian",
+    "default_vl_model": "qwen3.6-35b-a3b",
+    "custom_models": {
+        "doc_extract_vl": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "doc_extract": {
+            "provider": "bailian",
+            "model": "qwen3.5-27b"
+        },
+        "doc_classify": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "model_for_table_header_aided": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "model_for_table_classify": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "image_summary": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "data_analyst_agent": {
+            "provider": "bailian",
+            "model": "deepseek-v4-pro"
+        },
+        "parse_template": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b",
+            "extra_body": {
+                "enable_thinking": false,
+                "max_tokens": 25000
+            }
+        },
+        "reporter_ds_model": {
+            "provider": "bailian",
+            "model": "deepseek-v4-pro"
+        },
+        "reporter_text_model": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "reporter_text_json_citation_model": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "subject_match_llm_fallback": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        }
+    }
+}

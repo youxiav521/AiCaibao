@@ -1,0 +1,181 @@
+2026-07-01 18:38:00.265 | INFO     | storage_service.py:80 | src.base.storage_service:_get_client - StorageService | 客户端已初始化 | endpoint=localhost:9000 secure=False
+2026-07-01 18:38:00.290 | INFO     | storage_service.py:87 | src.base.storage_service:_get_client - StorageService | 连通性测试成功 | endpoint=localhost:9000
+2026-07-01 18:38:00.573 | INFO     | query_service.py:142 | src.ade.knowledge_graph.service.query_service:query - QueryService | 检测到关系类型触发词 | types=主借款人
+2026-07-01 18:38:00.574 | INFO     | query_service.py:151 | src.ade.knowledge_graph.service.query_service:query - QueryService | 优先加入项目实体 | entity=测试知识库
+2026-07-01 18:38:00.576 | DEBUG    | rate_limited_model.py:244 | src.utils.model_enhancements.rate_limited_model:_acquire_all_limits - acquire_all_limits: model_key=bailian:qwen3.6-35b-a3b, provider=bailian, concurrency=None, rps=None, rpm=1000
+2026-07-01 18:38:00.576 | INFO     | redis_client.py:122 | src.base.redis_client:_init_client - 初始化Redis客户端 | loop_id=1516936995344 decode_responses=True host=localhost:6379 db=0
+2026-07-01 18:38:00.592 | INFO     | redis_client.py:128 | src.base.redis_client:_init_client - Redis连接验证成功 | loop_id=1516936995344 decode_responses=True
+2026-07-01 18:38:01.340 | DEBUG    | query_service.py:82 | src.ade.knowledge_graph.service.query_service:extract_entity_keywords - QueryService | LLM实体关键词提取完成 | query=是, keywords=[]
+2026-07-01 18:38:01.345 | INFO     | embed_service.py:93 | src.ade.knowledge_graph.service.embed_service:embed_texts - EmbedService | 向量化完成 | total=1, cached=1, model=Qwen3-Embedding-4B-NVFP4
+2026-07-01 18:38:01.394 | WARNING  | tokenizer.py:113 | src.utils.tokenizer:_try_init_qwen_official - 未找到可用 Qwen tokenizer.json，已回退 tiktoken。可设置 QWEN_TOKENIZER_JSON_PATH，或放在 D:\yusys_ai\config\tokenizers\qwen3_5\tokenizer.json
+2026-07-01 18:38:01.395 | INFO     | tokenizer.py:53 | src.utils.tokenizer:_require_local_cache - TIKTOKEN_CACHE_DIR 已设置为本地缓存: D:\yusys_ai\tiktoken_cache
+2026-07-01 18:38:01.814 | INFO     | tokenizer.py:71 | src.utils.tokenizer:__init__ - Tokenizer 'o200k_base' 已就绪
+2026-07-01 18:38:01.815 | INFO     | openai_reranker.py:56 | src.applications.rag.adapters.rerankers.openai_reranker:arerank - Reranker 请求: model=qwen3-reranker-4b-awq-int4, top_k=18, docs_count=18
+2026-07-01 18:38:01.938 | INFO     | openai_reranker.py:71 | src.applications.rag.adapters.rerankers.openai_reranker:arerank - Reranker 返回: results_count=18
+2026-07-01 18:38:01.940 | INFO     | query_service.py:309 | src.ade.knowledge_graph.service.query_service:_build_context_with_token_allocation - QueryService | 原始文本rerank完成 | original_count=18, reranked_count=18
+2026-07-01 18:38:01.966 | INFO     | query_service.py:360 | src.ade.knowledge_graph.service.query_service:_build_context_with_token_allocation - QueryService | 实际Token使用 | total=627 / 8000
+2026-07-01 18:38:01.966 | INFO     | query_service.py:231 | src.ade.knowledge_graph.service.query_service:query - QueryService | 上下文构建完成 | entities=1 relations=7
+2026-07-01 18:38:01.968 | DEBUG    | rate_limited_model.py:244 | src.utils.model_enhancements.rate_limited_model:_acquire_all_limits - acquire_all_limits: model_key=bailian:qwen3.6-35b-a3b, provider=bailian, concurrency=None, rps=None, rpm=1000
+2026-07-01 18:38:05.739 | INFO     | query_service.py:248 | src.ade.knowledge_graph.service.query_service:query - QueryService | 查询完成 | folder_id=TASK-XX
+2026-07-01 18:38:05.740 | INFO     | stopwatch.py:261 | src.utils.stopwatch:print - 
+StopWatch 'QueryService-TASK-XX': 总耗时 = 5.3 秒
+--------------------------------------------------------------------------------
+        耗时 |      占比 | 任务名称                           | 详情                  
+--------------------------------------------------------------------------------
+       5.3 秒 |   100.0% | query                          | folder_id=TASK-XX   
+     115.4 毫秒 |     2.2% | ├─ get_graph                    |                     
+       0.7 毫秒 |     0.0% | ├─ detect_relation_types        |                     
+     766.1 毫秒 |    14.5% | ├─ extract_entity_keywords      |                     
+       5.7 毫秒 |     0.1% | ├─ embed_query_text             |                     
+       1.4 毫秒 |     0.0% | ├─ vector_search_relations      |                     
+       0.0 毫秒 |     0.0% | ├─ expand_relations             | relations=7         
+     619.6 毫秒 |    11.7% | ├─ build_context                | entities=1, relations=7
+       3.8 秒 |    71.4% | ├─ llm_invoke                   |                     
+2026-07-01 18:38:05.831 | INFO     | query_service.py:142 | src.ade.knowledge_graph.service.query_service:query - QueryService | 检测到关系类型触发词 | types=实际控制, 法定代表
+2026-07-01 18:38:05.833 | DEBUG    | rate_limited_model.py:244 | src.utils.model_enhancements.rate_limited_model:_acquire_all_limits - acquire_all_limits: model_key=bailian:qwen3.6-35b-a3b, provider=bailian, concurrency=None, rps=None, rpm=1000
+2026-07-01 18:38:06.227 | DEBUG    | query_service.py:82 | src.ade.knowledge_graph.service.query_service:extract_entity_keywords - QueryService | LLM实体关键词提取完成 | query=礼光公司的和是谁？, keywords=['礼光公司']
+2026-07-01 18:38:06.228 | INFO     | query_service.py:469 | src.ade.knowledge_graph.service.query_service:_keyword_based_entity_search - QueryService | 开始关键词实体搜索 | keywords=['礼光公司']
+2026-07-01 18:38:06.231 | INFO     | embed_service.py:93 | src.ade.knowledge_graph.service.embed_service:embed_texts - EmbedService | 向量化完成 | total=1, cached=1, model=Qwen3-Embedding-4B-NVFP4
+2026-07-01 18:38:06.240 | INFO     | query_service.py:508 | src.ade.knowledge_graph.service.query_service:_keyword_based_entity_search - QueryService | 关键词实体搜索完成 | entities_count=6
+2026-07-01 18:38:06.244 | INFO     | embed_service.py:93 | src.ade.knowledge_graph.service.embed_service:embed_texts - EmbedService | 向量化完成 | total=1, cached=1, model=Qwen3-Embedding-4B-NVFP4
+2026-07-01 18:38:06.248 | WARNING  | tokenizer.py:113 | src.utils.tokenizer:_try_init_qwen_official - 未找到可用 Qwen tokenizer.json，已回退 tiktoken。可设置 QWEN_TOKENIZER_JSON_PATH，或放在 D:\yusys_ai\config\tokenizers\qwen3_5\tokenizer.json
+2026-07-01 18:38:06.249 | INFO     | tokenizer.py:71 | src.utils.tokenizer:__init__ - Tokenizer 'o200k_base' 已就绪
+2026-07-01 18:38:06.249 | INFO     | openai_reranker.py:56 | src.applications.rag.adapters.rerankers.openai_reranker:arerank - Reranker 请求: model=qwen3-reranker-4b-awq-int4, top_k=32, docs_count=32
+2026-07-01 18:38:06.383 | INFO     | openai_reranker.py:71 | src.applications.rag.adapters.rerankers.openai_reranker:arerank - Reranker 返回: results_count=32
+2026-07-01 18:38:06.383 | INFO     | query_service.py:309 | src.ade.knowledge_graph.service.query_service:_build_context_with_token_allocation - QueryService | 原始文本rerank完成 | original_count=32, reranked_count=32
+2026-07-01 18:38:06.385 | INFO     | query_service.py:360 | src.ade.knowledge_graph.service.query_service:_build_context_with_token_allocation - QueryService | 实际Token使用 | total=968 / 8000
+2026-07-01 18:38:06.386 | INFO     | query_service.py:231 | src.ade.knowledge_graph.service.query_service:query - QueryService | 上下文构建完成 | entities=6 relations=8
+2026-07-01 18:38:06.387 | DEBUG    | rate_limited_model.py:244 | src.utils.model_enhancements.rate_limited_model:_acquire_all_limits - acquire_all_limits: model_key=bailian:qwen3.6-35b-a3b, provider=bailian, concurrency=None, rps=None, rpm=1000
+2026-07-01 18:38:13.074 | INFO     | query_service.py:248 | src.ade.knowledge_graph.service.query_service:query - QueryService | 查询完成 | folder_id=TASK-XX
+2026-07-01 18:38:13.075 | INFO     | stopwatch.py:261 | src.utils.stopwatch:print - 
+StopWatch 'QueryService-TASK-XX': 总耗时 = 7.3 秒
+--------------------------------------------------------------------------------
+        耗时 |      占比 | 任务名称                           | 详情                  
+--------------------------------------------------------------------------------
+       7.3 秒 |   100.0% | query                          | folder_id=TASK-XX   
+      84.0 毫秒 |     1.1% | ├─ get_graph                    |                     
+       1.5 毫秒 |     0.0% | ├─ detect_relation_types        |                     
+     394.9 毫秒 |     5.4% | ├─ extract_entity_keywords      |                     
+      13.5 毫秒 |     0.2% | ├─ keyword_entity_search        | keywords=1, entities=6
+       4.0 毫秒 |     0.1% | ├─ embed_query_text             |                     
+       2.0 毫秒 |     0.0% | ├─ vector_search_relations      |                     
+       0.1 毫秒 |     0.0% | ├─ expand_relations             | relations=8         
+     139.2 毫秒 |     1.9% | ├─ build_context                | entities=6, relations=8
+       6.7 秒 |    91.3% | ├─ llm_invoke                   |                     
+2026-07-01 18:38:13.206 | INFO     | query_service.py:142 | src.ade.knowledge_graph.service.query_service:query - QueryService | 检测到关系类型触发词 | types=配偶关系
+2026-07-01 18:38:13.208 | DEBUG    | rate_limited_model.py:244 | src.utils.model_enhancements.rate_limited_model:_acquire_all_limits - acquire_all_limits: model_key=bailian:qwen3.6-35b-a3b, provider=bailian, concurrency=None, rps=None, rpm=1000
+2026-07-01 18:38:13.544 | DEBUG    | query_service.py:82 | src.ade.knowledge_graph.service.query_service:extract_entity_keywords - QueryService | LLM实体关键词提取完成 | query=焦雪峰的情况, keywords=['焦雪峰']
+2026-07-01 18:38:13.545 | INFO     | query_service.py:469 | src.ade.knowledge_graph.service.query_service:_keyword_based_entity_search - QueryService | 开始关键词实体搜索 | keywords=['焦雪峰']
+2026-07-01 18:38:13.549 | INFO     | embed_service.py:93 | src.ade.knowledge_graph.service.embed_service:embed_texts - EmbedService | 向量化完成 | total=1, cached=1, model=Qwen3-Embedding-4B-NVFP4
+2026-07-01 18:38:13.566 | INFO     | query_service.py:508 | src.ade.knowledge_graph.service.query_service:_keyword_based_entity_search - QueryService | 关键词实体搜索完成 | entities_count=1
+2026-07-01 18:38:13.571 | INFO     | embed_service.py:93 | src.ade.knowledge_graph.service.embed_service:embed_texts - EmbedService | 向量化完成 | total=1, cached=1, model=Qwen3-Embedding-4B-NVFP4
+2026-07-01 18:38:13.573 | WARNING  | tokenizer.py:113 | src.utils.tokenizer:_try_init_qwen_official - 未找到可用 Qwen tokenizer.json，已回退 tiktoken。可设置 QWEN_TOKENIZER_JSON_PATH，或放在 D:\yusys_ai\config\tokenizers\qwen3_5\tokenizer.json
+2026-07-01 18:38:13.575 | INFO     | tokenizer.py:71 | src.utils.tokenizer:__init__ - Tokenizer 'o200k_base' 已就绪
+2026-07-01 18:38:13.576 | INFO     | openai_reranker.py:56 | src.applications.rag.adapters.rerankers.openai_reranker:arerank - Reranker 请求: model=qwen3-reranker-4b-awq-int4, top_k=11, docs_count=11
+2026-07-01 18:38:13.671 | INFO     | openai_reranker.py:71 | src.applications.rag.adapters.rerankers.openai_reranker:arerank - Reranker 返回: results_count=11
+2026-07-01 18:38:13.671 | INFO     | query_service.py:309 | src.ade.knowledge_graph.service.query_service:_build_context_with_token_allocation - QueryService | 原始文本rerank完成 | original_count=11, reranked_count=11
+2026-07-01 18:38:13.673 | INFO     | query_service.py:360 | src.ade.knowledge_graph.service.query_service:_build_context_with_token_allocation - QueryService | 实际Token使用 | total=197 / 8000
+2026-07-01 18:38:13.674 | INFO     | query_service.py:231 | src.ade.knowledge_graph.service.query_service:query - QueryService | 上下文构建完成 | entities=1 relations=1
+2026-07-01 18:38:13.676 | DEBUG    | rate_limited_model.py:244 | src.utils.model_enhancements.rate_limited_model:_acquire_all_limits - acquire_all_limits: model_key=bailian:qwen3.6-35b-a3b, provider=bailian, concurrency=None, rps=None, rpm=1000
+2026-07-01 18:38:15.333 | INFO     | query_service.py:248 | src.ade.knowledge_graph.service.query_service:query - QueryService | 查询完成 | folder_id=TASK-XX
+2026-07-01 18:38:15.334 | INFO     | stopwatch.py:261 | src.utils.stopwatch:print - 
+StopWatch 'QueryService-TASK-XX': 总耗时 = 2.3 秒
+--------------------------------------------------------------------------------
+        耗时 |      占比 | 任务名称                           | 详情                  
+--------------------------------------------------------------------------------
+       2.3 秒 |   100.0% | query                          | folder_id=TASK-XX   
+     123.0 毫秒 |     5.5% | ├─ get_graph                    |                     
+       0.7 毫秒 |     0.0% | ├─ detect_relation_types        |                     
+     338.0 毫秒 |    15.0% | ├─ extract_entity_keywords      |                     
+      21.4 毫秒 |     1.0% | ├─ keyword_entity_search        | keywords=1, entities=1
+       5.9 毫秒 |     0.3% | ├─ embed_query_text             |                     
+       0.3 毫秒 |     0.0% | ├─ vector_search_relations      |                     
+       0.1 毫秒 |     0.0% | ├─ expand_relations             | relations=1         
+     100.9 毫秒 |     4.5% | ├─ build_context                | entities=1, relations=1
+       1.7 秒 |    73.7% | ├─ llm_invoke                   |                     
+2026-07-01 18:38:15.408 | DEBUG    | rate_limited_model.py:244 | src.utils.model_enhancements.rate_limited_model:_acquire_all_limits - acquire_all_limits: model_key=bailian:qwen3.6-35b-a3b, provider=bailian, concurrency=None, rps=None, rpm=1000
+2026-07-01 18:38:15.714 | DEBUG    | query_service.py:82 | src.ade.knowledge_graph.service.query_service:extract_entity_keywords - QueryService | LLM实体关键词提取完成 | query=焦雪峰的身份证号, keywords=['焦雪峰']
+2026-07-01 18:38:15.715 | INFO     | query_service.py:469 | src.ade.knowledge_graph.service.query_service:_keyword_based_entity_search - QueryService | 开始关键词实体搜索 | keywords=['焦雪峰']
+2026-07-01 18:38:15.719 | INFO     | embed_service.py:93 | src.ade.knowledge_graph.service.embed_service:embed_texts - EmbedService | 向量化完成 | total=1, cached=1, model=Qwen3-Embedding-4B-NVFP4
+2026-07-01 18:38:15.728 | INFO     | query_service.py:508 | src.ade.knowledge_graph.service.query_service:_keyword_based_entity_search - QueryService | 关键词实体搜索完成 | entities_count=1
+2026-07-01 18:38:15.731 | INFO     | embed_service.py:93 | src.ade.knowledge_graph.service.embed_service:embed_texts - EmbedService | 向量化完成 | total=1, cached=1, model=Qwen3-Embedding-4B-NVFP4
+2026-07-01 18:38:15.741 | WARNING  | tokenizer.py:113 | src.utils.tokenizer:_try_init_qwen_official - 未找到可用 Qwen tokenizer.json，已回退 tiktoken。可设置 QWEN_TOKENIZER_JSON_PATH，或放在 D:\yusys_ai\config\tokenizers\qwen3_5\tokenizer.json
+2026-07-01 18:38:15.742 | INFO     | tokenizer.py:71 | src.utils.tokenizer:__init__ - Tokenizer 'o200k_base' 已就绪
+2026-07-01 18:38:15.742 | INFO     | openai_reranker.py:56 | src.applications.rag.adapters.rerankers.openai_reranker:arerank - Reranker 请求: model=qwen3-reranker-4b-awq-int4, top_k=24, docs_count=24
+2026-07-01 18:38:15.863 | INFO     | openai_reranker.py:71 | src.applications.rag.adapters.rerankers.openai_reranker:arerank - Reranker 返回: results_count=24
+2026-07-01 18:38:15.864 | INFO     | query_service.py:309 | src.ade.knowledge_graph.service.query_service:_build_context_with_token_allocation - QueryService | 原始文本rerank完成 | original_count=24, reranked_count=24
+2026-07-01 18:38:15.866 | INFO     | query_service.py:360 | src.ade.knowledge_graph.service.query_service:_build_context_with_token_allocation - QueryService | 实际Token使用 | total=903 / 8000
+2026-07-01 18:38:15.867 | INFO     | query_service.py:231 | src.ade.knowledge_graph.service.query_service:query - QueryService | 上下文构建完成 | entities=1 relations=10
+2026-07-01 18:38:15.868 | DEBUG    | rate_limited_model.py:244 | src.utils.model_enhancements.rate_limited_model:_acquire_all_limits - acquire_all_limits: model_key=bailian:qwen3.6-35b-a3b, provider=bailian, concurrency=None, rps=None, rpm=1000
+2026-07-01 18:38:23.093 | INFO     | query_service.py:248 | src.ade.knowledge_graph.service.query_service:query - QueryService | 查询完成 | folder_id=TASK-XX
+2026-07-01 18:38:23.094 | INFO     | stopwatch.py:261 | src.utils.stopwatch:print - 
+StopWatch 'QueryService-TASK-XX': 总耗时 = 7.8 秒
+--------------------------------------------------------------------------------
+        耗时 |      占比 | 任务名称                           | 详情                  
+--------------------------------------------------------------------------------
+       7.8 秒 |   100.0% | query                          | folder_id=TASK-XX   
+      66.9 毫秒 |     0.9% | ├─ get_graph                    |                     
+       0.0 毫秒 |     0.0% | ├─ detect_relation_types        |                     
+     307.9 毫秒 |     4.0% | ├─ extract_entity_keywords      |                     
+      13.2 毫秒 |     0.2% | ├─ keyword_entity_search        | keywords=1, entities=1
+       3.4 毫秒 |     0.0% | ├─ embed_query_text             |                     
+       8.8 毫秒 |     0.1% | ├─ vector_search_relations      |                     
+       0.1 毫秒 |     0.0% | ├─ expand_relations             | relations=10        
+     126.1 毫秒 |     1.6% | ├─ build_context                | entities=1, relations=10
+       7.2 秒 |    93.2% | ├─ llm_invoke                   |                     
+2026-07-01 18:38:23.209 | INFO     | query_service.py:142 | src.ade.knowledge_graph.service.query_service:query - QueryService | 检测到关系类型触发词 | types=保证人, 法定代表
+2026-07-01 18:38:23.210 | INFO     | query_service.py:151 | src.ade.knowledge_graph.service.query_service:query - QueryService | 优先加入项目实体 | entity=测试知识库
+2026-07-01 18:38:23.212 | DEBUG    | rate_limited_model.py:244 | src.utils.model_enhancements.rate_limited_model:_acquire_all_limits - acquire_all_limits: model_key=bailian:qwen3.6-35b-a3b, provider=bailian, concurrency=None, rps=None, rpm=1000
+2026-07-01 18:38:23.556 | DEBUG    | query_service.py:82 | src.ade.knowledge_graph.service.query_service:extract_entity_keywords - QueryService | LLM实体关键词提取完成 | query=的是？, keywords=[]
+2026-07-01 18:38:23.561 | INFO     | embed_service.py:93 | src.ade.knowledge_graph.service.embed_service:embed_texts - EmbedService | 向量化完成 | total=1, cached=1, model=Qwen3-Embedding-4B-NVFP4
+2026-07-01 18:38:23.563 | WARNING  | tokenizer.py:113 | src.utils.tokenizer:_try_init_qwen_official - 未找到可用 Qwen tokenizer.json，已回退 tiktoken。可设置 QWEN_TOKENIZER_JSON_PATH，或放在 D:\yusys_ai\config\tokenizers\qwen3_5\tokenizer.json
+2026-07-01 18:38:23.564 | INFO     | tokenizer.py:71 | src.utils.tokenizer:__init__ - Tokenizer 'o200k_base' 已就绪
+2026-07-01 18:38:23.565 | INFO     | openai_reranker.py:56 | src.applications.rag.adapters.rerankers.openai_reranker:arerank - Reranker 请求: model=qwen3-reranker-4b-awq-int4, top_k=2, docs_count=2
+2026-07-01 18:38:23.627 | INFO     | openai_reranker.py:71 | src.applications.rag.adapters.rerankers.openai_reranker:arerank - Reranker 返回: results_count=2
+2026-07-01 18:38:23.628 | INFO     | query_service.py:309 | src.ade.knowledge_graph.service.query_service:_build_context_with_token_allocation - QueryService | 原始文本rerank完成 | original_count=2, reranked_count=2
+2026-07-01 18:38:23.629 | INFO     | query_service.py:360 | src.ade.knowledge_graph.service.query_service:_build_context_with_token_allocation - QueryService | 实际Token使用 | total=192 / 8000
+2026-07-01 18:38:23.630 | INFO     | query_service.py:231 | src.ade.knowledge_graph.service.query_service:query - QueryService | 上下文构建完成 | entities=1 relations=8
+2026-07-01 18:38:23.632 | DEBUG    | rate_limited_model.py:244 | src.utils.model_enhancements.rate_limited_model:_acquire_all_limits - acquire_all_limits: model_key=bailian:qwen3.6-35b-a3b, provider=bailian, concurrency=None, rps=None, rpm=1000
+2026-07-01 18:38:25.090 | INFO     | query_service.py:248 | src.ade.knowledge_graph.service.query_service:query - QueryService | 查询完成 | folder_id=TASK-XX
+2026-07-01 18:38:25.091 | INFO     | stopwatch.py:261 | src.utils.stopwatch:print - 
+StopWatch 'QueryService-TASK-XX': 总耗时 = 2.0 秒
+--------------------------------------------------------------------------------
+        耗时 |      占比 | 任务名称                           | 详情                  
+--------------------------------------------------------------------------------
+       2.0 秒 |   100.0% | query                          | folder_id=TASK-XX   
+     105.3 毫秒 |     5.3% | ├─ get_graph                    |                     
+       0.8 毫秒 |     0.0% | ├─ detect_relation_types        |                     
+     346.6 毫秒 |    17.4% | ├─ extract_entity_keywords      |                     
+       4.0 毫秒 |     0.2% | ├─ embed_query_text             |                     
+       1.4 毫秒 |     0.1% | ├─ vector_search_relations      |                     
+       0.0 毫秒 |     0.0% | ├─ expand_relations             | relations=8         
+      67.4 毫秒 |     3.4% | ├─ build_context                | entities=1, relations=8
+       1.5 秒 |    73.4% | ├─ llm_invoke                   |                     
+2026-07-01 18:38:25.240 | INFO     | query_service.py:142 | src.ade.knowledge_graph.service.query_service:query - QueryService | 检测到关系类型触发词 | types=保证人, 高管任职
+2026-07-01 18:38:25.241 | INFO     | query_service.py:151 | src.ade.knowledge_graph.service.query_service:query - QueryService | 优先加入项目实体 | entity=测试知识库
+2026-07-01 18:38:25.243 | DEBUG    | rate_limited_model.py:244 | src.utils.model_enhancements.rate_limited_model:_acquire_all_limits - acquire_all_limits: model_key=bailian:qwen3.6-35b-a3b, provider=bailian, concurrency=None, rps=None, rpm=1000
+2026-07-01 18:38:25.577 | DEBUG    | query_service.py:82 | src.ade.knowledge_graph.service.query_service:extract_entity_keywords - QueryService | LLM实体关键词提取完成 | query=公司的有哪些？, keywords=[]
+2026-07-01 18:38:25.584 | INFO     | embed_service.py:93 | src.ade.knowledge_graph.service.embed_service:embed_texts - EmbedService | 向量化完成 | total=1, cached=1, model=Qwen3-Embedding-4B-NVFP4
+2026-07-01 18:38:25.594 | WARNING  | tokenizer.py:113 | src.utils.tokenizer:_try_init_qwen_official - 未找到可用 Qwen tokenizer.json，已回退 tiktoken。可设置 QWEN_TOKENIZER_JSON_PATH，或放在 D:\yusys_ai\config\tokenizers\qwen3_5\tokenizer.json
+2026-07-01 18:38:25.595 | INFO     | tokenizer.py:71 | src.utils.tokenizer:__init__ - Tokenizer 'o200k_base' 已就绪
+2026-07-01 18:38:25.596 | INFO     | openai_reranker.py:56 | src.applications.rag.adapters.rerankers.openai_reranker:arerank - Reranker 请求: model=qwen3-reranker-4b-awq-int4, top_k=3, docs_count=3
+2026-07-01 18:38:25.658 | INFO     | openai_reranker.py:71 | src.applications.rag.adapters.rerankers.openai_reranker:arerank - Reranker 返回: results_count=3
+2026-07-01 18:38:25.659 | INFO     | query_service.py:309 | src.ade.knowledge_graph.service.query_service:_build_context_with_token_allocation - QueryService | 原始文本rerank完成 | original_count=3, reranked_count=3
+2026-07-01 18:38:25.661 | INFO     | query_service.py:360 | src.ade.knowledge_graph.service.query_service:_build_context_with_token_allocation - QueryService | 实际Token使用 | total=224 / 8000
+2026-07-01 18:38:25.662 | INFO     | query_service.py:231 | src.ade.knowledge_graph.service.query_service:query - QueryService | 上下文构建完成 | entities=1 relations=9
+2026-07-01 18:38:25.664 | DEBUG    | rate_limited_model.py:244 | src.utils.model_enhancements.rate_limited_model:_acquire_all_limits - acquire_all_limits: model_key=bailian:qwen3.6-35b-a3b, provider=bailian, concurrency=None, rps=None, rpm=1000
+2026-07-01 18:38:28.428 | INFO     | query_service.py:248 | src.ade.knowledge_graph.service.query_service:query - QueryService | 查询完成 | folder_id=TASK-XX
+2026-07-01 18:38:28.428 | INFO     | stopwatch.py:261 | src.utils.stopwatch:print - 
+StopWatch 'QueryService-TASK-XX': 总耗时 = 3.3 秒
+--------------------------------------------------------------------------------
+        耗时 |      占比 | 任务名称                           | 详情                  
+--------------------------------------------------------------------------------
+       3.3 秒 |   100.0% | query                          | folder_id=TASK-XX   
+     136.7 毫秒 |     4.1% | ├─ get_graph                    |                     
+       1.1 毫秒 |     0.0% | ├─ detect_relation_types        |                     
+     336.6 毫秒 |    10.1% | ├─ extract_entity_keywords      |                     
+      10.0 毫秒 |     0.3% | ├─ embed_query_text             |                     
+       3.8 毫秒 |     0.1% | ├─ vector_search_relations      |                     
+       0.1 毫秒 |     0.0% | ├─ expand_relations             | relations=9         
+      68.8 毫秒 |     2.1% | ├─ build_context                | entities=1, relations=9
+       2.8 秒 |    83.2% | ├─ llm_invoke                   |                     

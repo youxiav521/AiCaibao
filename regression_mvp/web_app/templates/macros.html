@@ -1,0 +1,3 @@
+{% macro artifact_link(href, label, download=false) -%}
+<a href="{{ href }}" target="_blank" rel="noopener"{% if download %} download{% endif %}>{{ artifact_label(label) }}</a>
+{%- endmacro %}

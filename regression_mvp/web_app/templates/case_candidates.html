@@ -1,0 +1,165 @@
+{% extends "layout.html" %}
+{% from "macros.html" import artifact_link %}
+
+{% block title %}候选用例{% endblock %}
+
+{% block content %}
+{% if job.status == "running" %}
+<meta http-equiv="refresh" content="5">
+{% endif %}
+
+<section class="section">
+  <div class="section-head">
+    <h2>生成候选用例</h2>
+    <span class="status {{ job.status }}">{{ job.status }}</span>
+  </div>
+  {% if error %}
+  <p class="error-text">{{ error }}</p>
+  {% endif %}
+  {% if error_diagnostic %}
+  <div class="diagnostic diagnostic-{{ error_diagnostic.severity }}">
+    <div class="section-head">
+      <h3>{{ error_diagnostic.title }}</h3>
+      <span class="status {{ error_diagnostic.severity }}">{{ error_diagnostic.category }}</span>
+    </div>
+    <p>{{ error_diagnostic.reason }}</p>
+    <ul>
+      {% for step in error_diagnostic.next_steps %}
+      <li>{{ step }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  {% if job.message %}
+  <p class="muted">{{ job.message }}</p>
+  {% endif %}
+  {% if job.total %}
+  <div class="summary-grid candidate-progress">
+    <div><span>总数</span><strong>{{ job.total }}</strong></div>
+    <div><span>成功</span><strong>{{ job.completed }}</strong></div>
+    <div><span>失败</span><strong>{{ job.failed }}</strong></div>
+    <div><span>当前</span><strong>{{ job.case_name or "-" }}</strong></div>
+  </div>
+  {% endif %}
+  {% if job.errors %}
+  <pre class="log">{{ job.errors | join("\n") }}</pre>
+  {% endif %}
+  {% if job.diagnostic %}
+  <div class="diagnostic diagnostic-{{ job.diagnostic.severity }}">
+    <div class="section-head">
+      <h3>{{ job.diagnostic.title }}</h3>
+      <span class="status {{ job.diagnostic.severity }}">{{ job.diagnostic.category }}</span>
+    </div>
+    <p>{{ job.diagnostic.reason }}</p>
+    <ul>
+      {% for step in job.diagnostic.next_steps %}
+      <li>{{ step }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  <form class="case-form upload-form" method="post" action="/case-candidates/generate" enctype="multipart/form-data">
+    <label>
+      接口
+      <select name="endpoint" required {% if job.status == "running" %}disabled{% endif %}>
+        {% for endpoint in endpoints %}
+        <option value="{{ endpoint }}">{{ endpoint }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>
+      上传文件
+      <input type="file" name="upload_file" multiple {% if job.status == "running" %}disabled{% endif %}>
+    </label>
+    <label>
+      备用路径
+      <input name="input_file" placeholder="D:\path\to\sample.pdf" {% if job.status == "running" %}disabled{% endif %}>
+    </label>
+    <label>
+      用例名称
+      <input name="case_name" placeholder="单文件用例名 / 批量前缀" {% if job.status == "running" %}disabled{% endif %}>
+    </label>
+    <label>
+      说明
+      <input name="description" placeholder="财报元数据抽取回归用例" {% if job.status == "running" %}disabled{% endif %}>
+    </label>
+    <button type="submit" {% if job.status == "running" %}disabled{% endif %}>生成候选</button>
+  </form>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>候选用例</h2>
+    <div class="head-actions">
+      <span class="muted">{{ candidates|length }} 条 · MinIO {{ sync_info.bucket }}</span>
+      <form class="inline-form" method="post" action="/case-candidates/sync-minio">
+        <button class="secondary" type="submit">从 MinIO 刷新</button>
+      </form>
+      <form class="inline-form" method="post" action="/case-candidates/upload-minio">
+        <button class="secondary" type="submit">上传本地到 MinIO</button>
+      </form>
+    </div>
+  </div>
+  <div class="table-wrap">
+    <table class="candidate-table">
+      <colgroup>
+        <col style="width: 220px;">
+        <col style="width: 150px;">
+        <col style="width: 190px;">
+        <col style="width: 100px;">
+        <col style="width: 270px;">
+        <col style="width: 210px;">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>候选</th>
+          <th>接口</th>
+          <th>用例</th>
+          <th>状态</th>
+          <th>文件预览</th>
+          <th>固化</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for candidate in candidates %}
+        <tr>
+          <td class="case-name-cell candidate-text-cell"><a href="/case-candidates/{{ candidate.name }}">{{ candidate.name }}</a></td>
+          <td class="candidate-text-cell">{{ candidate.endpoint }}</td>
+          <td class="candidate-text-cell">{{ candidate.case_name }}</td>
+          <td>
+            {% if candidate.promoted %}
+            <span class="status success">promoted</span>
+            {% else %}
+            <span class="status warning">{{ candidate.review_status or "pending" }}</span>
+            {% endif %}
+          </td>
+          <td class="links candidate-artifacts">
+            {{ artifact_link(file_url(candidate.candidate_yaml), "candidate.yaml") }}
+            {% if candidate.input_file %}{{ artifact_link(pdf_url(candidate.input_file), "input") }}{% endif %}
+            {% if candidate.expected_file %}{{ artifact_link(file_url(candidate.expected_file), "expected") }}{% endif %}
+            {% if candidate.preview_artifacts %}
+              {% for artifact in candidate.preview_artifacts %}
+              {{ artifact_link(file_url(artifact.path), artifact.label) }}
+              {% endfor %}
+            {% else %}
+            <span class="muted">暂无预览</span>
+            {% endif %}
+          </td>
+          <td class="candidate-promote-cell">
+            <div class="candidate-promote-actions">
+              <form class="inline-form promote-form" method="post" action="/case-candidates/{{ candidate.name }}/promote">
+                <button type="submit">promote</button>
+                <label class="checkline"><input type="checkbox" name="force"> 覆盖</label>
+              </form>
+              <form class="inline-form promote-form" method="post" action="/case-candidates/{{ candidate.name }}/discard" onsubmit="return confirm('确认丢弃这个候选用例？如果它已经固化为正式用例，正式用例不会被删除；但候选文件、候选预览产物和 MinIO 远端候选对象会被清理，无法在页面中恢复。');">
+                <button class="danger" type="submit">丢弃</button>
+              </form>
+            </div>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

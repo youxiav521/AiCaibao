@@ -1,0 +1,127 @@
+# 使用 uv 管理依赖
+
+[project]
+name = "yusys_ai"
+version = "0.1.0"
+description = "Yusys AI Server"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "gunicorn", # for production deployment
+    "python-dotenv",
+    "python-multipart",
+    "pydantic",
+    "portalocker",
+    "loguru",
+    "nacos-sdk-python==2.0.9",
+    "httpx[socks]",
+    "pandas",
+    # LLM
+    "openai",
+    "tokenizers>=0.20.0",
+    "dashscope", # 阿里云通义千问 SDK
+    # langgarph
+    "langchain[openai]==1.0.5",
+    "langgraph==1.0.2",
+    "langgraph-prebuilt==1.0.8", # keep in sync with langgraph to avoid runtime import mismatches
+    "langchain_openai",
+    "langchain-community",
+    "langchain-milvus",
+    # Agent
+    "langfuse==3.9.3",
+    "json_repair",
+    "orjson",
+    "markitdown>=0.1.4",
+    "olefile==0.47",
+    "markdown>=3.10",
+    # document parsing
+    "pymupdf",
+    "python-docx",
+    "openpyxl==3.1.5",
+    # RAG / Retrieval
+    "pymilvus[milvus-lite]>=2.4",
+    "rank-bm25",
+    "minio",
+    # MCP 服务
+    "fastmcp>=2.3",  
+    # 功能
+    "numpy",
+    "rapidfuzz>=3.0",
+    "jieba==0.42.1",
+    "prometheus-fastapi-instrumentator==7.1.0",
+    "mammoth>=1.11.0",
+    "fast-langdetect>=1.0.0",
+    "matplotlib",
+    # OpenTelemetry 自动仪器化
+    "opentelemetry-distro>=0.50b0",
+    "opentelemetry-exporter-otlp>=1.30.0",
+    "opentelemetry-instrumentation-fastapi>=0.50b0",
+    "opentelemetry-instrumentation-httpx>=0.50b0",
+    "opentelemetry-instrumentation-requests>=0.50b0",
+    "opentelemetry-instrumentation-openai>=0.50b0",
+    "opentelemetry-instrumentation-langchain>=0.50.1",
+    "opentelemetry-instrumentation-milvus>=0.50.1",
+    # ES支持
+    "langchain-elasticsearch>=1.0.0",
+    "elasticsearch>=8.19.3",
+    "jinja2",
+    "docx2pdf",
+    "xlrd==1.2.0",
+    # 异步任务队列 + Redis（arq 的底层依赖，显式声明以避免隐性依赖风险）
+    "arq>=0.25",
+    "redis>=5.0",
+    "nebula3-python==3.8.3",
+    # 系统进程检测，用于日志系统判断运行环境
+    "psutil>=5.9.0",
+    "limits[redis]>=5.8.0",
+    "tenacity>=9.1.4",
+    "coredis>=6.6.1",
+    # 繁体→简体中文转换（纯 Python，无 C 依赖）
+    "opencc-python-reimplemented>=0.1.7",
+    "spire-doc>=14.4.2",
+    "docxcompose>=2.1.0",
+    "pytest>=9.0.3",
+    "gmssl>=3.2.2",
+]
+
+[dependency-groups]
+
+############################################################
+# 只在本地使用 uv sync --group dev(tasks.json中默认)的时候生效
+# 默认发布版本中不报告以下依赖.
+############################################################
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    # "pytest-cov",
+    "ipywidgets",
+    "ipykernel",
+    "deepeval",
+    "ragas",
+    "datasets",
+]
+
+############################################################
+# .coder_venv 代码执行器专用依赖分组
+# 用于独立虚拟环境中执行用户代码，版本固定确保可重复构建
+# 注意：coder 分组仅用于 .coder_venv 虚拟环境，不影响主项目依赖
+# 由于 uv lock 会为所有 Python 版本解析依赖，这里使用范围版本避免冲突
+# Docker 和本地脚本使用 `--python .coder_venv/bin/python` 单独安装
+############################################################
+coder = [
+    # pandas: 2.x 版本，实际安装版本由 uv 解析确定
+    "pandas>=2.1.0,<3.0.0",
+    # numpy: Python <3.13 使用 1.x，Python >=3.13 使用 2.x
+    "numpy>=1.26.0,<3.0.0",
+]
+
+[tool.uv]
+default-groups = []
+index-url = "https://mirrors.aliyun.com/pypi/simple/"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+asyncio_mode = "auto"
+addopts = "-v"

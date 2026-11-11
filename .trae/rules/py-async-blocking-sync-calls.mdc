@@ -1,0 +1,35 @@
+---
+description: 在 async 函数中发现同步阻塞调用时，必须给出性能警告与优化替代方案（Python / src）
+globs: src/**/*.py
+alwaysApply: false
+---
+
+# Async 中误用同步阻塞调用（性能警告）
+
+当你在 `async def` / 异步回调 / 异步任务链路里发现**同步阻塞**调用（没有 `await`，且会占用事件循环线程）时，必须：
+
+- **明确警告**：这会阻塞 event loop，导致吞吐下降、尾延迟上升、并发退化（看似“async”但实际串行）。
+- **指出阻塞点**：标出具体调用/库/语句位置。
+- **给出可落地替代方案**：优先“原生 async 客户端/库”，其次“隔离到线程/进程”，并说明取舍。
+
+## 典型阻塞点（看到就要怀疑/提示）
+
+- **网络 I/O 同步库**：`requests.*`、`urllib.request.*`、同步 `httpx.Client`
+- **数据库/缓存同步驱动**：`psycopg2`、同步 `sqlalchemy` engine、`pymysql`、`redis.Redis`（非 asyncio 客户端）
+- **文件 I/O**：`open().read()/write()`、大文件读写、`pathlib.Path.read_text()`（在高并发路径）
+- **睡眠/等待**：`time.sleep(...)`
+- **子进程**：`subprocess.run/check_call/Popen(...).communicate()`、`os.system(...)`
+- **CPU/重计算**：大循环、压缩/加密/图像处理、`pandas` 大计算（会卡住 event loop）
+- **LangGraph / LangChain 可运行对象**：在 `async` 中调用同步 `invoke()` / `batch()`（应优先用 `ainvoke()` / `abatch()` / `astream()`）
+- **大模型 SDK 同步调用**（HTTP 远程请求，常见于 `client.*.create(...)` / `chat.completions.create(...)` / `responses.create(...)` 等同步方法）：在 `async` 中直接调用会阻塞 event loop
+
+## 推荐修复方式（按优先级）
+
+1) **用真正的异步库/接口（优先）**
+2) **无法替换时，把同步阻塞隔离出事件循环**
+
+## 输出要求（你写/评审代码时的提醒模板）
+
+- **问题**：在 `async` 上下文中调用了同步阻塞方法 `<call>`（位于 `<file>:<line>`），会阻塞事件循环。
+- **影响**：并发退化、请求排队、尾延迟增加；在高负载下可能表现为“卡顿/超时”。
+- **建议**：用 `<async_alternative>` 替代；若短期不可替换，用 `asyncio.to_thread(...)`/executor 隔离，并评估线程池大小与背压。

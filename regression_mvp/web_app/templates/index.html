@@ -1,0 +1,112 @@
+{% extends "layout.html" %}
+{% from "macros.html" import artifact_link %}
+
+{% block title %}总览 - 回归测试管理页{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <h2>环境检查</h2>
+    {% if environment.api_ok %}
+    <span class="status success">API OK</span>
+    {% else %}
+    <span class="status failed">API 异常</span>
+    {% endif %}
+  </div>
+  <div class="summary-grid">
+    <div><span>Swagger</span><strong>{{ "可访问" if environment.api_ok else "不可访问" }}</strong></div>
+    <div><span>被测 API</span><strong>{{ environment.api_base_url }}</strong></div>
+    <div><span>检查地址</span><strong>{{ environment.swagger_url }}</strong></div>
+    <div><span>API</span><strong>{{ "已启动" if environment.api_ok else "未确认" }}</strong></div>
+    <div><span>提示</span><strong>{{ environment.message or "-" }}</strong></div>
+  </div>
+  {% if environment.diagnostic %}
+  <div class="diagnostic diagnostic-{{ environment.diagnostic.severity }}">
+    <h3>{{ environment.diagnostic.title }}</h3>
+    <p>{{ environment.diagnostic.reason }}</p>
+  </div>
+  {% endif %}
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>执行入口</h2>
+    {% if run_status.is_running %}
+    <span class="status warning">running</span>
+    {% else %}
+    <span class="muted">{{ run_status.message or "空闲" }}</span>
+    {% endif %}
+  </div>
+  <form class="target-run-form" method="post" action="/run/selected">
+    <div class="target-grid">
+      {% for target in run_targets %}
+      <label class="target-option method-{{ target.method|lower }}">
+        <input type="checkbox" name="targets" value="{{ target.endpoint }}" checked {% if run_status.is_running %}disabled{% endif %}>
+        <span class="target-main">
+          <span class="method-badge">{{ target.method }}</span>
+          <span>
+            <strong><code>{{ target.path }}</code></strong>
+            <small>{{ target.description }}</small>
+          </span>
+        </span>
+        <span class="target-meta">{{ target.enabled_count }} 启用 / {{ target.case_count }} 用例</span>
+      </label>
+      {% endfor %}
+    </div>
+    <div class="actions">
+      <button type="submit" {% if run_status.is_running %}disabled{% endif %}>运行选中接口</button>
+      <a href="/run">查看运行状态</a>
+      {{ artifact_link(file_url(dashboard_path), "打开 Dashboard") }}
+      {% if run_status.summary_report_path %}{{ artifact_link(file_url(run_status.summary_report_path), "接口汇总报告") }}{% endif %}
+    </div>
+  </form>
+</section>
+
+<section class="stats">
+  <div class="stat"><span>接口数</span><strong>{{ latest|length }}</strong></div>
+  <div class="stat"><span>用例数</span><strong>{{ case_count }}</strong></div>
+  <div class="stat"><span>启用用例</span><strong>{{ enabled_case_count }}</strong></div>
+  <div class="stat"><span>最近运行</span><strong>{{ run_status.status }}</strong></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>最近接口状态</h2>
+    <a href="/reports">查看全部报告</a>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>接口</th>
+          <th>运行批次</th>
+          <th>状态</th>
+          <th>通过率</th>
+          <th>通过</th>
+          <th>失败</th>
+          <th>差异</th>
+          <th>耗时</th>
+          <th>报告</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in latest %}
+        <tr>
+          <td>{{ row.endpoint }}</td>
+          <td><a href="/reports/{{ row.endpoint }}/{{ row.run_id }}">{{ row.run_id }}</a></td>
+          <td><span class="status {{ row.status }}">{{ row.status }}</span></td>
+          <td>{{ "%.1f"|format(row.pass_rate * 100) }}%</td>
+          <td>{{ row.passed_cases }}</td>
+          <td>{{ row.failed_cases }}</td>
+          <td>{{ row.total_diffs }}</td>
+          <td>{{ "%.2f"|format(row.total_duration_seconds or 0) }}s</td>
+          <td class="links">
+            {% if row.report_html_path %}{{ artifact_link(file_url(row.report_html_path), "HTML") }}{% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,51 @@
+You are a professional document-retrieval expert. From the document pieces in the following block, select the pieces that are most helpful for answering the question.
+
+Block {{block_index}} contains {{total_pieces}} document pieces:
+
+{{pieces_content}}
+
+Question: {{question}}
+
+# Requirements
+- Carefully analyze the relevance between the question and each document piece.
+- Select only genuinely relevant pieces.
+- Provide a clear reason for each selected piece.
+- Score relevance objectively on a scale from 1 to 10.
+- Every selected `piece_index` must come from the provided list. Do not invent indices.
+
+# Relevance Scale
+- 9-10: highly relevant, contains the direct answer or key evidence
+- 7-8: relevant, contains partially useful information
+- 5-6: somewhat related, but limited in value
+- 1-4: weakly related or irrelevant
+
+# Output Format
+Return a JSON object with exactly these keys:
+`selected_pieces`: a list of selected document pieces, where each item contains:
+  - `piece_index`: piece index starting from 1
+  - `relevance_score`: relevance score from 1 to 10
+  - `selection_reason`: explain how the piece helps answer the question
+
+# Example
+```json
+{
+  "selected_pieces": [
+    {
+      "piece_index": 2,
+      "relevance_score": 9,
+      "selection_reason": "This piece contains the key financial data needed to answer the question directly."
+    },
+    {
+      "piece_index": 5,
+      "relevance_score": 7,
+      "selection_reason": "This piece does not contain the final answer directly, but it provides useful context."
+    }
+  ]
+}
+```
+
+Make sure that:
+- You select only genuinely relevant pieces.
+- Each reason is clear and concise.
+- The score is objective.
+- Every selected `piece_index` must come from the given list.

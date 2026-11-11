@@ -1,0 +1,129 @@
+{% extends "layout.html" %}
+
+{% block title %}可视化编辑标准答案{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <h2>可视化编辑标准答案</h2>
+    <span class="muted">{{ case.name }}</span>
+  </div>
+  {% if error %}
+  <p class="error-text">{{ error }}</p>
+  {% endif %}
+  <form method="post" class="preview-editor-form">
+    <div class="visual-editor-actions">
+      <button type="submit">保存</button>
+      <a class="button-link secondary" href="{{ cancel_url or '/cases?endpoint=' ~ case.endpoint }}">取消</a>
+      <a class="button-link secondary" href="{{ json_url or '/cases/' ~ (case.endpoint | urlencode) ~ '/' ~ (case.case_name | urlencode) ~ '/edit-json' }}">JSON 编辑</a>
+    </div>
+
+    <div class="editable-preview">
+      {% for item in items %}
+      {% set item_index = loop.index0 %}
+      <section class="editable-item">
+        <div class="editable-meta">
+          <span>Item {{ loop.index }}</span>
+          <span>type={{ item.type or "unknown" }}</span>
+          <span>page={{ item.page or "-" }}</span>
+          <details>
+            <summary>元数据</summary>
+            <div class="visual-fields compact">
+              <label>
+                类型
+                <input name="item__{{ item_index }}__type" value="{{ item.type or '' }}">
+              </label>
+              <label>
+                页码
+                <input type="number" name="item__{{ item_index }}__page" value="{{ item.page or '' }}">
+              </label>
+              {% if item.headingLevel is defined %}
+              <label>
+                标题级别
+                <input type="number" name="item__{{ item_index }}__headingLevel" value="{{ item.headingLevel or '' }}">
+              </label>
+              {% endif %}
+              {% if item.bBox is mapping %}
+              <label>
+                左
+                <input type="number" step="0.01" name="item__{{ item_index }}__bbox__l" value="{{ item.bBox.l or '' }}">
+              </label>
+              <label>
+                上
+                <input type="number" step="0.01" name="item__{{ item_index }}__bbox__t" value="{{ item.bBox.t or '' }}">
+              </label>
+              <label>
+                右
+                <input type="number" step="0.01" name="item__{{ item_index }}__bbox__r" value="{{ item.bBox.r or '' }}">
+              </label>
+              <label>
+                下
+                <input type="number" step="0.01" name="item__{{ item_index }}__bbox__b" value="{{ item.bBox.b or '' }}">
+              </label>
+              {% endif %}
+            </div>
+          </details>
+        </div>
+
+        {% if item.type == "table" and item.rows %}
+        <div class="editable-table-wrap">
+          <table class="editable-preview-table">
+            <tbody>
+              {% for row in item.rows %}
+              {% set row_index = loop.index0 %}
+              <tr>
+                {% for cell in row %}
+                {% set col_index = loop.index0 %}
+                <td colspan="{{ cell.colspan or 1 }}" rowspan="{{ cell.rowspan or 1 }}">
+                  <div
+                    class="editable-text table-cell-editor"
+                    contenteditable="true"
+                    data-target="cell__{{ item_index }}__rows__{{ row_index }}__{{ col_index }}__text"
+                  >{{ cell.text or "" }}</div>
+                  <input
+                    type="hidden"
+                    name="cell__{{ item_index }}__rows__{{ row_index }}__{{ col_index }}__text"
+                    value="{{ cell.text or '' }}"
+                  >
+                </td>
+                {% endfor %}
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        {% else %}
+        {% set text_value = item.md or item.value or "" %}
+        <div
+          class="editable-text paragraph-editor"
+          contenteditable="true"
+          data-target="item__{{ item_index }}__value,item__{{ item_index }}__md"
+        >{{ text_value }}</div>
+        <input type="hidden" name="item__{{ item_index }}__value" value="{{ text_value }}">
+        <input type="hidden" name="item__{{ item_index }}__md" value="{{ text_value }}">
+        {% endif %}
+      </section>
+      {% endfor %}
+    </div>
+
+    <div class="visual-editor-actions">
+      <button type="submit">保存</button>
+      <a class="button-link secondary" href="{{ cancel_url or '/cases?endpoint=' ~ case.endpoint }}">取消</a>
+    </div>
+  </form>
+</section>
+<script>
+  document.querySelectorAll("[contenteditable][data-target]").forEach((editor) => {
+    const sync = () => {
+      const value = editor.innerText.replace(/\r\n/g, "\n");
+      editor.dataset.target.split(",").forEach((name) => {
+        const input = document.getElementsByName(name)[0];
+        if (input) input.value = value;
+      });
+    };
+    editor.addEventListener("input", sync);
+    editor.addEventListener("blur", sync);
+    sync();
+  });
+</script>
+{% endblock %}

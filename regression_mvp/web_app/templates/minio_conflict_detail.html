@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+{% from "macros.html" import artifact_link %}
+
+{% block title %}冲突详情{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <div>
+      <h2>冲突详情</h2>
+      <p class="muted">{{ report.object_type }} / {{ report.case_id }}</p>
+    </div>
+    <div class="head-actions">
+      <a class="button-link secondary" href="/minio">返回 MinIO</a>
+      {{ artifact_link(file_url(report.path), "json") }}
+    </div>
+  </div>
+  <div class="summary-grid">
+    <div><span>生成时间</span><strong>{{ report.generated_at | beijing_time if report.generated_at else "-" }}</strong></div>
+    <div><span>对象类型</span><strong>{{ report.object_type }}</strong></div>
+    <div><span>版本变化</span><strong>{{ report.base_version or "-" }} → {{ report.remote_version or "-" }}</strong></div>
+    <div><span>冲突文件</span><strong>{{ report.entry_count }}</strong></div>
+  </div>
+  <div class="conflict-actions">
+    <form class="inline-form" method="post" action="/minio/conflicts/{{ report.name | urlencode }}/use_remote" onsubmit="return confirm('确认采用远端版本？本地该用例/候选目录会被远端 current 版本覆盖。');">
+      <button type="submit">采用远端</button>
+    </form>
+    <form class="inline-form" method="post" action="/minio/conflicts/{{ report.name | urlencode }}/force_local" onsubmit="return confirm('确认强制采用本地版本？当前本地目录会发布为 MinIO 新版本，覆盖远端 current 指针。');">
+      <button class="danger" type="submit">强制采用本地</button>
+    </form>
+    <form class="inline-form" method="post" action="/minio/conflicts/{{ report.name | urlencode }}/mark_handled" onsubmit="return confirm('确认仅标记已处理？该操作只隐藏冲突报告，不修改本地或远端文件。');">
+      <button class="secondary" type="submit">标记已处理</button>
+    </form>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>文件冲突</h2>
+    <span class="muted">{{ report.entry_count }} 个</span>
+  </div>
+  <div class="table-wrap">
+    <table class="conflict-table">
+      <thead>
+        <tr>
+          <th>文件路径</th>
+          <th>冲突类型</th>
+          <th>本地状态</th>
+          <th>远端状态</th>
+          <th>Base</th>
+          <th>Local</th>
+          <th>Remote</th>
+          <th>可选处理</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for entry in report.entries %}
+        <tr>
+          <td class="case-name-cell">{{ entry.path }}</td>
+          <td><span class="status {{ entry.severity }}">{{ entry.conflict_label }}</span></td>
+          <td>{{ entry.local_status }}</td>
+          <td>{{ entry.remote_status }}</td>
+          <td><code>{{ entry.base_sha256 }}</code></td>
+          <td><code>{{ entry.local_sha256 }}</code></td>
+          <td><code>{{ entry.remote_sha256 }}</code></td>
+          <td>
+            {% if entry.choices %}
+            <div class="links">
+              {% for choice in entry.choices %}
+              <span class="status muted-status">{{ choice }}</span>
+              {% endfor %}
+            </div>
+            {% else %}
+            <span class="muted">暂无</span>
+            {% endif %}
+          </td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="8" class="muted">该报告没有文件级冲突</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

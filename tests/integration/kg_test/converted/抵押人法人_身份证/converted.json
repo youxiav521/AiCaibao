@@ -1,0 +1,197 @@
+[
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 32.0,
+      "t": 34.0,
+      "r": 57.0,
+      "b": 39.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "姓名 许善东",
+    "md": "姓名 许善东",
+    "file_id": "kg_抵押人法人_身份证",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 86.0,
+      "t": 35.0,
+      "r": 117.0,
+      "b": 73.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "Portrait photo of a person (no visible text or symbols)",
+    "md": "Portrait photo of a person (no visible text or symbols)",
+    "img_path": "images/1ba2454a5a86002d7f0339cee86edb585023d727a1b7b1c0b43c0068c50858f3.jpg",
+    "file_id": "kg_抵押人法人_身份证",
+    "element_id": 2,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 32.0,
+      "t": 42.0,
+      "r": 67.0,
+      "b": 46.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "性别 男 民族 汉",
+    "md": "性别 男 民族 汉",
+    "file_id": "kg_抵押人法人_身份证",
+    "element_id": 3,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 32.0,
+      "t": 49.0,
+      "r": 75.0,
+      "b": 54.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "出生 1967 年 5 月 11 日",
+    "md": "出生 1967 年 5 月 11 日",
+    "file_id": "kg_抵押人法人_身份证",
+    "element_id": 4,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 32.0,
+      "t": 58.0,
+      "r": 84.0,
+      "b": 62.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "住址 广东省深圳市福田区润田",
+    "md": "住址 广东省深圳市福田区润田",
+    "file_id": "kg_抵押人法人_身份证",
+    "element_id": 5,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 43.0,
+      "t": 63.0,
+      "r": 81.0,
+      "b": 72.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "路21号港中旅花园19栋 704",
+    "md": "路21号港中旅花园19栋 704",
+    "file_id": "kg_抵押人法人_身份证",
+    "element_id": 6,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 111.0,
+      "t": 68.0,
+      "r": 159.0,
+      "b": 116.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司",
+    "md": "新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司\n新疆能源开发公司",
+    "img_path": "images/aa49e9c7c7b337e76475e67806b8a61df6b9863ff87c54439ae129785ba669b0.jpg",
+    "file_id": "kg_抵押人法人_身份证",
+    "element_id": 7,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 32.0,
+      "t": 77.0,
+      "r": 112.0,
+      "b": 106.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "公民身份号码 350211196705110013 中华人民共和国",
+    "md": "公民身份号码 350211196705110013 中华人民共和国",
+    "file_id": "kg_抵押人法人_身份证",
+    "element_id": 8,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 30.0,
+      "t": 99.0,
+      "r": 49.0,
+      "b": 120.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "Official emblem of the People's Republic of China, featuring a dome with stars and a central emblem (no text or symbols visible)",
+    "md": "Official emblem of the People's Republic of China, featuring a dome with stars and a central emblem (no text or symbols visible)",
+    "img_path": "images/bccb078b8b6da5e53be91c3506617f22c528ba17c4b0a3a8c0b54d032496c7aa.jpg",
+    "file_id": "kg_抵押人法人_身份证",
+    "element_id": 9,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 54.0,
+      "t": 109.0,
+      "r": 115.0,
+      "b": 119.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "居民身份证",
+    "md": "居民身份证",
+    "file_id": "kg_抵押人法人_身份证",
+    "element_id": 10,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 49.0,
+      "t": 138.0,
+      "r": 103.0,
+      "b": 142.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "签发机关 深圳市公安局福田分局",
+    "md": "签发机关 深圳市公安局福田分局",
+    "file_id": "kg_抵押人法人_身份证",
+    "element_id": 11,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 49.0,
+      "t": 146.0,
+      "r": 105.0,
+      "b": 150.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "有效期限 2008.11.07-2028.11.07",
+    "md": "有效期限 2008.11.07-2028.11.07",
+    "file_id": "kg_抵押人法人_身份证",
+    "element_id": 12,
+    "folder_id": null
+  }
+]

@@ -1,0 +1,7164 @@
+[
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 89.0,
+      "t": 88.0,
+      "r": 464.0,
+      "b": 112.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "电子报告提取码：100940154012025000203",
+    "md": "电子报告提取码：100940154012025000203",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "table",
+    "bBox": {
+      "l": 87.0,
+      "t": 82.0,
+      "r": 505.0,
+      "b": 734.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "项目名称",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(厂房B)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "城市",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "惠州市",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "行政区",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "惠阳区",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "楼盘",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(厂房B)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "楼栋号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(厂房B)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "单元号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "户号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "产权证号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "粤(2019)惠州市不动产权第3001040号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "证载地址",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(厂房B)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "房屋证载用途",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "/",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "建筑面积(m^{2})",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "3584.84",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "登记价(元)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "--",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "竣工日期",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "20180101",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "居室",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "厅",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "厨房",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "卫生间",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "抵押价值单价(元/m^{2})",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "1980",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "抵押价值(元)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "7097983",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "抵押净值1(元)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "6885044",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "抵押净值2(元)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "6097337",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "商铺类型",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "--",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "商铺租金(/月)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "--",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "房屋用途",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "工业",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "项目名称",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍B)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "城市",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "惠州市",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "行政区",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "惠阳区",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "楼盘",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍B)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "楼栋号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍B)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "单元号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "户号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "产权证号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "粤(2019)惠州市不动产权第3000940号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "证载地址",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍B)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "房屋证载用途",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 33,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "工业",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 33,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "建筑面积(m^{2})",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 34,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "1882.88",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 34,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "登记价(元)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 35,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "--",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 35,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "竣工日期",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 36,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "20180101",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 36,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "居室",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 37,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 37,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "厅",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 38,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 38,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "厨房",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 39,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 39,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "卫生间",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 40,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 40,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "抵押价值单价(元/m^{2})",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 41,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "2080",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 41,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "抵押价值(元)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 42,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "3916390",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 42,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "抵押净值1(元)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 43,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "3798898",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 43,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "抵押净值2(元)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 44,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "3364271",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 44,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "商铺类型",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 45,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "--",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 45,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "商铺租金(/月)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 46,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "--",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 46,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "房屋用途",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 47,
+          "colstart": 0,
+          "source_page_no": 3
+        },
+        {
+          "text": "工业",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 47,
+          "colstart": 1,
+          "source_page_no": 3
+        }
+      ],
+      [
+        {
+          "text": "项目名称",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 48,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍C)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 48,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "城市",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 49,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "惠州市",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 49,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "行政区",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 50,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "惠阳区",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 50,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "楼盘",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 51,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍C)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 51,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "楼栋号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 52,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍C)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 52,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "单元号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 53,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 53,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "户号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 54,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 54,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "产权证号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 55,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "粤(2019)惠州市不动产权第3000936号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 55,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "证载地址",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 56,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍C)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 56,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "房屋证载用途",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 57,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "一层活动室、二至五层宿舍",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 57,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "建筑面积(m^{2})",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 58,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "1674.28",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 58,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "登记价(元)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 59,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "--",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 59,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "竣工日期",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 60,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "20080101",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 60,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "居室",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 61,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 61,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "厅",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 62,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 62,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "厨房",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 63,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 63,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "卫生间",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 64,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 64,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "抵押价值单价(元/m^{2})",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 65,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "2080",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 65,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "抵押价值(元)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 66,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "3482502",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 66,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "抵押净值1(元)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 67,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "3378027",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 67,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "抵押净值2(元)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 68,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "2991553",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 68,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "商铺类型",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 69,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "--",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 69,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "商铺租金(/月)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 70,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "--",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 70,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "房屋用途",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 71,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "工业",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 71,
+          "colstart": 1,
+          "source_page_no": 4
+        }
+      ]
+    ],
+    "html": "<table><tr><td>项目名称</td><td>惠州市惠阳区秋长白石村地段(厂房B)</td></tr><tr><td>城市</td><td>惠州市</td></tr><tr><td>行政区</td><td>惠阳区</td></tr><tr><td>楼盘</td><td>惠州市惠阳区秋长白石村地段(厂房B)</td></tr><tr><td>楼栋号</td><td>惠州市惠阳区秋长白石村地段(厂房B)</td></tr><tr><td>单元号</td><td>0</td></tr><tr><td>户号</td><td>0</td></tr><tr><td>产权证号</td><td>粤(2019)惠州市不动产权第3001040号</td></tr><tr><td>证载地址</td><td>惠州市惠阳区秋长白石村地段(厂房B)</td></tr><tr><td>房屋证载用途</td><td>/</td></tr><tr><td>建筑面积(<eq>m^{2}</eq>)</td><td>3584.84</td></tr><tr><td>登记价(元)</td><td>--</td></tr><tr><td>竣工日期</td><td>20180101</td></tr><tr><td>居室</td><td>0</td></tr><tr><td>厅</td><td>0</td></tr><tr><td>厨房</td><td>0</td></tr><tr><td>卫生间</td><td>0</td></tr><tr><td>抵押价值单价(元/<eq>m^{2}</eq>)</td><td>1980</td></tr><tr><td>抵押价值(元)</td><td>7097983</td></tr><tr><td>抵押净值1(元)</td><td>6885044</td></tr><tr><td>抵押净值2(元)</td><td>6097337</td></tr><tr><td>商铺类型</td><td>--</td></tr><tr><td>商铺租金(/月)</td><td>--</td></tr><tr><td>房屋用途</td><td>工业</td></tr><tr><td>项目名称</td><td>惠州市惠阳区秋长白石村地段(宿舍B)</td></tr><tr><td>城市</td><td>惠州市</td></tr><tr><td>行政区</td><td>惠阳区</td></tr><tr><td>楼盘</td><td>惠州市惠阳区秋长白石村地段(宿舍B)</td></tr><tr><td>楼栋号</td><td>惠州市惠阳区秋长白石村地段(宿舍B)</td></tr><tr><td>单元号</td><td>0</td></tr><tr><td>户号</td><td>0</td></tr><tr><td>产权证号</td><td>粤(2019)惠州市不动产权第3000940号</td></tr><tr><td>证载地址</td><td>惠州市惠阳区秋长白石村地段(宿舍B)</td></tr><tr><td>房屋证载用途</td><td>工业</td></tr><tr><td>建筑面积(<eq>m^{2}</eq>)</td><td>1882.88</td></tr><tr><td>登记价(元)</td><td>--</td></tr><tr><td>竣工日期</td><td>20180101</td></tr><tr><td>居室</td><td>0</td></tr><tr><td>厅</td><td>0</td></tr><tr><td>厨房</td><td>0</td></tr><tr><td>卫生间</td><td>0</td></tr><tr><td>抵押价值单价(元/<eq>m^{2}</eq>)</td><td>2080</td></tr><tr><td>抵押价值(元)</td><td>3916390</td></tr><tr><td>抵押净值1(元)</td><td>3798898</td></tr><tr><td>抵押净值2(元)</td><td>3364271</td></tr><tr><td>商铺类型</td><td>--</td></tr><tr><td>商铺租金(/月)</td><td>--</td></tr><tr><td>房屋用途</td><td>工业</td></tr><tr><td>项目名称</td><td>惠州市惠阳区秋长白石村地段(宿舍C)</td></tr><tr><td>城市</td><td>惠州市</td></tr><tr><td>行政区</td><td>惠阳区</td></tr><tr><td>楼盘</td><td>惠州市惠阳区秋长白石村地段(宿舍C)</td></tr><tr><td>楼栋号</td><td>惠州市惠阳区秋长白石村地段(宿舍C)</td></tr><tr><td>单元号</td><td>0</td></tr><tr><td>户号</td><td>0</td></tr><tr><td>产权证号</td><td>粤(2019)惠州市不动产权第3000936号</td></tr><tr><td>证载地址</td><td>惠州市惠阳区秋长白石村地段(宿舍C)</td></tr><tr><td>房屋证载用途</td><td>一层活动室、二至五层宿舍</td></tr><tr><td>建筑面积(<eq>m^{2}</eq>)</td><td>1674.28</td></tr><tr><td>登记价(元)</td><td>--</td></tr><tr><td>竣工日期</td><td>20080101</td></tr><tr><td>居室</td><td>0</td></tr><tr><td>厅</td><td>0</td></tr><tr><td>厨房</td><td>0</td></tr><tr><td>卫生间</td><td>0</td></tr><tr><td>抵押价值单价(元/<eq>m^{2}</eq>)</td><td>2080</td></tr><tr><td>抵押价值(元)</td><td>3482502</td></tr><tr><td>抵押净值1(元)</td><td>3378027</td></tr><tr><td>抵押净值2(元)</td><td>2991553</td></tr><tr><td>商铺类型</td><td>--</td></tr><tr><td>商铺租金(/月)</td><td>--</td></tr><tr><td>房屋用途</td><td>工业</td></tr></table>",
+    "md": "| 项目名称 | 惠州市惠阳区秋长白石村地段(厂房B) |\n| --- | --- |\n| 城市 | 惠州市 |\n| 行政区 | 惠阳区 |\n| 楼盘 | 惠州市惠阳区秋长白石村地段(厂房B) |\n| 楼栋号 | 惠州市惠阳区秋长白石村地段(厂房B) |\n| 单元号 | 0 |\n| 户号 | 0 |\n| 产权证号 | 粤(2019)惠州市不动产权第3001040号 |\n| 证载地址 | 惠州市惠阳区秋长白石村地段(厂房B) |\n| 房屋证载用途 | / |\n| 建筑面积(m^{2}) | 3584.84 |\n| 登记价(元) | -- |\n| 竣工日期 | 20180101 |\n| 居室 | 0 |\n| 厅 | 0 |\n| 厨房 | 0 |\n| 卫生间 | 0 |\n| 抵押价值单价(元/m^{2}) | 1980 |\n| 抵押价值(元) | 7097983 |\n| 抵押净值1(元) | 6885044 |\n| 抵押净值2(元) | 6097337 |\n| 商铺类型 | -- |\n| 商铺租金(/月) | -- |\n| 房屋用途 | 工业 |\n| 项目名称 | 惠州市惠阳区秋长白石村地段(宿舍B) |\n| 城市 | 惠州市 |\n| 行政区 | 惠阳区 |\n| 楼盘 | 惠州市惠阳区秋长白石村地段(宿舍B) |\n| 楼栋号 | 惠州市惠阳区秋长白石村地段(宿舍B) |\n| 单元号 | 0 |\n| 户号 | 0 |\n| 产权证号 | 粤(2019)惠州市不动产权第3000940号 |\n| 证载地址 | 惠州市惠阳区秋长白石村地段(宿舍B) |\n| 房屋证载用途 | 工业 |\n| 建筑面积(m^{2}) | 1882.88 |\n| 登记价(元) | -- |\n| 竣工日期 | 20180101 |\n| 居室 | 0 |\n| 厅 | 0 |\n| 厨房 | 0 |\n| 卫生间 | 0 |\n| 抵押价值单价(元/m^{2}) | 2080 |\n| 抵押价值(元) | 3916390 |\n| 抵押净值1(元) | 3798898 |\n| 抵押净值2(元) | 3364271 |\n| 商铺类型 | -- |\n| 商铺租金(/月) | -- |\n| 房屋用途 | 工业 |\n| 项目名称 | 惠州市惠阳区秋长白石村地段(宿舍C) |\n| 城市 | 惠州市 |\n| 行政区 | 惠阳区 |\n| 楼盘 | 惠州市惠阳区秋长白石村地段(宿舍C) |\n| 楼栋号 | 惠州市惠阳区秋长白石村地段(宿舍C) |\n| 单元号 | 0 |\n| 户号 | 0 |\n| 产权证号 | 粤(2019)惠州市不动产权第3000936号 |\n| 证载地址 | 惠州市惠阳区秋长白石村地段(宿舍C) |\n| 房屋证载用途 | 一层活动室、二至五层宿舍 |\n| 建筑面积(m^{2}) | 1674.28 |\n| 登记价(元) | -- |\n| 竣工日期 | 20080101 |\n| 居室 | 0 |\n| 厅 | 0 |\n| 厨房 | 0 |\n| 卫生间 | 0 |\n| 抵押价值单价(元/m^{2}) | 2080 |\n| 抵押价值(元) | 3482502 |\n| 抵押净值1(元) | 3378027 |\n| 抵押净值2(元) | 2991553 |\n| 商铺类型 | -- |\n| 商铺租金(/月) | -- |\n| 房屋用途 | 工业 |",
+    "perfectTable": false,
+    "table_caption": [
+      "下一页"
+    ],
+    "img_path": "kg_房地产电子评估报告_2.jpg",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 2,
+    "folder_id": null,
+    "standard2D": true,
+    "hasHeader": false,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false
+  },
+  {
+    "page": 5,
+    "type": "text",
+    "headingLevel": 1,
+    "bBox": {
+      "l": 178.0,
+      "t": 155.0,
+      "r": 414.0,
+      "b": 184.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "房地产电子评估报告",
+    "md": "房地产电子评估报告",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 5,
+    "folder_id": null,
+    "hasHeader": false
+  },
+  {
+    "page": 5,
+    "type": "text",
+    "bBox": {
+      "l": 247.0,
+      "t": 199.0,
+      "r": 346.0,
+      "b": 218.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "（建行专用版）",
+    "md": "（建行专用版）",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 6,
+    "folder_id": null,
+    "hasHeader": false
+  },
+  {
+    "page": 5,
+    "type": "text",
+    "bBox": {
+      "l": 131.0,
+      "t": 257.0,
+      "r": 444.0,
+      "b": 274.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "报告编号：鸿泰房预字第[2025]HZ-05004 号",
+    "md": "报告编号：鸿泰房预字第[2025]HZ-05004 号",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 7,
+    "folder_id": null
+  },
+  {
+    "page": 5,
+    "type": "text",
+    "bBox": {
+      "l": 131.0,
+      "t": 319.0,
+      "r": 504.0,
+      "b": 399.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "项目名称：惠州市惠阳区秋长白石村地段惠州市正泰运动器材有限公司拥有的土地使用权及地上房屋建筑物抵押价值评估",
+    "md": "项目名称：惠州市惠阳区秋长白石村地段惠州市正泰运动器材有限公司拥有的土地使用权及地上房屋建筑物抵押价值评估",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 8,
+    "folder_id": null
+  },
+  {
+    "page": 5,
+    "type": "text",
+    "bBox": {
+      "l": 131.0,
+      "t": 474.0,
+      "r": 472.0,
+      "b": 493.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "委托人：中国建设银行股份有限公司惠州市分行",
+    "md": "委托人：中国建设银行股份有限公司惠州市分行",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 9,
+    "folder_id": null
+  },
+  {
+    "page": 5,
+    "type": "text",
+    "bBox": {
+      "l": 131.0,
+      "t": 537.0,
+      "r": 486.0,
+      "b": 554.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "评估机构：广东鸿泰资产土地房地产评估有限公司",
+    "md": "评估机构：广东鸿泰资产土地房地产评估有限公司",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 10,
+    "folder_id": null
+  },
+  {
+    "page": 5,
+    "type": "text",
+    "bBox": {
+      "l": 131.0,
+      "t": 599.0,
+      "r": 265.0,
+      "b": 616.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "授权主管：杨建武",
+    "md": "授权主管：杨建武",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 11,
+    "folder_id": null
+  },
+  {
+    "page": 5,
+    "type": "text",
+    "bBox": {
+      "l": 131.0,
+      "t": 630.0,
+      "r": 484.0,
+      "b": 648.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "注册房地产估价师：蔡永锋（注册号 4420080104）",
+    "md": "注册房地产估价师：蔡永锋（注册号 4420080104）",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 12,
+    "folder_id": null
+  },
+  {
+    "page": 5,
+    "type": "text",
+    "bBox": {
+      "l": 277.0,
+      "t": 660.0,
+      "r": 483.0,
+      "b": 679.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "要 琛（注册号 4420200087）",
+    "md": "要 琛（注册号 4420200087）",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 13,
+    "folder_id": null
+  },
+  {
+    "page": 5,
+    "type": "text",
+    "bBox": {
+      "l": 133.0,
+      "t": 723.0,
+      "r": 346.0,
+      "b": 741.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "出具日期：2025 年 05 月 09 日",
+    "md": "出具日期：2025 年 05 月 09 日",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 14,
+    "folder_id": null
+  },
+  {
+    "page": 6,
+    "type": "text",
+    "bBox": {
+      "l": 87.0,
+      "t": 91.0,
+      "r": 507.0,
+      "b": 295.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "承蒙中国建设银行股份有限公司惠州市分行委托，我司对位于惠州市惠阳区秋长白石村地段惠州市正泰运动器材有限公司拥有的土地使用权及地上房屋建筑物抵押价值进行了评估，为确定房地产抵押贷款额度提供价值参考。我司遵循独立、客观、公正、科学、谨慎的原则，按照国家规定的技术标准和估价程序对该房地产进行了实地查勘、市场调查及询证，经过周密细致的评估，确定估价对象估价情况，并经委托人授权，现向贵行提供估价对象的具体信息。",
+    "md": "承蒙中国建设银行股份有限公司惠州市分行委托，我司对位于惠州市惠阳区秋长白石村地段惠州市正泰运动器材有限公司拥有的土地使用权及地上房屋建筑物抵押价值进行了评估，为确定房地产抵押贷款额度提供价值参考。我司遵循独立、客观、公正、科学、谨慎的原则，按照国家规定的技术标准和估价程序对该房地产进行了实地查勘、市场调查及询证，经过周密细致的评估，确定估价对象估价情况，并经委托人授权，现向贵行提供估价对象的具体信息。",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 15,
+    "folder_id": null
+  },
+  {
+    "page": 6,
+    "type": "text",
+    "bBox": {
+      "l": 86.0,
+      "t": 309.0,
+      "r": 504.0,
+      "b": 357.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "我司声明：本报告符合我司与建设银行签订《合作协议》（编号：GD240552/01-F33）中所约定的全部内容。",
+    "md": "我司声明：本报告符合我司与建设银行签订《合作协议》（编号：GD240552/01-F33）中所约定的全部内容。",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 16,
+    "folder_id": null
+  },
+  {
+    "page": 6,
+    "type": "table",
+    "bBox": {
+      "l": 58.0,
+      "t": 394.0,
+      "r": 536.0,
+      "b": 786.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "评估对象权属信息",
+          "rowspan": 9,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "序号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "2",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "3",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "评估对象",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(厂房B)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍B)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍C)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "房地产权证号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "粤(2019)惠州市不动产权第3001040号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "粤(2019)惠州市不动产权第3000940号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "粤(2019)惠州市不动产权第3000936号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "权利人",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "惠州市正泰运动器材有限公司",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 3,
+          "colstart": 2,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "房屋所有权",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "/",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "/",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "/",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "房屋用途",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "/",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "/",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "一层活动室、二至五层宿舍",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "土地使用情况",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "国有建设用地使用权,2005年01月05日起2055年01月04日止",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 6,
+          "colstart": 2,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "行政区和街道/镇",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "惠阳区秋长街道",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 7,
+          "colstart": 2,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "其他",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "无",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "无",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "无",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "评估对象基本情况",
+          "rowspan": 11,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "建筑物结构",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "钢筋混凝土结构",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "钢筋混凝土结构",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "钢筋混凝土结构",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "布局",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "厂房",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "宿舍",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "宿舍",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "总楼层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "共3层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "共5层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "共5层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "评估楼层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "整栋",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "整栋",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "整栋",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "楼龄",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "约2018年/7年",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "约2018年/7年",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "约2018年/7年",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "装修状况",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "普通装修",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "普通装修",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "普通装修",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "层高",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "约3.5米",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "约3米",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "约3米",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "实际用途",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "厂房",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "宿舍",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "宿舍",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "设施设备",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "货梯,水电已通",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "楼梯,水电已通",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "楼梯,水电已通",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "使用状况",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "出租",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "出租",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "出租",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "建筑面积",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "3584.84平方米",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "1882.88平方米",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 3,
+          "source_page_no": 6
+        },
+        {
+          "text": "1674.28平方米",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 4,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 2,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 0,
+          "source_page_no": 7
+        },
+        {
+          "text": "共用宗地面积",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 1,
+          "source_page_no": 7
+        },
+        {
+          "text": "15006平方米",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 20,
+          "colstart": 2,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "土地利用状况",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 1,
+          "source_page_no": 7
+        },
+        {
+          "text": "根据委托人提供的资料,惠州市正泰运动器材有限公司所在厂区宗地面积15006平方米,地上共建7栋建筑物,房屋建筑面积合计28321.82平方米,容积率为1.89。",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 21,
+          "colstart": 2,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "评估对象价值信息",
+          "rowspan": 12,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 0,
+          "source_page_no": 7
+        },
+        {
+          "text": "价值时点",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 1,
+          "source_page_no": 7
+        },
+        {
+          "text": "2025年04月28日",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 22,
+          "colstart": 2,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "估价方法",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 1,
+          "source_page_no": 7
+        },
+        {
+          "text": "成本法、收益法",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 23,
+          "colstart": 2,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "价值类型",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 1,
+          "source_page_no": 7
+        },
+        {
+          "text": "抵押价值",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 2,
+          "source_page_no": 7
+        },
+        {
+          "text": "抵押价值",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 3,
+          "source_page_no": 7
+        },
+        {
+          "text": "抵押价值",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 4,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "评估总价",
+          "rowspan": 2,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 1,
+          "source_page_no": 7
+        },
+        {
+          "text": "7097983元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 2,
+          "source_page_no": 7
+        },
+        {
+          "text": "3916390元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 3,
+          "source_page_no": 7
+        },
+        {
+          "text": "3482502元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 4,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "合计:14496875元",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 26,
+          "colstart": 2,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "抵押净值1",
+          "rowspan": 2,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 1,
+          "source_page_no": 7
+        },
+        {
+          "text": "6885044元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 2,
+          "source_page_no": 7
+        },
+        {
+          "text": "3798898元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 3,
+          "source_page_no": 7
+        },
+        {
+          "text": "3378027元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 4,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "合计:14061969元",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 28,
+          "colstart": 2,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "抵押净值2",
+          "rowspan": 2,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 1,
+          "source_page_no": 7
+        },
+        {
+          "text": "6097337元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 2,
+          "source_page_no": 7
+        },
+        {
+          "text": "3364271元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 3,
+          "source_page_no": 7
+        },
+        {
+          "text": "2991553元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 4,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "合计:12453161元",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 30,
+          "colstart": 2,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "抵押净值1计算过程",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 1,
+          "source_page_no": 7
+        },
+        {
+          "text": "抵押价值减去买方应缴纳的契税,详见附件《税费计算表》",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 31,
+          "colstart": 2,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "抵押净值2计算过程",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 1,
+          "source_page_no": 7
+        },
+        {
+          "text": "抵押价值减去发生转让时卖方应缴纳的增值税、城建税、教育费附加、地方教育费附加、印花税、交易手续费、土地增值税及个人所得税及契税,详见附件《税费计算表》",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 32,
+          "colstart": 2,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "备注",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 33,
+          "colstart": 1,
+          "source_page_no": 7
+        },
+        {
+          "text": "本次评估的3处工业用房包含分摊的土地使用权价值,特请报告使用者注意!",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 33,
+          "colstart": 2,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "评估对象配套设施及周边环境",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 34,
+          "colstart": 0,
+          "source_page_no": 7
+        },
+        {
+          "text": "估价对象所在厂区北临鸿泰路,南临规划路,西临厂区,东临杰诚运动器械有限公司;估价对象距“泓泰路口”公交车站约301米,有M136路公交线路途经,所处位置公共交通便利。附近有新田工业区、城发工业园、宏盛工业区、金秋幼儿园、白石实验学校、惠阳水围实验学校、百事佳超市(金湖路店)、白石综合市场、惠州市惠阳白石医院、中国工商银行(惠阳伯恩支行)等,区域内工业氛围较好,公共配套设施良好。位于城市建成区内,周边无污染源,自然环境良好,卫生环境良好。",
+          "rowspan": 1,
+          "colspan": 4,
+          "rowstart": 34,
+          "colstart": 1,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "评估对象变现能力分析",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 35,
+          "colstart": 0,
+          "source_page_no": 7
+        },
+        {
+          "text": "(一)估价方法技术分析说明:估价对象证载用途为工业、宿舍、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,可以采用成本法、收益法进行评估,对于土地使用权,当地公布有完整的基准地价体系,土地一级市场较为活跃,有类似工业用地出让案例,适宜采用基准地价系数修正法求取土地取得成本;对于房屋建筑物,当地建筑工程造价信息体系较完整、公开,可用成本法求取建筑物价值,根据估价对象的特点,本次成本法选用房地合估路径。故我们采用成本法评估估价对象在未设立法定优先受偿权利下的市场价值,通过测算,得出标准估价对象1的评估单价为1980元/平方米,估价对象1抵押价值为7097983元;估价对象2、3的评估单价均为2080元/平方米,估价对象2抵押价值为3916390元,估价对象3抵押价值为3482502元。(二)估价对象具体变现能力分析:",
+          "rowspan": 1,
+          "colspan": 4,
+          "rowstart": 35,
+          "colstart": 1,
+          "source_page_no": 7
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 36,
+          "colstart": 0,
+          "source_page_no": 8
+        },
+        {
+          "text": "1、通用性分析:估价对象证载用途为厂房、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,据现场查勘,实际用途为厂房、一层活动室、二至五层宿舍,该类房地产在房地产市场上供给量及需求量大,市场流动性强,交易活跃,通用性好。2、独立使用性分析:估价对象能单独使用不受限制,可以单独进入市场交易,独立使用性强。3、可分割转让性:估价对象单独办有权属证明,是基本的产权单位,难以在实物形态上经济地分离开来进行转让,综合分析,可分割转让性较差。4、体量分析:工业房地产的市场流动性较好,一旦进行处置,一般来说,建筑面积越大越不容易进行处置和变现,反之建筑面积越小越容易进行处置和变现。5、区位分析:估价对象位于城市建成区内,周边工业氛围较好,各项公共及生活设施齐全,所处区位位置较优。6、市场状况:估价对象所在区域同类工业房地产市场二手交易案例一般,租赁市场较活跃,市场状况良好。7、快速变现价值:估价对象证载用途为厂房、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,同类房地产市场供给量、需求量大,市场交易活跃,根据对市场上同类房地产处置情况的调查分析,预计估价对象同类型房地产可实现的快速变现价值为抵押价值的5成。8、变现时间:在当前市场条件下,预计估价对象变现时间为6到12个月。",
+          "rowspan": 1,
+          "colspan": 4,
+          "rowstart": 36,
+          "colstart": 1,
+          "source_page_no": 8
+        }
+      ],
+      [
+        {
+          "text": "风险提示",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 37,
+          "colstart": 0,
+          "source_page_no": 8
+        },
+        {
+          "text": "1、根据委托人提供的资料,惠州市正泰运动器材有限公司所在厂区宗地面积15006平方米,地上共建7栋建筑物,房屋建筑面积合计28321.82平方米,容积率为1.89。本次评估的3处工业用房包含分摊的土地使用权价值。2、估价对象可能因区域规划、功能定位、市政建设、交通条件、生态环境、使用状况等因素变化导致抵押价值减损。3、估价对象可能因房地产市场变化、国家宏观政策和经济形势变化、房地产相关税费和银行利率调整等因素导致估价对象的抵押价值减损。4、估价报告使用者应合理使用估价价值。关注处置房地产时快速变现费用变化对估价对象抵押价值的影响;关注估价报告出具之后至抵押登记期间是否会出现法定优先受偿权利。5、使用者应定期或者在房地产市场价格变化较快时对房地产抵押价值进行再估价。6、评估专业人员在能力范围内核实了领勘人指认的估价对象位置及界址,但不排除领勘人误指或恶意指认的可能,如果位置失事或界址不清晰,将导致估值失实。",
+          "rowspan": 1,
+          "colspan": 4,
+          "rowstart": 37,
+          "colstart": 1,
+          "source_page_no": 8
+        }
+      ],
+      [
+        {
+          "text": "备注",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 38,
+          "colstart": 0,
+          "source_page_no": 8
+        },
+        {
+          "text": "无",
+          "rowspan": 1,
+          "colspan": 4,
+          "rowstart": 38,
+          "colstart": 1,
+          "source_page_no": 8
+        }
+      ]
+    ],
+    "html": "<table><tr><td rowspan=\"9\">评估对象权属信息</td><td>序号</td><td>1</td><td>2</td><td>3</td></tr><tr><td>评估对象</td><td>惠州市惠阳区秋长白石村地段(厂房B)</td><td>惠州市惠阳区秋长白石村地段(宿舍B)</td><td>惠州市惠阳区秋长白石村地段(宿舍C)</td></tr><tr><td>房地产权证号</td><td>粤(2019)惠州市不动产权第3001040号</td><td>粤(2019)惠州市不动产权第3000940号</td><td>粤(2019)惠州市不动产权第3000936号</td></tr><tr><td>权利人</td><td colspan=\"3\">惠州市正泰运动器材有限公司</td></tr><tr><td>房屋所有权</td><td>/</td><td>/</td><td>/</td></tr><tr><td>房屋用途</td><td>/</td><td>/</td><td>一层活动室、二至五层宿舍</td></tr><tr><td>土地使用情况</td><td colspan=\"3\">国有建设用地使用权,2005年01月05日起2055年01月04日止</td></tr><tr><td>行政区和街道/镇</td><td colspan=\"3\">惠阳区秋长街道</td></tr><tr><td>其他</td><td>无</td><td>无</td><td>无</td></tr><tr><td rowspan=\"11\">评估对象基本情况</td><td>建筑物结构</td><td>钢筋混凝土结构</td><td>钢筋混凝土结构</td><td>钢筋混凝土结构</td></tr><tr><td>布局</td><td>厂房</td><td>宿舍</td><td>宿舍</td></tr><tr><td>总楼层</td><td>共3层</td><td>共5层</td><td>共5层</td></tr><tr><td>评估楼层</td><td>整栋</td><td>整栋</td><td>整栋</td></tr><tr><td>楼龄</td><td>约2018年/7年</td><td>约2018年/7年</td><td>约2018年/7年</td></tr><tr><td>装修状况</td><td>普通装修</td><td>普通装修</td><td>普通装修</td></tr><tr><td>层高</td><td>约3.5米</td><td>约3米</td><td>约3米</td></tr><tr><td>实际用途</td><td>厂房</td><td>宿舍</td><td>宿舍</td></tr><tr><td>设施设备</td><td>货梯,水电已通</td><td>楼梯,水电已通</td><td>楼梯,水电已通</td></tr><tr><td>使用状况</td><td>出租</td><td>出租</td><td>出租</td></tr><tr><td>建筑面积</td><td>3584.84平方米</td><td>1882.88平方米</td><td>1674.28平方米</td></tr><tr><td rowspan=\"2\"></td><td>共用宗地面积</td><td colspan=\"3\">15006平方米</td></tr><tr><td>土地利用状况</td><td colspan=\"3\">根据委托人提供的资料,惠州市正泰运动器材有限公司所在厂区宗地面积15006平方米,地上共建7栋建筑物,房屋建筑面积合计28321.82平方米,容积率为1.89。</td></tr><tr><td rowspan=\"12\">评估对象价值信息</td><td>价值时点</td><td colspan=\"3\">2025年04月28日</td></tr><tr><td>估价方法</td><td colspan=\"3\">成本法、收益法</td></tr><tr><td>价值类型</td><td>抵押价值</td><td>抵押价值</td><td colspan=\"1\">抵押价值</td></tr><tr><td rowspan=\"2\">评估总价</td><td>7097983元</td><td>3916390元</td><td colspan=\"1\">3482502元</td></tr><tr><td colspan=\"3\">合计:14496875元</td></tr><tr><td rowspan=\"2\">抵押净值1</td><td>6885044元</td><td>3798898元</td><td colspan=\"1\">3378027元</td></tr><tr><td colspan=\"3\">合计:14061969元</td></tr><tr><td rowspan=\"2\">抵押净值2</td><td>6097337元</td><td>3364271元</td><td colspan=\"1\">2991553元</td></tr><tr><td colspan=\"3\">合计:12453161元</td></tr><tr><td>抵押净值1计算过程</td><td colspan=\"3\">抵押价值减去买方应缴纳的契税,详见附件《税费计算表》</td></tr><tr><td>抵押净值2计算过程</td><td colspan=\"3\">抵押价值减去发生转让时卖方应缴纳的增值税、城建税、教育费附加、地方教育费附加、印花税、交易手续费、土地增值税及个人所得税及契税,详见附件《税费计算表》</td></tr><tr><td>备注</td><td colspan=\"3\">本次评估的3处工业用房包含分摊的土地使用权价值,特请报告使用者注意!</td></tr><tr><td>评估对象配套设施及周边环境</td><td colspan=\"4\">估价对象所在厂区北临鸿泰路,南临规划路,西临厂区,东临杰诚运动器械有限公司;估价对象距“泓泰路口”公交车站约301米,有M136路公交线路途经,所处位置公共交通便利。附近有新田工业区、城发工业园、宏盛工业区、金秋幼儿园、白石实验学校、惠阳水围实验学校、百事佳超市(金湖路店)、白石综合市场、惠州市惠阳白石医院、中国工商银行(惠阳伯恩支行)等,区域内工业氛围较好,公共配套设施良好。位于城市建成区内,周边无污染源,自然环境良好,卫生环境良好。</td></tr><tr><td>评估对象变现能力分析</td><td colspan=\"4\">(一)估价方法技术分析说明:估价对象证载用途为工业、宿舍、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,可以采用成本法、收益法进行评估,对于土地使用权,当地公布有完整的基准地价体系,土地一级市场较为活跃,有类似工业用地出让案例,适宜采用基准地价系数修正法求取土地取得成本;对于房屋建筑物,当地建筑工程造价信息体系较完整、公开,可用成本法求取建筑物价值,根据估价对象的特点,本次成本法选用房地合估路径。故我们采用成本法评估估价对象在未设立法定优先受偿权利下的市场价值,通过测算,得出标准估价对象1的评估单价为1980元/平方米,估价对象1抵押价值为7097983元;估价对象2、3的评估单价均为2080元/平方米,估价对象2抵押价值为3916390元,估价对象3抵押价值为3482502元。(二)估价对象具体变现能力分析:</td></tr><tr><td></td><td colspan=\"4\">1、通用性分析:估价对象证载用途为厂房、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,据现场查勘,实际用途为厂房、一层活动室、二至五层宿舍,该类房地产在房地产市场上供给量及需求量大,市场流动性强,交易活跃,通用性好。2、独立使用性分析:估价对象能单独使用不受限制,可以单独进入市场交易,独立使用性强。3、可分割转让性:估价对象单独办有权属证明,是基本的产权单位,难以在实物形态上经济地分离开来进行转让,综合分析,可分割转让性较差。4、体量分析:工业房地产的市场流动性较好,一旦进行处置,一般来说,建筑面积越大越不容易进行处置和变现,反之建筑面积越小越容易进行处置和变现。5、区位分析:估价对象位于城市建成区内,周边工业氛围较好,各项公共及生活设施齐全,所处区位位置较优。6、市场状况:估价对象所在区域同类工业房地产市场二手交易案例一般,租赁市场较活跃,市场状况良好。7、快速变现价值:估价对象证载用途为厂房、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,同类房地产市场供给量、需求量大,市场交易活跃,根据对市场上同类房地产处置情况的调查分析,预计估价对象同类型房地产可实现的快速变现价值为抵押价值的5成。8、变现时间:在当前市场条件下,预计估价对象变现时间为6到12个月。</td></tr><tr><td>风险提示</td><td colspan=\"4\">1、根据委托人提供的资料,惠州市正泰运动器材有限公司所在厂区宗地面积15006平方米,地上共建7栋建筑物,房屋建筑面积合计28321.82平方米,容积率为1.89。本次评估的3处工业用房包含分摊的土地使用权价值。2、估价对象可能因区域规划、功能定位、市政建设、交通条件、生态环境、使用状况等因素变化导致抵押价值减损。3、估价对象可能因房地产市场变化、国家宏观政策和经济形势变化、房地产相关税费和银行利率调整等因素导致估价对象的抵押价值减损。4、估价报告使用者应合理使用估价价值。关注处置房地产时快速变现费用变化对估价对象抵押价值的影响;关注估价报告出具之后至抵押登记期间是否会出现法定优先受偿权利。5、使用者应定期或者在房地产市场价格变化较快时对房地产抵押价值进行再估价。6、评估专业人员在能力范围内核实了领勘人指认的估价对象位置及界址,但不排除领勘人误指或恶意指认的可能,如果位置失事或界址不清晰,将导致估值失实。</td></tr><tr><td>备注</td><td colspan=\"4\">无</td></tr></table>",
+    "md": "| 评估对象权属信息 | 序号 | 1 | 2 | 3 |\n| --- | --- | --- | --- | --- |\n| 评估对象权属信息 | 评估对象 | 惠州市惠阳区秋长白石村地段(厂房B) | 惠州市惠阳区秋长白石村地段(宿舍B) | 惠州市惠阳区秋长白石村地段(宿舍C) |\n| 评估对象权属信息 | 房地产权证号 | 粤(2019)惠州市不动产权第3001040号 | 粤(2019)惠州市不动产权第3000940号 | 粤(2019)惠州市不动产权第3000936号 |\n| 评估对象权属信息 | 权利人 | 惠州市正泰运动器材有限公司 | 惠州市正泰运动器材有限公司 | 惠州市正泰运动器材有限公司 |\n| 评估对象权属信息 | 房屋所有权 | / | / | / |\n| 评估对象权属信息 | 房屋用途 | / | / | 一层活动室、二至五层宿舍 |\n| 评估对象权属信息 | 土地使用情况 | 国有建设用地使用权,2005年01月05日起2055年01月04日止 | 国有建设用地使用权,2005年01月05日起2055年01月04日止 | 国有建设用地使用权,2005年01月05日起2055年01月04日止 |\n| 评估对象权属信息 | 行政区和街道/镇 | 惠阳区秋长街道 | 惠阳区秋长街道 | 惠阳区秋长街道 |\n| 评估对象权属信息 | 其他 | 无 | 无 | 无 |\n| 评估对象基本情况 | 建筑物结构 | 钢筋混凝土结构 | 钢筋混凝土结构 | 钢筋混凝土结构 |\n| 评估对象基本情况 | 布局 | 厂房 | 宿舍 | 宿舍 |\n| 评估对象基本情况 | 总楼层 | 共3层 | 共5层 | 共5层 |\n| 评估对象基本情况 | 评估楼层 | 整栋 | 整栋 | 整栋 |\n| 评估对象基本情况 | 楼龄 | 约2018年/7年 | 约2018年/7年 | 约2018年/7年 |\n| 评估对象基本情况 | 装修状况 | 普通装修 | 普通装修 | 普通装修 |\n| 评估对象基本情况 | 层高 | 约3.5米 | 约3米 | 约3米 |\n| 评估对象基本情况 | 实际用途 | 厂房 | 宿舍 | 宿舍 |\n| 评估对象基本情况 | 设施设备 | 货梯,水电已通 | 楼梯,水电已通 | 楼梯,水电已通 |\n| 评估对象基本情况 | 使用状况 | 出租 | 出租 | 出租 |\n| 评估对象基本情况 | 建筑面积 | 3584.84平方米 | 1882.88平方米 | 1674.28平方米 |\n|  | 共用宗地面积 | 15006平方米 | 15006平方米 | 15006平方米 |\n|  | 土地利用状况 | 根据委托人提供的资料,惠州市正泰运动器材有限公司所在厂区宗地面积15006平方米,地上共建7栋建筑物,房屋建筑面积合计28321.82平方米,容积率为1.89。 | 根据委托人提供的资料,惠州市正泰运动器材有限公司所在厂区宗地面积15006平方米,地上共建7栋建筑物,房屋建筑面积合计28321.82平方米,容积率为1.89。 | 根据委托人提供的资料,惠州市正泰运动器材有限公司所在厂区宗地面积15006平方米,地上共建7栋建筑物,房屋建筑面积合计28321.82平方米,容积率为1.89。 |\n| 评估对象价值信息 | 价值时点 | 2025年04月28日 | 2025年04月28日 | 2025年04月28日 |\n| 评估对象价值信息 | 估价方法 | 成本法、收益法 | 成本法、收益法 | 成本法、收益法 |\n| 评估对象价值信息 | 价值类型 | 抵押价值 | 抵押价值 | 抵押价值 |\n| 评估对象价值信息 | 评估总价 | 7097983元 | 3916390元 | 3482502元 |\n| 评估对象价值信息 | 评估总价 | 合计:14496875元 | 合计:14496875元 | 合计:14496875元 |\n| 评估对象价值信息 | 抵押净值1 | 6885044元 | 3798898元 | 3378027元 |\n| 评估对象价值信息 | 抵押净值1 | 合计:14061969元 | 合计:14061969元 | 合计:14061969元 |\n| 评估对象价值信息 | 抵押净值2 | 6097337元 | 3364271元 | 2991553元 |\n| 评估对象价值信息 | 抵押净值2 | 合计:12453161元 | 合计:12453161元 | 合计:12453161元 |\n| 评估对象价值信息 | 抵押净值1计算过程 | 抵押价值减去买方应缴纳的契税,详见附件《税费计算表》 | 抵押价值减去买方应缴纳的契税,详见附件《税费计算表》 | 抵押价值减去买方应缴纳的契税,详见附件《税费计算表》 |\n| 评估对象价值信息 | 抵押净值2计算过程 | 抵押价值减去发生转让时卖方应缴纳的增值税、城建税、教育费附加、地方教育费附加、印花税、交易手续费、土地增值税及个人所得税及契税,详见附件《税费计算表》 | 抵押价值减去发生转让时卖方应缴纳的增值税、城建税、教育费附加、地方教育费附加、印花税、交易手续费、土地增值税及个人所得税及契税,详见附件《税费计算表》 | 抵押价值减去发生转让时卖方应缴纳的增值税、城建税、教育费附加、地方教育费附加、印花税、交易手续费、土地增值税及个人所得税及契税,详见附件《税费计算表》 |\n| 评估对象价值信息 | 备注 | 本次评估的3处工业用房包含分摊的土地使用权价值,特请报告使用者注意! | 本次评估的3处工业用房包含分摊的土地使用权价值,特请报告使用者注意! | 本次评估的3处工业用房包含分摊的土地使用权价值,特请报告使用者注意! |\n| 评估对象配套设施及周边环境 | 估价对象所在厂区北临鸿泰路,南临规划路,西临厂区,东临杰诚运动器械有限公司;估价对象距“泓泰路口”公交车站约301米,有M136路公交线路途经,所处位置公共交通便利。附近有新田工业区、城发工业园、宏盛工业区、金秋幼儿园、白石实验学校、惠阳水围实验学校、百事佳超市(金湖路店)、白石综合市场、惠州市惠阳白石医院、中国工商银行(惠阳伯恩支行)等,区域内工业氛围较好,公共配套设施良好。位于城市建成区内,周边无污染源,自然环境良好,卫生环境良好。 | 估价对象所在厂区北临鸿泰路,南临规划路,西临厂区,东临杰诚运动器械有限公司;估价对象距“泓泰路口”公交车站约301米,有M136路公交线路途经,所处位置公共交通便利。附近有新田工业区、城发工业园、宏盛工业区、金秋幼儿园、白石实验学校、惠阳水围实验学校、百事佳超市(金湖路店)、白石综合市场、惠州市惠阳白石医院、中国工商银行(惠阳伯恩支行)等,区域内工业氛围较好,公共配套设施良好。位于城市建成区内,周边无污染源,自然环境良好,卫生环境良好。 | 估价对象所在厂区北临鸿泰路,南临规划路,西临厂区,东临杰诚运动器械有限公司;估价对象距“泓泰路口”公交车站约301米,有M136路公交线路途经,所处位置公共交通便利。附近有新田工业区、城发工业园、宏盛工业区、金秋幼儿园、白石实验学校、惠阳水围实验学校、百事佳超市(金湖路店)、白石综合市场、惠州市惠阳白石医院、中国工商银行(惠阳伯恩支行)等,区域内工业氛围较好,公共配套设施良好。位于城市建成区内,周边无污染源,自然环境良好,卫生环境良好。 | 估价对象所在厂区北临鸿泰路,南临规划路,西临厂区,东临杰诚运动器械有限公司;估价对象距“泓泰路口”公交车站约301米,有M136路公交线路途经,所处位置公共交通便利。附近有新田工业区、城发工业园、宏盛工业区、金秋幼儿园、白石实验学校、惠阳水围实验学校、百事佳超市(金湖路店)、白石综合市场、惠州市惠阳白石医院、中国工商银行(惠阳伯恩支行)等,区域内工业氛围较好,公共配套设施良好。位于城市建成区内,周边无污染源,自然环境良好,卫生环境良好。 |\n| 评估对象变现能力分析 | (一)估价方法技术分析说明:估价对象证载用途为工业、宿舍、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,可以采用成本法、收益法进行评估,对于土地使用权,当地公布有完整的基准地价体系,土地一级市场较为活跃,有类似工业用地出让案例,适宜采用基准地价系数修正法求取土地取得成本;对于房屋建筑物,当地建筑工程造价信息体系较完整、公开,可用成本法求取建筑物价值,根据估价对象的特点,本次成本法选用房地合估路径。故我们采用成本法评估估价对象在未设立法定优先受偿权利下的市场价值,通过测算,得出标准估价对象1的评估单价为1980元/平方米,估价对象1抵押价值为7097983元;估价对象2、3的评估单价均为2080元/平方米,估价对象2抵押价值为3916390元,估价对象3抵押价值为3482502元。(二)估价对象具体变现能力分析: | (一)估价方法技术分析说明:估价对象证载用途为工业、宿舍、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,可以采用成本法、收益法进行评估,对于土地使用权,当地公布有完整的基准地价体系,土地一级市场较为活跃,有类似工业用地出让案例,适宜采用基准地价系数修正法求取土地取得成本;对于房屋建筑物,当地建筑工程造价信息体系较完整、公开,可用成本法求取建筑物价值,根据估价对象的特点,本次成本法选用房地合估路径。故我们采用成本法评估估价对象在未设立法定优先受偿权利下的市场价值,通过测算,得出标准估价对象1的评估单价为1980元/平方米,估价对象1抵押价值为7097983元;估价对象2、3的评估单价均为2080元/平方米,估价对象2抵押价值为3916390元,估价对象3抵押价值为3482502元。(二)估价对象具体变现能力分析: | (一)估价方法技术分析说明:估价对象证载用途为工业、宿舍、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,可以采用成本法、收益法进行评估,对于土地使用权,当地公布有完整的基准地价体系,土地一级市场较为活跃,有类似工业用地出让案例,适宜采用基准地价系数修正法求取土地取得成本;对于房屋建筑物,当地建筑工程造价信息体系较完整、公开,可用成本法求取建筑物价值,根据估价对象的特点,本次成本法选用房地合估路径。故我们采用成本法评估估价对象在未设立法定优先受偿权利下的市场价值,通过测算,得出标准估价对象1的评估单价为1980元/平方米,估价对象1抵押价值为7097983元;估价对象2、3的评估单价均为2080元/平方米,估价对象2抵押价值为3916390元,估价对象3抵押价值为3482502元。(二)估价对象具体变现能力分析: | (一)估价方法技术分析说明:估价对象证载用途为工业、宿舍、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,可以采用成本法、收益法进行评估,对于土地使用权,当地公布有完整的基准地价体系,土地一级市场较为活跃,有类似工业用地出让案例,适宜采用基准地价系数修正法求取土地取得成本;对于房屋建筑物,当地建筑工程造价信息体系较完整、公开,可用成本法求取建筑物价值,根据估价对象的特点,本次成本法选用房地合估路径。故我们采用成本法评估估价对象在未设立法定优先受偿权利下的市场价值,通过测算,得出标准估价对象1的评估单价为1980元/平方米,估价对象1抵押价值为7097983元;估价对象2、3的评估单价均为2080元/平方米,估价对象2抵押价值为3916390元,估价对象3抵押价值为3482502元。(二)估价对象具体变现能力分析: |\n|  | 1、通用性分析:估价对象证载用途为厂房、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,据现场查勘,实际用途为厂房、一层活动室、二至五层宿舍,该类房地产在房地产市场上供给量及需求量大,市场流动性强,交易活跃,通用性好。2、独立使用性分析:估价对象能单独使用不受限制,可以单独进入市场交易,独立使用性强。3、可分割转让性:估价对象单独办有权属证明,是基本的产权单位,难以在实物形态上经济地分离开来进行转让,综合分析,可分割转让性较差。4、体量分析:工业房地产的市场流动性较好,一旦进行处置,一般来说,建筑面积越大越不容易进行处置和变现,反之建筑面积越小越容易进行处置和变现。5、区位分析:估价对象位于城市建成区内,周边工业氛围较好,各项公共及生活设施齐全,所处区位位置较优。6、市场状况:估价对象所在区域同类工业房地产市场二手交易案例一般,租赁市场较活跃,市场状况良好。7、快速变现价值:估价对象证载用途为厂房、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,同类房地产市场供给量、需求量大,市场交易活跃,根据对市场上同类房地产处置情况的调查分析,预计估价对象同类型房地产可实现的快速变现价值为抵押价值的5成。8、变现时间:在当前市场条件下,预计估价对象变现时间为6到12个月。 | 1、通用性分析:估价对象证载用途为厂房、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,据现场查勘,实际用途为厂房、一层活动室、二至五层宿舍,该类房地产在房地产市场上供给量及需求量大,市场流动性强,交易活跃,通用性好。2、独立使用性分析:估价对象能单独使用不受限制,可以单独进入市场交易,独立使用性强。3、可分割转让性:估价对象单独办有权属证明,是基本的产权单位,难以在实物形态上经济地分离开来进行转让,综合分析,可分割转让性较差。4、体量分析:工业房地产的市场流动性较好,一旦进行处置,一般来说,建筑面积越大越不容易进行处置和变现,反之建筑面积越小越容易进行处置和变现。5、区位分析:估价对象位于城市建成区内,周边工业氛围较好,各项公共及生活设施齐全,所处区位位置较优。6、市场状况:估价对象所在区域同类工业房地产市场二手交易案例一般,租赁市场较活跃,市场状况良好。7、快速变现价值:估价对象证载用途为厂房、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,同类房地产市场供给量、需求量大,市场交易活跃,根据对市场上同类房地产处置情况的调查分析,预计估价对象同类型房地产可实现的快速变现价值为抵押价值的5成。8、变现时间:在当前市场条件下,预计估价对象变现时间为6到12个月。 | 1、通用性分析:估价对象证载用途为厂房、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,据现场查勘,实际用途为厂房、一层活动室、二至五层宿舍,该类房地产在房地产市场上供给量及需求量大,市场流动性强,交易活跃,通用性好。2、独立使用性分析:估价对象能单独使用不受限制,可以单独进入市场交易,独立使用性强。3、可分割转让性:估价对象单独办有权属证明,是基本的产权单位,难以在实物形态上经济地分离开来进行转让,综合分析,可分割转让性较差。4、体量分析:工业房地产的市场流动性较好,一旦进行处置,一般来说,建筑面积越大越不容易进行处置和变现,反之建筑面积越小越容易进行处置和变现。5、区位分析:估价对象位于城市建成区内,周边工业氛围较好,各项公共及生活设施齐全,所处区位位置较优。6、市场状况:估价对象所在区域同类工业房地产市场二手交易案例一般,租赁市场较活跃,市场状况良好。7、快速变现价值:估价对象证载用途为厂房、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,同类房地产市场供给量、需求量大,市场交易活跃,根据对市场上同类房地产处置情况的调查分析,预计估价对象同类型房地产可实现的快速变现价值为抵押价值的5成。8、变现时间:在当前市场条件下,预计估价对象变现时间为6到12个月。 | 1、通用性分析:估价对象证载用途为厂房、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,据现场查勘,实际用途为厂房、一层活动室、二至五层宿舍,该类房地产在房地产市场上供给量及需求量大,市场流动性强,交易活跃,通用性好。2、独立使用性分析:估价对象能单独使用不受限制,可以单独进入市场交易,独立使用性强。3、可分割转让性:估价对象单独办有权属证明,是基本的产权单位,难以在实物形态上经济地分离开来进行转让,综合分析,可分割转让性较差。4、体量分析:工业房地产的市场流动性较好,一旦进行处置,一般来说,建筑面积越大越不容易进行处置和变现,反之建筑面积越小越容易进行处置和变现。5、区位分析:估价对象位于城市建成区内,周边工业氛围较好,各项公共及生活设施齐全,所处区位位置较优。6、市场状况:估价对象所在区域同类工业房地产市场二手交易案例一般,租赁市场较活跃,市场状况良好。7、快速变现价值:估价对象证载用途为厂房、一层活动室、二至五层宿舍,实际用途为工业用房,土地为工业用地,同类房地产市场供给量、需求量大,市场交易活跃,根据对市场上同类房地产处置情况的调查分析,预计估价对象同类型房地产可实现的快速变现价值为抵押价值的5成。8、变现时间:在当前市场条件下,预计估价对象变现时间为6到12个月。 |\n| 风险提示 | 1、根据委托人提供的资料,惠州市正泰运动器材有限公司所在厂区宗地面积15006平方米,地上共建7栋建筑物,房屋建筑面积合计28321.82平方米,容积率为1.89。本次评估的3处工业用房包含分摊的土地使用权价值。2、估价对象可能因区域规划、功能定位、市政建设、交通条件、生态环境、使用状况等因素变化导致抵押价值减损。3、估价对象可能因房地产市场变化、国家宏观政策和经济形势变化、房地产相关税费和银行利率调整等因素导致估价对象的抵押价值减损。4、估价报告使用者应合理使用估价价值。关注处置房地产时快速变现费用变化对估价对象抵押价值的影响;关注估价报告出具之后至抵押登记期间是否会出现法定优先受偿权利。5、使用者应定期或者在房地产市场价格变化较快时对房地产抵押价值进行再估价。6、评估专业人员在能力范围内核实了领勘人指认的估价对象位置及界址,但不排除领勘人误指或恶意指认的可能,如果位置失事或界址不清晰,将导致估值失实。 | 1、根据委托人提供的资料,惠州市正泰运动器材有限公司所在厂区宗地面积15006平方米,地上共建7栋建筑物,房屋建筑面积合计28321.82平方米,容积率为1.89。本次评估的3处工业用房包含分摊的土地使用权价值。2、估价对象可能因区域规划、功能定位、市政建设、交通条件、生态环境、使用状况等因素变化导致抵押价值减损。3、估价对象可能因房地产市场变化、国家宏观政策和经济形势变化、房地产相关税费和银行利率调整等因素导致估价对象的抵押价值减损。4、估价报告使用者应合理使用估价价值。关注处置房地产时快速变现费用变化对估价对象抵押价值的影响;关注估价报告出具之后至抵押登记期间是否会出现法定优先受偿权利。5、使用者应定期或者在房地产市场价格变化较快时对房地产抵押价值进行再估价。6、评估专业人员在能力范围内核实了领勘人指认的估价对象位置及界址,但不排除领勘人误指或恶意指认的可能,如果位置失事或界址不清晰,将导致估值失实。 | 1、根据委托人提供的资料,惠州市正泰运动器材有限公司所在厂区宗地面积15006平方米,地上共建7栋建筑物,房屋建筑面积合计28321.82平方米,容积率为1.89。本次评估的3处工业用房包含分摊的土地使用权价值。2、估价对象可能因区域规划、功能定位、市政建设、交通条件、生态环境、使用状况等因素变化导致抵押价值减损。3、估价对象可能因房地产市场变化、国家宏观政策和经济形势变化、房地产相关税费和银行利率调整等因素导致估价对象的抵押价值减损。4、估价报告使用者应合理使用估价价值。关注处置房地产时快速变现费用变化对估价对象抵押价值的影响;关注估价报告出具之后至抵押登记期间是否会出现法定优先受偿权利。5、使用者应定期或者在房地产市场价格变化较快时对房地产抵押价值进行再估价。6、评估专业人员在能力范围内核实了领勘人指认的估价对象位置及界址,但不排除领勘人误指或恶意指认的可能,如果位置失事或界址不清晰,将导致估值失实。 | 1、根据委托人提供的资料,惠州市正泰运动器材有限公司所在厂区宗地面积15006平方米,地上共建7栋建筑物,房屋建筑面积合计28321.82平方米,容积率为1.89。本次评估的3处工业用房包含分摊的土地使用权价值。2、估价对象可能因区域规划、功能定位、市政建设、交通条件、生态环境、使用状况等因素变化导致抵押价值减损。3、估价对象可能因房地产市场变化、国家宏观政策和经济形势变化、房地产相关税费和银行利率调整等因素导致估价对象的抵押价值减损。4、估价报告使用者应合理使用估价价值。关注处置房地产时快速变现费用变化对估价对象抵押价值的影响;关注估价报告出具之后至抵押登记期间是否会出现法定优先受偿权利。5、使用者应定期或者在房地产市场价格变化较快时对房地产抵押价值进行再估价。6、评估专业人员在能力范围内核实了领勘人指认的估价对象位置及界址,但不排除领勘人误指或恶意指认的可能,如果位置失事或界址不清晰,将导致估值失实。 |\n| 备注 | 无 | 无 | 无 | 无 |",
+    "perfectTable": false,
+    "table_caption": [
+      "估价对象估价具体情况如下："
+    ],
+    "img_path": "kg_房地产电子评估报告_17.jpg",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 17,
+    "folder_id": null,
+    "standard2D": false,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false
+  },
+  {
+    "page": 8,
+    "type": "text",
+    "bBox": {
+      "l": 87.0,
+      "t": 651.0,
+      "r": 203.0,
+      "b": 664.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "附件1.估价对象位置图",
+    "md": "附件1.估价对象位置图",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 20,
+    "folder_id": null
+  },
+  {
+    "page": 8,
+    "type": "text",
+    "bBox": {
+      "l": 89.0,
+      "t": 667.0,
+      "r": 192.0,
+      "b": 696.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "附件2.现场勘查照片 附件3.税费表",
+    "md": "附件2.现场勘查照片 附件3.税费表",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 21,
+    "folder_id": null,
+    "hasHeader": false
+  },
+  {
+    "page": 8,
+    "type": "text",
+    "bBox": {
+      "l": 89.0,
+      "t": 697.0,
+      "r": 192.0,
+      "b": 711.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "附件4.评估测算过程",
+    "md": "附件4.评估测算过程",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 22,
+    "folder_id": null,
+    "hasHeader": false
+  },
+  {
+    "page": 9,
+    "type": "text",
+    "headingLevel": 2,
+    "bBox": {
+      "l": 89.0,
+      "t": 91.0,
+      "r": 234.0,
+      "b": 108.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "附件1.估价对象位置图",
+    "md": "附件1.估价对象位置图",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 23,
+    "folder_id": null,
+    "hasHeader": false
+  },
+  {
+    "page": 9,
+    "type": "image",
+    "bBox": {
+      "l": 87.0,
+      "t": 145.0,
+      "r": 505.0,
+      "b": 537.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "估价对象\n广东省惠州市惠阳区",
+    "md": "估价对象\n广东省惠州市惠阳区",
+    "img_path": "images/5667a467844b68bfb159897e6043bb3aaf3a551e7d0ddc07b3a92289b9504d64.jpg",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 24,
+    "folder_id": null
+  },
+  {
+    "page": 10,
+    "type": "table",
+    "bBox": {
+      "l": 87.0,
+      "t": 114.0,
+      "r": 506.0,
+      "b": 778.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "厂区门口",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "周边道路",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "景观",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "惠州市惠阳区秋长白石村地段(厂房B)",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "楼栋外观",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "楼栋门",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "楼栋门,欧阳晓杰",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "一层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "一层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "一层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "二层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "二层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "二层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "三层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "三层,欧阳晓杰",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "货梯",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍B)",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 11,
+          "colstart": 0,
+          "source_page_no": 11
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "楼栋外观",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 0,
+          "source_page_no": 11
+        },
+        {
+          "text": "楼栋门",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 1,
+          "source_page_no": 11
+        },
+        {
+          "text": "楼栋门,欧阳晓杰",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 2,
+          "source_page_no": 11
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "一层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 0,
+          "source_page_no": 11
+        },
+        {
+          "text": "二层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 1,
+          "source_page_no": 11
+        },
+        {
+          "text": "二层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 2,
+          "source_page_no": 11
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "三层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 0,
+          "source_page_no": 11
+        },
+        {
+          "text": "四层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 1,
+          "source_page_no": 11
+        },
+        {
+          "text": "四层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 2,
+          "source_page_no": 11
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "五层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 0,
+          "source_page_no": 11
+        },
+        {
+          "text": "五层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 1,
+          "source_page_no": 11
+        },
+        {
+          "text": "楼梯",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 2,
+          "source_page_no": 11
+        }
+      ],
+      [
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍C)",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 20,
+          "colstart": 0,
+          "source_page_no": 12
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "楼栋外观",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 0,
+          "source_page_no": 12
+        },
+        {
+          "text": "楼栋门",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 1,
+          "source_page_no": 12
+        },
+        {
+          "text": "楼栋门,欧阳晓杰",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 2,
+          "source_page_no": 12
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "一层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 0,
+          "source_page_no": 12
+        },
+        {
+          "text": "二层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 1,
+          "source_page_no": 12
+        },
+        {
+          "text": "三层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 2,
+          "source_page_no": 12
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "三层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 0,
+          "source_page_no": 12
+        },
+        {
+          "text": "四层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 1,
+          "source_page_no": 12
+        },
+        {
+          "text": "四层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 2,
+          "source_page_no": 12
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 0,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 1,
+          "source_page_no": 10
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 2,
+          "source_page_no": 10
+        }
+      ],
+      [
+        {
+          "text": "五层",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 0,
+          "source_page_no": 12
+        },
+        {
+          "text": "阳台外景",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 1,
+          "source_page_no": 12
+        },
+        {
+          "text": "楼梯",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 2,
+          "source_page_no": 12
+        }
+      ]
+    ],
+    "html": "<table><tr><td><img src=\"6721bd4ba3942da3b69175fdf4db3ac6d5793bfb7278c68ce3ff2d7bb727c17e.jpg\"/></td><td><img src=\"ea7e19662a3e1a9c68fe0de550f8b83826562266527351c2f5f54745a3d94fa7.jpg\"/></td><td><img src=\"7b9e640c45f7eaec9f5b86451edc64648476e86262e8af76a525f65d6662b7fe.jpg\"/></td></tr><tr><td>厂区门口</td><td>周边道路</td><td>景观</td></tr><tr><td colspan=\"3\">惠州市惠阳区秋长白石村地段(厂房B)</td></tr><tr><td><img src=\"4dd10c3925c2cf7a7cf406ee6fe0390ee38357b0c2df1c353f6d05f64a1b3244.jpg\"/></td><td><img src=\"6892d932f04cd8b9adc783899c20910703617635dc2f40ac32fd72ab092527f3.jpg\"/></td><td><img src=\"fad0d5f187fcac469eed19e50a094181b5f4c6bd0fb50d01e59d1d3aa01c1ddf.jpg\"/></td></tr><tr><td>楼栋外观</td><td>楼栋门</td><td>楼栋门,欧阳晓杰</td></tr><tr><td><img src=\"e08e9794503e8e65202e931f41a7582db4cb9a9a9dc408f6e13a534a70fc665e.jpg\"/></td><td><img src=\"0c5bf013eab0b29405698ac48518084e7a8745e052af2b4ed2a422c9eae051c8.jpg\"/></td><td><img src=\"b07052cf91dc4b0cc92428157d32fd096678b6fa17bb033faa1e85f23479fde5.jpg\"/></td></tr><tr><td>一层</td><td>一层</td><td>一层</td></tr><tr><td><img src=\"984a602650b7d6c5b6b7502e525eb011e58c169f69052fa3940dc0ebd643572f.jpg\"/></td><td><img src=\"5bbdaafda210892752d6dc300a3a64598afef7a7bcb1ce646c1e6828f5c272e4.jpg\"/></td><td><img src=\"31bf74ab6fe27e3a09633e97a1fdfed8d15472dcc8952c47b2534115b7c03cb2.jpg\"/></td></tr><tr><td>二层</td><td>二层</td><td>二层</td></tr><tr><td><img src=\"b4a20250cb5c0db432d527d7d78be7e9a94fd535dc274b38ea04fe71fdebf9cf.jpg\"/></td><td><img src=\"cc43d34eb11da586a8ff94f5890d1c63cd6de1cec82ef4ba0ab7b781b8d586ab.jpg\"/></td><td><img src=\"7a5562a03f722ff6a99a2e9231d6f4c629887f0a90e84131c44835dcf83a430c.jpg\"/></td></tr><tr><td>三层</td><td>三层,欧阳晓杰</td><td>货梯</td></tr><tr><td colspan=\"3\">惠州市惠阳区秋长白石村地段(宿舍B)</td></tr><tr><td><img src=\"4692a4a81b801a31a9d93fb95058dd9dd7d1704f80c388832075503298876a57.jpg\"/></td><td><img src=\"9f48281a4d59b7f4f5cd94496e3f026f1f006bef49986c353577e745e8607d69.jpg\"/></td><td><img src=\"d3e5a8d37475857bdaec7ad1b7d3b8c4426587401688e9370552cb4d1b54833f.jpg\"/></td></tr><tr><td>楼栋外观</td><td>楼栋门</td><td>楼栋门,欧阳晓杰</td></tr><tr><td><img src=\"7f9638ee6d869ec1808f4f0dcc6761238c3cfda1081fda5e934676604780148c.jpg\"/></td><td><img src=\"09bbd719157f4e533b1980fdc41591eba9efb7993bf1ba12e07fd2fb7b1364ec.jpg\"/></td><td><img src=\"b1ab3c6fc18e0eb27ab80cfba61efe6d45fa1226edff4e621c8d220b7ef782ac.jpg\"/></td></tr><tr><td>一层</td><td>二层</td><td>二层</td></tr><tr><td><img src=\"9af242a687ac92689528b2bbaecb0c63434b4354cbe81bcf8b61d4bb58933a92.jpg\"/></td><td><img src=\"0641de219b53bdba9685683d3e123fd74bf17c07d6e9491bea770e3de8b4ea77.jpg\"/></td><td><img src=\"d2e95e885150f9f823c3e1f34836da0c0e259b8b2b4b80fea36cb4e9378131d9.jpg\"/></td></tr><tr><td>三层</td><td>四层</td><td>四层</td></tr><tr><td><img src=\"53f5beb92d8823ea4026df1bbd2b14af298e54a9e0eef755620ab6d7714aef36.jpg\"/></td><td><img src=\"23de132bd4510f7052fc35035234afe9caf8228c02e83508551d88ffcd11d48d.jpg\"/></td><td><img src=\"dd5e4038079cd728430e497ac9df143002b99f60cc81e18e1d8598a295e26765.jpg\"/></td></tr><tr><td>五层</td><td>五层</td><td>楼梯</td></tr><tr><td colspan=\"3\">惠州市惠阳区秋长白石村地段(宿舍C)</td></tr><tr><td><img src=\"3f9d097531ad7f191c1e33f4d1380937bcabde07dca426a3f9933c4c76250c0e.jpg\"/></td><td><img src=\"e04d74654dacc5b2c0a76f1b6474bb5caf08f1d2e61d9decbb6409fe9c34b16b.jpg\"/></td><td><img src=\"6ee7b0cd19078110c58079aafc13ea335fd8a07244bd5dbc55312f0f9e5ae9bd.jpg\"/></td></tr><tr><td>楼栋外观</td><td>楼栋门</td><td>楼栋门,欧阳晓杰</td></tr><tr><td><img src=\"6e85e8e662a673aae27b5ecbae073abad2d4a3ae96399f2fee8c201e5d0ae443.jpg\"/></td><td><img src=\"f4b02c4b785f695e585b40855ef28a24b9be9910f2f566247d6d6949276638ec.jpg\"/></td><td><img src=\"94927c5984965dfa545afd4f260470b6d86e69506d472677ca602ef35e7dbb3e.jpg\"/></td></tr><tr><td>一层</td><td>二层</td><td>三层</td></tr><tr><td><img src=\"f1d9d465baba190ab4c9f8e07d88e64e18ba6ab1e75773d7816286f9a4d53233.jpg\"/></td><td><img src=\"52f438ce2b5e995f70351a87ba4442efd79f2d3edf12323eba148a1ddf52e0ff.jpg\"/></td><td><img src=\"09841652a4993bb098ae3b26fee3823090aa710853ece5823de1dd66804c101d.jpg\"/></td></tr><tr><td>三层</td><td>四层</td><td>四层</td></tr><tr><td><img src=\"818e4794e81dd20d0410b90b2bb4a6e0a5c666af63db58499f3a524d11c6834b.jpg\"/></td><td><img src=\"141ba634d12037b4382dc09ab1ec852e7877bcd2bf0318a090af33080535ecae.jpg\"/></td><td><img src=\"fd59be8eeb00dda7b1cfc8208b2a9c5f230ca390e01cbd20c9538898c15444c9.jpg\"/></td></tr><tr><td>五层</td><td>阳台外景</td><td>楼梯</td></tr></table>",
+    "md": "|  |  |  |\n| --- | --- | --- |\n| 厂区门口 | 周边道路 | 景观 |\n| 惠州市惠阳区秋长白石村地段(厂房B) | 惠州市惠阳区秋长白石村地段(厂房B) | 惠州市惠阳区秋长白石村地段(厂房B) |\n|  |  |  |\n| 楼栋外观 | 楼栋门 | 楼栋门,欧阳晓杰 |\n|  |  |  |\n| 一层 | 一层 | 一层 |\n|  |  |  |\n| 二层 | 二层 | 二层 |\n|  |  |  |\n| 三层 | 三层,欧阳晓杰 | 货梯 |\n| 惠州市惠阳区秋长白石村地段(宿舍B) | 惠州市惠阳区秋长白石村地段(宿舍B) | 惠州市惠阳区秋长白石村地段(宿舍B) |\n|  |  |  |\n| 楼栋外观 | 楼栋门 | 楼栋门,欧阳晓杰 |\n|  |  |  |\n| 一层 | 二层 | 二层 |\n|  |  |  |\n| 三层 | 四层 | 四层 |\n|  |  |  |\n| 五层 | 五层 | 楼梯 |\n| 惠州市惠阳区秋长白石村地段(宿舍C) | 惠州市惠阳区秋长白石村地段(宿舍C) | 惠州市惠阳区秋长白石村地段(宿舍C) |\n|  |  |  |\n| 楼栋外观 | 楼栋门 | 楼栋门,欧阳晓杰 |\n|  |  |  |\n| 一层 | 二层 | 三层 |\n|  |  |  |\n| 三层 | 四层 | 四层 |\n|  |  |  |\n| 五层 | 阳台外景 | 楼梯 |",
+    "perfectTable": false,
+    "table_caption": [
+      "附件2.现场勘查照片"
+    ],
+    "img_path": "kg_房地产电子评估报告_25.jpg",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 25,
+    "folder_id": null,
+    "standard2D": false,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false
+  },
+  {
+    "page": 13,
+    "type": "table",
+    "bBox": {
+      "l": 42.0,
+      "t": 127.0,
+      "r": 551.0,
+      "b": 596.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "序号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 13
+        },
+        {
+          "text": "项目",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 13
+        },
+        {
+          "text": "说明",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "计算方式",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 4,
+          "source_page_no": 13
+        },
+        {
+          "text": "估价对象1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "估价对象2",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "估价对象3",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "单位",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ],
+      [
+        {
+          "text": "一",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 13
+        },
+        {
+          "text": "建筑面积",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 13
+        },
+        {
+          "text": "——",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "——",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 4,
+          "source_page_no": 13
+        },
+        {
+          "text": "3584.84",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "1882.88",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "1674.28",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "平方米",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ],
+      [
+        {
+          "text": "二",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 13
+        },
+        {
+          "text": "原始购买价",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 13
+        },
+        {
+          "text": "——",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "——",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 4,
+          "source_page_no": 13
+        },
+        {
+          "text": "——",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "——",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "——",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ],
+      [
+        {
+          "text": "三",
+          "rowspan": 2,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 0,
+          "source_page_no": 13
+        },
+        {
+          "text": "评估单价",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 3,
+          "colstart": 1,
+          "source_page_no": 13
+        },
+        {
+          "text": "——",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "——",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 4,
+          "source_page_no": 13
+        },
+        {
+          "text": "1980",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "2080",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "2080",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "元/平方米",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ],
+      [
+        {
+          "text": "评估值",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 4,
+          "colstart": 1,
+          "source_page_no": 13
+        },
+        {
+          "text": "——",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "——",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 4,
+          "source_page_no": 13
+        },
+        {
+          "text": "7097983",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "3916390",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "3482502",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ],
+      [
+        {
+          "text": "四",
+          "rowspan": 7,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 0,
+          "source_page_no": 13
+        },
+        {
+          "text": "卖方相关税费",
+          "rowspan": 7,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 1,
+          "source_page_no": 13
+        },
+        {
+          "text": "1、增值税",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 2,
+          "source_page_no": 13
+        },
+        {
+          "text": "评估值÷1.05×",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "5%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 4,
+          "source_page_no": 13
+        },
+        {
+          "text": "337999",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "186495",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "165833",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ],
+      [
+        {
+          "text": "2、城市建设维护费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 2,
+          "source_page_no": 13
+        },
+        {
+          "text": "增值税×",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "7%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 4,
+          "source_page_no": 13
+        },
+        {
+          "text": "23660",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "13055",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "11608",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ],
+      [
+        {
+          "text": "3、教育费附加",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 2,
+          "source_page_no": 13
+        },
+        {
+          "text": "增值税×",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "5%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 4,
+          "source_page_no": 13
+        },
+        {
+          "text": "16900",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "9325",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "8292",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ],
+      [
+        {
+          "text": "4、印花税",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 2,
+          "source_page_no": 13
+        },
+        {
+          "text": "评估值×",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "0.05%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 4,
+          "source_page_no": 13
+        },
+        {
+          "text": "3549",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "1958",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "1741",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ],
+      [
+        {
+          "text": "5、个人所得税",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 2,
+          "source_page_no": 13
+        },
+        {
+          "text": "评估值×",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 4,
+          "source_page_no": 13
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ],
+      [
+        {
+          "text": "6、土地增值税",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 2,
+          "source_page_no": 13
+        },
+        {
+          "text": "评估值÷1.05×",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "6%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 4,
+          "source_page_no": 13
+        },
+        {
+          "text": "405599",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "223794",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "199000",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ],
+      [
+        {
+          "text": "税费合计",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 2,
+          "source_page_no": 13
+        },
+        {
+          "text": "1+2+3+4+5+6",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "——",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 4,
+          "source_page_no": 13
+        },
+        {
+          "text": "787707",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "434627",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "386474",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ],
+      [
+        {
+          "text": "五",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 0,
+          "source_page_no": 13
+        },
+        {
+          "text": "买方相关税费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 1,
+          "source_page_no": 13
+        },
+        {
+          "text": "契税",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 2,
+          "source_page_no": 13
+        },
+        {
+          "text": "评估值×",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "3%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 4,
+          "source_page_no": 13
+        },
+        {
+          "text": "212939",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "117492",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "104475",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ],
+      [
+        {
+          "text": "六",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 0,
+          "source_page_no": 13
+        },
+        {
+          "text": "抵押净值1",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 13,
+          "colstart": 1,
+          "source_page_no": 13
+        },
+        {
+          "text": "评估值-契税",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 13,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "6885044",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "3798898",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "3378027",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ],
+      [
+        {
+          "text": "七",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 0,
+          "source_page_no": 13
+        },
+        {
+          "text": "抵押净值2",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 14,
+          "colstart": 1,
+          "source_page_no": 13
+        },
+        {
+          "text": "评估值-增值税-城市建设维护费-教育费附加-印花税-个人所得税-交易手续费-土地增值税-契税",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 14,
+          "colstart": 3,
+          "source_page_no": 13
+        },
+        {
+          "text": "6097337",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 5,
+          "source_page_no": 13
+        },
+        {
+          "text": "3364271",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 6,
+          "source_page_no": 13
+        },
+        {
+          "text": "2991553",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 7,
+          "source_page_no": 13
+        },
+        {
+          "text": "元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 8,
+          "source_page_no": 13
+        }
+      ]
+    ],
+    "html": "<table><tr><td>序号</td><td colspan=\"2\">项目</td><td>说明</td><td>计算方式</td><td>估价对象1</td><td>估价对象2</td><td>估价对象3</td><td>单位</td></tr><tr><td>一</td><td colspan=\"2\">建筑面积</td><td>——</td><td>——</td><td>3584.84</td><td>1882.88</td><td>1674.28</td><td>平方米</td></tr><tr><td>二</td><td colspan=\"2\">原始购买价</td><td>——</td><td>——</td><td>——</td><td>——</td><td>——</td><td>元</td></tr><tr><td rowspan=\"2\">三</td><td colspan=\"2\">评估单价</td><td>——</td><td>——</td><td>1980</td><td>2080</td><td>2080</td><td>元/平方米</td></tr><tr><td colspan=\"2\">评估值</td><td>——</td><td>——</td><td>7097983</td><td>3916390</td><td>3482502</td><td>元</td></tr><tr><td rowspan=\"7\">四</td><td rowspan=\"7\">卖方相关税费</td><td>1、增值税</td><td>评估值÷1.05×</td><td>5%</td><td>337999</td><td>186495</td><td>165833</td><td>元</td></tr><tr><td>2、城市建设维护费</td><td>增值税×</td><td>7%</td><td>23660</td><td>13055</td><td>11608</td><td>元</td></tr><tr><td>3、教育费附加</td><td>增值税×</td><td>5%</td><td>16900</td><td>9325</td><td>8292</td><td>元</td></tr><tr><td>4、印花税</td><td>评估值×</td><td>0.05%</td><td>3549</td><td>1958</td><td>1741</td><td>元</td></tr><tr><td>5、个人所得税</td><td>评估值×</td><td>0</td><td>0</td><td>0</td><td>0</td><td>元</td></tr><tr><td>6、土地增值税</td><td>评估值÷1.05×</td><td>6%</td><td>405599</td><td>223794</td><td>199000</td><td>元</td></tr><tr><td>税费合计</td><td>1+2+3+4+5+6</td><td>——</td><td>787707</td><td>434627</td><td>386474</td><td>元</td></tr><tr><td>五</td><td>买方相关税费</td><td>契税</td><td>评估值×</td><td>3%</td><td>212939</td><td>117492</td><td>104475</td><td>元</td></tr><tr><td>六</td><td colspan=\"2\">抵押净值1</td><td colspan=\"2\">评估值-契税</td><td>6885044</td><td>3798898</td><td>3378027</td><td>元</td></tr><tr><td>七</td><td colspan=\"2\">抵押净值2</td><td colspan=\"2\">评估值-增值税-城市建设维护费-教育费附加-印花税-个人所得税-交易手续费-土地增值税-契税</td><td>6097337</td><td>3364271</td><td>2991553</td><td>元</td></tr></table>",
+    "md": "| 序号 | 项目 | 项目 | 说明 | 计算方式 | 估价对象1 | 估价对象2 | 估价对象3 | 单位 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 一 | 建筑面积 | 建筑面积 | —— | —— | 3584.84 | 1882.88 | 1674.28 | 平方米 |\n| 二 | 原始购买价 | 原始购买价 | —— | —— | —— | —— | —— | 元 |\n| 三 | 评估单价 | 评估单价 | —— | —— | 1980 | 2080 | 2080 | 元/平方米 |\n| 三 | 评估值 | 评估值 | —— | —— | 7097983 | 3916390 | 3482502 | 元 |\n| 四 | 卖方相关税费 | 1、增值税 | 评估值÷1.05× | 5% | 337999 | 186495 | 165833 | 元 |\n| 四 | 卖方相关税费 | 2、城市建设维护费 | 增值税× | 7% | 23660 | 13055 | 11608 | 元 |\n| 四 | 卖方相关税费 | 3、教育费附加 | 增值税× | 5% | 16900 | 9325 | 8292 | 元 |\n| 四 | 卖方相关税费 | 4、印花税 | 评估值× | 0.05% | 3549 | 1958 | 1741 | 元 |\n| 四 | 卖方相关税费 | 5、个人所得税 | 评估值× | 0 | 0 | 0 | 0 | 元 |\n| 四 | 卖方相关税费 | 6、土地增值税 | 评估值÷1.05× | 6% | 405599 | 223794 | 199000 | 元 |\n| 四 | 卖方相关税费 | 税费合计 | 1+2+3+4+5+6 | —— | 787707 | 434627 | 386474 | 元 |\n| 五 | 买方相关税费 | 契税 | 评估值× | 3% | 212939 | 117492 | 104475 | 元 |\n| 六 | 抵押净值1 | 抵押净值1 | 评估值-契税 | 评估值-契税 | 6885044 | 3798898 | 3378027 | 元 |\n| 七 | 抵押净值2 | 抵押净值2 | 评估值-增值税-城市建设维护费-教育费附加-印花税-个人所得税-交易手续费-土地增值税-契税 | 评估值-增值税-城市建设维护费-教育费附加-印花税-个人所得税-交易手续费-土地增值税-契税 | 6097337 | 3364271 | 2991553 | 元 |",
+    "perfectTable": false,
+    "table_caption": [
+      "附件3.税费表"
+    ],
+    "table_footnote": [
+      "备注：1、契税：非普通住宅为成交价的 3%计征。",
+      "2、增值税：非普通住宅（大于或等于 144平方米）按差额征收的 5%征收，未提供购置发票按全额的 5%征收；",
+      "3、城建税：以增值税为计算基数，税率市区 7%、县城 5%、镇区或工矿区 1%；",
+      "4、教育费附加（含地方附加）：以增值税为计算基数，税率为 5%；",
+      "5、印花税：个人住宅免征、个人非居住及公司物业按成交价的 0.05%；",
+      "6、个人所得税：公司物业免征；",
+      "7、土地增值税：个人住宅免征，其余均为核定征收，如未提供购置发票按成交价税后的 6%计算；",
+      "8、委托方未能提供评估对象买卖合同价及成交价的，均采用评估价作为计税基数；",
+      "9、以上预计应交税费仅供参考，实际计收项目的标准以相关部门最终核定为准。"
+    ],
+    "img_path": "kg_房地产电子评估报告_28.jpg",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 28,
+    "folder_id": null,
+    "standard2D": false,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false
+  },
+  {
+    "page": 14,
+    "type": "text",
+    "headingLevel": 2,
+    "bBox": {
+      "l": 89.0,
+      "t": 91.0,
+      "r": 220.0,
+      "b": 108.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "附件4.评估测算过程",
+    "md": "附件4.评估测算过程",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 29,
+    "folder_id": null
+  },
+  {
+    "page": 14,
+    "type": "table",
+    "bBox": {
+      "l": 83.0,
+      "t": 136.0,
+      "r": 511.0,
+      "b": 786.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "序号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "项目",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(厂房B)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍B)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍C)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "计算依据及公式",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "一",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "土地取得成本",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "371",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "371",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "371",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "土地取得成本=(土地购买价格+土地取得税费)×使用年期修正",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "土地购买价格(楼面价)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "360",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "360",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "360",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "根据区域内土地市场状况结合估价对象自身实物状况综合确定",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "2",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "土地取得税费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "11",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "11",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "11",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "土地购买价格的3.05%(契税3%,印花税0.5%)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "3",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "使用年期修正",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "求取土地价值时已作修正,此处不作修正",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "二",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "土地开发成本",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "0",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "#REF!",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "三",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "建筑物建造成本",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "1460.32",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "1674.32",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "1674.32",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "建造成本=勘查设计和前期工程费+基础设施配套费+建筑安装工程费+室外工程费用+其他费用+不可预见费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "勘察设计和前期工程费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "13.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "15.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "15.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "勘察设计和前期工程费=建筑安装工程费×1.0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "2",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "建筑安装工程费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "1,320",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "1,520",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "1,520",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "建安工程费=基础工程费用+结构费用+设备安装费用+装修装饰费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "2.1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "基础工程费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "150",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "150",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "150",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "依据估价对象的建筑结构、安装、装修标准等因素,参考当地建设工程造价管理信息,结合区域的建筑市场价格水平等因素综合分析确定",
+          "rowspan": 4,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "2.2",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "结构费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "750",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "950",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "950",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 4,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "2.3",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "设备安装费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "180",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "130",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "130",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 4,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "2.4",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "装修装饰费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "240",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "290",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "290",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 4,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "3",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "室外工程费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "39.60",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "45.60",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "45.60",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "室外工程费用=基础设施建设费+公共配套设施费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "3.1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "基础设施建设费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "13.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "15.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "15.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "基础设施建设费=建筑安装工程费×1.0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "3.2",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "公共配套设施费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "26.40",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "30.40",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "30.40",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "公共配套设施费=建筑安装工程费×2.0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "4",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "开发期间税费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "61.12",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "63.12",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "63.12",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "4.1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "城市基础设施配套费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "47.92",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "47.92",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "47.92",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "城市基础设施配套费=建筑安装工程费×4.0%,依据当地有关规定确定",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "4.2",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "其他开发期间税费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "13.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "15.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "15.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "其他开发期间税费=建筑安装工程费×1.0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "5",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "其他费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "13.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "15.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "15.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "其他费用=建筑安装工程费×1.0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "6",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "不可预见费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "13.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "15.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "15.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "不可预见费=建筑安装工程费×1.0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "四",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "管理费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "36.63",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "40.91",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "40.91",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "(土地取得开发+土地开发成本+建筑物建造成本)×2.0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "五",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "销售费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "18.68",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "20.86",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "20.86",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "(土地取得成本+土地开发成本+建筑物建造成本+管理费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 3,
+          "source_page_no": 15
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 4,
+          "source_page_no": 15
+        },
+        {
+          "text": "用)×1%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 5,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "六",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "投资利息",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "48.75",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "53.50",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "53.50",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "土地取得成本\\times \\left\\lbrack {\\left( {1 + \\text{投资利息}}\\right) ^{\\text{ (建设期) }} - 1}\\right\\rbrack + \\left( {\\text{土地开发成本} + \\text{建筑物建造成本} + \\text{管理费用} + \\text{销售费用}}\\right) \\times \\left\\lbrack {\\left( {1 + \\text{投资利息}}\\right) ^{\\text{ (建设期/2) }} - 1}\\right\\rbrack , \\text{ 建设期 }1\\text{ 年,贷款利率 }4.35\\%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "七",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "投资利润",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "113.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "126.43",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 3,
+          "source_page_no": 15
+        },
+        {
+          "text": "126.43",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 4,
+          "source_page_no": 15
+        },
+        {
+          "text": "(土地取得成本+土地开发成本+建筑物建造成本+管理费用+销售费用)×6.0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 5,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "八",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "销售税费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "114.38",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "127.69",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "127.69",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "新建房地产价格\\times销售税率(5.29%),推出:(土地取得成本+土地开发成本+建筑物建造成本+管理费用+销售费用+投资利息+投资利润)\\times税率/(1-税率)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "九",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "新建房地产价格",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "2,163",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "2,415",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 3,
+          "source_page_no": 15
+        },
+        {
+          "text": "2,415",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 4,
+          "source_page_no": 15
+        },
+        {
+          "text": "参照本表计算公式(不扣建筑物折旧)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 5,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "十一",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "综合成新率",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "82%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "82%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 3,
+          "source_page_no": 15
+        },
+        {
+          "text": "82%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 4,
+          "source_page_no": 15
+        },
+        {
+          "text": "依据理论成新率和实际观察成新率等因素综合确定",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 5,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "十二",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 0,
+          "source_page_no": 14
+        },
+        {
+          "text": "建筑物折旧额",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 1,
+          "source_page_no": 14
+        },
+        {
+          "text": "389",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 2,
+          "source_page_no": 14
+        },
+        {
+          "text": "435",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 3,
+          "source_page_no": 14
+        },
+        {
+          "text": "435",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 4,
+          "source_page_no": 14
+        },
+        {
+          "text": "建筑物折旧额=建筑物重新构建价格\\times(1-综合成新率)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 5,
+          "source_page_no": 14
+        }
+      ],
+      [
+        {
+          "text": "十三",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "旧房地产单价",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "1,770",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "1,980",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 3,
+          "source_page_no": 15
+        },
+        {
+          "text": "1,980",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 4,
+          "source_page_no": 15
+        },
+        {
+          "text": "评估单价=新建房地产价格-建筑物折旧",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 5,
+          "source_page_no": 15
+        }
+      ]
+    ],
+    "html": "<table><tr><td>序号</td><td>项目</td><td>惠州市惠阳区秋长白石村地段(厂房B)</td><td>惠州市惠阳区秋长白石村地段(宿舍B)</td><td>惠州市惠阳区秋长白石村地段(宿舍C)</td><td>计算依据及公式</td></tr><tr><td>一</td><td>土地取得成本</td><td>371</td><td>371</td><td>371</td><td>土地取得成本=(土地购买价格+土地取得税费)×使用年期修正</td></tr><tr><td>1</td><td>土地购买价格(楼面价)</td><td>360</td><td>360</td><td>360</td><td>根据区域内土地市场状况结合估价对象自身实物状况综合确定</td></tr><tr><td>2</td><td>土地取得税费</td><td>11</td><td>11</td><td>11</td><td>土地购买价格的3.05%(契税3%,印花税0.5%)</td></tr><tr><td>3</td><td>使用年期修正</td><td>1</td><td>1</td><td>1</td><td>求取土地价值时已作修正,此处不作修正</td></tr><tr><td>二</td><td>土地开发成本</td><td>0</td><td>0</td><td>0</td><td>#REF!</td></tr><tr><td>三</td><td>建筑物建造成本</td><td>1460.32</td><td>1674.32</td><td>1674.32</td><td>建造成本=勘查设计和前期工程费+基础设施配套费+建筑安装工程费+室外工程费用+其他费用+不可预见费</td></tr><tr><td>1</td><td>勘察设计和前期工程费</td><td>13.20</td><td>15.20</td><td>15.20</td><td>勘察设计和前期工程费=建筑安装工程费×1.0%</td></tr><tr><td>2</td><td>建筑安装工程费</td><td>1,320</td><td>1,520</td><td>1,520</td><td>建安工程费=基础工程费用+结构费用+设备安装费用+装修装饰费用</td></tr><tr><td>2.1</td><td>基础工程费用</td><td>150</td><td>150</td><td>150</td><td rowspan=\"4\">依据估价对象的建筑结构、安装、装修标准等因素,参考当地建设工程造价管理信息,结合区域的建筑市场价格水平等因素综合分析确定</td></tr><tr><td>2.2</td><td>结构费用</td><td>750</td><td>950</td><td>950</td></tr><tr><td>2.3</td><td>设备安装费用</td><td>180</td><td>130</td><td>130</td></tr><tr><td>2.4</td><td>装修装饰费用</td><td>240</td><td>290</td><td>290</td></tr><tr><td>3</td><td>室外工程费用</td><td>39.60</td><td>45.60</td><td>45.60</td><td>室外工程费用=基础设施建设费+公共配套设施费</td></tr><tr><td>3.1</td><td>基础设施建设费</td><td>13.20</td><td>15.20</td><td>15.20</td><td>基础设施建设费=建筑安装工程费×1.0%</td></tr><tr><td>3.2</td><td>公共配套设施费</td><td>26.40</td><td>30.40</td><td>30.40</td><td>公共配套设施费=建筑安装工程费×2.0%</td></tr><tr><td>4</td><td>开发期间税费</td><td>61.12</td><td>63.12</td><td>63.12</td><td></td></tr><tr><td>4.1</td><td>城市基础设施配套费</td><td>47.92</td><td>47.92</td><td>47.92</td><td>城市基础设施配套费=建筑安装工程费×4.0%,依据当地有关规定确定</td></tr><tr><td>4.2</td><td>其他开发期间税费</td><td>13.20</td><td>15.20</td><td>15.20</td><td>其他开发期间税费=建筑安装工程费×1.0%</td></tr><tr><td>5</td><td>其他费用</td><td>13.20</td><td>15.20</td><td>15.20</td><td>其他费用=建筑安装工程费×1.0%</td></tr><tr><td>6</td><td>不可预见费</td><td>13.20</td><td>15.20</td><td>15.20</td><td>不可预见费=建筑安装工程费×1.0%</td></tr><tr><td>四</td><td>管理费用</td><td>36.63</td><td>40.91</td><td>40.91</td><td>(土地取得开发+土地开发成本+建筑物建造成本)×2.0%</td></tr><tr><td>五</td><td>销售费用</td><td>18.68</td><td>20.86</td><td>20.86</td><td>(土地取得成本+土地开发成本+建筑物建造成本+管理费</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>用)×1%</td></tr><tr><td>六</td><td>投资利息</td><td>48.75</td><td>53.50</td><td>53.50</td><td>土地取得成本<eq>\\times \\left\\lbrack {\\left( {1 + \\text{投资利息}}\\right) ^{\\text{ (建设期) }} - 1}\\right\\rbrack + \\left( {\\text{土地开发成本} + \\text{建筑物建造成本} + \\text{管理费用} + \\text{销售费用}}\\right) \\times \\left\\lbrack {\\left( {1 + \\text{投资利息}}\\right) ^{\\text{ (建设期/2) }} - 1}\\right\\rbrack , \\text{ 建设期 }1\\text{ 年,贷款利率 }4.35\\%</eq></td></tr><tr><td>七</td><td>投资利润</td><td>113.20</td><td>126.43</td><td>126.43</td><td>(土地取得成本+土地开发成本+建筑物建造成本+管理费用+销售费用)×6.0%</td></tr><tr><td>八</td><td>销售税费</td><td>114.38</td><td>127.69</td><td>127.69</td><td>新建房地产价格<eq>\\times</eq>销售税率(5.29%),推出:(土地取得成本+土地开发成本+建筑物建造成本+管理费用+销售费用+投资利息+投资利润)<eq>\\times</eq>税率/(1-税率)</td></tr><tr><td>九</td><td>新建房地产价格</td><td>2,163</td><td>2,415</td><td>2,415</td><td>参照本表计算公式(不扣建筑物折旧)</td></tr><tr><td>十一</td><td>综合成新率</td><td>82%</td><td>82%</td><td>82%</td><td>依据理论成新率和实际观察成新率等因素综合确定</td></tr><tr><td>十二</td><td>建筑物折旧额</td><td>389</td><td>435</td><td>435</td><td>建筑物折旧额=建筑物重新构建价格<eq>\\times</eq>(1-综合成新率)</td></tr><tr><td>十三</td><td>旧房地产单价</td><td>1,770</td><td>1,980</td><td>1,980</td><td>评估单价=新建房地产价格-建筑物折旧</td></tr></table>",
+    "md": "| 序号 | 项目 | 惠州市惠阳区秋长白石村地段(厂房B) | 惠州市惠阳区秋长白石村地段(宿舍B) | 惠州市惠阳区秋长白石村地段(宿舍C) | 计算依据及公式 |\n| --- | --- | --- | --- | --- | --- |\n| 一 | 土地取得成本 | 371 | 371 | 371 | 土地取得成本=(土地购买价格+土地取得税费)×使用年期修正 |\n| 1 | 土地购买价格(楼面价) | 360 | 360 | 360 | 根据区域内土地市场状况结合估价对象自身实物状况综合确定 |\n| 2 | 土地取得税费 | 11 | 11 | 11 | 土地购买价格的3.05%(契税3%,印花税0.5%) |\n| 3 | 使用年期修正 | 1 | 1 | 1 | 求取土地价值时已作修正,此处不作修正 |\n| 二 | 土地开发成本 | 0 | 0 | 0 | #REF! |\n| 三 | 建筑物建造成本 | 1460.32 | 1674.32 | 1674.32 | 建造成本=勘查设计和前期工程费+基础设施配套费+建筑安装工程费+室外工程费用+其他费用+不可预见费 |\n| 1 | 勘察设计和前期工程费 | 13.20 | 15.20 | 15.20 | 勘察设计和前期工程费=建筑安装工程费×1.0% |\n| 2 | 建筑安装工程费 | 1,320 | 1,520 | 1,520 | 建安工程费=基础工程费用+结构费用+设备安装费用+装修装饰费用 |\n| 2.1 | 基础工程费用 | 150 | 150 | 150 | 依据估价对象的建筑结构、安装、装修标准等因素,参考当地建设工程造价管理信息,结合区域的建筑市场价格水平等因素综合分析确定 |\n| 2.2 | 结构费用 | 750 | 950 | 950 | 依据估价对象的建筑结构、安装、装修标准等因素,参考当地建设工程造价管理信息,结合区域的建筑市场价格水平等因素综合分析确定 |\n| 2.3 | 设备安装费用 | 180 | 130 | 130 | 依据估价对象的建筑结构、安装、装修标准等因素,参考当地建设工程造价管理信息,结合区域的建筑市场价格水平等因素综合分析确定 |\n| 2.4 | 装修装饰费用 | 240 | 290 | 290 | 依据估价对象的建筑结构、安装、装修标准等因素,参考当地建设工程造价管理信息,结合区域的建筑市场价格水平等因素综合分析确定 |\n| 3 | 室外工程费用 | 39.60 | 45.60 | 45.60 | 室外工程费用=基础设施建设费+公共配套设施费 |\n| 3.1 | 基础设施建设费 | 13.20 | 15.20 | 15.20 | 基础设施建设费=建筑安装工程费×1.0% |\n| 3.2 | 公共配套设施费 | 26.40 | 30.40 | 30.40 | 公共配套设施费=建筑安装工程费×2.0% |\n| 4 | 开发期间税费 | 61.12 | 63.12 | 63.12 |  |\n| 4.1 | 城市基础设施配套费 | 47.92 | 47.92 | 47.92 | 城市基础设施配套费=建筑安装工程费×4.0%,依据当地有关规定确定 |\n| 4.2 | 其他开发期间税费 | 13.20 | 15.20 | 15.20 | 其他开发期间税费=建筑安装工程费×1.0% |\n| 5 | 其他费用 | 13.20 | 15.20 | 15.20 | 其他费用=建筑安装工程费×1.0% |\n| 6 | 不可预见费 | 13.20 | 15.20 | 15.20 | 不可预见费=建筑安装工程费×1.0% |\n| 四 | 管理费用 | 36.63 | 40.91 | 40.91 | (土地取得开发+土地开发成本+建筑物建造成本)×2.0% |\n| 五 | 销售费用 | 18.68 | 20.86 | 20.86 | (土地取得成本+土地开发成本+建筑物建造成本+管理费 |\n|  |  |  |  |  | 用)×1% |\n| 六 | 投资利息 | 48.75 | 53.50 | 53.50 | 土地取得成本\\times \\left\\lbrack {\\left( {1 + \\text{投资利息}}\\right) ^{\\text{ (建设期) }} - 1}\\right\\rbrack + \\left( {\\text{土地开发成本} + \\text{建筑物建造成本} + \\text{管理费用} + \\text{销售费用}}\\right) \\times \\left\\lbrack {\\left( {1 + \\text{投资利息}}\\right) ^{\\text{ (建设期/2) }} - 1}\\right\\rbrack , \\text{ 建设期 }1\\text{ 年,贷款利率 }4.35\\% |\n| 七 | 投资利润 | 113.20 | 126.43 | 126.43 | (土地取得成本+土地开发成本+建筑物建造成本+管理费用+销售费用)×6.0% |\n| 八 | 销售税费 | 114.38 | 127.69 | 127.69 | 新建房地产价格\\times销售税率(5.29%),推出:(土地取得成本+土地开发成本+建筑物建造成本+管理费用+销售费用+投资利息+投资利润)\\times税率/(1-税率) |\n| 九 | 新建房地产价格 | 2,163 | 2,415 | 2,415 | 参照本表计算公式(不扣建筑物折旧) |\n| 十一 | 综合成新率 | 82% | 82% | 82% | 依据理论成新率和实际观察成新率等因素综合确定 |\n| 十二 | 建筑物折旧额 | 389 | 435 | 435 | 建筑物折旧额=建筑物重新构建价格\\times(1-综合成新率) |\n| 十三 | 旧房地产单价 | 1,770 | 1,980 | 1,980 | 评估单价=新建房地产价格-建筑物折旧 |",
+    "perfectTable": false,
+    "table_caption": [
+      "（一）成本法计算过程"
+    ],
+    "img_path": "kg_房地产电子评估报告_30.jpg",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 30,
+    "folder_id": null,
+    "standard2D": false,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false
+  },
+  {
+    "page": 15,
+    "type": "text",
+    "headingLevel": 3,
+    "bBox": {
+      "l": 93.0,
+      "t": 399.0,
+      "r": 151.0,
+      "b": 411.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "（二）收益法",
+    "md": "（二）收益法",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 32,
+    "folder_id": null,
+    "hasHeader": false
+  },
+  {
+    "page": 15,
+    "type": "table",
+    "bBox": {
+      "l": 87.0,
+      "t": 431.0,
+      "r": 511.0,
+      "b": 775.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "计算公式",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "V = \\frac{A_1}{(Y - g)} \\times \\left[ 1 - \\frac{(1 + g)^t}{(1 + Y)^t} \\right] + \\frac{A_t}{Y(1 + Y)^t} \\times \\left| 1 - \\frac{1}{(1 + Y)^{n - t}} \\right|",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "项目名称",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "序号",
+          "rowspan": 11,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "项目及公式",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "参数及公式",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "评估值(元)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "基本参数与计算公式",
+          "rowspan": 10,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "经营性房屋建筑面积(m^2)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "7,142.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "终止日期",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "2055/1/4",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "价值时点",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "2025/4/28",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "收益年限(n)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "46.09",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "报酬率(Y)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "5.00%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "净收益年递增率(g)[根据市调确定]",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "1.0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "增长年限(t)[根据市调确定]",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "10.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "月租金(元/m^2)[根据市调确定]",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "15.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "空置率(%)[根据市场调查确定]",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "8.00%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "一年无风险收益率(%)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "1.50%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "年潜在毛租金收益",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "月租金×12",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "1,285,560",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "2",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "空置损失",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "年潜在毛租金收益×空置率",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "102,845",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "3",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "年毛租金收益",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "年潜在毛租金收益-空置损失",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "1,182,715",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "4",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "运营费用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "(1)至(9)项之和",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "375,626",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "4.1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "(1)房产税",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "年毛租金收益×12%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "141,926",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "4.2",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "(2)增值税",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "年毛租金收益×5%÷1.05",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "56,320",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 3,
+          "source_page_no": 16
+        }
+      ],
+      [
+        {
+          "text": "4.3",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "(3)教育费附加",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "增值税×3%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "1,690",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 3,
+          "source_page_no": 16
+        }
+      ],
+      [
+        {
+          "text": "4.4",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "(4)地方教育费附加",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "增值税×2%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "1,126",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 3,
+          "source_page_no": 16
+        }
+      ],
+      [
+        {
+          "text": "4.5",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "(5)城市建设维护税",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "增值税×5%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "2,816",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 3,
+          "source_page_no": 16
+        }
+      ],
+      [
+        {
+          "text": "4.6",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "(6)印花税",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "年毛租金收益×0.1%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "1,183",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 3,
+          "source_page_no": 16
+        }
+      ],
+      [
+        {
+          "text": "4.7",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "(7)房屋租赁管理费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "年毛租金收益×2.0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "23,654",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 23,
+          "colstart": 3,
+          "source_page_no": 16
+        }
+      ],
+      [
+        {
+          "text": "4.8",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "(8)维修费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "建筑物重置价格×1.0%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "133,555",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 24,
+          "colstart": 3,
+          "source_page_no": 16
+        }
+      ],
+      [
+        {
+          "text": "4.9",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "(9)保险费",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "建筑物重置价格×0.1%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "13,356",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 25,
+          "colstart": 3,
+          "source_page_no": 16
+        }
+      ],
+      [
+        {
+          "text": "5",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "押金利息收益",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "两个月毛租金×年无风险收益率",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "3,214",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 26,
+          "colstart": 3,
+          "source_page_no": 16
+        }
+      ],
+      [
+        {
+          "text": "6",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "第一年租金纯收益(A_1)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "年毛租金收益-运营费用+押金利息收益",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "810,303",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 27,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "7",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "第t年租金纯收益(A_t)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "A_1 \\times (1 + g)^{(t-1)}",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "886,216",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 28,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "8",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "收益总值",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "公式见本表的收益法公式",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "15,530,767",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 29,
+          "colstart": 3,
+          "source_page_no": 16
+        }
+      ],
+      [
+        {
+          "text": "9",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 0,
+          "source_page_no": 15
+        },
+        {
+          "text": "收益单价(元/m^2)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 1,
+          "source_page_no": 15
+        },
+        {
+          "text": "收益总值÷建筑面积",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 2,
+          "source_page_no": 15
+        },
+        {
+          "text": "2,175",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 30,
+          "colstart": 3,
+          "source_page_no": 15
+        }
+      ],
+      [
+        {
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "评估单价(取整)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "根据估价经验综合确定",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "2,180",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 31,
+          "colstart": 3,
+          "source_page_no": 16
+        }
+      ],
+      [
+        {
+          "text": "11",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "评估总值",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "评估单价×建筑面积",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "15,569,560",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 32,
+          "colstart": 3,
+          "source_page_no": 16
+        }
+      ]
+    ],
+    "html": "<table><tr><td>计算公式</td><td colspan=\"3\"><eq>V = \\frac{A_1}{(Y - g)} \\times \\left[ 1 - \\frac{(1 + g)^t}{(1 + Y)^t} \\right] + \\frac{A_t}{Y(1 + Y)^t} \\times \\left| 1 - \\frac{1}{(1 + Y)^{n - t}} \\right|</eq></td></tr><tr><td>项目名称</td><td colspan=\"3\">惠州市惠阳区秋长白石村地段</td></tr><tr><td rowspan=\"11\">序号</td><td>项目及公式</td><td>参数及公式</td><td>评估值(元)</td></tr><tr><td rowspan=\"10\">基本参数与计算公式</td><td>经营性房屋建筑面积(<eq>m^2</eq>)</td><td>7,142.00</td></tr><tr><td>终止日期</td><td>2055/1/4</td></tr><tr><td>价值时点</td><td>2025/4/28</td></tr><tr><td>收益年限(n)</td><td>46.09</td></tr><tr><td>报酬率(Y)</td><td>5.00%</td></tr><tr><td>净收益年递增率(g)[根据市调确定]</td><td>1.0%</td></tr><tr><td>增长年限(t)[根据市调确定]</td><td>10.00</td></tr><tr><td>月租金(元/<eq>m^2</eq>)[根据市调确定]</td><td>15.00</td></tr><tr><td>空置率(%)[根据市场调查确定]</td><td>8.00%</td></tr><tr><td>一年无风险收益率(%)</td><td>1.50%</td></tr><tr><td>1</td><td>年潜在毛租金收益</td><td>月租金×12</td><td>1,285,560</td></tr><tr><td>2</td><td>空置损失</td><td>年潜在毛租金收益×空置率</td><td>102,845</td></tr><tr><td>3</td><td>年毛租金收益</td><td>年潜在毛租金收益-空置损失</td><td>1,182,715</td></tr><tr><td>4</td><td>运营费用</td><td>(1)至(9)项之和</td><td>375,626</td></tr><tr><td>4.1</td><td>(1)房产税</td><td>年毛租金收益×12%</td><td>141,926</td></tr><tr><td>4.2</td><td>(2)增值税</td><td>年毛租金收益×5%÷1.05</td><td>56,320</td></tr><tr><td>4.3</td><td>(3)教育费附加</td><td>增值税×3%</td><td>1,690</td></tr><tr><td>4.4</td><td>(4)地方教育费附加</td><td>增值税×2%</td><td>1,126</td></tr><tr><td>4.5</td><td>(5)城市建设维护税</td><td>增值税×5%</td><td>2,816</td></tr><tr><td>4.6</td><td>(6)印花税</td><td>年毛租金收益×0.1%</td><td>1,183</td></tr><tr><td>4.7</td><td>(7)房屋租赁管理费</td><td>年毛租金收益×2.0%</td><td>23,654</td></tr><tr><td>4.8</td><td>(8)维修费</td><td>建筑物重置价格×1.0%</td><td>133,555</td></tr><tr><td>4.9</td><td>(9)保险费</td><td>建筑物重置价格×0.1%</td><td>13,356</td></tr><tr><td>5</td><td>押金利息收益</td><td>两个月毛租金×年无风险收益率</td><td>3,214</td></tr><tr><td>6</td><td>第一年租金纯收益(<eq>A_1</eq>)</td><td>年毛租金收益-运营费用+押金利息收益</td><td>810,303</td></tr><tr><td>7</td><td>第t年租金纯收益(<eq>A_t</eq>)</td><td><eq>A_1 \\times (1 + g)^{(t-1)}</eq></td><td>886,216</td></tr><tr><td>8</td><td>收益总值</td><td>公式见本表的收益法公式</td><td>15,530,767</td></tr><tr><td>9</td><td>收益单价(元/<eq>m^2</eq>)</td><td>收益总值÷建筑面积</td><td>2,175</td></tr><tr><td>10</td><td>评估单价(取整)</td><td>根据估价经验综合确定</td><td>2,180</td></tr><tr><td>11</td><td>评估总值</td><td>评估单价×建筑面积</td><td>15,569,560</td></tr></table>",
+    "md": "| 计算公式 | V = \\frac{A_1}{(Y - g)} \\times \\left[ 1 - \\frac{(1 + g)^t}{(1 + Y)^t} \\right] + \\frac{A_t}{Y(1 + Y)^t} \\times \\left| 1 - \\frac{1}{(1 + Y)^{n - t}} \\right| | V = \\frac{A_1}{(Y - g)} \\times \\left[ 1 - \\frac{(1 + g)^t}{(1 + Y)^t} \\right] + \\frac{A_t}{Y(1 + Y)^t} \\times \\left| 1 - \\frac{1}{(1 + Y)^{n - t}} \\right| | V = \\frac{A_1}{(Y - g)} \\times \\left[ 1 - \\frac{(1 + g)^t}{(1 + Y)^t} \\right] + \\frac{A_t}{Y(1 + Y)^t} \\times \\left| 1 - \\frac{1}{(1 + Y)^{n - t}} \\right| |\n| --- | --- | --- | --- |\n| 项目名称 | 惠州市惠阳区秋长白石村地段 | 惠州市惠阳区秋长白石村地段 | 惠州市惠阳区秋长白石村地段 |\n| 序号 | 项目及公式 | 参数及公式 | 评估值(元) |\n| 序号 | 基本参数与计算公式 | 经营性房屋建筑面积(m^2) | 7,142.00 |\n| 序号 | 基本参数与计算公式 | 终止日期 | 2055/1/4 |\n| 序号 | 基本参数与计算公式 | 价值时点 | 2025/4/28 |\n| 序号 | 基本参数与计算公式 | 收益年限(n) | 46.09 |\n| 序号 | 基本参数与计算公式 | 报酬率(Y) | 5.00% |\n| 序号 | 基本参数与计算公式 | 净收益年递增率(g)[根据市调确定] | 1.0% |\n| 序号 | 基本参数与计算公式 | 增长年限(t)[根据市调确定] | 10.00 |\n| 序号 | 基本参数与计算公式 | 月租金(元/m^2)[根据市调确定] | 15.00 |\n| 序号 | 基本参数与计算公式 | 空置率(%)[根据市场调查确定] | 8.00% |\n| 序号 | 基本参数与计算公式 | 一年无风险收益率(%) | 1.50% |\n| 1 | 年潜在毛租金收益 | 月租金×12 | 1,285,560 |\n| 2 | 空置损失 | 年潜在毛租金收益×空置率 | 102,845 |\n| 3 | 年毛租金收益 | 年潜在毛租金收益-空置损失 | 1,182,715 |\n| 4 | 运营费用 | (1)至(9)项之和 | 375,626 |\n| 4.1 | (1)房产税 | 年毛租金收益×12% | 141,926 |\n| 4.2 | (2)增值税 | 年毛租金收益×5%÷1.05 | 56,320 |\n| 4.3 | (3)教育费附加 | 增值税×3% | 1,690 |\n| 4.4 | (4)地方教育费附加 | 增值税×2% | 1,126 |\n| 4.5 | (5)城市建设维护税 | 增值税×5% | 2,816 |\n| 4.6 | (6)印花税 | 年毛租金收益×0.1% | 1,183 |\n| 4.7 | (7)房屋租赁管理费 | 年毛租金收益×2.0% | 23,654 |\n| 4.8 | (8)维修费 | 建筑物重置价格×1.0% | 133,555 |\n| 4.9 | (9)保险费 | 建筑物重置价格×0.1% | 13,356 |\n| 5 | 押金利息收益 | 两个月毛租金×年无风险收益率 | 3,214 |\n| 6 | 第一年租金纯收益(A_1) | 年毛租金收益-运营费用+押金利息收益 | 810,303 |\n| 7 | 第t年租金纯收益(A_t) | A_1 \\times (1 + g)^{(t-1)} | 886,216 |\n| 8 | 收益总值 | 公式见本表的收益法公式 | 15,530,767 |\n| 9 | 收益单价(元/m^2) | 收益总值÷建筑面积 | 2,175 |\n| 10 | 评估单价(取整) | 根据估价经验综合确定 | 2,180 |\n| 11 | 评估总值 | 评估单价×建筑面积 | 15,569,560 |",
+    "perfectTable": false,
+    "table_caption": [
+      "收益法测算表"
+    ],
+    "img_path": "kg_房地产电子评估报告_33.jpg",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 33,
+    "folder_id": null,
+    "standard2D": false,
+    "hasHeader": true,
+    "_pendingHeaderNumRows": 1,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false
+  },
+  {
+    "page": 16,
+    "type": "text",
+    "headingLevel": 3,
+    "bBox": {
+      "l": 93.0,
+      "t": 342.0,
+      "r": 170.0,
+      "b": 355.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "（三）价值的确定",
+    "md": "（三）价值的确定",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 35,
+    "folder_id": null,
+    "hasHeader": true,
+    "_pendingHeaderNumRows": 1
+  },
+  {
+    "page": 16,
+    "type": "table",
+    "bBox": {
+      "l": 83.0,
+      "t": 372.0,
+      "r": 511.0,
+      "b": 438.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "评估方法",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "评估单价(元/ $m^2$ )",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "评估单价(元/ $m^3$ )",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "评估单价(元/ $m^4$ )",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 3,
+          "source_page_no": 16
+        },
+        {
+          "text": "权重",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 4,
+          "source_page_no": 16
+        }
+      ],
+      [
+        {
+          "text": "成本法",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "1,770",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "1,980",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "1,980",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 3,
+          "source_page_no": 16
+        },
+        {
+          "text": "50%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 4,
+          "source_page_no": 16
+        }
+      ],
+      [
+        {
+          "text": "收益法",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "2,180",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "2,180",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "2,180",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 3,
+          "source_page_no": 16
+        },
+        {
+          "text": "50%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 4,
+          "source_page_no": 16
+        }
+      ],
+      [
+        {
+          "text": "加权平均值(取整)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 0,
+          "source_page_no": 16
+        },
+        {
+          "text": "1,980",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 1,
+          "source_page_no": 16
+        },
+        {
+          "text": "2,080",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 2,
+          "source_page_no": 16
+        },
+        {
+          "text": "2,080",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 3,
+          "source_page_no": 16
+        },
+        {
+          "text": "100%",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 4,
+          "source_page_no": 16
+        }
+      ]
+    ],
+    "html": "<table><tr><td>评估方法</td><td>评估单价(元/ $m^2$ )</td><td>评估单价(元/ $m^3$ )</td><td>评估单价(元/ $m^4$ )</td><td>权重</td></tr><tr><td>成本法</td><td>1,770</td><td>1,980</td><td>1,980</td><td>50%</td></tr><tr><td>收益法</td><td>2,180</td><td>2,180</td><td>2,180</td><td>50%</td></tr><tr><td>加权平均值(取整)</td><td>1,980</td><td>2,080</td><td>2,080</td><td>100%</td></tr></table>",
+    "md": "| 评估方法 | 评估单价(元/ $m^2$ ) | 评估单价(元/ $m^3$ ) | 评估单价(元/ $m^4$ ) | 权重 |\n| --- | --- | --- | --- | --- |\n| 成本法 | 1,770 | 1,980 | 1,980 | 50% |\n| 收益法 | 2,180 | 2,180 | 2,180 | 50% |\n| 加权平均值(取整) | 1,980 | 2,080 | 2,080 | 100% |",
+    "perfectTable": false,
+    "table_caption": [
+      "评估方法汇总表"
+    ],
+    "img_path": "kg_房地产电子评估报告_36.jpg",
+    "file_id": "kg_房地产电子评估报告",
+    "element_id": 36,
+    "folder_id": null,
+    "standard2D": true,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false,
+    "hasHeader": true,
+    "_pendingHeaderNumRows": 1
+  }
+]

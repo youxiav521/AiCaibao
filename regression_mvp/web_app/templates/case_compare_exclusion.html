@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+
+{% block title %}排除比较项{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <div>
+      <h2>排除比较项</h2>
+      <p class="muted">仅用于已人工确认的模糊、失真或不可复现区域；不会删除标准答案。</p>
+    </div>
+    <span class="muted">{{ case.name }}</span>
+  </div>
+  {% if error %}
+  <p class="error-text">{{ error }}</p>
+  {% endif %}
+  <form class="meta-form" method="post" action="/cases/{{ case.endpoint }}/{{ case.case_name }}/compare-exclusions">
+    <label>
+      解析页码
+      <input name="page" value="{{ page or '' }}" readonly required>
+    </label>
+    <label>
+      解析对象类型
+      <input name="item_type" value="{{ item_type }}" readonly>
+    </label>
+    <label>
+      差异路径
+      <input name="diff_path" value="{{ diff_path }}" readonly>
+    </label>
+    <label>
+      排除范围
+      <select name="scope">
+        {% if bbox_text %}<option value="item" selected>仅当前解析项（推荐）</option>{% endif %}
+        <option value="page"{% if not bbox_text %} selected{% endif %}>整页解析结果</option>
+      </select>
+    </label>
+    {% if not bbox_text %}
+    <p class="muted">当前差异没有稳定坐标，不能安全地只排除一项；可按整页排除。</p>
+    {% endif %}
+    <label>
+      排除原因
+      <textarea name="reason" required placeholder="例如：原 PDF 此处图片模糊，已人工确认该项不适合作为稳定回归基线。"></textarea>
+    </label>
+    <input type="hidden" name="bbox" value="{{ bbox_text }}">
+    <input type="hidden" name="run_id" value="{{ run_id }}">
+    <div class="actions">
+      <button type="submit">保存规则{% if run_id %}并重新比较当前报告{% endif %}</button>
+      <a href="{{ cancel_url }}">取消</a>
+    </div>
+  </form>
+</section>
+
+{% if rules %}
+<section class="section">
+  <div class="section-head"><h2>已有排除规则</h2><span class="muted">{{ rules|length }} 条</span></div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>规则</th><th>范围</th><th>定位</th><th>原因</th><th>创建时间</th></tr></thead>
+      <tbody>
+        {% for rule in rules %}
+        <tr>
+          <td><code>{{ rule.id }}</code></td>
+          <td>{{ "整页" if rule.scope == "page" else "单项" }}</td>
+          <td>第 {{ rule.selector.page }} 页 / {{ rule.selector.type or "-" }}</td>
+          <td>{{ rule.reason }}</td>
+          <td>{{ rule.created_at }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endif %}
+{% endblock %}

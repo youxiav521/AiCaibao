@@ -1,0 +1,211 @@
+[
+  {
+    "page": 1,
+    "type": "text",
+    "headingLevel": 1,
+    "bBox": {
+      "l": 100.0,
+      "t": 55.0,
+      "r": 222.0,
+      "b": 83.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "营业执照",
+    "md": "营业执照",
+    "file_id": "kg_借款人_营业执照",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 270.0,
+      "t": 56.0,
+      "r": 298.0,
+      "b": 73.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "扫描二维码登录‘国家企业信用信息公示系统’了解更多登记、备案、许可、监管信息",
+    "md": "扫描二维码登录‘国家企业信用信息公示系统’了解更多登记、备案、许可、监管信息",
+    "file_id": "kg_借款人_营业执照",
+    "element_id": 2,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 247.0,
+      "t": 57.0,
+      "r": 266.0,
+      "b": 77.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "img_path": "images/87fd02d8038cb4dd288d7269764424a9668007d749465bc579ca939210942af7.jpg",
+    "file_id": "kg_借款人_营业执照",
+    "element_id": 3,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 25.0,
+      "t": 60.0,
+      "r": 73.0,
+      "b": 66.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "统一社会信用代码",
+    "md": "统一社会信用代码",
+    "file_id": "kg_借款人_营业执照",
+    "element_id": 4,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 25.0,
+      "t": 67.0,
+      "r": 76.0,
+      "b": 73.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "91441381MAC0HBWG6P",
+    "md": "91441381MAC0HBWG6P",
+    "file_id": "kg_借款人_营业执照",
+    "element_id": 5,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 176.0,
+      "t": 90.0,
+      "r": 246.0,
+      "b": 97.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "注册资本 人民币贰佰万元",
+    "md": "注册资本 人民币贰佰万元",
+    "file_id": "kg_借款人_营业执照",
+    "element_id": 6,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 26.0,
+      "t": 93.0,
+      "r": 128.0,
+      "b": 101.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "称 惠州市礼光新能源开发有限公司 名",
+    "md": "称 惠州市礼光新能源开发有限公司 名",
+    "file_id": "kg_借款人_营业执照",
+    "element_id": 7,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 177.0,
+      "t": 103.0,
+      "r": 245.0,
+      "b": 109.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "成立日期 2022年09月27日",
+    "md": "成立日期 2022年09月27日",
+    "file_id": "kg_借款人_营业执照",
+    "element_id": 8,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 26.0,
+      "t": 105.0,
+      "r": 100.0,
+      "b": 113.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "型 其他有限责任公司 类",
+    "md": "型 其他有限责任公司 类",
+    "file_id": "kg_借款人_营业执照",
+    "element_id": 9,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 27.0,
+      "t": 113.0,
+      "r": 295.0,
+      "b": 126.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "所 惠州市惠阳区秋长街道白石村地段2号楼16-03 住 余睿健 法定代表人",
+    "md": "所 惠州市惠阳区秋长街道白石村地段2号楼16-03 住 余睿健 法定代表人",
+    "file_id": "kg_借款人_营业执照",
+    "element_id": 10,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 27.0,
+      "t": 127.0,
+      "r": 176.0,
+      "b": 164.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "新兴能源技术研发；太阳能发电技术服务；能量回收系统研发；智能输配电及控制设备销售；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；节能管理服务；光伏发电设备租赁；光伏设备及元器件销售；太阳能热利用装备销售；太阳能热发电设备销售；储能技术服务；合同能源管理；发电技术服务；集中式快速充电站；以自有资金从事投资活动（项目投资、实业投资）；国内贸易代理。（依法须经批准的项目，经相关部门批准后方可开展经营活动） 经营范围",
+    "md": "新兴能源技术研发；太阳能发电技术服务；能量回收系统研发；智能输配电及控制设备销售；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；节能管理服务；光伏发电设备租赁；光伏设备及元器件销售；太阳能热利用装备销售；太阳能热发电设备销售；储能技术服务；合同能源管理；发电技术服务；集中式快速充电站；以自有资金从事投资活动（项目投资、实业投资）；国内贸易代理。（依法须经批准的项目，经相关部门批准后方可开展经营活动） 经营范围",
+    "file_id": "kg_借款人_营业执照",
+    "element_id": 11,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 253.0,
+      "t": 158.0,
+      "r": 288.0,
+      "b": 193.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "惠阳区市场监督管理局\n年月2日",
+    "md": "惠阳区市场监督管理局\n年月2日",
+    "img_path": "images/fac7dd9e622348a783d54efd656a02fc3e89bcdf6afc313459746ca570267c90.jpg",
+    "file_id": "kg_借款人_营业执照",
+    "element_id": 12,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 212.0,
+      "t": 172.0,
+      "r": 250.0,
+      "b": 188.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "登记机关 2022",
+    "md": "登记机关 2022",
+    "file_id": "kg_借款人_营业执照",
+    "element_id": 13,
+    "folder_id": null
+  }
+]

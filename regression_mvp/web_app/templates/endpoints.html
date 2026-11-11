@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+{% from "macros.html" import artifact_link %}
+
+{% block title %}接口概览{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <h2>接口概览</h2>
+    <span class="muted">{{ endpoints|length }} 个接口</span>
+  </div>
+
+  {% set groups = [] %}
+  {% for item in endpoints %}
+    {% if item.group not in groups %}
+      {% set _ = groups.append(item.group) %}
+    {% endif %}
+  {% endfor %}
+
+  <div class="endpoint-groups">
+    {% for group in groups %}
+    <section class="endpoint-group">
+      <h3>{{ group }}</h3>
+      <div class="endpoint-list">
+        {% for item in endpoints %}
+        {% if item.group == group %}
+        <article class="endpoint-row method-{{ item.method|lower }}">
+          <a class="endpoint-main" href="/cases?endpoint={{ item.endpoint }}">
+            <span class="method-badge">{{ item.method }}</span>
+            <code>{{ item.path }}</code>
+            <span class="endpoint-desc">{{ item.description }}</span>
+          </a>
+          <div class="endpoint-meta">
+            <span>用例 {{ item.case_count }}</span>
+            <span>启用 {{ item.enabled_count }}</span>
+            {% if item.latest %}
+            <span>通过率 {{ "%.1f"|format(item.latest.pass_rate * 100) }}%</span>
+            {% if item.latest.status %}
+            <span class="status {{ item.latest.status }}">{{ item.latest.status }}</span>
+            {% endif %}
+            {% else %}
+            <span class="muted">暂无运行</span>
+            {% endif %}
+          </div>
+          <div class="endpoint-actions">
+            {% if item.latest %}
+            <a href="/reports/{{ item.endpoint }}/{{ item.latest.run_id }}">详情</a>
+            {% if item.latest.report_html_path %}{{ artifact_link(file_url(item.latest.report_html_path), "HTML") }}{% endif %}
+            {% endif %}
+            <form method="post" action="/run/{{ item.endpoint }}">
+              <button type="submit" {% if run_status.is_running %}disabled{% endif %}>运行</button>
+            </form>
+          </div>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

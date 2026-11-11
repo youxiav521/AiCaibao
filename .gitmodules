@@ -1,0 +1,4 @@
+[submodule "ocr-models"]
+	path = ocr-models
+	url = http://git.yangzhiqiang.tech/chensr/ocr_models.git
+	branch = main

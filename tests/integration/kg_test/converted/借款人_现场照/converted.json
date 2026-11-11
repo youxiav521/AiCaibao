@@ -1,0 +1,35 @@
+[
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 23.0,
+      "t": 9.0,
+      "r": 417.0,
+      "b": 221.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "Interior view of a room with people working at computers and seated on sofas (no visible text or symbols)",
+    "md": "Interior view of a room with people working at computers and seated on sofas (no visible text or symbols)",
+    "img_path": "images/89f8211d954d988a37c950574f26d2d4ddae5f13576fb56912b00277179ed198.jpg",
+    "file_id": "kg_借款人_现场照",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 7.0,
+      "t": 232.0,
+      "r": 419.0,
+      "b": 249.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "经调查核实，该场所为惠州市礼光新能源开发有限公司的实际经营场所，具体地址为惠州市惠阳区秋长街道白石村地段2号楼16-03，企业真实经营， 经办人：",
+    "md": "经调查核实，该场所为惠州市礼光新能源开发有限公司的实际经营场所，具体地址为惠州市惠阳区秋长街道白石村地段2号楼16-03，企业真实经营， 经办人：",
+    "file_id": "kg_借款人_现场照",
+    "element_id": 2,
+    "folder_id": null
+  }
+]

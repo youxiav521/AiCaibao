@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ title or "编辑标准答案 JSON" }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <h2>{{ title or "编辑标准答案 JSON" }}</h2>
+    <span class="muted">{{ candidate.name }}</span>
+  </div>
+  {% if error %}
+  <p class="error-text">{{ error }}</p>
+  {% endif %}
+  <form method="post" class="editor-form">
+    <textarea class="json-editor" name="json_text" rows="34" cols="120" spellcheck="false">{{ json_text }}</textarea>
+    <div class="actions">
+      <button type="submit">保存</button>
+      <a href="{{ cancel_url or ('/case-candidates/' ~ candidate.name) }}">取消</a>
+    </div>
+  </form>
+</section>
+{% endblock %}

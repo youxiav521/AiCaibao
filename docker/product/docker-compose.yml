@@ -1,0 +1,38 @@
+services:
+  yusys-ai-api:
+    image: ${YUSYS_AI_IMAGE}
+    container_name: yusys-ai-api-${DEPLOY_ENV:-default}
+    environment:
+      - SOFFICE_BIN=/usr/bin/soffice
+      - TZ=Asia/Shanghai
+    env_file:
+      - ./.env_app
+    ports:
+      - "26300:6300"
+    volumes:
+      - ./data/storage:/app/storage
+      - ./data/logs/api:/app/logs
+      - ./data/coder_venv:/app/src/agents/data_analyst_agent/coding_agent/code_executor/coder_venv
+      - ./llm.json:/app/config/llm.json
+      - ./.env_app:/app/.env
+    working_dir: /app
+    restart: unless-stopped
+    command: >
+      sh -c "unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY && uv run --no-sync gunicorn -w 6 -k uvicorn.workers.UvicornWorker --timeout 1200 --max-requests 500 --max-requests-jitter 50  src.main:app --bind 0.0.0.0:6300"
+
+  yusys-ai-worker:
+    image: ${YUSYS_AI_IMAGE}
+    container_name: yusys-ai-worker-${DEPLOY_ENV:-default}
+    environment:
+      - TZ=Asia/Shanghai
+      - WORKER_MAX_JOBS=100
+    volumes:
+      - ./data/storage:/app/storage
+      - ./data/logs/worker:/app/logs
+      - ./data/coder_venv:/app/src/agents/data_analyst_agent/coding_agent/code_executor/coder_venv
+      - ./llm.json:/app/config/llm.json
+      - ./.env_app:/app/.env
+    working_dir: /app
+    restart: unless-stopped
+    command: >
+      sh -c "unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY && uv run --no-sync arq src.worker.WorkerSettings"

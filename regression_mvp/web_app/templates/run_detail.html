@@ -1,0 +1,70 @@
+{% extends "layout.html" %}
+{% from "macros.html" import artifact_link %}
+
+{% block title %}运行详情{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <h2>{{ run.endpoint }} / {{ run.run_id }}</h2>
+    <span class="status {{ run.status }}">{{ run.status }}</span>
+    <form class="inline-form" method="post" action="/reports/{{ run.endpoint }}/{{ run.run_id }}/archive" onsubmit="return confirm('确认删除这次报告？报告目录会移动到 reports/_archive，可手动恢复。');">
+      <button class="danger" type="submit">删除本次报告</button>
+    </form>
+  </div>
+  <div class="summary-grid">
+    <div><span>生成时间</span><strong>{{ run.generated_at | beijing_time }}</strong></div>
+    <div><span>用例</span><strong>{{ run.passed_cases }}/{{ run.total_cases }}</strong></div>
+    <div><span>通过率</span><strong>{{ "%.1f"|format(run.pass_rate * 100) }}%</strong></div>
+    <div><span>耗时</span><strong>{{ "%.2f"|format(run.duration_seconds or 0) }}s</strong></div>
+  </div>
+  <div class="actions">
+    {% if run.report_html_path %}{{ artifact_link(file_url(run.report_html_path), "打开 HTML 报告") }}{% endif %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>用例结果</h2>
+    <span class="muted">{{ case_runs|length }} 条</span>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>用例</th>
+          <th>状态</th>
+          <th>耗时</th>
+          <th>差异</th>
+          <th>产物</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for case in case_runs %}
+        <tr>
+          <td>{{ case.case_name }}</td>
+          <td><span class="status {{ case.status }}">{{ case.status }}</span></td>
+          <td>{{ "%.2f"|format(case.duration_seconds or 0) }}s</td>
+          <td>
+            {% if case.diff_md_path %}
+            {{ artifact_link(file_url(case.diff_md_path), "diff") }}
+            {% else %}
+            <span class="muted">无</span>
+            {% endif %}
+          </td>
+          <td class="links">
+            {% if case.metrics_json_path %}{{ artifact_link(file_url(case.metrics_json_path), "metrics") }}{% endif %}
+            {% if case.actual_json_path %}{{ artifact_link(file_url(case.actual_json_path), "actual") }}{% endif %}
+            {% if case.extra_artifacts %}
+              {% for name, path in case.extra_artifacts.items() %}
+              {{ artifact_link(file_url(path), name) }}
+              {% endfor %}
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

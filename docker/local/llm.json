@@ -1,0 +1,222 @@
+{
+    "providers": [
+        {
+            "name": "bailian",
+            "api_base": "http://103.154.31.78:20001/compatible-mode/v1",
+            "api_key": "1",
+            "extra_body": {
+                "enable_thinking": false
+            },
+            "rpm": 1000,
+            "models": [
+                {
+                    "name": "qwen3.6-35b-a3b",
+                    "image": true
+                },
+                {
+                    "name": "qwen3.5-35b-a3b",
+                    "image": false
+                },
+                {
+                    "name": "qwen3-max",
+                    "image": false
+                },
+                {
+                    "name": "qwen3.7-max",
+                    "image": false
+                },
+                {
+                    "name": "qwen3-4b",
+                    "image": false
+                },
+                {
+                    "name": "deepseek-v4-flash",
+                    "image": false
+                },
+                {
+                    "name": "qwen-flash",
+                    "image": false
+                },
+                {
+                    "name": "gpt-5.6-sol",
+                    "image": false
+                }
+            ]
+        },
+        {
+            "name": "qwen35_35b_local",
+            "api_base": "http://10.192.72.13:7702/v1",
+            "api_key": "1",
+            "extra_body": {
+                "enable_thinking": false
+            },
+            "concurrency": 10,
+            "models": [
+                {
+                    "name": "Qwen3.5-35B-A3B-FP8",
+                    "image": true
+                }
+            ]
+        },
+        {
+            "name": "qwen36_4b_sft",
+            "api_base": "http://10.192.72.13:7703/v1",
+            "api_key": "1",
+            "extra_body": {
+                "enable_thinking": false
+            },
+            "models": [
+                {
+                    "name": "Qwen3.5-4B-SFT-0513",
+                    "image": false
+                }
+            ]
+        },
+        {
+            "name": "deepseek",
+            "api_base": "https://api.deepseek.com",
+            "api_key": "sk-1344d972947444ed806bdb4b54c11351",
+            "extra_body": {
+                "thinking": {
+                    "type": "disabled"
+                }
+            },
+            "models": [
+                {
+                    "name": "deepseek-v4-pro",
+                    "image": false
+                },
+                {
+                    "name": "deepseek-v4-flash",
+                    "image": false
+                }
+            ]
+        },
+        {
+            "name": "11_server_sft",
+            "api_base": "http://10.192.72.11:7702/v1",
+            "api_key": "1",
+            "extra_body": {
+                "enable_thinking": false
+            },
+            "concurrency": 40,
+            "models": [
+                {
+                    "name": "Qwen-4B-sft-0513",
+                    "image": false
+                },
+                {
+                    "name": "Qwen-4B-sft-0610",
+                    "image": false
+                }
+            ]
+        }
+    ],
+    "default_provider": "bailian",
+    "default_temperature": 0,
+    "default_model": "qwen3.6-35b-a3b",
+    "default_vl_provider": "qwen35_35b_local",
+    "default_vl_model": "Qwen3.5-35B-A3B-FP8",
+    "custom_models": {
+        "content_generation": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "model_bailian_max": {
+            "provider": "bailian",
+            "model": "qwen3-max",
+            "extra_body": {
+                "enable_thinking": false,
+                "temperature": 0
+            }
+        },
+        "model_qwen37_max": {
+            "provider": "bailian",
+            "model": "qwen3.7-max",
+            "extra_body": {
+                "enable_thinking": false,
+                "temperature": 0
+            }
+        },
+        "data_analyst_agent": "qwen3.6-35b-a3b",
+        "model_qwen35_35b_local": {
+            "provider": "qwen35_35b_local",
+            "model": "Qwen3.5-35B-A3B-FP8",
+            "extra_body": {
+                "enable_thinking": false,
+                "temperature": 0
+            }
+        },
+        "model_qwen36_4b_sft": {
+            "provider": "qwen36_4b_sft",
+            "model": "Qwen3.5-4B-SFT-0513",
+            "extra_body": {
+                "enable_thinking": false,
+                "temperature": 0
+            }
+        },
+        "model_qwen35_4b_sft": {
+            "provider": "qwen36_4b_sft",
+            "model": "Qwen3.5-4B-SFT-0513",
+            "extra_body": {
+                "enable_thinking": false,
+                "temperature": 0
+            }
+        },
+        "model_qwen3_4b_bailian_base": {
+            "provider": "bailian",
+            "model": "qwen3-4b",
+            "extra_body": {
+                "enable_thinking": false,
+                "temperature": 0
+            }
+        },
+        "model_deepseek_v4_pro": {
+            "provider": "deepseek",
+            "model": "deepseek-v4-pro",
+            "extra_body": {
+                "thinking": {
+                    "type": "disabled"
+                }
+            }
+        },
+        "model_deepseek_v4_flash": {
+            "provider": "deepseek",
+            "model": "deepseek-v4-flash",
+            "extra_body": {
+                "thinking": {
+                    "type": "disabled"
+                },
+                "max_tokens": 262144
+            }
+        },
+        "model_bailian_heading_aided": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "model_for_table_classify": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "model_for_table_header_aided": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "model_gpt_5_6_sol": {
+            "provider": "bailian",
+            "model": "gpt-5.6-sol",
+            "extra_body": {
+                "enable_thinking": null
+            }
+        },
+        "doc_extract": "",
+        "reporter_text_model": {
+            "model": "Qwen-4B-sft-0513",
+            "provider": "11_server_sft"
+        },
+        "reporter_text_json_citation_model": {
+            "model": "Qwen-4B-sft-0610",
+            "provider": "11_server_sft"
+        }
+    }
+}

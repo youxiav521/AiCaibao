@@ -1,0 +1,403 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "ADE Extract API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/openapi/ade/extract/jobs": {
+      "post": {
+        "tags": [
+          "ADE 结构化提取"
+        ],
+        "summary": "提交异步提取任务",
+        "description": "上传单个文件并提交异步提取任务，返回 jobId。",
+        "operationId": "submit_extract_task_openapi_ade_extract_jobs_post",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/Body_submit_extract_task_openapi_ade_extract_jobs_post"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SubmitJobResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/openapi/ade/extract/{jobId}": {
+      "get": {
+        "tags": [
+          "ADE 结构化提取"
+        ],
+        "summary": "查询异步提取任务状态",
+        "description": "通过 jobId 查询任务状态与结果。",
+        "operationId": "query_extract_task_openapi_ade_extract__jobId__get",
+        "parameters": [
+          {
+            "name": "jobId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Jobid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QueryJobResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/openapi/ade/extract": {
+      "post": {
+        "tags": [
+          "ADE 结构化提取"
+        ],
+        "summary": "同步结构化提取",
+        "description": "上传单个文件，同步提取并直接返回结果。",
+        "operationId": "sync_extract_openapi_ade_extract_post",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/Body_sync_extract_openapi_ade_extract_post"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SyncExtractResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Body_submit_extract_task_openapi_ade_extract_jobs_post": {
+        "properties": {
+          "file": {
+            "type": "string",
+            "format": "binary",
+            "title": "File",
+            "description": "待提取的上传文件"
+          },
+          "extractRule": {
+            "type": "string",
+            "title": "Extractrule",
+            "description": "提取规则数组 JSON 字符串"
+          },
+          "model": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/ModelEnum"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "模型版本: yusys_llm / yusys_vlm"
+          }
+        },
+        "type": "object",
+        "required": [
+          "file",
+          "extractRule"
+        ],
+        "title": "Body_submit_extract_task_openapi_ade_extract_jobs_post"
+      },
+      "Body_sync_extract_openapi_ade_extract_post": {
+        "properties": {
+          "file": {
+            "type": "string",
+            "format": "binary",
+            "title": "File",
+            "description": "待提取的上传文件"
+          },
+          "extractRule": {
+            "type": "string",
+            "title": "Extractrule",
+            "description": "提取规则数组 JSON 字符串"
+          },
+          "model": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/ModelEnum"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "模型版本: yusys_llm / yusys_vlm"
+          }
+        },
+        "type": "object",
+        "required": [
+          "file",
+          "extractRule"
+        ],
+        "title": "Body_sync_extract_openapi_ade_extract_post"
+      },
+      "ExtractionItem": {
+        "properties": {
+          "extraction": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Extraction",
+            "description": "结构化提取结果，外层 key 为 extractName，内部与 jsonSchema 同构"
+          },
+          "extraction_metadata": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Extraction Metadata",
+            "description": "字段级溯源，与 extraction 同构嵌套树。外层 key 为 extractName，内部层级与 extraction 一致，叶子节点为 FieldMeta"
+          }
+        },
+        "type": "object",
+        "title": "ExtractionItem",
+        "description": "提取结果，extraction 和 extraction_metadata 保持同构"
+      },
+      "FieldMeta": {
+        "properties": {
+          "value": {
+            "title": "Value",
+            "description": "字段最终值"
+          },
+          "references": {
+            "$ref": "#/components/schemas/FieldReference"
+          }
+        },
+        "type": "object",
+        "title": "FieldMeta"
+      },
+      "FieldReference": {
+        "properties": {
+          "bbox": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "number"
+                },
+                "type": "array",
+                "minItems": 4,
+                "maxItems": 4
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Bbox",
+            "description": "位置信息 [x1, y1, x2, y2]"
+          },
+          "pageIndex": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "PageIndex",
+            "description": "所在页码，从 1 开始"
+          }
+        },
+        "type": "object",
+        "title": "FieldReference"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "JobStatus": {
+        "type": "string",
+        "enum": [
+          "pending",
+          "processing",
+          "completed",
+          "failed"
+        ],
+        "title": "JobStatus"
+      },
+      "ModelEnum": {
+        "type": "string",
+        "enum": [
+          "yusys_llm",
+          "yusys_vlm"
+        ],
+        "title": "ModelEnum"
+      },
+      "QueryJobResponse": {
+        "properties": {
+          "code": {
+            "type": "integer",
+            "title": "Code",
+            "default": 200
+          },
+          "jobId": {
+            "type": "string",
+            "title": "Jobid"
+          },
+          "status": {
+            "$ref": "#/components/schemas/JobStatus"
+          },
+          "data": {
+            "anyOf": [
+              {
+                "additionalProperties": {
+                  "$ref": "#/components/schemas/ExtractionItem"
+                },
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Data"
+          }
+        },
+        "type": "object",
+        "required": [
+          "jobId",
+          "status"
+        ],
+        "title": "QueryJobResponse"
+      },
+      "SubmitJobResponse": {
+        "properties": {
+          "code": {
+            "type": "integer",
+            "title": "Code",
+            "default": 200
+          },
+          "jobId": {
+            "type": "string",
+            "title": "Jobid"
+          }
+        },
+        "type": "object",
+        "required": [
+          "jobId"
+        ],
+        "title": "SubmitJobResponse"
+      },
+      "SyncExtractResponse": {
+        "properties": {
+          "code": {
+            "type": "integer",
+            "title": "Code",
+            "default": 200
+          },
+          "data": {
+            "$ref": "#/components/schemas/ExtractionItem"
+          }
+        },
+        "type": "object",
+        "title": "SyncExtractResponse"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

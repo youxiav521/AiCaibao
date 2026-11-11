@@ -1,0 +1,632 @@
+[
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 62.0,
+      "t": 220.0,
+      "r": 324.0,
+      "b": 601.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "Scanned cover page with Chinese text and a central emblem, featuring stylized characters and a small black square at the bottom.",
+    "md": "Scanned cover page with Chinese text and a central emblem, featuring stylized characters and a small black square at the bottom.",
+    "img_path": "images/e5321f526a1f08a822683675169c073aabc6e62741517635ccfbcaa71e8c6a54.jpg",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 366.0,
+      "t": 318.0,
+      "r": 538.0,
+      "b": 383.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "根据《中华人民共和国物权法》等法律法规，为保护不动产权利人合法权益，对不动产权利人申请登记的本证所列不动产权利，经审查核实，准予登记，颁发此证。",
+    "md": "根据《中华人民共和国物权法》等法律法规，为保护不动产权利人合法权益，对不动产权利人申请登记的本证所列不动产权利，经审查核实，准予登记，颁发此证。",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 2,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 361.0,
+      "t": 393.0,
+      "r": 412.0,
+      "b": 445.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "img_path": "images/485c6f48f4f4beb23bea23a36f0500fcb97e055fe7580bacb9dfb8601879401c.jpg",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 3,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 466.0,
+      "t": 437.0,
+      "r": 531.0,
+      "b": 504.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "img_path": "images/7795eaa5e9693053c89c805bac7c29d68a3ff75cfe21245b2c73f988d68e0bbf.jpg",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 4,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 455.0,
+      "t": 473.0,
+      "r": 465.0,
+      "b": 484.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "20",
+    "md": "20",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 5,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 390.0,
+      "t": 526.0,
+      "r": 514.0,
+      "b": 538.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "中华人民共和国国土资源部监制",
+    "md": "中华人民共和国国土资源部监制",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 6,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 404.0,
+      "t": 540.0,
+      "r": 503.0,
+      "b": 551.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "编号NO D 44471880423",
+    "md": "编号NO D 44471880423",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 7,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "image",
+    "bBox": {
+      "l": 482.0,
+      "t": 237.0,
+      "r": 545.0,
+      "b": 263.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "img_path": "images/fcf64562b45329a137ab7314752f0f417a1d6232ec6e795e2edba12b911c6796.jpg",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 8,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 433.0,
+      "t": 247.0,
+      "r": 471.0,
+      "b": 257.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "附记",
+    "md": "附记",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 9,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "table",
+    "bBox": {
+      "l": 91.0,
+      "t": 259.0,
+      "r": 299.0,
+      "b": 577.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "权利人",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "惠州市正泰运动器材有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "共有情况",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "单独所有",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 2,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "坐落",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "惠州市惠阳区秋长白石村地段(宿舍B)",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 2,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "不动产单元号",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 3,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "441303002205GB00043F00060001",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 2,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "权利类型",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 4,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "国有建设用地使用权/房屋所有权",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 2,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "权利性质",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 5,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "出让/自建房",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 2,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "用途",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 6,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "工业用地/",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 2,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "面积",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 7,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "宗地面积 $15006m^{2}$ /房屋建筑面积 $1882.88m^{2}$",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 2,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "使用期限",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 8,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "国有建设用地使用权2005年01月05日起2055年01月04日止",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 2,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "权利其他状况",
+          "rowspan": 2,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 0,
+          "source_page_no": 2
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 9,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ],
+      [
+        {
+          "text": "1、房屋结构:钢筋混凝土2、总层数:5层,所在层:I至5层",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 10,
+          "colstart": 1,
+          "source_page_no": 2
+        }
+      ]
+    ],
+    "html": "<table><tr><td colspan=\"2\">权利人</td><td>惠州市正泰运动器材有限公司</td></tr><tr><td colspan=\"2\">共有情况</td><td>单独所有</td></tr><tr><td colspan=\"2\">坐落</td><td>惠州市惠阳区秋长白石村地段(宿舍B)</td></tr><tr><td colspan=\"2\">不动产单元号</td><td>441303002205GB00043F00060001</td></tr><tr><td colspan=\"2\">权利类型</td><td>国有建设用地使用权/房屋所有权</td></tr><tr><td colspan=\"2\">权利性质</td><td>出让/自建房</td></tr><tr><td colspan=\"2\">用途</td><td>工业用地/</td></tr><tr><td colspan=\"2\">面积</td><td>宗地面积 $15006m^{2}$ /房屋建筑面积 $1882.88m^{2}$ </td></tr><tr><td colspan=\"2\">使用期限</td><td>国有建设用地使用权2005年01月05日起2055年01月04日止</td></tr><tr><td rowspan=\"2\">权利其他状况</td><td colspan=\"2\"><img src=\"images/6e24cd14c3c199ea7f26d1ad6c3f2c70d0e1356fe3b10990b89d23bd3f495a87.jpg\"/></td></tr><tr><td colspan=\"2\">1、房屋结构:钢筋混凝土2、总层数:5层,所在层:I至5层</td></tr></table>",
+    "md": "| 权利人 | 权利人 | 惠州市正泰运动器材有限公司 |\n| --- | --- | --- |\n| 共有情况 | 共有情况 | 单独所有 |\n| 坐落 | 坐落 | 惠州市惠阳区秋长白石村地段(宿舍B) |\n| 不动产单元号 | 不动产单元号 | 441303002205GB00043F00060001 |\n| 权利类型 | 权利类型 | 国有建设用地使用权/房屋所有权 |\n| 权利性质 | 权利性质 | 出让/自建房 |\n| 用途 | 用途 | 工业用地/ |\n| 面积 | 面积 | 宗地面积 $15006m^{2}$ /房屋建筑面积 $1882.88m^{2}$ |\n| 使用期限 | 使用期限 | 国有建设用地使用权2005年01月05日起2055年01月04日止 |\n| 权利其他状况 |  |  |\n| 权利其他状况 | 1、房屋结构:钢筋混凝土2、总层数:5层,所在层:I至5层 | 1、房屋结构:钢筋混凝土2、总层数:5层,所在层:I至5层 |",
+    "perfectTable": false,
+    "table_caption": [
+      "粤（2019）惠州市不动产权第3000940号"
+    ],
+    "img_path": "kg_不动产权第3000940号不动产权证_10.jpg",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 10,
+    "folder_id": null,
+    "standard2D": false,
+    "hasHeader": false,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false
+  },
+  {
+    "page": 2,
+    "type": "image",
+    "bBox": {
+      "l": 346.0,
+      "t": 260.0,
+      "r": 556.0,
+      "b": 579.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "土地权属来源证明材料：惠阳国用（2005）第0500057号\n建设工程规划验收合格证惠阳规建竣字惠阳规验字\n[2018]0166号、\n产权权利人：惠州市正泰运动器材有限公司 证件号码：\n91441300764931438P\n档案编号：56277",
+    "md": "土地权属来源证明材料：惠阳国用（2005）第0500057号\n建设工程规划验收合格证惠阳规建竣字惠阳规验字\n[2018]0166号、\n产权权利人：惠州市正泰运动器材有限公司 证件号码：\n91441300764931438P\n档案编号：56277",
+    "img_path": "images/71aa4af890272ff88aaf83ac15ed6e0b9410094a163d70e9b656ce8f6a76dcff.jpg",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 11,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 363.0,
+      "t": 263.0,
+      "r": 556.0,
+      "b": 272.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "土地权属来源证明材料：惠阳国用（2005）第0500057号",
+    "md": "土地权属来源证明材料：惠阳国用（2005）第0500057号",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 12,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 363.0,
+      "t": 272.0,
+      "r": 534.0,
+      "b": 282.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "建设工程规划验收合格证惠阳规建竣字惠阳规验字",
+    "md": "建设工程规划验收合格证惠阳规建竣字惠阳规验字",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 13,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 363.0,
+      "t": 282.0,
+      "r": 412.0,
+      "b": 288.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "[2018]0166号",
+    "md": "[2018]0166号",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 14,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 363.0,
+      "t": 288.0,
+      "r": 549.0,
+      "b": 296.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "产权权利人：惠州市正泰运动器材有限公司 证件号码：",
+    "md": "产权权利人：惠州市正泰运动器材有限公司 证件号码：",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 15,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 363.0,
+      "t": 296.0,
+      "r": 435.0,
+      "b": 304.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "91441300764931438P",
+    "md": "91441300764931438P",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 16,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 364.0,
+      "t": 304.0,
+      "r": 422.0,
+      "b": 311.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "档案编号：56277",
+    "md": "档案编号：56277",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 17,
+    "folder_id": null
+  },
+  {
+    "page": 3,
+    "type": "image",
+    "bBox": {
+      "l": 103.0,
+      "t": 230.0,
+      "r": 170.0,
+      "b": 296.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "img_path": "images/05b68bb811578663e68d6f20d16061f234e9927ba961d4925380d19b6325e8b7.jpg",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 18,
+    "folder_id": null
+  },
+  {
+    "page": 3,
+    "type": "text",
+    "bBox": {
+      "l": 266.0,
+      "t": 288.0,
+      "r": 288.0,
+      "b": 296.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "单位：三",
+    "md": "单位：三",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 19,
+    "folder_id": null
+  },
+  {
+    "page": 3,
+    "type": "image",
+    "bBox": {
+      "l": 104.0,
+      "t": 297.0,
+      "r": 296.0,
+      "b": 555.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "宗地代码：441305902205G800043\n所在图编号：2618.95-539.45\n土地权利人：惠州市正泰运动器材有限公司\n宗地面积：15000\n已建仓库\n沙\n沙\n水道\nGB00043\n061\n惠阳区不动产登记局\n2018年11月解析法测绘界址点\n制图日期：2018年11月12日\n审核日期：2018年11月12日\n1:1570\n绘图员：张少敏\n审核员：谭文鑫",
+    "md": "宗地代码：441305902205G800043\n所在图编号：2618.95-539.45\n土地权利人：惠州市正泰运动器材有限公司\n宗地面积：15000\n已建仓库\n沙\n沙\n水道\nGB00043\n061\n惠阳区不动产登记局\n2018年11月解析法测绘界址点\n制图日期：2018年11月12日\n审核日期：2018年11月12日\n1:1570\n绘图员：张少敏\n审核员：谭文鑫",
+    "img_path": "images/92743d0f520a78237adf9ba3abf9b63331360c68b6f6dae271f7954ed36377c4.jpg",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 20,
+    "folder_id": null
+  },
+  {
+    "page": 4,
+    "type": "image",
+    "bBox": {
+      "l": 384.0,
+      "t": 332.0,
+      "r": 524.0,
+      "b": 481.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "Abstract geometric pattern with interlocking shapes in shades of green and purple (no text or symbols)",
+    "md": "Abstract geometric pattern with interlocking shapes in shades of green and purple (no text or symbols)",
+    "img_path": "images/a55854106e36833cd063d7dd954a21c9aaf721470ae7ad53ef7b70017c4be604.jpg",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 21,
+    "folder_id": null
+  },
+  {
+    "page": 4,
+    "type": "image",
+    "bBox": {
+      "l": 107.0,
+      "t": 410.0,
+      "r": 273.0,
+      "b": 456.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "六\n五\n四\n六\n六\n4.0m\n2.65\n34.50\n32.35\n大\n大\n大",
+    "md": "六\n五\n四\n六\n六\n4.0m\n2.65\n34.50\n32.35\n大\n大\n大",
+    "img_path": "images/dc6594c9da036314892e4e129f43b9f7dda8aaa741d31e3ca2805beed4c56559.jpg",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 22,
+    "folder_id": null
+  },
+  {
+    "page": 4,
+    "type": "table",
+    "bBox": {
+      "l": 94.0,
+      "t": 551.0,
+      "r": 286.0,
+      "b": 570.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "查勘人",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "按原档案",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 4
+        },
+        {
+          "text": "复核人",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 3,
+          "source_page_no": 4
+        },
+        {
+          "text": "张国辉",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 4,
+          "source_page_no": 4
+        }
+      ],
+      [
+        {
+          "text": "测绘单位",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 4
+        },
+        {
+          "text": "惠州市惠阳区房地产测绘所",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 1,
+          "colstart": 2,
+          "source_page_no": 4
+        }
+      ]
+    ],
+    "html": "<table><tr><td>查勘人</td><td colspan=\"2\">按原档案</td><td>复核人</td><td>张国辉</td></tr><tr><td colspan=\"2\">测绘单位</td><td colspan=\"3\">惠州市惠阳区房地产测绘所</td></tr></table>",
+    "md": "| 查勘人 | 按原档案 | 按原档案 | 复核人 | 张国辉 |\n| --- | --- | --- | --- | --- |\n| 测绘单位 | 测绘单位 | 惠州市惠阳区房地产测绘所 | 惠州市惠阳区房地产测绘所 | 惠州市惠阳区房地产测绘所 |",
+    "perfectTable": false,
+    "img_path": "kg_不动产权第3000940号不动产权证_23.jpg",
+    "file_id": "kg_不动产权第3000940号不动产权证",
+    "element_id": 23,
+    "folder_id": null,
+    "standard2D": false,
+    "hasHeader": false,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false
+  }
+]

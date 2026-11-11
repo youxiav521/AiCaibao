@@ -1,0 +1,516 @@
+[
+  {
+    "page": 1,
+    "type": "text",
+    "headingLevel": 1,
+    "bBox": {
+      "l": 207.0,
+      "t": 59.0,
+      "r": 380.0,
+      "b": 80.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "中华人民共和国",
+    "md": "中华人民共和国",
+    "file_id": "kg_税收完税证明",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "headingLevel": 2,
+    "bBox": {
+      "l": 207.0,
+      "t": 81.0,
+      "r": 380.0,
+      "b": 100.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "税收完税证明",
+    "md": "税收完税证明",
+    "file_id": "kg_税收完税证明",
+    "element_id": 2,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "table",
+    "bBox": {
+      "l": 58.0,
+      "t": 141.0,
+      "r": 516.0,
+      "b": 279.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "税务机关",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "国家税务总局惠州市惠阳区税务局第一税务分局",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "填发日期",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "2025-04-28",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 4,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "纳税人名称",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "惠州市礼光新能源开发有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "纳税人识别号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "91441381MACOHBWG6P",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 4,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "税种",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "税款所属时期",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "入(退)库日期",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "实缴(退)金额",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 4,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "企业所得税",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "2024-01-01至2024-03-31",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "2024-04-12",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "¥941.96",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 4,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "印花税",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "2024-01-03至2024-10-04",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "2024-07-16",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "¥435.94",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 4,
+          "source_page_no": 1
+        }
+      ]
+    ],
+    "html": "<table><tr><td>税务机关</td><td>国家税务总局惠州市惠阳区税务局第一税务分局</td><td>填发日期</td><td>2025-04-28</td><td></td></tr><tr><td>纳税人名称</td><td>惠州市礼光新能源开发有限公司</td><td>纳税人识别号</td><td>91441381MACOHBWG6P</td><td></td></tr><tr><td>税种</td><td>税款所属时期</td><td>入(退)库日期</td><td>实缴(退)金额</td><td></td></tr><tr><td>企业所得税</td><td>2024-01-01至2024-03-31</td><td>2024-04-12</td><td>¥941.96</td><td></td></tr><tr><td>印花税</td><td>2024-01-03至2024-10-04</td><td>2024-07-16</td><td>¥435.94</td><td></td></tr></table>",
+    "md": "| 税务机关 | 国家税务总局惠州市惠阳区税务局第一税务分局 | 填发日期 | 2025-04-28 |  |\n| --- | --- | --- | --- | --- |\n| 纳税人名称 | 惠州市礼光新能源开发有限公司 | 纳税人识别号 | 91441381MACOHBWG6P |  |\n| 税种 | 税款所属时期 | 入(退)库日期 | 实缴(退)金额 |  |\n| 企业所得税 | 2024-01-01至2024-03-31 | 2024-04-12 | ¥941.96 |  |\n| 印花税 | 2024-01-03至2024-10-04 | 2024-07-16 | ¥435.94 |  |",
+    "perfectTable": false,
+    "table_caption": [
+      "25(0428)44 证明 00000790"
+    ],
+    "img_path": "kg_税收完税证明_3.jpg",
+    "file_id": "kg_税收完税证明",
+    "element_id": 3,
+    "folder_id": null,
+    "standard2D": true,
+    "hasHeader": true,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false,
+    "headerCells": [
+      [
+        {
+          "text": "税务机关",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0
+        },
+        {
+          "text": "国家税务总局惠州市惠阳区税务局第一税务分局",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1
+        },
+        {
+          "text": "填发日期",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2
+        },
+        {
+          "text": "2025-04-28",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 3
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 4
+        }
+      ],
+      [
+        {
+          "text": "纳税人名称",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0
+        },
+        {
+          "text": "惠州市礼光新能源开发有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 1
+        },
+        {
+          "text": "纳税人识别号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 2
+        },
+        {
+          "text": "91441381MACOHBWG6P",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 3
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 4
+        }
+      ],
+      [
+        {
+          "text": "税种",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0
+        },
+        {
+          "text": "税款所属时期",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 1
+        },
+        {
+          "text": "入(退)库日期",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 2
+        },
+        {
+          "text": "实缴(退)金额",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 3
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 4
+        }
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 324.0,
+      "t": 335.0,
+      "r": 446.0,
+      "b": 458.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "惠州市光新能源开发有限公司\n1381016293",
+    "md": "惠州市光新能源开发有限公司\n1381016293",
+    "img_path": "images/53c1f068f6638eff6c1f5d154e2e49c02b3d0f2ae1d56421ebff07dd27f91dcf.jpg",
+    "file_id": "kg_税收完税证明",
+    "element_id": 4,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 62.0,
+      "t": 613.0,
+      "r": 138.0,
+      "b": 626.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "金额合计（大写）",
+    "md": "金额合计（大写）",
+    "file_id": "kg_税收完税证明",
+    "element_id": 5,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 179.0,
+      "t": 613.0,
+      "r": 280.0,
+      "b": 626.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "壹仟叁佰柒拾柒元玖角",
+    "md": "壹仟叁佰柒拾柒元玖角",
+    "file_id": "kg_税收完税证明",
+    "element_id": 6,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 467.0,
+      "t": 617.0,
+      "r": 508.0,
+      "b": 628.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "¥1377.90",
+    "md": "¥1377.90",
+    "file_id": "kg_税收完税证明",
+    "element_id": 7,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 69.0,
+      "t": 628.0,
+      "r": 164.0,
+      "b": 722.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "惠阳区税务局第一章\n税务机关\n（盖章）\n业务专用章",
+    "md": "惠阳区税务局第一章\n税务机关\n（盖章）\n业务专用章",
+    "img_path": "images/3ccaf5bc7b6c9df709252fda18f55e3c6cd623511669edd211994e4b61bb9d0f.jpg",
+    "file_id": "kg_税收完税证明",
+    "element_id": 8,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 292.0,
+      "t": 638.0,
+      "r": 324.0,
+      "b": 650.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "备注",
+    "md": "备注",
+    "file_id": "kg_税收完税证明",
+    "element_id": 9,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 290.0,
+      "t": 688.0,
+      "r": 387.0,
+      "b": 700.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "填票人 电子税务局",
+    "md": "填票人 电子税务局",
+    "file_id": "kg_税收完税证明",
+    "element_id": 10,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 426.0,
+      "t": 713.0,
+      "r": 507.0,
+      "b": 726.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "第1页，总共1页",
+    "md": "第1页，总共1页",
+    "file_id": "kg_税收完税证明",
+    "element_id": 11,
+    "folder_id": null
+  }
+]

@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% from "macros.html" import artifact_link %}
+
+{% block title %}PDF 预览{% endblock %}
+
+{% block content %}
+<section class="section pdf-shell">
+  <div class="section-head">
+    <h2>{{ filename }}</h2>
+    <span class="muted">PDF</span>
+  </div>
+  <div class="actions">
+    {{ artifact_link(file_url, "新窗口打开原文件") }}
+    {{ artifact_link(file_url, "下载 PDF", true) }}
+  </div>
+  <div class="pdf-frame-wrap">
+    <iframe class="pdf-frame" src="{{ file_url }}" title="{{ filename }}"></iframe>
+  </div>
+</section>
+{% endblock %}

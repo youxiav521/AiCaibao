@@ -1,0 +1,7 @@
+2026-10-20 16:46:13.865|CRITICAL|src.base.logger_factory:_handle_uncaught:157| PID:52812| TID:59204| 未捕获的异常
+Traceback (most recent call last):
+
+> File "D:\YUSP-AI\aiCaiBao\innerCode\python\yusys_ai-product\yusp_ai_new\app\src\main.py", line 48, in <module>
+    from .applications.data_analyst.routers.data_analyst_router import data_analyst_router
+
+ImportError: attempted relative import with no known parent package

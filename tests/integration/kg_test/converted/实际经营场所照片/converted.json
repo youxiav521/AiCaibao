@@ -1,0 +1,35 @@
+[
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 20.0,
+      "t": 15.0,
+      "r": 252.0,
+      "b": 158.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "Two interior scenes: one showing a person holding a document, the other showing people working at computers in a dimly lit room (no visible text or symbols)",
+    "md": "Two interior scenes: one showing a person holding a document, the other showing people working at computers in a dimly lit room (no visible text or symbols)",
+    "img_path": "images/c7f680f3e86fca924d1b3a008326ae2e9801e1a9e38a747b435507f5aa9a02dc.jpg",
+    "file_id": "kg_实际经营场所照片",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 9.0,
+      "t": 164.0,
+      "r": 284.0,
+      "b": 184.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "经调查核实，该场所为惠州市礼光新能源开发有限公司的实际经营场所，具体地址为惠州市惠阳区秋长街道白石村地段2号楼16-03，企业真实经营， 经办人：谭和勋",
+    "md": "经调查核实，该场所为惠州市礼光新能源开发有限公司的实际经营场所，具体地址为惠州市惠阳区秋长街道白石村地段2号楼16-03，企业真实经营， 经办人：谭和勋",
+    "file_id": "kg_实际经营场所照片",
+    "element_id": 2,
+    "folder_id": null
+  }
+]

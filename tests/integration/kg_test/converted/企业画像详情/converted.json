@@ -1,0 +1,244 @@
+[
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 14.0,
+      "t": 42.0,
+      "r": 177.0,
+      "b": 49.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "基本信息 业务信息 普惠业... 贷款进度 营销线索",
+    "md": "基本信息 业务信息 普惠业... 贷款进度 营销线索",
+    "file_id": "kg_企业画像详情",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "headingLevel": 1,
+    "bBox": {
+      "l": 35.0,
+      "t": 61.0,
+      "r": 80.0,
+      "b": 68.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "企业基本信息",
+    "md": "企业基本信息",
+    "file_id": "kg_企业画像详情",
+    "element_id": 2,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 29.0,
+      "t": 74.0,
+      "r": 161.0,
+      "b": 81.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "企业名称：惠州市礼光新能源开发有限公",
+    "md": "企业名称：惠州市礼光新能源开发有限公",
+    "file_id": "kg_企业画像详情",
+    "element_id": 3,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 29.0,
+      "t": 82.0,
+      "r": 141.0,
+      "b": 91.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "司公编号：342861000464477408",
+    "md": "司公编号：342861000464477408",
+    "file_id": "kg_企业画像详情",
+    "element_id": 4,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 29.0,
+      "t": 94.0,
+      "r": 88.0,
+      "b": 101.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "企业类型：企业类",
+    "md": "企业类型：企业类",
+    "file_id": "kg_企业画像详情",
+    "element_id": 5,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 29.0,
+      "t": 104.0,
+      "r": 110.0,
+      "b": 110.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "行业小类：电气设备批发",
+    "md": "行业小类：电气设备批发",
+    "file_id": "kg_企业画像详情",
+    "element_id": 6,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 29.0,
+      "t": 114.0,
+      "r": 91.0,
+      "b": 120.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "法定代表人：余*健",
+    "md": "法定代表人：余*健",
+    "file_id": "kg_企业画像详情",
+    "element_id": 7,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 29.0,
+      "t": 123.0,
+      "r": 84.0,
+      "b": 130.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "实际控制人：余*",
+    "md": "实际控制人：余*",
+    "file_id": "kg_企业画像详情",
+    "element_id": 8,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 29.0,
+      "t": 133.0,
+      "r": 122.0,
+      "b": 140.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "企业联系方式：157****2807",
+    "md": "企业联系方式：157****2807",
+    "file_id": "kg_企业画像详情",
+    "element_id": 9,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 29.0,
+      "t": 143.0,
+      "r": 103.0,
+      "b": 149.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "管户客户经理：谭寿娇",
+    "md": "管户客户经理：谭寿娇",
+    "file_id": "kg_企业画像详情",
+    "element_id": 10,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 29.0,
+      "t": 153.0,
+      "r": 129.0,
+      "b": 159.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "客户所属部门：10-资金结算部",
+    "md": "客户所属部门：10-资金结算部",
+    "file_id": "kg_企业画像详情",
+    "element_id": 11,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 29.0,
+      "t": 163.0,
+      "r": 107.0,
+      "b": 169.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "成立时间：2022-09-27",
+    "md": "成立时间：2022-09-27",
+    "file_id": "kg_企业画像详情",
+    "element_id": 12,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 29.0,
+      "t": 172.0,
+      "r": 163.0,
+      "b": 186.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "主办机构：中国建设银行股份有限公司惠州惠...",
+    "md": "主办机构：中国建设银行股份有限公司惠州惠...",
+    "file_id": "kg_企业画像详情",
+    "element_id": 13,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "headingLevel": 2,
+    "bBox": {
+      "l": 36.0,
+      "t": 191.0,
+      "r": 66.0,
+      "b": 197.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "经营信息",
+    "md": "经营信息",
+    "file_id": "kg_企业画像详情",
+    "element_id": 14,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 30.0,
+      "t": 204.0,
+      "r": 111.0,
+      "b": 229.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "工商经营异常：正常生产 员工人数：15 收入情况：0",
+    "md": "工商经营异常：正常生产 员工人数：15 收入情况：0",
+    "file_id": "kg_企业画像详情",
+    "element_id": 15,
+    "folder_id": null
+  }
+]

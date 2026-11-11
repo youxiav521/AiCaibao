@@ -1,0 +1,20 @@
+{
+    "1":{
+        "code":"A",
+        "name":"身份证",
+        "prompt":"",
+        "example":""
+    },
+    "2":{
+        "code":"B",
+        "name":"土地证",
+        "prompt":"",
+        "example":""
+    },
+    "3":{
+        "code":"C",
+        "name":"简历",
+        "prompt":"",
+        "example":""
+    }
+}

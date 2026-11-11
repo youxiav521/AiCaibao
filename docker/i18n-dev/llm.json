@@ -1,0 +1,43 @@
+{
+    "providers": [
+        {
+            "name": "bailian",
+            "api_base": "http://172.16.40.16:20001/v1",
+            "api_key": "sk-KuOHVSC-RdV_inaWyoz_7g",
+            "extra_body": {
+                "enable_thinking": false
+            }
+        }
+    ],
+    "default_provider": "bailian",
+    "default_model": "qwen3.5-35b-a3b",
+    "custom_models": {
+        "reporter_ds_model": {
+            "provider": "bailian",
+            "model": "deepseek-v4-flash"
+        },
+        "content_generation": {
+            "provider": "bailian",
+            "model": "qwen3.5-35b-a3b"
+        },
+        "data_analyst_agent": {
+            "provider": "bailian",
+            "model": "qwen3.5-35b-a3b"
+        },
+        "parse_template": {
+            "provider": "bailian",
+            "model": "qwen3-next-80b-a3b-instruct",
+            "extra_body": {
+                "enable_thinking": false,
+                "max_tokens": 25000
+            }
+        },
+        "doc_extract": "qwen3.5-27b",
+        "doc_extract_vl": "qwen3.6-35b-a3b",
+        "doc_classify": "qwen3.6-35b-a3b",
+        "subject_match_llm_fallback": {
+            "provider": "bailian",
+            "model": "deepseek-v4-pro"
+        }
+    }
+}

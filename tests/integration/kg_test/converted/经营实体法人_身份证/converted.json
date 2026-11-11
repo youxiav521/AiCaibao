@@ -1,0 +1,215 @@
+[
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 44.0,
+      "t": 21.0,
+      "r": 64.0,
+      "b": 42.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "Official emblem of a Chinese national security or law enforcement unit (no visible text or symbols)",
+    "md": "Official emblem of a Chinese national security or law enforcement unit (no visible text or symbols)",
+    "img_path": "images/d32e31af1a0848f5782a9ec5e162b8f44c12943415c766d8f2c8ec2b6c1d1b8a.jpg",
+    "file_id": "kg_经营实体法人_身份证",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "headingLevel": 1,
+    "bBox": {
+      "l": 72.0,
+      "t": 23.0,
+      "r": 125.0,
+      "b": 32.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "中华人民共和国",
+    "md": "中华人民共和国",
+    "file_id": "kg_经营实体法人_身份证",
+    "element_id": 2,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "headingLevel": 2,
+    "bBox": {
+      "l": 68.0,
+      "t": 33.0,
+      "r": 128.0,
+      "b": 45.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "居民身份证",
+    "md": "居民身份证",
+    "file_id": "kg_经营实体法人_身份证",
+    "element_id": 3,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 61.0,
+      "t": 60.0,
+      "r": 114.0,
+      "b": 66.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "签发机关 厦门市公安局海沧分局",
+    "md": "签发机关 厦门市公安局海沧分局",
+    "file_id": "kg_经营实体法人_身份证",
+    "element_id": 4,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 60.0,
+      "t": 68.0,
+      "r": 116.0,
+      "b": 74.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "有效期限 2021.09.17-2041.09.17",
+    "md": "有效期限 2021.09.17-2041.09.17",
+    "file_id": "kg_经营实体法人_身份证",
+    "element_id": 5,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 81.0,
+      "t": 90.0,
+      "r": 130.0,
+      "b": 138.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "开发有限公司\n常州大学\n常州大学\n常州大学",
+    "md": "开发有限公司\n常州大学\n常州大学\n常州大学",
+    "img_path": "images/dbf330568c708503adc0abde7973b843ba9375512569d1838dabb541e84b6e54.jpg",
+    "file_id": "kg_经营实体法人_身份证",
+    "element_id": 6,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 49.0,
+      "t": 151.0,
+      "r": 75.0,
+      "b": 155.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "姓名 余睿健",
+    "md": "姓名 余睿健",
+    "file_id": "kg_经营实体法人_身份证",
+    "element_id": 7,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 104.0,
+      "t": 151.0,
+      "r": 135.0,
+      "b": 187.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "Portrait photo of a person (no text or symbols visible)",
+    "md": "Portrait photo of a person (no text or symbols visible)",
+    "img_path": "images/f185b581e4fba7adb8c1de5ace7073229adb26c0953cfe4bd6acc23577f79829.jpg",
+    "file_id": "kg_经营实体法人_身份证",
+    "element_id": 8,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 50.0,
+      "t": 158.0,
+      "r": 85.0,
+      "b": 163.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "性别 男 民族 汉",
+    "md": "性别 男 民族 汉",
+    "file_id": "kg_经营实体法人_身份证",
+    "element_id": 9,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 50.0,
+      "t": 165.0,
+      "r": 94.0,
+      "b": 170.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "出生 1989年8月19日",
+    "md": "出生 1989年8月19日",
+    "file_id": "kg_经营实体法人_身份证",
+    "element_id": 10,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 50.0,
+      "t": 173.0,
+      "r": 102.0,
+      "b": 178.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "住址 福建省厦门市海沧区沧湖",
+    "md": "住址 福建省厦门市海沧区沧湖",
+    "file_id": "kg_经营实体法人_身份证",
+    "element_id": 11,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 62.0,
+      "t": 179.0,
+      "r": 93.0,
+      "b": 183.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "东二里28号1201室",
+    "md": "东二里28号1201室",
+    "file_id": "kg_经营实体法人_身份证",
+    "element_id": 12,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 50.0,
+      "t": 192.0,
+      "r": 130.0,
+      "b": 197.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "公民身份号码 350428198908190014",
+    "md": "公民身份号码 350428198908190014",
+    "file_id": "kg_经营实体法人_身份证",
+    "element_id": 13,
+    "folder_id": null
+  }
+]

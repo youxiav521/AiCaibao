@@ -1,0 +1,1479 @@
+[
+  {
+    "page": 1,
+    "type": "text",
+    "headingLevel": 1,
+    "bBox": {
+      "l": 247.0,
+      "t": 47.0,
+      "r": 337.0,
+      "b": 73.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "购销合同",
+    "md": "购销合同",
+    "file_id": "kg_购销合同",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 78.0,
+      "t": 96.0,
+      "r": 478.0,
+      "b": 114.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "采购方（甲方）：浙江岐达科技股份有限公司",
+    "md": "采购方（甲方）：浙江岐达科技股份有限公司",
+    "file_id": "kg_购销合同",
+    "element_id": 2,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 78.0,
+      "t": 128.0,
+      "r": 484.0,
+      "b": 146.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "销售方（乙方）：惠州市礼光新能源开发有限公司",
+    "md": "销售方（乙方）：惠州市礼光新能源开发有限公司",
+    "file_id": "kg_购销合同",
+    "element_id": 3,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 78.0,
+      "t": 158.0,
+      "r": 503.0,
+      "b": 209.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "根据《中华人民共和国合同法》的有关规定，为明确合同双方的权利义务，经过双方友好协商，现达成以下条款：",
+    "md": "根据《中华人民共和国合同法》的有关规定，为明确合同双方的权利义务，经过双方友好协商，现达成以下条款：",
+    "file_id": "kg_购销合同",
+    "element_id": 4,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "table",
+    "bBox": {
+      "l": 46.0,
+      "t": 235.0,
+      "r": 518.0,
+      "b": 578.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "NO",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "名称及型号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "单位",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "数量",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "单价",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "金额",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "备注",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 6,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "1",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "钢管架",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "件",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "20,200",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "75.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "1,515,000.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 6,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "2",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "支架钢管",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "件",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "18,900",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "72.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "1,360,800.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 6,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "3",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "支架钢管",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "件",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "18,900",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "78.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "1,474,200.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 6,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "4",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "轴承",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "套",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "120,000",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "9.80",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "1,176,000.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 6,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "5",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "铝合金龙骨",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "套",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "60,000",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "13.50",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "810,000.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 6,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "6",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "铝合金龙骨",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "套",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "60,000",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "16.20",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "972,000.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 6,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "7",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "尼帽",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "套",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "120,000",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "0.85",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "102,000.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 6,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "8",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "螺杆",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "套",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "90,000",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "1.90",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "171,000.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 6,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "9",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "中柱",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "套",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "90,000",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "1.10",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "99,000.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 6,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "10",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "单晶硅片550W",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "块",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "15,500",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "1250.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "19,375,000.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 6,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "11",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "逆变器",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "台",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "118",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "2,600.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "306,800.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 6,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "12",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "电缆",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "米",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "4,750",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "180.50",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "857,375.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 6,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "13",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "并网柜",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 1,
+          "source_page_no": 1
+        },
+        {
+          "text": "个",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "18",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 3,
+          "source_page_no": 1
+        },
+        {
+          "text": "38,000.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 4,
+          "source_page_no": 1
+        },
+        {
+          "text": "684,000.00",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 5,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 6,
+          "source_page_no": 1
+        }
+      ],
+      [
+        {
+          "text": "合计金额(大写):",
+          "rowspan": 1,
+          "colspan": 2,
+          "rowstart": 14,
+          "colstart": 0,
+          "source_page_no": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 2,
+          "source_page_no": 1
+        },
+        {
+          "text": "人民币贰仟捌佰玖拾万叁仟壹佰柒拾伍元整(小写¥28,903,175.00)",
+          "rowspan": 1,
+          "colspan": 4,
+          "rowstart": 14,
+          "colstart": 3,
+          "source_page_no": 1
+        }
+      ]
+    ],
+    "html": "<table><tr><td>NO</td><td>名称及型号</td><td>单位</td><td>数量</td><td>单价</td><td>金额</td><td>备注</td></tr><tr><td>1</td><td>钢管架</td><td>件</td><td>20,200</td><td>75.00</td><td>1,515,000.00</td><td></td></tr><tr><td>2</td><td>支架钢管</td><td>件</td><td>18,900</td><td>72.00</td><td>1,360,800.00</td><td></td></tr><tr><td>3</td><td>支架钢管</td><td>件</td><td>18,900</td><td>78.00</td><td>1,474,200.00</td><td></td></tr><tr><td>4</td><td>轴承</td><td>套</td><td>120,000</td><td>9.80</td><td>1,176,000.00</td><td></td></tr><tr><td>5</td><td>铝合金龙骨</td><td>套</td><td>60,000</td><td>13.50</td><td>810,000.00</td><td></td></tr><tr><td>6</td><td>铝合金龙骨</td><td>套</td><td>60,000</td><td>16.20</td><td>972,000.00</td><td></td></tr><tr><td>7</td><td>尼帽</td><td>套</td><td>120,000</td><td>0.85</td><td>102,000.00</td><td></td></tr><tr><td>8</td><td>螺杆</td><td>套</td><td>90,000</td><td>1.90</td><td>171,000.00</td><td></td></tr><tr><td>9</td><td>中柱</td><td>套</td><td>90,000</td><td>1.10</td><td>99,000.00</td><td></td></tr><tr><td>10</td><td>单晶硅片550W</td><td>块</td><td>15,500</td><td>1250.00</td><td>19,375,000.00</td><td></td></tr><tr><td>11</td><td>逆变器</td><td>台</td><td>118</td><td>2,600.00</td><td>306,800.00</td><td></td></tr><tr><td>12</td><td>电缆</td><td>米</td><td>4,750</td><td>180.50</td><td>857,375.00</td><td></td></tr><tr><td>13</td><td>并网柜</td><td>个</td><td>18</td><td>38,000.00</td><td>684,000.00</td><td></td></tr><tr><td colspan=\"2\">合计金额(大写):</td><td></td><td colspan=\"4\">人民币贰仟捌佰玖拾万叁仟壹佰柒拾伍元整(小写¥28,903,175.00)</td></tr></table>",
+    "md": "| NO | 名称及型号 | 单位 | 数量 | 单价 | 金额 | 备注 |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | 钢管架 | 件 | 20,200 | 75.00 | 1,515,000.00 |  |\n| 2 | 支架钢管 | 件 | 18,900 | 72.00 | 1,360,800.00 |  |\n| 3 | 支架钢管 | 件 | 18,900 | 78.00 | 1,474,200.00 |  |\n| 4 | 轴承 | 套 | 120,000 | 9.80 | 1,176,000.00 |  |\n| 5 | 铝合金龙骨 | 套 | 60,000 | 13.50 | 810,000.00 |  |\n| 6 | 铝合金龙骨 | 套 | 60,000 | 16.20 | 972,000.00 |  |\n| 7 | 尼帽 | 套 | 120,000 | 0.85 | 102,000.00 |  |\n| 8 | 螺杆 | 套 | 90,000 | 1.90 | 171,000.00 |  |\n| 9 | 中柱 | 套 | 90,000 | 1.10 | 99,000.00 |  |\n| 10 | 单晶硅片550W | 块 | 15,500 | 1250.00 | 19,375,000.00 |  |\n| 11 | 逆变器 | 台 | 118 | 2,600.00 | 306,800.00 |  |\n| 12 | 电缆 | 米 | 4,750 | 180.50 | 857,375.00 |  |\n| 13 | 并网柜 | 个 | 18 | 38,000.00 | 684,000.00 |  |\n| 合计金额(大写): | 合计金额(大写): |  | 人民币贰仟捌佰玖拾万叁仟壹佰柒拾伍元整(小写¥28,903,175.00) | 人民币贰仟捌佰玖拾万叁仟壹佰柒拾伍元整(小写¥28,903,175.00) | 人民币贰仟捌佰玖拾万叁仟壹佰柒拾伍元整(小写¥28,903,175.00) | 人民币贰仟捌佰玖拾万叁仟壹佰柒拾伍元整(小写¥28,903,175.00) |",
+    "perfectTable": false,
+    "table_caption": [
+      "一. 型号、数量、价格："
+    ],
+    "img_path": "kg_购销合同_5.jpg",
+    "file_id": "kg_购销合同",
+    "element_id": 5,
+    "folder_id": null,
+    "standard2D": false,
+    "hasHeader": true,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false,
+    "headerCells": [
+      [
+        {
+          "text": "NO",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0
+        },
+        {
+          "text": "名称及型号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1
+        },
+        {
+          "text": "单位",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2
+        },
+        {
+          "text": "数量",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 3
+        },
+        {
+          "text": "单价",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 4
+        },
+        {
+          "text": "金额",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 5
+        },
+        {
+          "text": "备注",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 6
+        }
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "headingLevel": 2,
+    "bBox": {
+      "l": 78.0,
+      "t": 583.0,
+      "r": 226.0,
+      "b": 601.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "二. 合同款项支付方式:",
+    "md": "二. 合同款项支付方式:",
+    "file_id": "kg_购销合同",
+    "element_id": 6,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 91.0,
+      "t": 614.0,
+      "r": 468.0,
+      "b": 633.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "款项支付: 货到付款(付款方式甲方转账到乙方指定账号如下)",
+    "md": "款项支付: 货到付款(付款方式甲方转账到乙方指定账号如下)",
+    "file_id": "kg_购销合同",
+    "element_id": 7,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 91.0,
+      "t": 647.0,
+      "r": 497.0,
+      "b": 665.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "收款单位：惠州市礼光新能源开发有限公司 银行账号：4405",
+    "md": "收款单位：惠州市礼光新能源开发有限公司 银行账号：4405",
+    "file_id": "kg_购销合同",
+    "element_id": 8,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 92.0,
+      "t": 678.0,
+      "r": 442.0,
+      "b": 695.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "0171 7151 0000 2195 开户行：建设银行惠州惠阳支行",
+    "md": "0171 7151 0000 2195 开户行：建设银行惠州惠阳支行",
+    "file_id": "kg_购销合同",
+    "element_id": 9,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "headingLevel": 2,
+    "bBox": {
+      "l": 78.0,
+      "t": 721.0,
+      "r": 213.0,
+      "b": 739.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "三. 产品的交付方式:",
+    "md": "三. 产品的交付方式:",
+    "file_id": "kg_购销合同",
+    "element_id": 10,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 92.0,
+      "t": 753.0,
+      "r": 378.0,
+      "b": 770.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "乙方负责送货，送货交货地点为甲方指定仓库。",
+    "md": "乙方负责送货，送货交货地点为甲方指定仓库。",
+    "file_id": "kg_购销合同",
+    "element_id": 11,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "headingLevel": 2,
+    "bBox": {
+      "l": 79.0,
+      "t": 55.0,
+      "r": 222.0,
+      "b": 70.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "四、验货及验货的标准",
+    "md": "四、验货及验货的标准",
+    "file_id": "kg_购销合同",
+    "element_id": 12,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 78.0,
+      "t": 85.0,
+      "r": 503.0,
+      "b": 135.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "1、乙方保证提供的产品是全新的、未使用过的、完全符合行业规定要求的产品。货物质量和正常使用期内须符合相关国家标准。",
+    "md": "1、乙方保证提供的产品是全新的、未使用过的、完全符合行业规定要求的产品。货物质量和正常使用期内须符合相关国家标准。",
+    "file_id": "kg_购销合同",
+    "element_id": 13,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 78.0,
+      "t": 149.0,
+      "r": 503.0,
+      "b": 229.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "2、货物采用标准包装，货到甲方收货场地后，甲方需及时组织有关收货人员与乙方一起现场初步验收货型号和数量。初步验收过程中发现因运输及其它原因造成货品损坏或不能正常使用的，均由乙方负责。",
+    "md": "2、货物采用标准包装，货到甲方收货场地后，甲方需及时组织有关收货人员与乙方一起现场初步验收货型号和数量。初步验收过程中发现因运输及其它原因造成货品损坏或不能正常使用的，均由乙方负责。",
+    "file_id": "kg_购销合同",
+    "element_id": 14,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 78.0,
+      "t": 244.0,
+      "r": 455.0,
+      "b": 261.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "3、乙方必须提供产品包括产品使用说明书、产品检验合格证。",
+    "md": "3、乙方必须提供产品包括产品使用说明书、产品检验合格证。",
+    "file_id": "kg_购销合同",
+    "element_id": 15,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 78.0,
+      "t": 276.0,
+      "r": 503.0,
+      "b": 387.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "4、完成初步验收后的 7 个工作日内由乙方负责安装。安装完成后，甲乙双方在 20 天内逐台（地）进行质量验收，若质量验收合格双方签署书面文件确认，不合格的货物退还乙方，由乙方负责免费更换。如甲方未能在 15 天内安排质量验收则视为验收合格。",
+    "md": "4、完成初步验收后的 7 个工作日内由乙方负责安装。安装完成后，甲乙双方在 20 天内逐台（地）进行质量验收，若质量验收合格双方签署书面文件确认，不合格的货物退还乙方，由乙方负责免费更换。如甲方未能在 15 天内安排质量验收则视为验收合格。",
+    "file_id": "kg_购销合同",
+    "element_id": 16,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "image",
+    "bBox": {
+      "l": 530.0,
+      "t": 281.0,
+      "r": 591.0,
+      "b": 696.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "股份有限公司\n文公\n安徽开安",
+    "md": "股份有限公司\n文公\n安徽开安",
+    "img_path": "images/ecd784f4be6d1cb66e14c22148c3f338ad2383260eebde98f38493d15255f35c.jpg",
+    "file_id": "kg_购销合同",
+    "element_id": 17,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 78.0,
+      "t": 402.0,
+      "r": 503.0,
+      "b": 482.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "5、如因产品的质量问题发生争议，双方可向相应质量检查部门鉴定，产品不符合质量标准的，鉴定费由乙方承担；产品符合质量标准的，鉴定费由甲方承担。",
+    "md": "5、如因产品的质量问题发生争议，双方可向相应质量检查部门鉴定，产品不符合质量标准的，鉴定费由乙方承担；产品符合质量标准的，鉴定费由甲方承担。",
+    "file_id": "kg_购销合同",
+    "element_id": 18,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 78.0,
+      "t": 497.0,
+      "r": 503.0,
+      "b": 545.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "6、本合同订购产的产品，如产品规格不符合要求，或有瑕疵令甲方无法正常使用时，甲方亦可拒绝接受乙方交付的产品，并将产品退还乙",
+    "md": "6、本合同订购产的产品，如产品规格不符合要求，或有瑕疵令甲方无法正常使用时，甲方亦可拒绝接受乙方交付的产品，并将产品退还乙",
+    "file_id": "kg_购销合同",
+    "element_id": 19,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "image",
+    "bBox": {
+      "l": 327.0,
+      "t": 547.0,
+      "r": 449.0,
+      "b": 665.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "一切费用及风险（以\n北京市礼\n市光\n承\n方擅自终止本合同",
+    "md": "一切费用及风险（以\n北京市礼\n市光\n承\n方擅自终止本合同",
+    "img_path": "images/1cf934f3a3c9c7f6f14ccef7270ae8862bb1efb9b97a4d6baa988cb11f711ed4.jpg",
+    "file_id": "kg_购销合同",
+    "element_id": 20,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 78.0,
+      "t": 559.0,
+      "r": 503.0,
+      "b": 608.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "方，由乙方免费为甲方更换产品并负担一切费用及风险（以及甲方因退货而附带蒙受的一切损失）。",
+    "md": "方，由乙方免费为甲方更换产品并负担一切费用及风险（以及甲方因退货而附带蒙受的一切损失）。",
+    "file_id": "kg_购销合同",
+    "element_id": 21,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "headingLevel": 2,
+    "bBox": {
+      "l": 79.0,
+      "t": 622.0,
+      "r": 207.0,
+      "b": 640.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "五、违约及违约责任",
+    "md": "五、违约及违约责任",
+    "file_id": "kg_购销合同",
+    "element_id": 22,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 78.0,
+      "t": 655.0,
+      "r": 501.0,
+      "b": 702.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "1、甲乙双方严格遵守及履行本合同，如一方擅自终止本合同，违约方要向守约方支付合同总金额\n30\\%\n的违约金。",
+    "md": "1、甲乙双方严格遵守及履行本合同，如一方擅自终止本合同，违约方要向守约方支付合同总金额\n30\\%\n的违约金。",
+    "file_id": "kg_购销合同",
+    "element_id": 23,
+    "folder_id": null
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 78.0,
+      "t": 717.0,
+      "r": 503.0,
+      "b": 765.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "2、如甲方未按照约定付款，每延迟一日，乙方向甲方支付合同总金额千分之五的违约金。如甲方不能按时交货，每延迟一日，甲方向乙方支付合同总金额千分之五的违约金。",
+    "md": "2、如甲方未按照约定付款，每延迟一日，乙方向甲方支付合同总金额千分之五的违约金。如甲方不能按时交货，每延迟一日，甲方向乙方支付合同总金额千分之五的违约金。",
+    "file_id": "kg_购销合同",
+    "element_id": 24,
+    "folder_id": null
+  },
+  {
+    "page": 3,
+    "type": "text",
+    "headingLevel": 2,
+    "bBox": {
+      "l": 78.0,
+      "t": 86.0,
+      "r": 166.0,
+      "b": 103.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "六、不可抗力",
+    "md": "六、不可抗力",
+    "file_id": "kg_购销合同",
+    "element_id": 25,
+    "folder_id": null
+  },
+  {
+    "page": 3,
+    "type": "text",
+    "bBox": {
+      "l": 78.0,
+      "t": 117.0,
+      "r": 505.0,
+      "b": 293.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "任何一方由于不可抗力的原因不能履行合同时，应在不可抗力发生后七天内向对方通报不能履行或不能完全履行的理由，在取得不可抗力的发生证明以后，甲方可允许延期履行，乙方应免于承担违约责任。不可抗力的原因包括战争、封锁、冲突、叛乱、罢工、雇主停工、内乱、骚动、政府对进出口的限制、暴动、严重火灾或水灾或被人们所不能控制的自然因素。",
+    "md": "任何一方由于不可抗力的原因不能履行合同时，应在不可抗力发生后七天内向对方通报不能履行或不能完全履行的理由，在取得不可抗力的发生证明以后，甲方可允许延期履行，乙方应免于承担违约责任。不可抗力的原因包括战争、封锁、冲突、叛乱、罢工、雇主停工、内乱、骚动、政府对进出口的限制、暴动、严重火灾或水灾或被人们所不能控制的自然因素。",
+    "file_id": "kg_购销合同",
+    "element_id": 26,
+    "folder_id": null
+  },
+  {
+    "page": 3,
+    "type": "image",
+    "bBox": {
+      "l": 546.0,
+      "t": 287.0,
+      "r": 590.0,
+      "b": 386.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "img_path": "images/77c15a551b5b1d5cbd5c7df39fd46f5197578fba013c0373174cfb048a78ed07.jpg",
+    "file_id": "kg_购销合同",
+    "element_id": 27,
+    "folder_id": null
+  },
+  {
+    "page": 3,
+    "type": "text",
+    "headingLevel": 2,
+    "bBox": {
+      "l": 78.0,
+      "t": 306.0,
+      "r": 138.0,
+      "b": 323.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "七、其他",
+    "md": "七、其他",
+    "file_id": "kg_购销合同",
+    "element_id": 28,
+    "folder_id": null
+  },
+  {
+    "page": 3,
+    "type": "list",
+    "list_items": [
+      "1、因履行本合同所发生的一切争议，双方应通过友好协商方式解决。若经协商不能达成一致，甲乙双方中的任何一方均可将该争议提请甲方所在地有管辖权的人民法院诉讼解决。诉讼费用、律师费由败诉方承担。争议条款的协商、诉讼等，不影响本合同其他条款的继续履行。",
+      "2、有关本合同条款的修改，补充和变更，均需以书面形式进行，经双方盖章后生效。",
+      "3、本合同一式二份，双方各执一份，均具同等法律效力，合同附件与本合同具有同等法律效力。本合同自双方盖章后生效。"
+    ],
+    "md": "1、因履行本合同所发生的一切争议，双方应通过友好协商方式解决。若经协商不能达成一致，甲乙双方中的任何一方均可将该争议提请甲方所在地有管辖权的人民法院诉讼解决。诉讼费用、律师费由败诉方承担。争议条款的协商、诉讼等，不影响本合同其他条款的继续履行。\n2、有关本合同条款的修改，补充和变更，均需以书面形式进行，经双方盖章后生效。\n3、本合同一式二份，双方各执一份，均具同等法律效力，合同附件与本合同具有同等法律效力。本合同自双方盖章后生效。",
+    "value": "1、因履行本合同所发生的一切争议，双方应通过友好协商方式解决。若经协商不能达成一致，甲乙双方中的任何一方均可将该争议提请甲方所在地有管辖权的人民法院诉讼解决。诉讼费用、律师费由败诉方承担。争议条款的协商、诉讼等，不影响本合同其他条款的继续履行。\n2、有关本合同条款的修改，补充和变更，均需以书面形式进行，经双方盖章后生效。\n3、本合同一式二份，双方各执一份，均具同等法律效力，合同附件与本合同具有同等法律效力。本合同自双方盖章后生效。",
+    "bBox": {
+      "l": 78.0,
+      "t": 338.0,
+      "r": 505.0,
+      "b": 575.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "file_id": "kg_购销合同",
+    "element_id": 29,
+    "folder_id": null
+  },
+  {
+    "page": 3,
+    "type": "image",
+    "bBox": {
+      "l": 545.0,
+      "t": 445.0,
+      "r": 590.0,
+      "b": 559.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "北京\n44138",
+    "md": "北京\n44138",
+    "img_path": "images/5aa7efa39deaf8ededb8978ed469b8ff7d87343eb25c6ca2a23470e356d3a0b8.jpg",
+    "file_id": "kg_购销合同",
+    "element_id": 30,
+    "folder_id": null
+  },
+  {
+    "page": 3,
+    "type": "image",
+    "bBox": {
+      "l": 129.0,
+      "t": 573.0,
+      "r": 238.0,
+      "b": 680.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "红岐达科技股份有限公司\n（盖章）",
+    "md": "红岐达科技股份有限公司\n（盖章）",
+    "img_path": "images/622a60f48bdff3c94d89262763c1864f628d0833bcc3de78fb24082fa415c8b3.jpg",
+    "file_id": "kg_购销合同",
+    "element_id": 31,
+    "folder_id": null
+  },
+  {
+    "page": 3,
+    "type": "image",
+    "bBox": {
+      "l": 301.0,
+      "t": 574.0,
+      "r": 423.0,
+      "b": 695.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "公司\n惠州扎光新能源\n州\n市\n光\n建\n开\n有\n源",
+    "md": "公司\n惠州扎光新能源\n州\n市\n光\n建\n开\n有\n源",
+    "img_path": "images/dc0f61c4855567fa5fada48d794fae0643396068a6beb0401565e0f3075d85a9.jpg",
+    "file_id": "kg_购销合同",
+    "element_id": 32,
+    "folder_id": null
+  },
+  {
+    "page": 3,
+    "type": "image",
+    "bBox": {
+      "l": 561.0,
+      "t": 574.0,
+      "r": 584.0,
+      "b": 666.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "img_path": "images/fa556dfc6bfa79db823cacab4c8f4adb3b740458124804d212fb0bc1c47c6c91.jpg",
+    "file_id": "kg_购销合同",
+    "element_id": 33,
+    "folder_id": null
+  },
+  {
+    "page": 3,
+    "type": "text",
+    "bBox": {
+      "l": 80.0,
+      "t": 623.0,
+      "r": 489.0,
+      "b": 671.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "甲方:浙江岐达科技股份有限公司 开发有限公司 盖章）",
+    "md": "甲方:浙江岐达科技股份有限公司 开发有限公司 盖章）",
+    "file_id": "kg_购销合同",
+    "element_id": 34,
+    "folder_id": null
+  },
+  {
+    "page": 3,
+    "type": "text",
+    "bBox": {
+      "l": 78.0,
+      "t": 717.0,
+      "r": 476.0,
+      "b": 734.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "签约日期：2025年4月10日 签约日期：2025年4月10日",
+    "md": "签约日期：2025年4月10日 签约日期：2025年4月10日",
+    "file_id": "kg_购销合同",
+    "element_id": 35,
+    "folder_id": null
+  }
+]

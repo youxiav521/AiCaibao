@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}回归测试管理页{% endblock %}</title>
+  <link rel="stylesheet" href="/static/app.css?v=20260730-compare-exclusions">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">回归测试管理页 · v0.3</div>
+    <nav class="nav">
+      <a class="{{ 'active' if active == 'home' else '' }}" href="/">总览</a>
+      <a class="{{ 'active' if active == 'endpoints' else '' }}" href="/endpoints">接口</a>
+      <a class="{{ 'active' if active == 'cases' else '' }}" href="/cases">用例</a>
+      <a class="{{ 'active' if active == 'candidates' else '' }}" href="/case-candidates">候选</a>
+      <a class="{{ 'active' if active == 'minio' else '' }}" href="/minio">MinIO</a>
+      <a class="{{ 'active' if active == 'reports' else '' }}" href="/reports">报告</a>
+      <a class="{{ 'active' if active == 'run' else '' }}" href="/run">运行</a>
+    </nav>
+  </header>
+  <main class="page">
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>

@@ -1,0 +1,102 @@
+{% extends "layout.html" %}
+
+{% block title %}同步记录详情{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <div>
+      <h2>同步记录详情</h2>
+      <p class="muted">{{ event.created_at | beijing_time if event.created_at else "-" }} / {{ event.operation }}</p>
+    </div>
+    <a href="/minio">返回 MinIO</a>
+  </div>
+  <div class="summary-grid">
+    <div><span>状态</span><strong>{{ event.status }}</strong></div>
+    <div><span>目标</span><strong>{{ event.target or "-" }}</strong></div>
+    <div><span>上传文件</span><strong>{{ event.result.uploaded or 0 }}</strong></div>
+    <div><span>下载文件</span><strong>{{ event.result.downloaded or 0 }}</strong></div>
+    <div><span>删除文件</span><strong>{{ event.result.deleted or 0 }}</strong></div>
+    <div><span>跳过文件</span><strong>{{ event.result.skipped or 0 }}</strong></div>
+    <div><span>冲突</span><strong>{{ event.result.conflicts or 0 }}</strong></div>
+    <div><span>对象明细</span><strong>{{ event.result.object_details|length if event.result.object_details else 0 }}</strong></div>
+  </div>
+  {% if event.error %}
+  <div class="notice error">
+    <strong>{{ event.error.title }}</strong>
+    <div>{{ event.error.suggestion }}</div>
+  </div>
+  {% endif %}
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>对象变化</h2>
+    <span class="muted">{{ event.result.object_details|length if event.result.object_details else 0 }} 个</span>
+  </div>
+  {% if event.result.object_details %}
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>类型</th>
+          <th>对象</th>
+          <th>变化</th>
+          <th>版本</th>
+          <th>传输文件</th>
+          <th>变动文件</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for detail in event.result.object_details %}
+        <tr>
+          <td>{{ "正式用例" if detail.object_type == "case" else "候选用例" }}</td>
+          <td class="case-name-cell">{{ detail.case_id }}</td>
+          <td><span class="status {{ 'success' if detail.change_type == 'created' else ('warning' if detail.change_type in ['updated', 'conflict'] else 'low') }}">{{ detail.change_type }}</span></td>
+          <td>{{ detail.before_version or "-" }} → {{ detail.after_version or "-" }}</td>
+          <td>{{ detail.transferred_files or 0 }} / {{ detail.file_count or 0 }}</td>
+          <td>{{ detail.changed_file_count or 0 }}</td>
+        </tr>
+        {% if detail.changed_files %}
+        <tr>
+          <td></td>
+          <td colspan="5">
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>文件</th>
+                    <th>变化</th>
+                    <th>大小</th>
+                    <th>旧 SHA-256</th>
+                    <th>新 SHA-256</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for file in detail.changed_files %}
+                  <tr>
+                    <td class="case-name-cell">{{ file.path }}</td>
+                    <td>{{ file.change_type }}</td>
+                    <td>{{ file.size or 0 }} B</td>
+                    <td class="case-name-cell">{{ file.before_sha256 or "-" }}</td>
+                    <td class="case-name-cell">{{ file.after_sha256 or "-" }}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+  <div class="notice warning">
+    <strong>这条记录没有对象级明细。</strong>
+    <div>旧同步记录只保存了文件传输数量。之后新产生的刷新、上传和冲突处理记录会包含对象变化列表。</div>
+  </div>
+  {% endif %}
+</section>
+{% endblock %}

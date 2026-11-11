@@ -1,0 +1,89 @@
+{
+    "providers": [
+        {
+            "name": "bailian",
+            "api_base": "http://172.16.40.16:20001/v1",
+            "api_key": "sk-bWRooglZKEFDc2wnYRhbbA",
+            "extra_body": {
+                "enable_thinking": false
+            },
+            "rpm": 1000
+        },
+        {
+            "name": "11_server",
+            "api_base": "http://10.192.72.11:7701/v1",
+            "api_key": "1",
+            "extra_body": {
+                "enable_thinking": false
+            },
+            "concurrency": 10,
+            "models": [
+                {
+                    "name": "Qwen3.6-35B-A3B-AWQ-4bit",
+                    "image": true
+                }
+            ]
+        },
+        {
+            "name": "11_server_sft",
+            "api_base": "http://10.192.72.11:7702/v1",
+            "api_key": "1",
+            "extra_body": {
+                "enable_thinking": false
+            },
+            "concurrency": 40,
+            "models": [
+                {
+                    "name": "Qwen3.5-4B-SFT-0513",
+                    "image": false
+                }
+            ]
+        }
+    ],
+    "default_provider": "11_server",
+    "default_model": "Qwen3.6-35B-A3B-AWQ-4bit",
+    "default_vl_provider": "11_server",
+    "default_vl_model": "Qwen3.6-35B-A3B-AWQ-4bit",
+    "custom_models": {
+        "doc_extract_vl": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "doc_extract": {
+            "provider": "bailian",
+            "model": "qwen3.5-27b"
+        },
+        "doc_classify": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "model_for_table_header_aided": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "model_for_table_classify": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "image_summary": {
+            "provider": "11_server",
+            "model": "Qwen3.6-35B-A3B-AWQ-4bit"
+        },
+        "data_analyst_agent": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b"
+        },
+        "parse_template": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b",
+            "extra_body": {
+                "enable_thinking": false,
+                "max_tokens": 25000
+            }
+        },
+        "reporter_text_model": {
+            "provider": "11_server_sft",
+            "model": "Qwen3.5-4B-SFT-0513"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}编辑用例信息{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <h2>编辑用例信息</h2>
+    <span class="muted">{{ case.endpoint }}</span>
+  </div>
+  {% if error %}
+  <div class="diagnostic diagnostic-medium">
+    <h3>保存失败</h3>
+    <p>{{ error }}</p>
+  </div>
+  {% endif %}
+  <form class="meta-form" method="post">
+    <label>
+      接口
+      <input value="{{ case.endpoint }}" disabled>
+    </label>
+    <label>
+      用例名
+      <input name="case_name" value="{{ case.case_name }}" required>
+    </label>
+    <label>
+      说明
+      <textarea name="description">{{ case.description }}</textarea>
+    </label>
+    <div class="actions">
+      <button type="submit">保存</button>
+      <a href="/cases?endpoint={{ case.endpoint }}">取消</a>
+    </div>
+  </form>
+</section>
+{% endblock %}

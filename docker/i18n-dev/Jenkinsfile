@@ -1,0 +1,57 @@
+pipeline {
+    agent {
+        label '10.192.72.11.app'
+    }
+
+    options {
+        timeout(time: 1, unit: 'HOURS') // 整体超时时间
+        buildDiscarder(logRotator(numToKeepStr: '30')) // 保留最近10次构建
+    }
+
+    environment {
+        DEPLOY_ENV="i18n-dev"
+        APP_NAME="yusys_ai_i18n_dev"
+        SOURCE_DIR="docker/i18n-dev"
+        DEPLOY_DIR = "/data/app/ynsp/yusys_ai_i18n_dev"
+        SSH_CREDENTIAL_ID = "10.192.72.11_app_ssh_key"
+    }
+
+    stages {
+        stage("SETUP") {
+            steps {
+                script {
+                    env.PROJECT_VERSION = "1.1.${env.BUILD_NUMBER}"
+                    env.YUSYS_AI_IMAGE = "ynsp-dev-project/${env.APP_NAME}:${env.PROJECT_VERSION}"
+                    env.FULL_IMAGE = "10.192.72.12:5000/${env.YUSYS_AI_IMAGE}"
+                }
+            }
+        }
+
+        stage('Docker Build') {
+            steps {
+                sh "docker build -t ${env.FULL_IMAGE} -f docker/Dockerfile ."
+                sh "docker push ${env.FULL_IMAGE}"
+            }
+        }
+
+        stage('Deployment') {
+            steps {
+                withCredentials([sshUserPrivateKey(
+                    credentialsId: env.SSH_CREDENTIAL_ID,
+                    keyFileVariable: 'SSH_KEY_FILE',
+                    usernameVariable: 'SSH_USERNAME'
+                )]) {
+                    sh '''
+                        ssh -i ${SSH_KEY_FILE} ${SSH_USERNAME}@10.192.72.11 "mkdir -p ${DEPLOY_DIR}"
+                        scp -i ${SSH_KEY_FILE} -r docker/i18n-dev/* docker/i18n-dev/.env_app ${SSH_USERNAME}@10.192.72.11:${DEPLOY_DIR}/
+                        ssh -i ${SSH_KEY_FILE} ${SSH_USERNAME}@10.192.72.11 "export YUSYS_AI_IMAGE=${FULL_IMAGE} && \
+                            export YUSYS_AI_CONTAINER_NAME=yusys_ai_${DEPLOY_ENV} && \
+                            export DEPLOY_ENV=${DEPLOY_ENV} && \
+                            cd ${DEPLOY_DIR} && \
+                            docker-compose -f docker-compose.yml up -d"
+                    '''
+                }
+            }
+        }
+    }
+}

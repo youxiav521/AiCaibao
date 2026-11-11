@@ -1,0 +1,32 @@
+{
+    "providers": [
+        {
+            "name": "bailian",
+            "api_base": "http://172.16.40.16:20001/v1",
+            "api_key": "sk-qT_PpqpUj8MHuUnf632sIw",
+            "extra_body": {
+                "enable_thinking": false
+            }
+        }
+    ],
+    "default_provider": "bailian",
+    "default_model": "qwen3.6-35b-a3b",
+    "custom_models": {
+        "content_generation": {
+            "provider": "bailian",
+            "model": "deepseek-v4-flash"
+        },
+        "data_analyst_agent": "qwen3.6-35b-a3b",
+        "doc_extract": "qwen3.6-27b",
+        "doc_extract_vl": "qwen3.6-35b-a3b",
+        "doc_classify": "qwen3.6-35b-a3b",
+        "parse_template": {
+            "provider": "bailian",
+            "model": "qwen3.6-35b-a3b",
+            "extra_body": {
+                "enable_thinking": false,
+                "max_tokens": 25000
+            }
+        }
+    }
+}

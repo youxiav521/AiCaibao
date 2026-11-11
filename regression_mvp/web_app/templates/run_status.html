@@ -1,0 +1,113 @@
+{% extends "layout.html" %}
+{% from "macros.html" import artifact_link %}
+
+{% block title %}运行状态{% endblock %}
+
+{% block content %}
+{% if status.is_running %}
+<meta http-equiv="refresh" content="5">
+{% endif %}
+
+<section class="section">
+  <div class="section-head">
+    <h2>运行状态</h2>
+    <span class="status {{ status.status }}">{{ status.status }}</span>
+  </div>
+  <div class="summary-grid">
+    <div><span>目标</span><strong>{{ status.target or "-" }}</strong></div>
+    <div><span>开始时间</span><strong>{{ status.started_at | beijing_time }}</strong></div>
+    <div><span>结束时间</span><strong>{{ status.finished_at | beijing_time }}</strong></div>
+    <div><span>退出码</span><strong>{{ status.return_code if status.return_code is not none else "-" }}</strong></div>
+  </div>
+  <div class="actions">
+    <a href="/">返回总览</a>
+    <a href="/reports">查看报告</a>
+    {{ artifact_link(file_url(dashboard_path), "打开 Dashboard") }}
+    {% if status.summary_report_path %}
+      {{ artifact_link(file_url(status.summary_report_path), "接口汇总报告") }}
+    {% elif status.report_detail_url %}
+      <a href="{{ status.report_detail_url }}">接口报告详情</a>
+      {% if status.report_html_path %}{{ artifact_link(file_url(status.report_html_path), "HTML报告") }}{% endif %}
+    {% endif %}
+    {% if status.log_path %}{{ artifact_link(file_url(status.log_path), "打开完整日志") }}{% endif %}
+  </div>
+</section>
+
+{% if status.diagnostic %}
+<section class="section diagnostic diagnostic-{{ status.diagnostic.severity }}">
+  <div class="section-head">
+    <h2>{{ status.diagnostic.title }}</h2>
+    <span class="status {{ status.diagnostic.severity }}">{{ status.diagnostic.category }}</span>
+  </div>
+  <p>{{ status.diagnostic.reason }}</p>
+  <h3>建议下一步</h3>
+  <ul>
+    {% for step in status.diagnostic.next_steps %}
+    <li>{{ step }}</li>
+    {% endfor %}
+  </ul>
+  {% if status.diagnostic.evidence %}
+  <h3>证据</h3>
+  <pre class="evidence">{{ status.diagnostic.evidence | join("\n") }}</pre>
+  {% endif %}
+</section>
+{% endif %}
+
+<section class="section">
+  <div class="section-head">
+    <h2>日志尾部</h2>
+    <span class="muted">{{ status.message or "" }}</span>
+  </div>
+  {% if status.log_tail %}
+  <pre class="log">{{ status.log_tail }}</pre>
+  {% else %}
+  <p class="muted">暂无日志</p>
+  {% endif %}
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Web 执行历史</h2>
+    <span class="muted">{{ recent_runs|length }} 条</span>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>目标</th>
+          <th>状态</th>
+          <th>开始时间</th>
+          <th>结束时间</th>
+          <th>退出码</th>
+          <th>诊断</th>
+          <th>报告</th>
+          <th>日志</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in recent_runs %}
+        <tr>
+          <td>{{ item.target }}</td>
+          <td><span class="status {{ item.status }}">{{ item.status }}</span></td>
+          <td>{{ item.started_at | beijing_time }}</td>
+          <td>{{ item.finished_at | beijing_time }}</td>
+          <td>{{ item.return_code }}</td>
+          <td>{% if item.status == "failed" %}{{ item.diagnostic_category or "-" }}{% else %}-{% endif %}</td>
+          <td class="links">
+            {% if item.summary_report_path %}
+              {{ artifact_link(file_url(item.summary_report_path), "汇总报告") }}
+            {% elif item.report_detail_url %}
+              <a href="{{ item.report_detail_url }}">详情</a>
+              {% if item.report_html_path %}{{ artifact_link(file_url(item.report_html_path), "HTML") }}{% endif %}
+            {% else %}
+              <span class="muted">-</span>
+            {% endif %}
+          </td>
+          <td>{% if item.log_path %}{{ artifact_link(file_url(item.log_path), "log") }}{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

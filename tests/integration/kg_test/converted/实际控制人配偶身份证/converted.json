@@ -1,0 +1,182 @@
+[
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 30.0,
+      "t": 19.0,
+      "r": 54.0,
+      "b": 24.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "姓名 范仕花",
+    "md": "姓名 范仕花",
+    "file_id": "kg_实际控制人配偶身份证",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 85.0,
+      "t": 20.0,
+      "r": 106.0,
+      "b": 54.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "Portrait of a person with short dark hair and neutral expression (no text or symbols visible)",
+    "md": "Portrait of a person with short dark hair and neutral expression (no text or symbols visible)",
+    "img_path": "images/e24d1582943378c87378890143accc53f0e8d59a55ef1cf7cfd82617c767add0.jpg",
+    "file_id": "kg_实际控制人配偶身份证",
+    "element_id": 2,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 30.0,
+      "t": 27.0,
+      "r": 63.0,
+      "b": 31.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "性别 女 民族汉",
+    "md": "性别 女 民族汉",
+    "file_id": "kg_实际控制人配偶身份证",
+    "element_id": 3,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 30.0,
+      "t": 34.0,
+      "r": 71.0,
+      "b": 38.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "出生 1974 年 4 月 24 日",
+    "md": "出生 1974 年 4 月 24 日",
+    "file_id": "kg_实际控制人配偶身份证",
+    "element_id": 4,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 30.0,
+      "t": 41.0,
+      "r": 80.0,
+      "b": 51.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "广东省惠州市惠城区横沥镇排沙村委会一队48号",
+    "md": "广东省惠州市惠城区横沥镇排沙村委会一队48号",
+    "file_id": "kg_实际控制人配偶身份证",
+    "element_id": 5,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 31.0,
+      "t": 59.0,
+      "r": 106.0,
+      "b": 65.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "公民身份号码 441321197404245040",
+    "md": "公民身份号码 441321197404245040",
+    "file_id": "kg_实际控制人配偶身份证",
+    "element_id": 6,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 100.0,
+      "t": 63.0,
+      "r": 148.0,
+      "b": 111.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "惠州市扎光新能源有限公司\n（一）有限责任公司",
+    "md": "惠州市扎光新能源有限公司\n（一）有限责任公司",
+    "img_path": "images/4e6146078370ff444303cb9522f6ea2c9859a16e7235ff93b4c82664a785c9f3.jpg",
+    "file_id": "kg_实际控制人配偶身份证",
+    "element_id": 7,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 24.0,
+      "t": 116.0,
+      "r": 43.0,
+      "b": 136.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "Circular emblem with stylized elements and stars, no visible text or symbols",
+    "md": "Circular emblem with stylized elements and stars, no visible text or symbols",
+    "img_path": "images/1d7e8da440c5492857351b1fb5bec77486da9445667b304719897a859947b21a.jpg",
+    "file_id": "kg_实际控制人配偶身份证",
+    "element_id": 8,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "headingLevel": 1,
+    "bBox": {
+      "l": 47.0,
+      "t": 116.0,
+      "r": 105.0,
+      "b": 135.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "中华人民共和国 居民身份证",
+    "md": "中华人民共和国 居民身份证",
+    "file_id": "kg_实际控制人配偶身份证",
+    "element_id": 9,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 42.0,
+      "t": 153.0,
+      "r": 94.0,
+      "b": 158.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "签发机关 惠州市公安局惠城分局",
+    "md": "签发机关 惠州市公安局惠城分局",
+    "file_id": "kg_实际控制人配偶身份证",
+    "element_id": 10,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 43.0,
+      "t": 161.0,
+      "r": 96.0,
+      "b": 165.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "有效期限 2006.05.11-2026.05.11",
+    "md": "有效期限 2006.05.11-2026.05.11",
+    "file_id": "kg_实际控制人配偶身份证",
+    "element_id": 11,
+    "folder_id": null
+  }
+]

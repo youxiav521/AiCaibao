@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+
+{% block title %}可视化编辑财报元数据{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <h2>可视化编辑财报元数据</h2>
+    <span class="muted">{{ case.name }}</span>
+  </div>
+  {% if error %}
+  <p class="error-text">{{ error }}</p>
+  {% endif %}
+  <form method="post" class="preview-editor-form">
+    <div class="visual-editor-actions">
+      <button type="submit">保存</button>
+      <a class="button-link secondary" href="{{ cancel_url or '/cases?endpoint=' ~ case.endpoint }}">取消</a>
+      <a class="button-link secondary" href="{{ json_url or '/cases/' ~ (case.endpoint | urlencode) ~ '/' ~ (case.case_name | urlencode) ~ '/edit-json' }}">JSON 编辑</a>
+    </div>
+
+    <div class="summary-grid metadata-summary">
+      <div><span>success</span><strong>{{ response.success }}</strong></div>
+      <div><span>file_id</span><strong>{{ response.file_id or "-" }}</strong></div>
+      <div><span>metadata_path</span><strong>{{ response.metadata_path or "-" }}</strong></div>
+      <div><span>three_statements</span><strong>{{ response.three_statements|length if response.three_statements else 0 }}</strong></div>
+    </div>
+
+    <div class="table-wrap">
+      <table class="metadata-edit-table">
+        <thead>
+          <tr>
+            <th>字段</th>
+            <th>值</th>
+            <th>source_element_id</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in metadata_rows %}
+          <tr>
+            <td class="case-name-cell">{{ row.name }}</td>
+            <td>
+              {% if row.readonly %}
+              <textarea rows="3" readonly>{{ row.value }}</textarea>
+              {% else %}
+              <textarea name="metadata__{{ row.form_key }}__value" rows="3">{{ row.value or "" }}</textarea>
+              {% endif %}
+            </td>
+            <td>
+              {% if row.readonly %}
+              <span class="muted">只读</span>
+              {% else %}
+              <input
+                type="number"
+                name="metadata__{{ row.form_key }}__source_element_id"
+                value="{{ row.source_element_id or '' }}"
+              >
+              {% endif %}
+            </td>
+          </tr>
+          {% else %}
+          <tr><td colspan="3" class="muted">暂无 metadata 字段</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="visual-editor-actions">
+      <button type="submit">保存</button>
+      <a class="button-link secondary" href="{{ cancel_url or '/cases?endpoint=' ~ case.endpoint }}">取消</a>
+    </div>
+  </form>
+</section>
+{% endblock %}

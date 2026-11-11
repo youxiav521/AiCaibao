@@ -1,0 +1,1776 @@
+[
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 265.0,
+      "t": 142.0,
+      "r": 328.0,
+      "b": 164.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "img_path": "images/109b27b337aa87a69b7f16a87d3b8a508436a8a82306f0110a53944c6ccfd736.jpg",
+    "image_caption": [],
+    "image_footnote": [],
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 1,
+    "folder_id": "string"
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "textLevel": 1,
+    "bBox": {
+      "l": 181.0,
+      "t": 193.0,
+      "r": 400.0,
+      "b": 214.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "广东燕塘乳业股份有限公司",
+    "md": "广东燕塘乳业股份有限公司",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 2,
+    "folder_id": "string"
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "textLevel": 1,
+    "bBox": {
+      "l": 233.0,
+      "t": 246.0,
+      "r": 350.0,
+      "b": 264.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "2022年年度报告",
+    "md": "2022年年度报告",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 3,
+    "folder_id": "string"
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 270.0,
+      "t": 292.0,
+      "r": 314.0,
+      "b": 304.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "2023-011",
+    "md": "2023-011",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 4,
+    "folder_id": "string"
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 243.0,
+      "t": 487.0,
+      "r": 338.0,
+      "b": 504.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "2023年03月",
+    "md": "2023年03月",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 5,
+    "folder_id": "string"
+  },
+  {
+    "page": 1,
+    "type": "page_number",
+    "bBox": {
+      "l": 533.0,
+      "t": 781.0,
+      "r": 537.0,
+      "b": 789.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "1",
+    "md": "1",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 6,
+    "folder_id": "string"
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "textLevel": 1,
+    "bBox": {
+      "l": 181.0,
+      "t": 87.0,
+      "r": 402.0,
+      "b": 105.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "第一节 重要提示、目录和释义",
+    "md": "第一节 重要提示、目录和释义",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "headingLevel": 1,
+    "element_id": 7,
+    "folder_id": "string"
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 53.0,
+      "t": 132.0,
+      "r": 530.0,
+      "b": 214.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "公司董事会、监事会及董事、监事、高级管理人员保证年度报告内容的真实、准确、完整，不存在虚假记载、误导性陈述或重大遗漏，并承担个别和连带的法律责任。",
+    "md": "公司董事会、监事会及董事、监事、高级管理人员保证年度报告内容的真实、准确、完整，不存在虚假记载、误导性陈述或重大遗漏，并承担个别和连带的法律责任。",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 8,
+    "folder_id": "string"
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 53.0,
+      "t": 232.0,
+      "r": 530.0,
+      "b": 280.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "公司负责人李志平、主管会计工作负责人邵侠及会计机构负责人(会计主管人员)晁云声明：保证本年度报告中财务报告的真实、准确、完整。",
+    "md": "公司负责人李志平、主管会计工作负责人邵侠及会计机构负责人(会计主管人员)晁云声明：保证本年度报告中财务报告的真实、准确、完整。",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 9,
+    "folder_id": "string"
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 81.0,
+      "t": 299.0,
+      "r": 372.0,
+      "b": 317.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "所有董事均已出席了审议本报告的董事会会议。",
+    "md": "所有董事均已出席了审议本报告的董事会会议。",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 10,
+    "folder_id": "string"
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 53.0,
+      "t": 334.0,
+      "r": 530.0,
+      "b": 448.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "本报告涉及的有关未来计划、发展战略等前瞻性陈述，不代表公司的盈利预测，亦不构成公司对投资者的实质承诺。投资者及相关人士应当理解“计划”“预测”与“承诺”之间的差异，树立必要的风险意识，审慎决策，理性投资。",
+    "md": "本报告涉及的有关未来计划、发展战略等前瞻性陈述，不代表公司的盈利预测，亦不构成公司对投资者的实质承诺。投资者及相关人士应当理解“计划”“预测”与“承诺”之间的差异，树立必要的风险意识，审慎决策，理性投资。",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 11,
+    "folder_id": "string"
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 53.0,
+      "t": 465.0,
+      "r": 535.0,
+      "b": 515.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "公司在本报告“第三节管理层讨论与分析”之“十一公司未来发展的展望”部分详细描述了未来将面临的主要风险及应对措施，请投资者移目关注。",
+    "md": "公司在本报告“第三节管理层讨论与分析”之“十一公司未来发展的展望”部分详细描述了未来将面临的主要风险及应对措施，请投资者移目关注。",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 12,
+    "folder_id": "string"
+  },
+  {
+    "page": 2,
+    "type": "text",
+    "bBox": {
+      "l": 53.0,
+      "t": 531.0,
+      "r": 535.0,
+      "b": 614.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "公司经本次董事会审议通过的利润分配预案为：以157,350,000股为基数，向全体股东每10股派发现金红利2.00元（含税），送红股0股（含税），不以公积金转增股本。",
+    "md": "公司经本次董事会审议通过的利润分配预案为：以157,350,000股为基数，向全体股东每10股派发现金红利2.00元（含税），送红股0股（含税），不以公积金转增股本。",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 13,
+    "folder_id": "string"
+  },
+  {
+    "page": 2,
+    "type": "page_number",
+    "bBox": {
+      "l": 531.0,
+      "t": 781.0,
+      "r": 538.0,
+      "b": 790.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "2",
+    "md": "2",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 14,
+    "folder_id": "string"
+  },
+  {
+    "page": 3,
+    "type": "text",
+    "textLevel": 1,
+    "bBox": {
+      "l": 274.0,
+      "t": 119.0,
+      "r": 311.0,
+      "b": 139.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "目录",
+    "md": "目录",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 15,
+    "folder_id": "string"
+  },
+  {
+    "page": 3,
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "第一节 重要提示、目录和释义 ..... 2",
+      "第二节 公司简介和主要财务指标 6",
+      "第三节 管理层讨论与分析 ..... 10",
+      "第四节 公司治理 35",
+      "第五节 环境和社会责任. 56",
+      "第六节 重要事项 ..... 59",
+      "第七节 股份变动及股东情况 73",
+      "第八节 优先股相关情况 ..... 79",
+      "第九节 债券相关情况 80",
+      "第十节 财务报告 ..... 81"
+    ],
+    "md": "第一节 重要提示、目录和释义 ..... 2\n第二节 公司简介和主要财务指标 6\n第三节 管理层讨论与分析 ..... 10\n第四节 公司治理 35\n第五节 环境和社会责任. 56\n第六节 重要事项 ..... 59\n第七节 股份变动及股东情况 73\n第八节 优先股相关情况 ..... 79\n第九节 债券相关情况 80\n第十节 财务报告 ..... 81",
+    "value": "第一节 重要提示、目录和释义 ..... 2\n第二节 公司简介和主要财务指标 6\n第三节 管理层讨论与分析 ..... 10\n第四节 公司治理 35\n第五节 环境和社会责任. 56\n第六节 重要事项 ..... 59\n第七节 股份变动及股东情况 73\n第八节 优先股相关情况 ..... 79\n第九节 债券相关情况 80\n第十节 财务报告 ..... 81",
+    "bBox": {
+      "l": 54.0,
+      "t": 183.0,
+      "r": 543.0,
+      "b": 409.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 16,
+    "folder_id": "string"
+  },
+  {
+    "page": 3,
+    "type": "page_number",
+    "bBox": {
+      "l": 531.0,
+      "t": 781.0,
+      "r": 538.0,
+      "b": 790.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "3",
+    "md": "3",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 17,
+    "folder_id": "string"
+  },
+  {
+    "page": 4,
+    "type": "text",
+    "textLevel": 1,
+    "bBox": {
+      "l": 242.0,
+      "t": 82.0,
+      "r": 343.0,
+      "b": 100.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "备查文件目录",
+    "md": "备查文件目录",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 18,
+    "folder_id": "string"
+  },
+  {
+    "page": 4,
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "一、载有公司法定代表人签名的公司2022年年度报告文本。",
+      "二、载有公司负责人、主管会计工作负责人、会计机构负责人（会计主管人员）签名并盖章的财务报表。",
+      "三、载有会计师事务所盖章，注册会计师签名并盖章的审计报告原件。",
+      "四、报告期内公开披露过的所有公司文件的正本及公告的原稿。",
+      "五、其他相关文件。",
+      "以上备查文件的备置地点：公司董事会办公室。"
+    ],
+    "md": "一、载有公司法定代表人签名的公司2022年年度报告文本。\n二、载有公司负责人、主管会计工作负责人、会计机构负责人（会计主管人员）签名并盖章的财务报表。\n三、载有会计师事务所盖章，注册会计师签名并盖章的审计报告原件。\n四、报告期内公开披露过的所有公司文件的正本及公告的原稿。\n五、其他相关文件。\n以上备查文件的备置地点：公司董事会办公室。",
+    "value": "一、载有公司法定代表人签名的公司2022年年度报告文本。\n二、载有公司负责人、主管会计工作负责人、会计机构负责人（会计主管人员）签名并盖章的财务报表。\n三、载有会计师事务所盖章，注册会计师签名并盖章的审计报告原件。\n四、报告期内公开披露过的所有公司文件的正本及公告的原稿。\n五、其他相关文件。\n以上备查文件的备置地点：公司董事会办公室。",
+    "bBox": {
+      "l": 54.0,
+      "t": 153.0,
+      "r": 465.0,
+      "b": 253.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 19,
+    "folder_id": "string"
+  },
+  {
+    "page": 4,
+    "type": "page_number",
+    "bBox": {
+      "l": 532.0,
+      "t": 781.0,
+      "r": 538.0,
+      "b": 790.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "4",
+    "md": "4",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 20,
+    "folder_id": "string"
+  },
+  {
+    "page": 5,
+    "type": "table",
+    "bBox": {
+      "l": 54.0,
+      "t": 131.0,
+      "r": 540.0,
+      "b": 657.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "释义项",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "释义内容",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "中国证监会、证监会",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "中国证券监督管理委员会",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "深交所",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "深圳证券交易所",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "公司、本公司、燕塘乳业、发行人",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "广东燕塘乳业股份有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "报告期",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "2022年1月1日至2022年12月31日",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "期初、报告期初",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "2022年1月1日",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "期末、报告期末",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "2022年12月31日",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "元、万元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "人民币元、人民币万元",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "广东农垦",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司实际控制人，广东省农垦集团公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "燕塘投资",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司控股股东，广东省燕塘投资有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "湛江燕塘",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司全资子公司，湛江燕塘乳业有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "新澳牧场",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司全资子公司，陆丰市新澳良种奶牛养殖有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "燕塘冷冻",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司全资子公司，广东燕塘冷冻食品有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "燕塘优鲜达",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司全资子公司，广州燕塘优鲜达电子商务有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "汕头燕塘",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司控股子公司，汕头市燕塘乳业有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 14,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "澳新牧场",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司控股子公司，湛江燕塘澳新牧业有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 15,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "燕塘饲料",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司控股子公司，广东燕塘饲料生物科技有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 16,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "阳江牧场",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司分公司，广东燕塘乳业股份有限公司红五月良种奶牛场分公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 17,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "粤垦小额贷款",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司参股公司，广东粤垦农业小额贷款股份有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 18,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "财务公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司参股公司，广东省农垦集团财务有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 19,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "燕塘传祁",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司参股公司，甘肃燕塘传祁牧业有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 20,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "粤垦投资",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司关联方，广东省粤垦投资有限公司",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 21,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ],
+      [
+        {
+          "text": "湛江农垦",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 0,
+          "source_page_no": 5
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 1,
+          "source_page_no": 5
+        },
+        {
+          "text": "公司关联方，广东省湛江农垦集团有限公司（曾用名广东省湛江农垦集团公司）",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 22,
+          "colstart": 2,
+          "source_page_no": 5
+        }
+      ]
+    ],
+    "html": "<table><tr><td>释义项</td><td>指</td><td>释义内容</td></tr><tr><td>中国证监会、证监会</td><td>指</td><td>中国证券监督管理委员会</td></tr><tr><td>深交所</td><td>指</td><td>深圳证券交易所</td></tr><tr><td>公司、本公司、燕塘乳业、发行人</td><td>指</td><td>广东燕塘乳业股份有限公司</td></tr><tr><td>报告期</td><td>指</td><td>2022年1月1日至2022年12月31日</td></tr><tr><td>期初、报告期初</td><td>指</td><td>2022年1月1日</td></tr><tr><td>期末、报告期末</td><td>指</td><td>2022年12月31日</td></tr><tr><td>元、万元</td><td>指</td><td>人民币元、人民币万元</td></tr><tr><td>广东农垦</td><td>指</td><td>公司实际控制人，广东省农垦集团公司</td></tr><tr><td>燕塘投资</td><td>指</td><td>公司控股股东，广东省燕塘投资有限公司</td></tr><tr><td>湛江燕塘</td><td>指</td><td>公司全资子公司，湛江燕塘乳业有限公司</td></tr><tr><td>新澳牧场</td><td>指</td><td>公司全资子公司，陆丰市新澳良种奶牛养殖有限公司</td></tr><tr><td>燕塘冷冻</td><td>指</td><td>公司全资子公司，广东燕塘冷冻食品有限公司</td></tr><tr><td>燕塘优鲜达</td><td>指</td><td>公司全资子公司，广州燕塘优鲜达电子商务有限公司</td></tr><tr><td>汕头燕塘</td><td>指</td><td>公司控股子公司，汕头市燕塘乳业有限公司</td></tr><tr><td>澳新牧场</td><td>指</td><td>公司控股子公司，湛江燕塘澳新牧业有限公司</td></tr><tr><td>燕塘饲料</td><td>指</td><td>公司控股子公司，广东燕塘饲料生物科技有限公司</td></tr><tr><td>阳江牧场</td><td>指</td><td>公司分公司，广东燕塘乳业股份有限公司红五月良种奶牛场分公司</td></tr><tr><td>粤垦小额贷款</td><td>指</td><td>公司参股公司，广东粤垦农业小额贷款股份有限公司</td></tr><tr><td>财务公司</td><td>指</td><td>公司参股公司，广东省农垦集团财务有限公司</td></tr><tr><td>燕塘传祁</td><td>指</td><td>公司参股公司，甘肃燕塘传祁牧业有限公司</td></tr><tr><td>粤垦投资</td><td>指</td><td>公司关联方，广东省粤垦投资有限公司</td></tr><tr><td>湛江农垦</td><td>指</td><td>公司关联方，广东省湛江农垦集团有限公司（曾用名广东省湛江农垦集团公司）</td></tr></table>",
+    "md": "| 释义项 | 指 | 释义内容 |\n| --- | --- | --- |\n| 中国证监会、证监会 | 指 | 中国证券监督管理委员会 |\n| 深交所 | 指 | 深圳证券交易所 |\n| 公司、本公司、燕塘乳业、发行人 | 指 | 广东燕塘乳业股份有限公司 |\n| 报告期 | 指 | 2022年1月1日至2022年12月31日 |\n| 期初、报告期初 | 指 | 2022年1月1日 |\n| 期末、报告期末 | 指 | 2022年12月31日 |\n| 元、万元 | 指 | 人民币元、人民币万元 |\n| 广东农垦 | 指 | 公司实际控制人，广东省农垦集团公司 |\n| 燕塘投资 | 指 | 公司控股股东，广东省燕塘投资有限公司 |\n| 湛江燕塘 | 指 | 公司全资子公司，湛江燕塘乳业有限公司 |\n| 新澳牧场 | 指 | 公司全资子公司，陆丰市新澳良种奶牛养殖有限公司 |\n| 燕塘冷冻 | 指 | 公司全资子公司，广东燕塘冷冻食品有限公司 |\n| 燕塘优鲜达 | 指 | 公司全资子公司，广州燕塘优鲜达电子商务有限公司 |\n| 汕头燕塘 | 指 | 公司控股子公司，汕头市燕塘乳业有限公司 |\n| 澳新牧场 | 指 | 公司控股子公司，湛江燕塘澳新牧业有限公司 |\n| 燕塘饲料 | 指 | 公司控股子公司，广东燕塘饲料生物科技有限公司 |\n| 阳江牧场 | 指 | 公司分公司，广东燕塘乳业股份有限公司红五月良种奶牛场分公司 |\n| 粤垦小额贷款 | 指 | 公司参股公司，广东粤垦农业小额贷款股份有限公司 |\n| 财务公司 | 指 | 公司参股公司，广东省农垦集团财务有限公司 |\n| 燕塘传祁 | 指 | 公司参股公司，甘肃燕塘传祁牧业有限公司 |\n| 粤垦投资 | 指 | 公司关联方，广东省粤垦投资有限公司 |\n| 湛江农垦 | 指 | 公司关联方，广东省湛江农垦集团有限公司（曾用名广东省湛江农垦集团公司） |",
+    "perfectTable": false,
+    "table_caption": [
+      "释义"
+    ],
+    "img_path": "images/6bbdc52fe4c370df39b9f68e3913f17498416a86c87139c0ee8c4247a765114a.jpg",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 21,
+    "folder_id": "string",
+    "standard2D": true,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false,
+    "hasHeader": true,
+    "headerCells": [
+      [
+        {
+          "text": "释义项",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0
+        },
+        {
+          "text": "指",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1
+        },
+        {
+          "text": "释义内容",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2
+        }
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "type": "page_number",
+    "bBox": {
+      "l": 531.0,
+      "t": 781.0,
+      "r": 538.0,
+      "b": 790.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "5",
+    "md": "5",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 22,
+    "folder_id": "string"
+  },
+  {
+    "page": 6,
+    "type": "text",
+    "textLevel": 1,
+    "bBox": {
+      "l": 174.0,
+      "t": 87.0,
+      "r": 410.0,
+      "b": 105.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "第二节 公司简介和主要财务指标",
+    "md": "第二节 公司简介和主要财务指标",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "headingLevel": 1,
+    "element_id": 23,
+    "folder_id": "string"
+  },
+  {
+    "page": 6,
+    "type": "text",
+    "textLevel": 1,
+    "bBox": {
+      "l": 54.0,
+      "t": 126.0,
+      "r": 129.0,
+      "b": 142.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "一、公司信息",
+    "md": "一、公司信息",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "headingLevel": 2,
+    "element_id": 24,
+    "folder_id": "string"
+  },
+  {
+    "page": 6,
+    "type": "table",
+    "bBox": {
+      "l": 49.0,
+      "t": 155.0,
+      "r": 544.0,
+      "b": 393.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "股票简称",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "燕塘乳业",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "股票代码",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2,
+          "source_page_no": 6
+        },
+        {
+          "text": "002732",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 3,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "股票上市证券交易所",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "深圳证券交易所",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "公司的中文名称",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "广东燕塘乳业股份有限公司",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "公司的中文简称",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "广东燕塘乳业股份有限公司",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 3,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "公司的外文名称（如有）",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "Guangdong Yantang Dairy Co., Ltd",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 4,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "公司的外文名称缩写（如有）",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "Yantang Dairy",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 5,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "公司的法定代表人",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 6,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "李志平",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 6,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "注册地址",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 7,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "广州市黄埔区香荔路188号",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 7,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "注册地址的邮政编码",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 8,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "510700",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 8,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "公司注册地址历史变更情况",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 9,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "2020年7月24日公司注册地址由广州市天河区沙河燕塘变更至广州市黄埔区香荔路188号",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 9,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "办公地址",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 10,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "广州市黄埔区香荔路188号",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 10,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "办公地址的邮政编码",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 11,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "510700",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 11,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "公司网址",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 12,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "https://www.yantangmilk.com/",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 12,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "电子信箱",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 13,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "master@ytdairy.com",
+          "rowspan": 1,
+          "colspan": 3,
+          "rowstart": 13,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ]
+    ],
+    "html": "<table><tr><td>股票简称</td><td>燕塘乳业</td><td>股票代码</td><td>002732</td></tr><tr><td>股票上市证券交易所</td><td colspan=\"3\">深圳证券交易所</td></tr><tr><td>公司的中文名称</td><td colspan=\"3\">广东燕塘乳业股份有限公司</td></tr><tr><td>公司的中文简称</td><td colspan=\"3\">广东燕塘乳业股份有限公司</td></tr><tr><td>公司的外文名称（如有）</td><td colspan=\"3\">Guangdong Yantang Dairy Co., Ltd</td></tr><tr><td>公司的外文名称缩写（如有）</td><td colspan=\"3\">Yantang Dairy</td></tr><tr><td>公司的法定代表人</td><td colspan=\"3\">李志平</td></tr><tr><td>注册地址</td><td colspan=\"3\">广州市黄埔区香荔路188号</td></tr><tr><td>注册地址的邮政编码</td><td colspan=\"3\">510700</td></tr><tr><td>公司注册地址历史变更情况</td><td colspan=\"3\">2020年7月24日公司注册地址由广州市天河区沙河燕塘变更至广州市黄埔区香荔路188号</td></tr><tr><td>办公地址</td><td colspan=\"3\">广州市黄埔区香荔路188号</td></tr><tr><td>办公地址的邮政编码</td><td colspan=\"3\">510700</td></tr><tr><td>公司网址</td><td colspan=\"3\">https://www.yantangmilk.com/</td></tr><tr><td>电子信箱</td><td colspan=\"3\">master@ytdairy.com</td></tr></table>",
+    "md": "| 股票简称 | 燕塘乳业 | 股票代码 | 002732 |\n| --- | --- | --- | --- |\n| 股票上市证券交易所 | 深圳证券交易所 | 深圳证券交易所 | 深圳证券交易所 |\n| 公司的中文名称 | 广东燕塘乳业股份有限公司 | 广东燕塘乳业股份有限公司 | 广东燕塘乳业股份有限公司 |\n| 公司的中文简称 | 广东燕塘乳业股份有限公司 | 广东燕塘乳业股份有限公司 | 广东燕塘乳业股份有限公司 |\n| 公司的外文名称（如有） | Guangdong Yantang Dairy Co., Ltd | Guangdong Yantang Dairy Co., Ltd | Guangdong Yantang Dairy Co., Ltd |\n| 公司的外文名称缩写（如有） | Yantang Dairy | Yantang Dairy | Yantang Dairy |\n| 公司的法定代表人 | 李志平 | 李志平 | 李志平 |\n| 注册地址 | 广州市黄埔区香荔路188号 | 广州市黄埔区香荔路188号 | 广州市黄埔区香荔路188号 |\n| 注册地址的邮政编码 | 510700 | 510700 | 510700 |\n| 公司注册地址历史变更情况 | 2020年7月24日公司注册地址由广州市天河区沙河燕塘变更至广州市黄埔区香荔路188号 | 2020年7月24日公司注册地址由广州市天河区沙河燕塘变更至广州市黄埔区香荔路188号 | 2020年7月24日公司注册地址由广州市天河区沙河燕塘变更至广州市黄埔区香荔路188号 |\n| 办公地址 | 广州市黄埔区香荔路188号 | 广州市黄埔区香荔路188号 | 广州市黄埔区香荔路188号 |\n| 办公地址的邮政编码 | 510700 | 510700 | 510700 |\n| 公司网址 | https://www.yantangmilk.com/ | https://www.yantangmilk.com/ | https://www.yantangmilk.com/ |\n| 电子信箱 | master@ytdairy.com | master@ytdairy.com | master@ytdairy.com |",
+    "perfectTable": false,
+    "img_path": "images/a91d18780a89019474b32f4534b8fd99113d183dd27b2750ed7030222a27f308.jpg",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 25,
+    "folder_id": "string",
+    "standard2D": false,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false,
+    "hasHeader": false
+  },
+  {
+    "page": 6,
+    "type": "text",
+    "textLevel": 1,
+    "bBox": {
+      "l": 54.0,
+      "t": 408.0,
+      "r": 178.0,
+      "b": 424.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "二、联系人和联系方式",
+    "md": "二、联系人和联系方式",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "headingLevel": 2,
+    "element_id": 26,
+    "folder_id": "string"
+  },
+  {
+    "page": 6,
+    "type": "table",
+    "bBox": {
+      "l": 49.0,
+      "t": 438.0,
+      "r": 544.0,
+      "b": 537.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "董事会秘书",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "证券事务代表",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "姓名",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "李春锋",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "李嘉旋",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 2,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "联系地址",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "广州市黄埔区香荔路188号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "广州市黄埔区香荔路188号",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 2,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "电话",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "020-32631998",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "020-32631998",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 3,
+          "colstart": 2,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "传真",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "020-32631317",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "020-32631317",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 4,
+          "colstart": 2,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "电子信箱",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "master@ytdairy.com",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 1,
+          "source_page_no": 6
+        },
+        {
+          "text": "master@ytdairy.com",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 5,
+          "colstart": 2,
+          "source_page_no": 6
+        }
+      ]
+    ],
+    "html": "<table><tr><td></td><td>董事会秘书</td><td>证券事务代表</td></tr><tr><td>姓名</td><td>李春锋</td><td>李嘉旋</td></tr><tr><td>联系地址</td><td>广州市黄埔区香荔路188号</td><td>广州市黄埔区香荔路188号</td></tr><tr><td>电话</td><td>020-32631998</td><td>020-32631998</td></tr><tr><td>传真</td><td>020-32631317</td><td>020-32631317</td></tr><tr><td>电子信箱</td><td>master@ytdairy.com</td><td>master@ytdairy.com</td></tr></table>",
+    "md": "|  | 董事会秘书 | 证券事务代表 |\n| --- | --- | --- |\n| 姓名 | 李春锋 | 李嘉旋 |\n| 联系地址 | 广州市黄埔区香荔路188号 | 广州市黄埔区香荔路188号 |\n| 电话 | 020-32631998 | 020-32631998 |\n| 传真 | 020-32631317 | 020-32631317 |\n| 电子信箱 | master@ytdairy.com | master@ytdairy.com |",
+    "perfectTable": false,
+    "img_path": "images/8901a1851f67ab4c016917ee53e1c322d6b18a61e2850b2e87a8446c1a510a76.jpg",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 27,
+    "folder_id": "string",
+    "standard2D": true,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false,
+    "hasHeader": true,
+    "headerCells": [
+      [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0
+        },
+        {
+          "text": "董事会秘书",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1
+        },
+        {
+          "text": "证券事务代表",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 2
+        }
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "type": "text",
+    "textLevel": 1,
+    "bBox": {
+      "l": 54.0,
+      "t": 552.0,
+      "r": 189.0,
+      "b": 568.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "三、信息披露及备置地点",
+    "md": "三、信息披露及备置地点",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "headingLevel": 2,
+    "element_id": 28,
+    "folder_id": "string"
+  },
+  {
+    "page": 6,
+    "type": "table",
+    "bBox": {
+      "l": 49.0,
+      "t": 582.0,
+      "r": 544.0,
+      "b": 641.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "公司披露年度报告的证券交易所网站",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "深圳证券交易所（www.szse.cn）",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "公司披露年度报告的媒体名称及网址",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "《证券时报》、《中国证券报》、《证券日报》、巨潮资讯网（www.cninfo.com.cn）",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "公司年度报告备置地点",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "公司董事会办公室",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ]
+    ],
+    "html": "<table><tr><td>公司披露年度报告的证券交易所网站</td><td>深圳证券交易所（www.szse.cn）</td></tr><tr><td>公司披露年度报告的媒体名称及网址</td><td>《证券时报》、《中国证券报》、《证券日报》、巨潮资讯网（www.cninfo.com.cn）</td></tr><tr><td>公司年度报告备置地点</td><td>公司董事会办公室</td></tr></table>",
+    "md": "| 公司披露年度报告的证券交易所网站 | 深圳证券交易所（www.szse.cn） |\n| --- | --- |\n| 公司披露年度报告的媒体名称及网址 | 《证券时报》、《中国证券报》、《证券日报》、巨潮资讯网（www.cninfo.com.cn） |\n| 公司年度报告备置地点 | 公司董事会办公室 |",
+    "perfectTable": false,
+    "img_path": "images/2079c189f879028d3694e83ba94f203196a922e8873ba39664bdec9eab25cc86.jpg",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 29,
+    "folder_id": "string",
+    "standard2D": true,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false,
+    "hasHeader": false
+  },
+  {
+    "page": 6,
+    "type": "text",
+    "textLevel": 1,
+    "bBox": {
+      "l": 54.0,
+      "t": 656.0,
+      "r": 154.0,
+      "b": 670.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "四、注册变更情况",
+    "md": "四、注册变更情况",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "headingLevel": 2,
+    "element_id": 30,
+    "folder_id": "string"
+  },
+  {
+    "page": 6,
+    "type": "table",
+    "bBox": {
+      "l": 49.0,
+      "t": 685.0,
+      "r": 544.0,
+      "b": 736.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "rows": [
+      [
+        {
+          "text": "统一社会信用代码",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "91440000617435581X",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 0,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "公司上市以来主营业务的变化情况（如有）",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "不适用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 1,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ],
+      [
+        {
+          "text": "历次控股股东的变更情况（如有）",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 0,
+          "source_page_no": 6
+        },
+        {
+          "text": "不适用",
+          "rowspan": 1,
+          "colspan": 1,
+          "rowstart": 2,
+          "colstart": 1,
+          "source_page_no": 6
+        }
+      ]
+    ],
+    "html": "<table><tr><td>统一社会信用代码</td><td>91440000617435581X</td></tr><tr><td>公司上市以来主营业务的变化情况（如有）</td><td>不适用</td></tr><tr><td>历次控股股东的变更情况（如有）</td><td>不适用</td></tr></table>",
+    "md": "| 统一社会信用代码 | 91440000617435581X |\n| --- | --- |\n| 公司上市以来主营业务的变化情况（如有） | 不适用 |\n| 历次控股股东的变更情况（如有） | 不适用 |",
+    "perfectTable": false,
+    "img_path": "images/f07116d6583ee4979b38a7ae5fddffa7be57d0b1a72a5e35d0ce6085b7d601f6.jpg",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 31,
+    "folder_id": "string",
+    "standard2D": true,
+    "table_type": "其他表",
+    "table_type_is_full_statement": false,
+    "hasHeader": false
+  },
+  {
+    "page": 6,
+    "type": "page_number",
+    "bBox": {
+      "l": 531.0,
+      "t": 781.0,
+      "r": 538.0,
+      "b": 790.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "6",
+    "md": "6",
+    "file_id": "1ca24f083e494b55b384d92d2432611dWwTg26VHUK",
+    "element_id": 32,
+    "folder_id": "string"
+  }
+]

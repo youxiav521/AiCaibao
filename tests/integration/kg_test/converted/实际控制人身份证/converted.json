@@ -1,0 +1,181 @@
+[
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 25.0,
+      "t": 25.0,
+      "r": 49.0,
+      "b": 29.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "姓名 焦雪峰",
+    "md": "姓名 焦雪峰",
+    "file_id": "kg_实际控制人身份证",
+    "element_id": 1,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 75.0,
+      "t": 26.0,
+      "r": 104.0,
+      "b": 60.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "Portrait photo of a person (no visible text or symbols)",
+    "md": "Portrait photo of a person (no visible text or symbols)",
+    "img_path": "images/e77d556ee59a4a1f8fed6d200ab68ad3644202832a0335ed326358d6f09cbbb6.jpg",
+    "file_id": "kg_实际控制人身份证",
+    "element_id": 2,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 25.0,
+      "t": 32.0,
+      "r": 58.0,
+      "b": 36.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "性别 男 民族 汉",
+    "md": "性别 男 民族 汉",
+    "file_id": "kg_实际控制人身份证",
+    "element_id": 3,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 25.0,
+      "t": 39.0,
+      "r": 66.0,
+      "b": 43.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "出生 1971 年 3 月 8 日",
+    "md": "出生 1971 年 3 月 8 日",
+    "file_id": "kg_实际控制人身份证",
+    "element_id": 4,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 25.0,
+      "t": 47.0,
+      "r": 74.0,
+      "b": 55.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "甘肃省 山西省太原市万柏林区和平南路203号",
+    "md": "甘肃省 山西省太原市万柏林区和平南路203号",
+    "file_id": "kg_实际控制人身份证",
+    "element_id": 5,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 99.0,
+      "t": 62.0,
+      "r": 147.0,
+      "b": 110.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "惠州市北光高新发展有限公司\n福州市",
+    "md": "惠州市北光高新发展有限公司\n福州市",
+    "img_path": "images/add323a31261c949c02a641a2b159e20f88df0185cca00ba8241ebc3414db381.jpg",
+    "file_id": "kg_实际控制人身份证",
+    "element_id": 6,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 25.0,
+      "t": 65.0,
+      "r": 99.0,
+      "b": 69.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "公民身份号码 140104197103080474",
+    "md": "公民身份号码 140104197103080474",
+    "file_id": "kg_实际控制人身份证",
+    "element_id": 7,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "image",
+    "bBox": {
+      "l": 23.0,
+      "t": 100.0,
+      "r": 41.0,
+      "b": 120.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "Close-up of a stylized emblem with floral border and star motifs (no readable text or symbols)",
+    "md": "Close-up of a stylized emblem with floral border and star motifs (no readable text or symbols)",
+    "img_path": "images/d9084b65f64a7e6e4fc2c69f63425310b377a328c14b5823850f97e27d2dcb55.jpg",
+    "file_id": "kg_实际控制人身份证",
+    "element_id": 8,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 45.0,
+      "t": 101.0,
+      "r": 102.0,
+      "b": 120.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "中华人民共和国 居民身份证",
+    "md": "中华人民共和国 居民身份证",
+    "file_id": "kg_实际控制人身份证",
+    "element_id": 9,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 39.0,
+      "t": 137.0,
+      "r": 93.0,
+      "b": 141.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "签发机关 太原市公安局万柏林分局",
+    "md": "签发机关 太原市公安局万柏林分局",
+    "file_id": "kg_实际控制人身份证",
+    "element_id": 10,
+    "folder_id": null
+  },
+  {
+    "page": 1,
+    "type": "text",
+    "bBox": {
+      "l": 39.0,
+      "t": 145.0,
+      "r": 92.0,
+      "b": 149.0,
+      "coord_origin": "TOPLEFT"
+    },
+    "value": "有效期限 2008.04.28-2028.04.28",
+    "md": "有效期限 2008.04.28-2028.04.28",
+    "file_id": "kg_实际控制人身份证",
+    "element_id": 11,
+    "folder_id": null
+  }
+]

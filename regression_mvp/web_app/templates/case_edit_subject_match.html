@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+
+{% block title %}可视化编辑科目匹配{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="section-head">
+    <h2>可视化编辑科目匹配</h2>
+    <span class="muted">{{ case.name }}</span>
+  </div>
+  {% if error %}
+  <p class="error-text">{{ error }}</p>
+  {% endif %}
+  <form method="post" class="preview-editor-form">
+    <div class="visual-editor-actions">
+      <button type="submit">保存</button>
+      <a class="button-link secondary" href="{{ cancel_url or '/cases?endpoint=' ~ case.endpoint }}">取消</a>
+      <a class="button-link secondary" href="{{ json_url or '/cases/' ~ (case.endpoint | urlencode) ~ '/' ~ (case.case_name | urlencode) ~ '/edit-json' }}">JSON 编辑</a>
+    </div>
+
+    <div class="subject-editor-wrap">
+      <table class="subject-editor-table">
+        <tbody>
+          {% for row in rows %}
+          {% set row_index = loop.index0 %}
+          <tr>
+            {% for cell in row %}
+            {% set col_index = loop.index0 %}
+            <td colspan="{{ cell.colspan or 1 }}" rowspan="{{ cell.rowspan or 1 }}">
+              {% if cell is mapping %}
+              <div
+                class="editable-text subject-cell-text"
+                contenteditable="true"
+                data-target="smcell__{{ row_index }}__{{ col_index }}__text"
+              >{{ cell.text or "" }}</div>
+              <input
+                type="hidden"
+                name="smcell__{{ row_index }}__{{ col_index }}__text"
+                value="{{ cell.text or '' }}"
+              >
+              <select name="smcell__{{ row_index }}__{{ col_index }}__subjectId">
+                <option value="">未匹配</option>
+                {% for subject in subjects %}
+                <option value="{{ subject.id }}" {% if cell.subjectId == subject.id %}selected{% endif %}>{{ subject.label }}</option>
+                {% endfor %}
+              </select>
+              <div class="subject-cell-meta">
+                {{ cell.statementType or "-" }} / {{ cell.accountingYear or "-" }} / {{ cell.caliberLabel or "-" }}
+              </div>
+              {% endif %}
+            </td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="visual-editor-actions">
+      <button type="submit">保存</button>
+      <a class="button-link secondary" href="{{ cancel_url or '/cases?endpoint=' ~ case.endpoint }}">取消</a>
+    </div>
+  </form>
+</section>
+<script>
+  document.querySelectorAll("[contenteditable][data-target]").forEach((editor) => {
+    const sync = () => {
+      const input = document.getElementsByName(editor.dataset.target)[0];
+      if (input) input.value = editor.innerText.replace(/\r\n/g, "\n");
+    };
+    editor.addEventListener("input", sync);
+    editor.addEventListener("blur", sync);
+    sync();
+  });
+</script>
+{% endblock %}

@@ -1,0 +1,68 @@
+{
+  "env": "local",
+  "api": {
+    "base_url": "http://localhost:6300",
+    "file_read_path": "/api/file/read",
+    "mineru_upload_path": "/api/parsing/mineru/upload",
+    "mineru_to_json_path": "/api/parsing/mineru/to-json",
+    "ade_jobs_submit_path": "/openapi/ade/jobs/submit",
+    "ade_jobs_status_path_template": "/openapi/ade/jobs/{job_id}",
+    "ade_jobs_data_path_template": "/openapi/ade/jobs/{job_id}/data",
+    "financial_metadata_path_template": "/api/parsing/extract/financial-metadata/{file_id}",
+    "financial_three_statements_path_template": "/api/parsing/extract/three-statements/{file_id}",
+    "financial_org_tables_path_template": "/api/parsing/extract/org-tables/{file_id}",
+    "financial_merge_tables_path": "/api/parsing/extract/merge-tables",
+    "subject_match_path": "/api/parsing/subject-match/match",
+    "subject_match_templates_path": "/api/parsing/subject-match/templates",
+    "subject_match_template_source": "local_file",
+    "subject_match_template_file": "templates/subject_match_platform_export_a95e147072324c6c88e42106d3e6728e.json",
+    "subject_match_english_template_file": "templates/subject_match_ifrs_taxonomy_v68_24_en.json",
+    "subject_match_presentation_model_id": "model_for_table_classify",
+    "subject_match_presentation_timeout_seconds": 300,
+    "subject_match_template_report_calibers": [1, 2],
+    "subject_match_use_llm": true,
+    "result_path_template": "/api/parsing/mineru/result/{file_id}",
+    "timeout_seconds": 300,
+    "mineru_request_timeout_seconds": 0,
+    "mineru_wait_timeout_seconds": 2400,
+    "ade_jobs_request_timeout_seconds": 0,
+    "ade_jobs_status_request_timeout_seconds": 30,
+    "ade_jobs_wait_timeout_seconds": 2400,
+    "poll_interval_seconds": 5,
+    "trust_env": false
+  },
+  "paths": {
+    "case_dir": "cases",
+    "actual_dir": "actual",
+    "report_dir": "reports"
+  },
+  "compare": {
+    "strict_order": true,
+    "ignore_fields": [
+      "trace_id",
+      "request_id",
+      "created_at",
+      "updated_at",
+      "task_id",
+      "id",
+      "file_id",
+      "folder_id",
+      "elapsed",
+      "elapsed_ms",
+      "duration",
+      "duration_ms",
+      "img_path",
+      "tmp_path",
+      "temp_path"
+    ],
+    "mineru_assessment": {
+      "min_text_coverage": 0.94,
+      "min_table_text_coverage": 0.92,
+      "min_number_coverage": 0.98,
+      "max_added_text_ratio": 0.12,
+      "min_page_text_coverage": 0.7,
+      "meaningful_page_min_chars": 40,
+      "max_duplicate_text_ratio": 0.5
+    }
+  }
+}
