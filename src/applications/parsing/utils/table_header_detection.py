@@ -32,7 +32,14 @@ async def _ainvoke_table_header_json_schema(
     async def _call_llm():
         model = ModelFactory.get_model(key=model_id, rate_limited=rate_limited, **(model_overrides or {}))
         prompt_template = ChatPromptTemplate.from_messages([("human", "{prompt}")])
-        structured = model.with_structured_output(response_type, method="json_schema")
+        # 原逻辑：所有模型固定 json_schema。
+        # structured = model.with_structured_output(response_type, method="json_schema")
+        # 新增：DeepSeek 兼容接口不支持 json_schema（会报 response_format 不可用），改用 json_mode；
+        # 其它模型保持原 json_schema，不影响原有 bailian/Qwen 逻辑。
+        if ModelFactory.is_deepseek_model_for_key(model_id):
+            structured = model.with_structured_output(response_type, method="json_mode")
+        else:
+            structured = model.with_structured_output(response_type, method="json_schema")
         chain = prompt_template | structured
         return await chain.ainvoke({"prompt": prompt})
 

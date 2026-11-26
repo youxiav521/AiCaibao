@@ -7,16 +7,24 @@
             "extra_body": {
                 "enable_thinking": false
             }
+        },
+        {
+            "name": "qwen38",
+            "api_base": "https://token-plan.maas.qianwenaiapi.com/compatible-mode/v1",
+            "api_key": "sk-sp-H.HLXYHX.8L4z.MEUCIDfx1IY_5Pq-szM6vDll4RqoM5c2pbWfy8qjzifk3u2RAiEAvOT00mTD6uBi9s8Nu4Ft2UcnYPnjIvLPSDqbC4mRul8",
+            "extra_body": {
+                "enable_thinking": false
+            }
         }
     ],
-    "default_provider": "deepseek",
-    "default_model": "deepseek-v4-pro",
+    "default_provider": "qwen38",
+    "default_model": "qwen3.8-max",
     "custom_models": {
         "content_generation": {
-            "provider": "deepseek",
-            "model": "deepseek-v4-pro"
+            "provider": "qwen38",
+            "model": "qwen3.8-max"
         },
-        "data_analyst_agent": "deepseek-v4-flash",
+        "data_analyst_agent": "qwen3.8-flash",
         "doc_extract":""
     }
 }

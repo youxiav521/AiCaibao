@@ -11,6 +11,7 @@ from minio import Minio
 from ..schemas.doc_classify_schema import (
     DocClassifyRequest,
     DocClassifyMinioResponse,
+    ClassifyItem,
 )
 from src.applications.doc_classify.services.doc_classify_services import DocClassifyService
 from src.applications.doc_classify.utils.doc_classify_utils import generate_thumbnail_base64, thumbnail_from_png_bytes
@@ -73,7 +74,14 @@ async def classify_document_from_minio(
     accept_language: Optional[str] = Header(None, alias="Accept-Language"),
 ):
     try:
-        category_names = [item.name for item in request.classify]
+        # 组装分类项：classify 为分类名数组，classify_prmpt 按下标一一对应提示词
+        classify_items: list[ClassifyItem] = []
+        classify_prompts = request.classify_prmpt or []
+        for idx, name in enumerate(request.classify):
+            prompt = classify_prompts[idx] if idx < len(classify_prompts) else None
+            classify_items.append(ClassifyItem(name=name, prompt=prompt))
+
+        category_names = [item.name for item in classify_items]
         if not category_names:
             raise HTTPException(status_code=400, detail="classify不能为空")
         if not request.files:
@@ -117,7 +125,8 @@ async def classify_document_from_minio(
                 thumb=thumb_str
             )
 
-        classify_items = request.classify
+        # 原实现：classify_items 直接取 request.classify（当时 classify 为对象数组）
+        # classify_items = request.classify
 
         file_ext = Path(file_info.fileName).suffix.lower()
         is_text_file = file_ext in {'.txt', '.csv', '.md', '.log'}

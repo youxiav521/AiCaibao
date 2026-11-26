@@ -115,9 +115,24 @@ def _sort_items_by_bbox_reading_order(items: Any) -> Any:
 
 
   
+# 在线 MinerU 批量解析接口（mineru.net）开关。
+# 本地无法部署 MinerU 服务时，置为 true 走官方在线批量上传解析接口，不影响原有 Docker 容器化部署逻辑。
+USE_MINERU_BATCH_API: bool = (
+    os.environ.get("USE_MINERU_BATCH_API", "false").strip().lower() in {"true", "1", "yes", "on"}
+)
+MINERU_BATCH_API_BASE_URL: str = (
+    os.environ.get("MINERU_BATCH_API_BASE_URL") or "https://mineru.net"
+).rstrip("/")
+MINERU_BATCH_API_TOKEN: str = os.environ.get("MINERU_BATCH_API_TOKEN") or ""
+MINERU_BATCH_API_MODEL_VERSION: str = os.environ.get("MINERU_BATCH_API_MODEL_VERSION") or "vlm"
+
 # MinerU 3.x VLM 推理服务地址（兼容旧 SG_LANG_SERVER_URL 环境变量）
 MINERU_API_BASE = os.environ.get("MINERU_API_BASE")
-if not MINERU_API_BASE:
+# 原逻辑：未设置 MINERU_API_BASE 直接抛错。
+# if not MINERU_API_BASE:
+#     raise RuntimeError("MINERU_API_BASE must be set")
+# 新增：启用在线批量 API 时，不再强制要求本地 MINERU_API_BASE。
+if not MINERU_API_BASE and not USE_MINERU_BATCH_API:
     raise RuntimeError("MINERU_API_BASE must be set")
 
 # 3.x 推荐 backend: pipeline / hybrid-auto-engine / hybrid-http-client / vlm-auto-engine / vlm-http-client
@@ -384,6 +399,250 @@ class MinerUParsingService:
 
         return target_path
 
+    def _parse_zip_bytes(
+        self,
+        zip_bytes: bytes,
+        file_stem: str,
+        image_output_dir: str,
+    ) -> Dict[str, Any]:
+        """解压 MinerU 返回的 ZIP 并解析出 content_list / model_output / middle_json / md_content。
+
+        本地 /file_parse 与在线批量接口返回的 ZIP 结构一致，统一复用本方法。
+        """
+        with zipfile.ZipFile(io.BytesIO(zip_bytes)) as z, tempfile.TemporaryDirectory(
+            prefix=f"mineru_extract_{file_stem}_"
+        ) as temp_extract_dir_name:
+            temp_extract_dir = Path(temp_extract_dir_name)
+            z.extractall(temp_extract_dir)
+            logger.info("MinerU 返回 ZIP 已解压至: {}", temp_extract_dir)
+
+            #layout.json对应中间处理结果 (middle.json) | **_model.json对应模型推理结果 (model.json) | **_content_list.json对应内容列表 (content_list.json)
+            json_files = list(temp_extract_dir.rglob("*.json"))
+            logger.info(
+                "ZIP 中发现 {} 个 JSON 文件: {}",
+                len(json_files),
+                [jf.name for jf in json_files],
+            )
+
+            ##full.md为MarkDown解析结果。html文件解析结果略有不同：full.md为MarkDown解析结果,main.html为提取后正文html
+            md_files = list(temp_extract_dir.rglob("*.md"))
+            if md_files:
+                logger.info(
+                    "ZIP 中发现 {} 个 MD 文件: {}",
+                    len(md_files),
+                    [mf.name for mf in md_files],
+                )
+
+            merged_data = {
+                "content_list": None,
+                "model_output": None,
+                "middle_json": None,
+                "md_content": None,
+            }
+
+            for mf in md_files:
+                try:
+                    md_text = mf.read_text(encoding="utf-8").strip()
+                    if md_text and not merged_data["md_content"]:
+                        merged_data["md_content"] = md_text
+                        logger.info(
+                            "已从独立 MD 文件读取 md_content: {} ({} 字符)",
+                            mf.name,
+                            len(md_text),
+                        )
+                except Exception as e:
+                    logger.warning("读取 MD 文件 {} 失败: {}", mf.name, e)
+
+            for jf in json_files:
+                try:
+                    file_data = json_utils.load(jf)
+                    jf_name_lower = jf.name.lower()
+                    jf_stem_lower = jf.stem.lower()
+
+                    if "content_list" in jf_name_lower or jf_stem_lower == "content_list":
+                        if isinstance(file_data, list):
+                            merged_data["content_list"] = json_utils.dumps(file_data, ensure_ascii=False)
+                        elif isinstance(file_data, dict) and "content_list" in file_data:
+                            merged_data["content_list"] = json_utils.dumps(file_data["content_list"], ensure_ascii=False)
+                        else:
+                            merged_data["content_list"] = json_utils.dumps(file_data, ensure_ascii=False)
+                        logger.info("已读取 content_list: {}", jf.name)
+
+                    elif "model" in jf_name_lower or jf_stem_lower == "model":
+                        merged_data["model_output"] = json_utils.dumps(file_data, ensure_ascii=False)
+                        logger.info("已读取 model_output: {}", jf.name)
+
+                    # 原实现：仅匹配 middle / middle_json
+                    # elif "middle" in jf_name_lower or jf_stem_lower == "middle_json":
+                    # 兼容官方新格式：layout.json 对应中间处理结果 (middle.json)
+                    elif "middle" in jf_name_lower or jf_stem_lower == "middle_json" or "layout" in jf_name_lower:
+                        merged_data["middle_json"] = json_utils.dumps(file_data, ensure_ascii=False)
+                        logger.info("已读取 middle_json: {}", jf.name)
+
+                    if isinstance(file_data, dict) and not merged_data["md_content"]:
+                        if "md_content" in file_data:
+                            merged_data["md_content"] = file_data["md_content"]
+                            logger.info("已从 {} 提取 md_content", jf.name)
+                        if "results" in file_data:
+                            results = file_data.get("results", {})
+                            if isinstance(results, dict) and results:
+                                first_key = next(iter(results))
+                                nested = results[first_key]
+                                if isinstance(nested, dict):
+                                    if "md_content" in nested and not merged_data["md_content"]:
+                                        merged_data["md_content"] = nested["md_content"]
+                                    if "content_list" in nested and not merged_data["content_list"]:
+                                        content_list = nested["content_list"]
+                                        merged_data["content_list"] = content_list if isinstance(content_list, str) else json_utils.dumps(content_list, ensure_ascii=False)
+                                    if "model_output" in nested and not merged_data["model_output"]:
+                                        model_output = nested["model_output"]
+                                        merged_data["model_output"] = model_output if isinstance(model_output, str) else json_utils.dumps(model_output, ensure_ascii=False)
+                                    if "middle_json" in nested and not merged_data["middle_json"]:
+                                        middle_json = nested["middle_json"]
+                                        merged_data["middle_json"] = middle_json if isinstance(middle_json, str) else json_utils.dumps(middle_json, ensure_ascii=False)
+                except Exception as e:
+                    logger.warning("读取 JSON 文件 {} 失败: {}", jf.name, e)
+
+            image_extensions = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp"}
+            copied_images_count = 0
+            for root, _dirs, files in os.walk(temp_extract_dir):
+                for file in files:
+                    if Path(file).suffix.lower() in image_extensions:
+                        src_img = os.path.join(root, file)
+                        dst_img = os.path.join(image_output_dir, file)
+                        shutil.move(src_img, dst_img)
+                        copied_images_count += 1
+
+            logger.info("已移动 {} 张图片到 {}", copied_images_count, image_output_dir)
+
+            if merged_data["content_list"] or merged_data["model_output"]:
+                logger.info(
+                    "ZIP 解析成功，content_list: {}, model_output: {}, middle_json: {}, md_content: {}",
+                    bool(merged_data["content_list"]),
+                    bool(merged_data["model_output"]),
+                    bool(merged_data["middle_json"]),
+                    bool(merged_data["md_content"]),
+                )
+                return merged_data
+            logger.warning("ZIP 解析未找到 content_list 或 model_output，返回 merged_data")
+            return merged_data
+
+    async def _parse_via_batch_api(
+        self,
+        path: Path,
+        file_stem: str,
+        image_output_dir: str,
+    ) -> Dict[str, Any]:
+        """通过 MinerU 官方在线批量解析接口（mineru.net）解析本地文件。
+
+        适用于本地无法部署 MinerU 服务、改用官方在线接口的场景（USE_MINERU_BATCH_API=true）。
+        流程：申请批量上传链接 -> PUT 上传文件 -> 轮询批量结果 -> 下载 ZIP -> 复用 ZIP 解析逻辑。
+        """
+        if not MINERU_BATCH_API_TOKEN:
+            raise ValueError("USE_MINERU_BATCH_API 已启用，但未配置 MINERU_BATCH_API_TOKEN")
+
+        batch_url = f"{MINERU_BATCH_API_BASE_URL}/api/v4/file-urls/batch"
+        data_id = uuid.uuid4().hex
+        apply_payload = {
+            "files": [{"name": path.name, "data_id": data_id}],
+            "model_version": MINERU_BATCH_API_MODEL_VERSION,
+        }
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {MINERU_BATCH_API_TOKEN}",
+        }
+
+        poll_interval = _safe_float(os.environ.get("MINERU_BATCH_POLL_INTERVAL_SECONDS"), 5.0)
+        if poll_interval <= 0:
+            poll_interval = 5.0
+        result_timeout = _safe_float(os.environ.get("MINERU_BATCH_TIMEOUT_SECONDS"), float(self.timeout))
+        if result_timeout <= 0:
+            result_timeout = float(self.timeout)
+
+        async with httpx.AsyncClient(timeout=self.timeout, trust_env=self.http_trust_env) as client:
+            # 1. 申请批量上传链接
+            apply_resp = await client.post(batch_url, headers=headers, json=apply_payload)
+            apply_resp.raise_for_status()
+            apply_data = apply_resp.json() if apply_resp.content else {}
+            if not isinstance(apply_data, dict) or apply_data.get("code") != 0:
+                raise RuntimeError(f"MinerU 批量申请上传链接失败: {apply_data}")
+            data_block = apply_data.get("data") or {}
+            batch_id = data_block.get("batch_id")
+            file_urls = data_block.get("file_urls") or []
+            if not batch_id or not file_urls:
+                raise RuntimeError(f"MinerU 批量申请上传链接返回缺少 batch_id/file_urls: {apply_data}")
+            logger.info("MinerU 批量申请上传链接成功 | batch_id={}, file={}", batch_id, path.name)
+
+            # 2. PUT 上传文件（不设置 Content-Type）
+            file_bytes = await asyncio.to_thread(path.read_bytes)
+            upload_resp = await client.put(file_urls[0], content=file_bytes)
+            if upload_resp.status_code not in (200, 201, 204):
+                raise RuntimeError(
+                    f"MinerU 文件上传失败 status={upload_resp.status_code} body={upload_resp.text[:300]}"
+                )
+            logger.info("MinerU 批量文件上传成功 | batch_id={}, file={}", batch_id, path.name)
+
+            # 3. 轮询批量结果
+            result_url = f"{MINERU_BATCH_API_BASE_URL}/api/v4/extract-results/batch/{batch_id}"
+            deadline = time.monotonic() + result_timeout
+            full_zip_url: Optional[str] = None
+            inline_result: Optional[Dict[str, Any]] = None
+
+            while True:
+                if time.monotonic() > deadline:
+                    raise TimeoutError(f"MinerU 批量解析超时 batch_id={batch_id}, timeout={result_timeout}s")
+
+                query_resp = await client.get(result_url, headers=headers)
+                query_resp.raise_for_status()
+                query_data = query_resp.json() if query_resp.content else {}
+                qdata = (query_data or {}).get("data") or {}
+                extract_results = qdata.get("extract_result")
+                if isinstance(extract_results, dict):
+                    extract_results = (
+                        [extract_results.get(data_id) or next(iter(extract_results.values()), {})]
+                        if extract_results else []
+                    )
+                if not isinstance(extract_results, list) or not extract_results:
+                    await asyncio.sleep(poll_interval)
+                    continue
+
+                entry = extract_results[0] if isinstance(extract_results[0], dict) else {}
+                state = str(entry.get("state") or "").strip().lower()
+
+                if state in {"done", "success", "succeeded"}:
+                    full_zip_url = entry.get("full_zip_url") or entry.get("zip_url")
+                    # 兼容部分部署直接内联返回内容的情况
+                    inline_result = {
+                        "content_list": entry.get("content_list"),
+                        "model_output": entry.get("model_output"),
+                        "middle_json": entry.get("middle_json"),
+                        "md_content": entry.get("md_content"),
+                    }
+                    break
+                if state in {"failed", "error", "cancelled", "canceled"}:
+                    err_msg = entry.get("err_msg") or entry.get("err") or entry
+                    raise RuntimeError(f"MinerU 批量解析失败 batch_id={batch_id}, detail={err_msg}")
+
+                await asyncio.sleep(poll_interval)
+
+            # 4. 优先下载 full_zip_url 的 ZIP 并复用 ZIP 解析；无 ZIP 时回退内联结果。
+            if full_zip_url:
+                zip_resp = await client.get(full_zip_url)
+                zip_resp.raise_for_status()
+                logger.info(
+                    "MinerU 批量结果 ZIP 下载成功 | batch_id={}, size={}",
+                    batch_id,
+                    len(zip_resp.content or b""),
+                )
+                return await asyncio.to_thread(
+                    self._parse_zip_bytes, zip_resp.content, file_stem, image_output_dir
+                )
+
+            if inline_result and any(v is not None for v in inline_result.values()):
+                return inline_result
+
+            raise RuntimeError(f"MinerU 批量解析结果为空 batch_id={batch_id}")
+
     async def parse_to_json_async(
         self,
         file_path: str,
@@ -402,6 +661,32 @@ class MinerUParsingService:
             # 明确提示转换失败原因
             raise e
 
+        # ===== 原逻辑（已移到下方批量分支之后，避免批量模式下文件句柄泄漏），注释备份勿删除 =====
+        # # MinerU 的 /file_parse 使用字段名 `files`（List[UploadFile]）
+        # guessed_type, _ = mimetypes.guess_type(str(path))
+        # content_type = (
+        #     "application/pdf" if path.suffix.lower() == ".pdf" else (guessed_type or "application/octet-stream")
+        # )
+        # file_tuple = (path.name, open(path, "rb"), content_type)
+        # files_payload = [("files", file_tuple)]
+        # ===== 原逻辑结束 =====
+
+        if image_output_dir is None:
+            owned_image_dir = tempfile.TemporaryDirectory(prefix=f"mineru_images_{file_stem}_")
+            image_output_dir = owned_image_dir.name
+        os.makedirs(image_output_dir, exist_ok=True)
+
+        # 在线批量解析 API 分支：本地无 MinerU 服务时，走 mineru.net 官方接口。
+        # 开启 USE_MINERU_BATCH_API=true 后走此分支，不影响原有 Docker 容器化部署的 /file_parse 逻辑。
+        if USE_MINERU_BATCH_API:
+            try:
+                return await self._parse_via_batch_api(path, file_stem, image_output_dir)
+            finally:
+                if owned_image_dir is not None:
+                    owned_image_dir.cleanup()
+
+        # 原逻辑：以下打开文件句柄构造 multipart 上传 payload（仅本地 /file_parse 走此路径）。
+        # 已调整顺序到批量分支之后，避免批量模式下打开的文件句柄无人关闭。
         # MinerU 的 /file_parse 使用字段名 `files`（List[UploadFile]）
         guessed_type, _ = mimetypes.guess_type(str(path))
         content_type = (
@@ -409,12 +694,7 @@ class MinerUParsingService:
         )
         file_tuple = (path.name, open(path, "rb"), content_type)
         files_payload = [("files", file_tuple)]
-      
-        if image_output_dir is None:
-            owned_image_dir = tempfile.TemporaryDirectory(prefix=f"mineru_images_{file_stem}_")
-            image_output_dir = owned_image_dir.name
-        os.makedirs(image_output_dir, exist_ok=True)
-        
+
         data_payload = {
             "response_format_zip": "true",
             "return_md": "true",           
@@ -489,118 +769,121 @@ class MinerUParsingService:
             ct = (resp.headers.get("Content-Type") or "").lower()
             if "application/zip" in ct or "zip" in ct:
                 try:
-                    with zipfile.ZipFile(io.BytesIO(resp.content)) as z, tempfile.TemporaryDirectory(
-                        prefix=f"mineru_extract_{file_stem}_"
-                    ) as temp_extract_dir_name:
-                        temp_extract_dir = Path(temp_extract_dir_name)
-                        z.extractall(temp_extract_dir)
-                        logger.info("MinerU 返回 ZIP 已解压至: {}", temp_extract_dir)
-
-                        json_files = list(temp_extract_dir.rglob("*.json"))
-                        logger.info(
-                            "ZIP 中发现 {} 个 JSON 文件: {}",
-                            len(json_files),
-                            [jf.name for jf in json_files],
-                        )
-
-                        md_files = list(temp_extract_dir.rglob("*.md"))
-                        if md_files:
-                            logger.info(
-                                "ZIP 中发现 {} 个 MD 文件: {}",
-                                len(md_files),
-                                [mf.name for mf in md_files],
-                            )
-
-                        merged_data = {
-                            "content_list": None,
-                            "model_output": None,
-                            "middle_json": None,
-                            "md_content": None,
-                        }
-
-                        for mf in md_files:
-                            try:
-                                md_text = mf.read_text(encoding="utf-8").strip()
-                                if md_text and not merged_data["md_content"]:
-                                    merged_data["md_content"] = md_text
-                                    logger.info(
-                                        "已从独立 MD 文件读取 md_content: {} ({} 字符)",
-                                        mf.name,
-                                        len(md_text),
-                                    )
-                            except Exception as e:
-                                logger.warning("读取 MD 文件 {} 失败: {}", mf.name, e)
-
-                        for jf in json_files:
-                            try:
-                                file_data = json_utils.load(jf)
-                                jf_name_lower = jf.name.lower()
-                                jf_stem_lower = jf.stem.lower()
-
-                                if "content_list" in jf_name_lower or jf_stem_lower == "content_list":
-                                    if isinstance(file_data, list):
-                                        merged_data["content_list"] = json_utils.dumps(file_data, ensure_ascii=False)
-                                    elif isinstance(file_data, dict) and "content_list" in file_data:
-                                        merged_data["content_list"] = json_utils.dumps(file_data["content_list"], ensure_ascii=False)
-                                    else:
-                                        merged_data["content_list"] = json_utils.dumps(file_data, ensure_ascii=False)
-                                    logger.info("已读取 content_list: {}", jf.name)
-
-                                elif "model" in jf_name_lower or jf_stem_lower == "model":
-                                    merged_data["model_output"] = json_utils.dumps(file_data, ensure_ascii=False)
-                                    logger.info("已读取 model_output: {}", jf.name)
-
-                                elif "middle" in jf_name_lower or jf_stem_lower == "middle_json":
-                                    merged_data["middle_json"] = json_utils.dumps(file_data, ensure_ascii=False)
-                                    logger.info("已读取 middle_json: {}", jf.name)
-
-                                if isinstance(file_data, dict) and not merged_data["md_content"]:
-                                    if "md_content" in file_data:
-                                        merged_data["md_content"] = file_data["md_content"]
-                                        logger.info("已从 {} 提取 md_content", jf.name)
-                                    if "results" in file_data:
-                                        results = file_data.get("results", {})
-                                        if isinstance(results, dict) and results:
-                                            first_key = next(iter(results))
-                                            nested = results[first_key]
-                                            if isinstance(nested, dict):
-                                                if "md_content" in nested and not merged_data["md_content"]:
-                                                    merged_data["md_content"] = nested["md_content"]
-                                                if "content_list" in nested and not merged_data["content_list"]:
-                                                    content_list = nested["content_list"]
-                                                    merged_data["content_list"] = content_list if isinstance(content_list, str) else json_utils.dumps(content_list, ensure_ascii=False)
-                                                if "model_output" in nested and not merged_data["model_output"]:
-                                                    model_output = nested["model_output"]
-                                                    merged_data["model_output"] = model_output if isinstance(model_output, str) else json_utils.dumps(model_output, ensure_ascii=False)
-                                                if "middle_json" in nested and not merged_data["middle_json"]:
-                                                    middle_json = nested["middle_json"]
-                                                    merged_data["middle_json"] = middle_json if isinstance(middle_json, str) else json_utils.dumps(middle_json, ensure_ascii=False)
-                            except Exception as e:
-                                logger.warning("读取 JSON 文件 {} 失败: {}", jf.name, e)
-
-                        image_extensions = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp"}
-                        copied_images_count = 0
-                        for root, _dirs, files in os.walk(temp_extract_dir):
-                            for file in files:
-                                if Path(file).suffix.lower() in image_extensions:
-                                    src_img = os.path.join(root, file)
-                                    dst_img = os.path.join(image_output_dir, file)
-                                    shutil.move(src_img, dst_img)
-                                    copied_images_count += 1
-
-                        logger.info("已移动 {} 张图片到 {}", copied_images_count, image_output_dir)
-
-                        if merged_data["content_list"] or merged_data["model_output"]:
-                            logger.info(
-                                "ZIP 解析成功，content_list: {}, model_output: {}, middle_json: {}, md_content: {}",
-                                bool(merged_data["content_list"]),
-                                bool(merged_data["model_output"]),
-                                bool(merged_data["middle_json"]),
-                                bool(merged_data["md_content"]),
-                            )
-                            return merged_data
-                        logger.warning("ZIP 解析未找到 content_list 或 model_output，返回 merged_data")
-                        return merged_data
+                    # ===== 以下为原内联 ZIP 解析逻辑（已抽取到 _parse_zip_bytes 方法复用），注释备份勿删除 =====
+                    #                     with zipfile.ZipFile(io.BytesIO(resp.content)) as z, tempfile.TemporaryDirectory(
+                    #                         prefix=f"mineru_extract_{file_stem}_"
+                    #                     ) as temp_extract_dir_name:
+                    #                         temp_extract_dir = Path(temp_extract_dir_name)
+                    #                         z.extractall(temp_extract_dir)
+                    #                         logger.info("MinerU 返回 ZIP 已解压至: {}", temp_extract_dir)
+                    #
+                    #                         json_files = list(temp_extract_dir.rglob("*.json"))
+                    #                         logger.info(
+                    #                             "ZIP 中发现 {} 个 JSON 文件: {}",
+                    #                             len(json_files),
+                    #                             [jf.name for jf in json_files],
+                    #                         )
+                    #
+                    #                         md_files = list(temp_extract_dir.rglob("*.md"))
+                    #                         if md_files:
+                    #                             logger.info(
+                    #                                 "ZIP 中发现 {} 个 MD 文件: {}",
+                    #                                 len(md_files),
+                    #                                 [mf.name for mf in md_files],
+                    #                             )
+                    #
+                    #                         merged_data = {
+                    #                             "content_list": None,
+                    #                             "model_output": None,
+                    #                             "middle_json": None,
+                    #                             "md_content": None,
+                    #                         }
+                    #
+                    #                         for mf in md_files:
+                    #                             try:
+                    #                                 md_text = mf.read_text(encoding="utf-8").strip()
+                    #                                 if md_text and not merged_data["md_content"]:
+                    #                                     merged_data["md_content"] = md_text
+                    #                                     logger.info(
+                    #                                         "已从独立 MD 文件读取 md_content: {} ({} 字符)",
+                    #                                         mf.name,
+                    #                                         len(md_text),
+                    #                                     )
+                    #                             except Exception as e:
+                    #                                 logger.warning("读取 MD 文件 {} 失败: {}", mf.name, e)
+                    #
+                    #                         for jf in json_files:
+                    #                             try:
+                    #                                 file_data = json_utils.load(jf)
+                    #                                 jf_name_lower = jf.name.lower()
+                    #                                 jf_stem_lower = jf.stem.lower()
+                    #
+                    #                                 if "content_list" in jf_name_lower or jf_stem_lower == "content_list":
+                    #                                     if isinstance(file_data, list):
+                    #                                         merged_data["content_list"] = json_utils.dumps(file_data, ensure_ascii=False)
+                    #                                     elif isinstance(file_data, dict) and "content_list" in file_data:
+                    #                                         merged_data["content_list"] = json_utils.dumps(file_data["content_list"], ensure_ascii=False)
+                    #                                     else:
+                    #                                         merged_data["content_list"] = json_utils.dumps(file_data, ensure_ascii=False)
+                    #                                     logger.info("已读取 content_list: {}", jf.name)
+                    #
+                    #                                 elif "model" in jf_name_lower or jf_stem_lower == "model":
+                    #                                     merged_data["model_output"] = json_utils.dumps(file_data, ensure_ascii=False)
+                    #                                     logger.info("已读取 model_output: {}", jf.name)
+                    #
+                    #                                 elif "middle" in jf_name_lower or jf_stem_lower == "middle_json":
+                    #                                     merged_data["middle_json"] = json_utils.dumps(file_data, ensure_ascii=False)
+                    #                                     logger.info("已读取 middle_json: {}", jf.name)
+                    #
+                    #                                 if isinstance(file_data, dict) and not merged_data["md_content"]:
+                    #                                     if "md_content" in file_data:
+                    #                                         merged_data["md_content"] = file_data["md_content"]
+                    #                                         logger.info("已从 {} 提取 md_content", jf.name)
+                    #                                     if "results" in file_data:
+                    #                                         results = file_data.get("results", {})
+                    #                                         if isinstance(results, dict) and results:
+                    #                                             first_key = next(iter(results))
+                    #                                             nested = results[first_key]
+                    #                                             if isinstance(nested, dict):
+                    #                                                 if "md_content" in nested and not merged_data["md_content"]:
+                    #                                                     merged_data["md_content"] = nested["md_content"]
+                    #                                                 if "content_list" in nested and not merged_data["content_list"]:
+                    #                                                     content_list = nested["content_list"]
+                    #                                                     merged_data["content_list"] = content_list if isinstance(content_list, str) else json_utils.dumps(content_list, ensure_ascii=False)
+                    #                                                 if "model_output" in nested and not merged_data["model_output"]:
+                    #                                                     model_output = nested["model_output"]
+                    #                                                     merged_data["model_output"] = model_output if isinstance(model_output, str) else json_utils.dumps(model_output, ensure_ascii=False)
+                    #                                                 if "middle_json" in nested and not merged_data["middle_json"]:
+                    #                                                     middle_json = nested["middle_json"]
+                    #                                                     merged_data["middle_json"] = middle_json if isinstance(middle_json, str) else json_utils.dumps(middle_json, ensure_ascii=False)
+                    #                             except Exception as e:
+                    #                                 logger.warning("读取 JSON 文件 {} 失败: {}", jf.name, e)
+                    #
+                    #                         image_extensions = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp"}
+                    #                         copied_images_count = 0
+                    #                         for root, _dirs, files in os.walk(temp_extract_dir):
+                    #                             for file in files:
+                    #                                 if Path(file).suffix.lower() in image_extensions:
+                    #                                     src_img = os.path.join(root, file)
+                    #                                     dst_img = os.path.join(image_output_dir, file)
+                    #                                     shutil.move(src_img, dst_img)
+                    #                                     copied_images_count += 1
+                    #
+                    #                         logger.info("已移动 {} 张图片到 {}", copied_images_count, image_output_dir)
+                    #
+                    #                         if merged_data["content_list"] or merged_data["model_output"]:
+                    #                             logger.info(
+                    #                                 "ZIP 解析成功，content_list: {}, model_output: {}, middle_json: {}, md_content: {}",
+                    #                                 bool(merged_data["content_list"]),
+                    #                                 bool(merged_data["model_output"]),
+                    #                                 bool(merged_data["middle_json"]),
+                    #                                 bool(merged_data["md_content"]),
+                    #                             )
+                    #                             return merged_data
+                    #                         logger.warning("ZIP 解析未找到 content_list 或 model_output，返回 merged_data")
+                    #                         return merged_data
+                    # ===== 原内联 ZIP 解析逻辑结束 =====
+                    return await asyncio.to_thread(self._parse_zip_bytes, resp.content, file_stem, image_output_dir)
                 except Exception as e:
                     logger.error("解析 MinerU ZIP 响应失败: {}", e)
                     # 失败继续尝试 JSON 解析

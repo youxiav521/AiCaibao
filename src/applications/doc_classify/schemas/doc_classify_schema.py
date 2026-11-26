@@ -1,7 +1,7 @@
 """
 文档分类的数据模型定义
 """
-from typing import Optional, List, Dict
+from typing import Optional, List, Dict, Any
 from pydantic import BaseModel, Field
 
 
@@ -28,7 +28,11 @@ class DocClassifyRequest(BaseModel):
     """文档分类请求"""
     minio: MinioConfig = Field(..., description="MinIO配置信息")
     files: Dict[str, List[FileInfo]] = Field(..., description="文件信息,key为文件分组(如ddis)")
-    classify: List[ClassifyItem] = Field(..., description="分类列表，每项包含分类名称和可选提示词")
+    # 原实现：classify 为分类对象数组，每项包含 name + prompt
+    # classify: List[ClassifyItem] = Field(..., description="分类列表，每项包含分类名称和可选提示词")
+    classify: List[str] = Field(..., description="分类名称列表")
+    classify_prmpt: Optional[List[str]] = Field(None, description="分类提示词列表，与classify按下标一一对应")
+    credit_constant: Optional[Dict[str, Any]] = Field(None, description="附加元数据(如reportId/dataTime)，暂未参与分类逻辑")
     assign_classify: Optional[str] = Field(None, description="指定分类结果，传入后跳过大模型判断直接返回该值")
     thumb: Optional[str] = Field(None, description="缩略图尺寸")
 
